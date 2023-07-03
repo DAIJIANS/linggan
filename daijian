@@ -894,12 +894,9 @@ rules:
  - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
  - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
  - DOMAIN,yt3.ggpht.com,🌍 国外媒体
- - DOMAIN-SUFFIX,cnhk1.top:5001,🌍 国外媒体
  - DOMAIN-SUFFIX,acg.tv,🌏 国内媒体
  - DOMAIN-SUFFIX,acgvideo.com,🌏 国内媒体
  - DOMAIN-SUFFIX,b23.tv,🌏 国内媒体
- - DOMAIN-SUFFIX,cnhk.top:5001,🌏 国内媒体
- - DOMAIN-SUFFIX,cnhk.top:32400,🌏 国内媒体
  - DOMAIN-SUFFIX,bilibili.com,🌏 国内媒体
  - DOMAIN-SUFFIX,bilibili.tv,🌏 国内媒体
  - DOMAIN-SUFFIX,biliapi.net,🌏 国内媒体
@@ -1532,6 +1529,7 @@ rules:
  - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 节点选择
  - DOMAIN-SUFFIX,zaobao.com.sg,🔰 节点选择
  - DOMAIN,international-gfe.download.nvidia.com,🔰 节点选择
+ - DOMAIN-SUFFIX,cnhk1.top:5001,🔰 节点选择
  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
@@ -1555,6 +1553,9 @@ rules:
  - IP-CIDR,198.183.17.0/24,🍎 苹果服务,no-resolve
  - IP-CIDR,205.180.175.0/24,🍎 苹果服务,no-resolve
  - DOMAIN-SUFFIX,qhres.com,🎯 全球直连
+ - DOMAIN-SUFFIX,500px.com.cn,🎯 全球直连
+ - DOMAIN-SUFFIX,cnhk.top:5001,🎯 全球直连
+ - DOMAIN-SUFFIX,cnhk.top:32400,🎯 全球直连
  - DOMAIN-SUFFIX,qhimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,alibaba.com,🎯 全球直连
  - DOMAIN-SUFFIX,alibabausercontent.com,🎯 全球直连
