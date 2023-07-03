@@ -894,7 +894,7 @@ rules:
  - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
  - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
  - DOMAIN,yt3.ggpht.com,🌍 国外媒体
- - DOMAIN-SUFFIX,cnhk1.top:5001,🌏 国外媒体
+ - DOMAIN-SUFFIX,cnhk1.top:5001,🌍 国外媒体
  - DOMAIN-SUFFIX,acg.tv,🌏 国内媒体
  - DOMAIN-SUFFIX,acgvideo.com,🌏 国内媒体
  - DOMAIN-SUFFIX,b23.tv,🌏 国内媒体
