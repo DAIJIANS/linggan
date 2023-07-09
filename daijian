@@ -5,59 +5,43 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 中转节点ZZ-SS-7.87MB/s(城北豆腐店), server: 111.6.87.207, port: 40008, type: ss, cipher: chacha20-ietf-poly1305, password: 5a772bd9-0d0d-41d4-9aa1-74cc5e165da6}
-  - {name: 中转节点ZZ-SS-7.95MB/s(城北豆腐店), server: 111.6.87.207, port: 40006, type: ss, cipher: chacha20-ietf-poly1305, password: 5a772bd9-0d0d-41d4-9aa1-74cc5e165da6}
-  - {name: (已存活1天)中转节点ZZ-SS-8.63MB/s(城北豆腐店), server: can-01.4lbuefhm.sht39.xyz, port: 10100, type: ss, cipher: aes-128-gcm, password: nXJ3;Gn230)Axl}
+  - {name: 中转节点ZZ-8.68MB/s(城北豆腐店), server: aaaa.aaaa.gay, port: 50015, type: trojan, password: 36e7d02b-9e7e-360d-9a7d-85b00e43f660, sni: ia2.aaaa.gay, skip-cert-verify: true}
+  - {name: 🇨🇳 台湾SS-7.36MB/s(城北豆腐店), server: 103.177.33.180, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 中转节点ZZ-5.37MB/s(城北豆腐店), server: aaaa.aaaa.gay, port: 50006, type: trojan, password: 36e7d02b-9e7e-360d-9a7d-85b00e43f660, sni: vn.aaaa.gay, skip-cert-verify: false}
   - {name: (已存活4天)中转节点ZZ-SS-9.87MB/s(城北豆腐店), server: ophiuchi.verdens.me, port: 25013, type: vmess, uuid: ef630481-1420-3214-96ee-3fa58088d228, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false}
-  - {name: 🇺🇸 美国SS-4.65MB/s(城北豆腐店), server: 54.245.150.10, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇯🇵 日本-SS-3.33MB/s(城北豆腐店), server: 3.112.43.220, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡-SS-2.42MB/s(城北豆腐店), server: 52.221.196.233, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 塞舌尔ZZ-2.17MB/s(城北豆腐店), server: 156.251.135.11, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 中转节点ZZ-SSR-14.78MB/s(城北豆腐店), server: pr3.jymzffbquawl.com, port: 4501, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 200380:0529LeiSUre, obfs-param: d68a8200380.microsoft.com}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中转节点ZZ-SS-7.87MB/s(城北豆腐店)
-      - 中转节点ZZ-SS-7.95MB/s(城北豆腐店)
-      - (已存活1天)中转节点ZZ-SS-8.63MB/s(城北豆腐店)
+      - 中转节点ZZ-8.68MB/s(城北豆腐店)      
+      -   🇨🇳 台湾SS-7.36MB/s(城北豆腐店)
+      - 中转节点ZZ-5.37MB/s(城北豆腐店)
       - (已存活4天)中转节点ZZ-SS-9.87MB/s(城北豆腐店)
-      - 🇺🇸 美国SS-4.65MB/s(城北豆腐店)
       - 🇯🇵 日本-SS-3.33MB/s(城北豆腐店)
-      - 🇸🇬 新加坡-SS-2.42MB/s(城北豆腐店)
-      - 塞舌尔ZZ-2.17MB/s(城北豆腐店)
-      - 中转节点ZZ-SSR-14.78MB/s(城北豆腐店)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 中转节点ZZ-SS-7.87MB/s(城北豆腐店)
-      - 中转节点ZZ-SS-7.95MB/s(城北豆腐店)
-      - (已存活1天)中转节点ZZ-SS-8.63MB/s(城北豆腐店)
+      - 中转节点ZZ-8.68MB/s(城北豆腐店)      
+      -   🇨🇳 台湾SS-7.36MB/s(城北豆腐店)
+      - 中转节点ZZ-5.37MB/s(城北豆腐店)
       - (已存活4天)中转节点ZZ-SS-9.87MB/s(城北豆腐店)
-      - 🇺🇸 美国SS-4.65MB/s(城北豆腐店)
       - 🇯🇵 日本-SS-3.33MB/s(城北豆腐店)
-      - 🇸🇬 新加坡-SS-2.42MB/s(城北豆腐店)
-      - 塞舌尔ZZ-2.17MB/s(城北豆腐店)
-      - 中转节点ZZ-SSR-14.78MB/s(城北豆腐店)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中转节点ZZ-SS-7.87MB/s(城北豆腐店)
-      - 中转节点ZZ-SS-7.95MB/s(城北豆腐店)
-      - (已存活1天)中转节点ZZ-SS-8.63MB/s(城北豆腐店)
+      - 中转节点ZZ-8.68MB/s(城北豆腐店)      
+      -   🇨🇳 台湾SS-7.36MB/s(城北豆腐店)
+      - 中转节点ZZ-5.37MB/s(城北豆腐店)
       - (已存活4天)中转节点ZZ-SS-9.87MB/s(城北豆腐店)
-      - 🇺🇸 美国SS-4.65MB/s(城北豆腐店)
       - 🇯🇵 日本-SS-3.33MB/s(城北豆腐店)
-      - 🇸🇬 新加坡-SS-2.42MB/s(城北豆腐店)
-      - 塞舌尔ZZ-2.17MB/s(城北豆腐店)
-      - 中转节点ZZ-SSR-14.78MB/s(城北豆腐店)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -68,44 +52,32 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 中转节点ZZ-SS-7.87MB/s(城北豆腐店)
-      - 中转节点ZZ-SS-7.95MB/s(城北豆腐店)
-      - (已存活1天)中转节点ZZ-SS-8.63MB/s(城北豆腐店)
+      - 中转节点ZZ-8.68MB/s(城北豆腐店)      
+      -   🇨🇳 台湾SS-7.36MB/s(城北豆腐店)
+      - 中转节点ZZ-5.37MB/s(城北豆腐店)
       - (已存活4天)中转节点ZZ-SS-9.87MB/s(城北豆腐店)
-      - 🇺🇸 美国SS-4.65MB/s(城北豆腐店)
       - 🇯🇵 日本-SS-3.33MB/s(城北豆腐店)
-      - 🇸🇬 新加坡-SS-2.42MB/s(城北豆腐店)
-      - 塞舌尔ZZ-2.17MB/s(城北豆腐店)
-      - 中转节点ZZ-SSR-14.78MB/s(城北豆腐店)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 中转节点ZZ-SS-7.87MB/s(城北豆腐店)
-      - 中转节点ZZ-SS-7.95MB/s(城北豆腐店)
-      - (已存活1天)中转节点ZZ-SS-8.63MB/s(城北豆腐店)
+      - 中转节点ZZ-8.68MB/s(城北豆腐店)      
+      -   🇨🇳 台湾SS-7.36MB/s(城北豆腐店)
+      - 中转节点ZZ-5.37MB/s(城北豆腐店)
       - (已存活4天)中转节点ZZ-SS-9.87MB/s(城北豆腐店)
-      - 🇺🇸 美国SS-4.65MB/s(城北豆腐店)
       - 🇯🇵 日本-SS-3.33MB/s(城北豆腐店)
-      - 🇸🇬 新加坡-SS-2.42MB/s(城北豆腐店)
-      - 塞舌尔ZZ-2.17MB/s(城北豆腐店)
-      - 中转节点ZZ-SSR-14.78MB/s(城北豆腐店)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中转节点ZZ-SS-7.87MB/s(城北豆腐店)
-      - 中转节点ZZ-SS-7.95MB/s(城北豆腐店)
-      - (已存活1天)中转节点ZZ-SS-8.63MB/s(城北豆腐店)
+      - 中转节点ZZ-8.68MB/s(城北豆腐店)      
+      -   🇨🇳 台湾SS-7.36MB/s(城北豆腐店)
+      - 中转节点ZZ-5.37MB/s(城北豆腐店)
       - (已存活4天)中转节点ZZ-SS-9.87MB/s(城北豆腐店)
-      - 🇺🇸 美国SS-4.65MB/s(城北豆腐店)
       - 🇯🇵 日本-SS-3.33MB/s(城北豆腐店)
-      - 🇸🇬 新加坡-SS-2.42MB/s(城北豆腐店)
-      - 塞舌尔ZZ-2.17MB/s(城北豆腐店)
-      - 中转节点ZZ-SSR-14.78MB/s(城北豆腐店)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -121,15 +93,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中转节点ZZ-SS-7.87MB/s(城北豆腐店)
-      - 中转节点ZZ-SS-7.95MB/s(城北豆腐店)
-      - (已存活1天)中转节点ZZ-SS-8.63MB/s(城北豆腐店)
+      - 中转节点ZZ-8.68MB/s(城北豆腐店)      
+      -   🇨🇳 台湾SS-7.36MB/s(城北豆腐店)
+      - 中转节点ZZ-5.37MB/s(城北豆腐店)
       - (已存活4天)中转节点ZZ-SS-9.87MB/s(城北豆腐店)
-      - 🇺🇸 美国SS-4.65MB/s(城北豆腐店)
       - 🇯🇵 日本-SS-3.33MB/s(城北豆腐店)
-      - 🇸🇬 新加坡-SS-2.42MB/s(城北豆腐店)
-      - 塞舌尔ZZ-2.17MB/s(城北豆腐店)
-      - 中转节点ZZ-SSR-14.78MB/s(城北豆腐店)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
