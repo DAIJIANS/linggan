@@ -1982,6 +1982,6 @@ rules:
  - DOMAIN-SUFFIX,1240809427-953549924ls33906f2f.rc03.oray.com,🎯 全球直连
  - DOMAIN-SUFFIX,1240809427-2014364616lsfd966f2f.rc03.oray.com,🎯 全球直连
  - DOMAIN-SUFFIX,1128331311.slp2p-east-std208.oray.net,🎯 全球直连
-
+ - DOMAIN-SUFFIX,2081176394.slp2p-east-std209.oray.net,🎯 全球直连
  - GEOIP,CN,🎯 全球直连,no-resolve
  - MATCH,🐟 漏网之鱼
