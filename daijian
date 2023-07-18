@@ -1960,6 +1960,7 @@ rules:
  - DOMAIN,cnhk.top,🎯 全球直连
  - PROCESS-NAME,uTorrent,🎯 全球直连
  - DOMAIN-SUFFIX,authds.todesk.com,🎯 全球直连
+ - DOMAIN-SUFFIX,uc.todesk.com,🎯 全球直连
  - DOMAIN-SUFFIX,login.oray.com,🎯 全球直连
  - DOMAIN-SUFFIX,slapi.oray.net,🎯 全球直连
  - DOMAIN-SUFFIX,api-std.sunlogin.oray.com,🎯 全球直连
