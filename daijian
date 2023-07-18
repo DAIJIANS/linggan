@@ -1974,5 +1974,8 @@ rules:
  - DOMAIN-SUFFIX,sl-log.oray.net,🎯 全球直连
  - DOMAIN-SUFFIX,sunlogin.oray.com,🎯 全球直连
  - DOMAIN-SUFFIX,sl-tk.oray.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ddns.oray.com,🎯 全球直连
+ - DOMAIN-SUFFIX,rc10-linux.oray.com,🎯 全球直连
+ - DOMAIN-SUFFIX,auth-v2.oray.com,🎯 全球直连
  - GEOIP,CN,🎯 全球直连,no-resolve
  - MATCH,🐟 漏网之鱼
