@@ -1979,5 +1979,6 @@ rules:
  - DOMAIN-SUFFIX,auth-v2.oray.com,🎯 全球直连
  - DOMAIN-SUFFIX,1240809427-206927776lsddd8632f.rc03.oray.com,🎯 全球直连
  - DOMAIN-SUFFIX,365837732.slp2p-east-std241.oray.net,🎯 全球直连
+
  - GEOIP,CN,🎯 全球直连,no-resolve
  - MATCH,🐟 漏网之鱼
