@@ -1964,5 +1964,11 @@ rules:
  - DOMAIN-SUFFIX,slapi.oray.net,🎯 全球直连
  - DOMAIN-SUFFIX,api-std.sunlogin.oray.com,🎯 全球直连
  - DOMAIN-SUFFIX,client-api.oray.com,🎯 全球直连
+ - DOMAIN-SUFFIX,upload-cdn.orayimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,rc10-g6.oray.com,🎯 全球直连
+ - DOMAIN-SUFFIX,ws.sunlogin.oray.com,🎯 全球直连
+ - DOMAIN-SUFFIX,user-api-v2.oray.com,🎯 全球直连
+ - DOMAIN-SUFFIX,cdn.orayimg.com,🎯 全球直连
+ - DOMAIN-SUFFIX,auth-sl.oray.com,🎯 全球直连
  - GEOIP,CN,🎯 全球直连,no-resolve
  - MATCH,🐟 漏网之鱼
