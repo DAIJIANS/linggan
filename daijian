@@ -1972,5 +1972,7 @@ rules:
  - DOMAIN-SUFFIX,auth-sl.oray.com,🎯 全球直连
  - DOMAIN-SUFFIX,ws-std01.sunlogin.oray.com,🎯 全球直连
  - DOMAIN-SUFFIX,sl-log.oray.net,🎯 全球直连
+ - DOMAIN-SUFFIX,sunlogin.oray.com,🎯 全球直连
+ - DOMAIN-SUFFIX,sl-tk.oray.com,🎯 全球直连
  - GEOIP,CN,🎯 全球直连,no-resolve
  - MATCH,🐟 漏网之鱼
