@@ -1950,16 +1950,16 @@ rules:
  - DOMAIN-KEYWORD,yunpan,🎯 全球直连
  - DOMAIN-KEYWORD,Thunder,🎯 全球直连
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
- - DOMAIN-KEYWORD,cnhk.top:5001,🎯 全球直连
- - DOMAIN-KEYWORD,cnhk.top:32400,🎯 全球直连
- - PROCESS-NAME,cnhk.top:5001,🎯 全球直连
- - PROCESS-NAME,cnhk.top:32400,🎯 全球直连
- - DOMAIN-SUFFIX,cnhk.top:32400,🎯 全球直连
- - DOMAIN-SUFFIX,cnhk.top:5001,🎯 全球直连
- - DOMAIN,cnhk.top:32400,🎯 全球直连
- - DOMAIN,cnhk.top:5001,🎯 全球直连
+ - DOMAIN-KEYWORD,cnhk.top,🎯 全球直连
+ - DOMAIN-KEYWORD,cnhk.top,🎯 全球直连
+ - PROCESS-NAME,cnhk.top,🎯 全球直连
+ - PROCESS-NAME,cnhk.top,🎯 全球直连
+ - DOMAIN-SUFFIX,cnhk.top,🎯 全球直连
+ - DOMAIN-SUFFIX,cnhk.top,🎯 全球直连
+ - DOMAIN,cnhk.top,🎯 全球直连
+ - DOMAIN,cnhk.top,🎯 全球直连
  - PROCESS-NAME,uTorrent,🎯 全球直连
- - DOMAIN-SUFFIX,authds.todesk.com:443,🎯 全球直连
- - DOMAIN-SUFFIX,login.oray.com:443,🎯 全球直连
+ - DOMAIN-SUFFIX,authds.todesk.com,🎯 全球直连
+ - DOMAIN-SUFFIX,login.oray.com,🎯 全球直连
  - GEOIP,CN,🎯 全球直连,no-resolve
  - MATCH,🐟 漏网之鱼
