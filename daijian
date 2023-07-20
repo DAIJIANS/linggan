@@ -16,11 +16,9 @@ proxies:
   - {name: (已存活2天)中转节点SSR-4.39MB/s(城北豆腐店), server: cm03.newcome.xyz, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 77750:0704E_lLg, obfs-param: 8335477750.microsoft.com}
   - {name: 🇰🇷 韩国SS-1.18MB/s(城北豆腐店), server: 43.201.247.194, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 中转节点-6.14MB/s(城北豆腐店), server: cnvip.flareai.science, port: 13543, type: trojan, password: af331378-c49e-4272-8881-9a8c5501cfc2, skip-cert-verify: false}
-  - {name: 中转节点SS-18.14MB/s(城北豆腐店), server: pregzdata1.anijerktt.xyz, port: 10003, type: ss, cipher: aes-128-gcm, password: Sj10bnYDe7w6V29E, plugin: obfs, plugin-opts: {mode: http, host: 23c1842c80.douyincdn.com}}
   - {name: 英属维尔京群岛-2.37MB/s(城北豆腐店), server: amszxc.66666654.xyz, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
   - {name: 🇳🇱 荷兰-2.37MB/s(城北豆腐店), server: amszxc.66666654.xyz, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
   - {name: 中转节点-5.96MB/s(城北豆腐店), server: 183.213.200.226, port: 28107, type: trojan, password: CdWw51, sni: download.windowsupdate.com, skip-cert-verify: TRUE}
-  - {name: 中转节点SSR-5.96MB/s(城北豆腐店), server: 223.113.136.122, port: 30899, type: ssr, cipher: chacha20-ietf, password: zztw9jk7gu, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 8366:V35GbB, obfs-param: e5ab08366.microsoft.com}
   - {name: 🇺🇸 美国-2.95MB/s(城北豆腐店), server: 45.58.186.85, port: 51140, type: vmess, uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇭🇰 香港-1.72MB/s(城北豆腐店), server: 156.245.8.234, port: 49155, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇺🇸 美国-2.85MB/s(城北豆腐店), server: 45.58.180.142, port: 49877, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
@@ -50,11 +48,9 @@ proxy-groups:
       - (已存活2天)中转节点SSR-4.39MB/s(城北豆腐店)
       - 🇰🇷 韩国SS-1.18MB/s(城北豆腐店)
       - 中转节点-6.14MB/s(城北豆腐店)
-      - 中转节点SS-18.14MB/s(城北豆腐店)
       - 英属维尔京群岛-2.37MB/s(城北豆腐店)
       - 🇳🇱 荷兰-2.37MB/s(城北豆腐店)
       - 中转节点-5.96MB/s(城北豆腐店)
-      - 中转节点SSR-5.96MB/s(城北豆腐店)
       - 🇺🇸 美国-2.95MB/s(城北豆腐店)
       - 🇭🇰 香港-1.72MB/s(城北豆腐店)
       - 🇺🇸 美国-2.85MB/s(城北豆腐店)
@@ -72,6 +68,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇺🇸 美国-12.30MB/s(城北豆腐店)
       - 中转节点-11.28MB/s(城北豆腐店)
       - 中转节点-8.58MB/s(城北豆腐店)
       - 🇨🇳 台湾-13.12MB/s(城北豆腐店)
@@ -82,11 +79,9 @@ proxy-groups:
       - (已存活2天)中转节点SSR-4.39MB/s(城北豆腐店)
       - 🇰🇷 韩国SS-1.18MB/s(城北豆腐店)
       - 中转节点-6.14MB/s(城北豆腐店)
-      - 中转节点SS-18.14MB/s(城北豆腐店)
       - 英属维尔京群岛-2.37MB/s(城北豆腐店)
       - 🇳🇱 荷兰-2.37MB/s(城北豆腐店)
       - 中转节点-5.96MB/s(城北豆腐店)
-      - 中转节点SSR-5.96MB/s(城北豆腐店)
       - 🇺🇸 美国-2.95MB/s(城北豆腐店)
       - 🇭🇰 香港-1.72MB/s(城北豆腐店)
       - 🇺🇸 美国-2.85MB/s(城北豆腐店)
@@ -105,6 +100,7 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸 美国-12.30MB/s(城北豆腐店)
       - 中转节点-11.28MB/s(城北豆腐店)
       - 中转节点-8.58MB/s(城北豆腐店)
       - 🇨🇳 台湾-13.12MB/s(城北豆腐店)
@@ -115,11 +111,9 @@ proxy-groups:
       - (已存活2天)中转节点SSR-4.39MB/s(城北豆腐店)
       - 🇰🇷 韩国SS-1.18MB/s(城北豆腐店)
       - 中转节点-6.14MB/s(城北豆腐店)
-      - 中转节点SS-18.14MB/s(城北豆腐店)
       - 英属维尔京群岛-2.37MB/s(城北豆腐店)
       - 🇳🇱 荷兰-2.37MB/s(城北豆腐店)
       - 中转节点-5.96MB/s(城北豆腐店)
-      - 中转节点SSR-5.96MB/s(城北豆腐店)
       - 🇺🇸 美国-2.95MB/s(城北豆腐店)
       - 🇭🇰 香港-1.72MB/s(城北豆腐店)
       - 🇺🇸 美国-2.85MB/s(城北豆腐店)
@@ -142,6 +136,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇺🇸 美国-12.30MB/s(城北豆腐店)
       - 中转节点-11.28MB/s(城北豆腐店)
       - 中转节点-8.58MB/s(城北豆腐店)
       - 🇨🇳 台湾-13.12MB/s(城北豆腐店)
@@ -152,11 +147,9 @@ proxy-groups:
       - (已存活2天)中转节点SSR-4.39MB/s(城北豆腐店)
       - 🇰🇷 韩国SS-1.18MB/s(城北豆腐店)
       - 中转节点-6.14MB/s(城北豆腐店)
-      - 中转节点SS-18.14MB/s(城北豆腐店)
       - 英属维尔京群岛-2.37MB/s(城北豆腐店)
       - 🇳🇱 荷兰-2.37MB/s(城北豆腐店)
       - 中转节点-5.96MB/s(城北豆腐店)
-      - 中转节点SSR-5.96MB/s(城北豆腐店)
       - 🇺🇸 美国-2.95MB/s(城北豆腐店)
       - 🇭🇰 香港-1.72MB/s(城北豆腐店)
       - 🇺🇸 美国-2.85MB/s(城北豆腐店)
@@ -174,6 +167,7 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇺🇸 美国-12.30MB/s(城北豆腐店)
       - 中转节点-11.28MB/s(城北豆腐店)
       - 中转节点-8.58MB/s(城北豆腐店)
       - 🇨🇳 台湾-13.12MB/s(城北豆腐店)
@@ -184,11 +178,9 @@ proxy-groups:
       - (已存活2天)中转节点SSR-4.39MB/s(城北豆腐店)
       - 🇰🇷 韩国SS-1.18MB/s(城北豆腐店)
       - 中转节点-6.14MB/s(城北豆腐店)
-      - 中转节点SS-18.14MB/s(城北豆腐店)
       - 英属维尔京群岛-2.37MB/s(城北豆腐店)
       - 🇳🇱 荷兰-2.37MB/s(城北豆腐店)
       - 中转节点-5.96MB/s(城北豆腐店)
-      - 中转节点SSR-5.96MB/s(城北豆腐店)
       - 🇺🇸 美国-2.95MB/s(城北豆腐店)
       - 🇭🇰 香港-1.72MB/s(城北豆腐店)
       - 🇺🇸 美国-2.85MB/s(城北豆腐店)
@@ -207,6 +199,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸 美国-12.30MB/s(城北豆腐店)
       - 中转节点-11.28MB/s(城北豆腐店)
       - 中转节点-8.58MB/s(城北豆腐店)
       - 🇨🇳 台湾-13.12MB/s(城北豆腐店)
@@ -217,11 +210,9 @@ proxy-groups:
       - (已存活2天)中转节点SSR-4.39MB/s(城北豆腐店)
       - 🇰🇷 韩国SS-1.18MB/s(城北豆腐店)
       - 中转节点-6.14MB/s(城北豆腐店)
-      - 中转节点SS-18.14MB/s(城北豆腐店)
       - 英属维尔京群岛-2.37MB/s(城北豆腐店)
       - 🇳🇱 荷兰-2.37MB/s(城北豆腐店)
       - 中转节点-5.96MB/s(城北豆腐店)
-      - 中转节点SSR-5.96MB/s(城北豆腐店)
       - 🇺🇸 美国-2.95MB/s(城北豆腐店)
       - 🇭🇰 香港-1.72MB/s(城北豆腐店)
       - 🇺🇸 美国-2.85MB/s(城北豆腐店)
@@ -249,6 +240,7 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸 美国-12.30MB/s(城北豆腐店)
       - 中转节点-11.28MB/s(城北豆腐店)
       - 中转节点-8.58MB/s(城北豆腐店)
       - 🇨🇳 台湾-13.12MB/s(城北豆腐店)
@@ -259,11 +251,9 @@ proxy-groups:
       - (已存活2天)中转节点SSR-4.39MB/s(城北豆腐店)
       - 🇰🇷 韩国SS-1.18MB/s(城北豆腐店)
       - 中转节点-6.14MB/s(城北豆腐店)
-      - 中转节点SS-18.14MB/s(城北豆腐店)
       - 英属维尔京群岛-2.37MB/s(城北豆腐店)
       - 🇳🇱 荷兰-2.37MB/s(城北豆腐店)
       - 中转节点-5.96MB/s(城北豆腐店)
-      - 中转节点SSR-5.96MB/s(城北豆腐店)
       - 🇺🇸 美国-2.95MB/s(城北豆腐店)
       - 🇭🇰 香港-1.72MB/s(城北豆腐店)
       - 🇺🇸 美国-2.85MB/s(城北豆腐店)
@@ -275,7 +265,7 @@ proxy-groups:
       - 中转节点-7.34MB/s(城北豆腐店)
       - 中转节点-8.94MB/s(城北豆腐店)
       - 中转节点-4.82MB/s(城北豆腐店)
-      - 未知国家-4.50MB/s(城北豆腐店)
+      - 未知国家-4.50MB/s(城北豆腐店))
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
