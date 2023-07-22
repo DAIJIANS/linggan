@@ -1849,8 +1849,10 @@ rules:
  - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 节点选择
  - DOMAIN-SUFFIX,zaobao.com.sg,🔰 节点选择
  - DOMAIN,international-gfe.download.nvidia.com,🔰 节点选择
- - DOMAIN-SUFFIX,cnhk.top:5001,🔰 节点选择
- - DOMAIN,cnhk.top:5001,🔰 节点选择
+ - DOMAIN-KEYWORD,cnhk1.top,🔰 节点选择
+ - PROCESS-NAME,cnhk1.top,🔰 节点选择
+ - DOMAIN-SUFFIX,cnhk1.top,🔰 节点选择
+ - DOMAIN,cnhk1.top,🔰 节点选择
  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
@@ -2199,38 +2201,9 @@ rules:
  - DOMAIN-KEYWORD,Thunder,🎯 全球直连
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - DOMAIN-KEYWORD,cnhk.top,🎯 全球直连
- - DOMAIN-KEYWORD,cnhk.top,🎯 全球直连
- - PROCESS-NAME,cnhk.top,🎯 全球直连
  - PROCESS-NAME,cnhk.top,🎯 全球直连
  - DOMAIN-SUFFIX,cnhk.top,🎯 全球直连
- - DOMAIN-SUFFIX,cnhk.top,🎯 全球直连
- - DOMAIN,cnhk.top,🎯 全球直连
  - DOMAIN,cnhk.top,🎯 全球直连
  - PROCESS-NAME,uTorrent,🎯 全球直连
- - DOMAIN-SUFFIX,authds.todesk.com,🎯 全球直连
- - DOMAIN-SUFFIX,uc.todesk.com,🎯 全球直连
- - DOMAIN-SUFFIX,login.oray.com,🎯 全球直连
- - DOMAIN-SUFFIX,slapi.oray.net,🎯 全球直连
- - DOMAIN-SUFFIX,api-std.sunlogin.oray.com,🎯 全球直连
- - DOMAIN-SUFFIX,client-api.oray.com,🎯 全球直连
- - DOMAIN-SUFFIX,upload-cdn.orayimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,rc10-g6.oray.com,🎯 全球直连
- - DOMAIN-SUFFIX,ws.sunlogin.oray.com,🎯 全球直连
- - DOMAIN-SUFFIX,user-api-v2.oray.com,🎯 全球直连
- - DOMAIN-SUFFIX,cdn.orayimg.com,🎯 全球直连
- - DOMAIN-SUFFIX,auth-sl.oray.com,🎯 全球直连
- - DOMAIN-SUFFIX,ws-std01.sunlogin.oray.com,🎯 全球直连
- - DOMAIN-SUFFIX,sl-log.oray.net,🎯 全球直连
- - DOMAIN-SUFFIX,sunlogin.oray.com,🎯 全球直连
- - DOMAIN-SUFFIX,sl-tk.oray.com,🎯 全球直连
- - DOMAIN-SUFFIX,ddns.oray.com,🎯 全球直连
- - DOMAIN-SUFFIX,rc10-linux.oray.com,🎯 全球直连
- - DOMAIN-SUFFIX,auth-v2.oray.com,🎯 全球直连
- - DOMAIN-SUFFIX,1240809427-206927776lsddd8632f.rc03.oray.com,🎯 全球直连
- - DOMAIN-SUFFIX,365837732.slp2p-east-std241.oray.net,🎯 全球直连
- - DOMAIN-SUFFIX,1240809427-953549924ls33906f2f.rc03.oray.com,🎯 全球直连
- - DOMAIN-SUFFIX,1240809427-2014364616lsfd966f2f.rc03.oray.com,🎯 全球直连
- - DOMAIN-SUFFIX,1128331311.slp2p-east-std208.oray.net,🎯 全球直连
- - DOMAIN-SUFFIX,2081176394.slp2p-east-std209.oray.net,🎯 全球直连
  - GEOIP,CN,🎯 全球直连,no-resolve
  - MATCH,🐟 漏网之鱼
