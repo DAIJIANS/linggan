@@ -37,6 +37,8 @@ proxies:
   - {name: 中转节点-16.34MB/s(城北豆腐店), server: pregzdata1.anihpvhiv2333.xyz, port: 11133, type: trojan, password: E1FD76C1-8E4D-1516-DBC6-D5C2589E58F1, sni: oss-cn-hangzhou.aliyuncs.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国-5.60MB/s(城北豆腐店), server: 74.211.109.236, port: 41755, type: vmess, uuid: 08520d60-1e64-41cf-9719-bc62b92aaaf3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 中转节点-5.58MB/s(城北豆腐店), server: pregzdata1.anihpvhiv2333.xyz, port: 11103, type: trojan, password: E1FD76C1-8E4D-1516-DBC6-D5C2589E58F1, sni: oss-cn-hangzhou.aliyuncs.com, skip-cert-verify: true}
+  - {name: 🇫🇷 法国-2.43MB/s(城北豆腐店), server: 173.245.49.22, port: 8880, type: vmess, uuid: 006023f6-6d17-4ec6-af24-bcc5f7c44e35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: ecc.vtcss.top}}}
+  - {name: 🇺🇸 美国-5.54MB/s(城北豆腐店), server: 64.64.252.6, port: 35637, type: vmess, uuid: 02c40fd8-b5fa-4101-d305-deb468769805, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -75,6 +77,8 @@ proxy-groups:
       - 中转节点-16.34MB/s(城北豆腐店)
       - 🇺🇸 美国-5.60MB/s(城北豆腐店)
       - 中转节点-5.58MB/s(城北豆腐店)
+      - 🇫🇷 法国-2.43MB/s(城北豆腐店)
+      - 🇺🇸 美国-5.54MB/s(城北豆腐店)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -112,6 +116,8 @@ proxy-groups:
       - 中转节点-16.34MB/s(城北豆腐店)
       - 🇺🇸 美国-5.60MB/s(城北豆腐店)
       - 中转节点-5.58MB/s(城北豆腐店)
+      - 🇫🇷 法国-2.43MB/s(城北豆腐店)
+      - 🇺🇸 美国-5.54MB/s(城北豆腐店)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -150,6 +156,8 @@ proxy-groups:
       - 中转节点-16.34MB/s(城北豆腐店)
       - 🇺🇸 美国-5.60MB/s(城北豆腐店)
       - 中转节点-5.58MB/s(城北豆腐店)
+      - 🇫🇷 法国-2.43MB/s(城北豆腐店)
+      - 🇺🇸 美国-5.54MB/s(城北豆腐店)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -192,6 +200,8 @@ proxy-groups:
       - 中转节点-16.34MB/s(城北豆腐店)
       - 🇺🇸 美国-5.60MB/s(城北豆腐店)
       - 中转节点-5.58MB/s(城北豆腐店)
+      - 🇫🇷 法国-2.43MB/s(城北豆腐店)
+      - 🇺🇸 美国-5.54MB/s(城北豆腐店)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -229,6 +239,8 @@ proxy-groups:
       - 中转节点-16.34MB/s(城北豆腐店)
       - 🇺🇸 美国-5.60MB/s(城北豆腐店)
       - 中转节点-5.58MB/s(城北豆腐店)
+      - 🇫🇷 法国-2.43MB/s(城北豆腐店)
+      - 🇺🇸 美国-5.54MB/s(城北豆腐店)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -267,6 +279,8 @@ proxy-groups:
       - 中转节点-16.34MB/s(城北豆腐店)
       - 🇺🇸 美国-5.60MB/s(城北豆腐店)
       - 中转节点-5.58MB/s(城北豆腐店)
+      - 🇫🇷 法国-2.43MB/s(城北豆腐店)
+      - 🇺🇸 美国-5.54MB/s(城北豆腐店)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -314,6 +328,8 @@ proxy-groups:
       - 中转节点-16.34MB/s(城北豆腐店)
       - 🇺🇸 美国-5.60MB/s(城北豆腐店)
       - 中转节点-5.58MB/s(城北豆腐店)
+      - 🇫🇷 法国-2.43MB/s(城北豆腐店)
+      - 🇺🇸 美国-5.54MB/s(城北豆腐店)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
