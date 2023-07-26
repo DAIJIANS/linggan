@@ -26,6 +26,7 @@ proxies:
   - {name: 🇨🇳 (已存活2天)台湾-4.44MB/s(城北豆腐店), server: 103.177.33.180, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9e44e9ffe5c2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline004.chilines.club, path: /isaifqaagpi, tls: true, mux: true, skip-cert-verify: false}}
   - {name: 🇯🇵 日本-4.07MB/s(城北豆腐店), server: jp03-alt-vm0.entry.srthdw.art, port: 21581, type: vmess, uuid: fa15e11b-8828-3276-b845-2811aa169f3a, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false}
   - {name: 中转节点-7.80MB/s(城北豆腐店), server: prebjdata1.anihpvhiv2333.xyz, port: 11160, type: trojan, password: AE299987-A2A0-212B-0DDA-6BD2102D8B62, sni: oss-cn-hangzhou.aliyuncs.com, skip-cert-verify: true}
+  - {name: 中转节点-7.95MB/s(城北豆腐店), server: preshdata1.anihpvhiv2333.xyz, port: 11117, type: trojan, password: AE299987-A2A0-212B-0DDA-6BD2102D8B62, sni: oss-cn-hangzhou.aliyuncs.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -53,6 +54,7 @@ proxy-groups:
       - 🇨🇳 (已存活2天)台湾-4.44MB/s(城北豆腐店)
       - 🇯🇵 日本-4.07MB/s(城北豆腐店)
       - 中转节点-7.80MB/s(城北豆腐店)
+      - 中转节点-7.95MB/s(城北豆腐店)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -79,6 +81,7 @@ proxy-groups:
       - 🇨🇳 (已存活2天)台湾-4.44MB/s(城北豆腐店)
       - 🇯🇵 日本-4.07MB/s(城北豆腐店)
       - 中转节点-7.80MB/s(城北豆腐店)
+      - 中转节点-7.95MB/s(城北豆腐店)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -106,6 +109,7 @@ proxy-groups:
       - 🇨🇳 (已存活2天)台湾-4.44MB/s(城北豆腐店)
       - 🇯🇵 日本-4.07MB/s(城北豆腐店)
       - 中转节点-7.80MB/s(城北豆腐店)
+      - 中转节点-7.95MB/s(城北豆腐店)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -137,6 +141,7 @@ proxy-groups:
       - 🇨🇳 (已存活2天)台湾-4.44MB/s(城北豆腐店)
       - 🇯🇵 日本-4.07MB/s(城北豆腐店)
       - 中转节点-7.80MB/s(城北豆腐店)
+      - 中转节点-7.95MB/s(城北豆腐店)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -163,6 +168,7 @@ proxy-groups:
       - 🇨🇳 (已存活2天)台湾-4.44MB/s(城北豆腐店)
       - 🇯🇵 日本-4.07MB/s(城北豆腐店)
       - 中转节点-7.80MB/s(城北豆腐店)
+      - 中转节点-7.95MB/s(城北豆腐店)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -190,6 +196,7 @@ proxy-groups:
       - 🇨🇳 (已存活2天)台湾-4.44MB/s(城北豆腐店)
       - 🇯🇵 日本-4.07MB/s(城北豆腐店)
       - 中转节点-7.80MB/s(城北豆腐店)
+      - 中转节点-7.95MB/s(城北豆腐店)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -226,6 +233,7 @@ proxy-groups:
       - 🇨🇳 (已存活2天)台湾-4.44MB/s(城北豆腐店)
       - 🇯🇵 日本-4.07MB/s(城北豆腐店)
       - 中转节点-7.80MB/s(城北豆腐店)
+      - 中转节点-7.95MB/s(城北豆腐店)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
