@@ -41,6 +41,7 @@ proxies:
   - {name: 🇺🇸 美国-2.70MB/s(城北豆腐店), server: 137.175.18.91, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 中转节点-6.76MB/s(城北豆腐店), server: ydyh.nanbei.info, port: 26913, type: ss, cipher: chacha20-ietf-poly1305, password: 109d9e3f-ae21-4991-87c6-377d43c23372}
   - {name: 中转节点-8.17MB/s(城北豆腐店), server: hkt-imsbiz-04.xm1s.top, port: 457, type: ssr, cipher: dummy, password: UtFRxN, protocol: auth_chain_a, obfs: plain, protocol-param: 2700:NAG0Sb, obfs-param: wns.windows.com}
+
 proxy-groups:
   - name: 🔰 节点选择
     type: select
