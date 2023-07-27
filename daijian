@@ -34,6 +34,7 @@ proxies:
   - {name: 中转节点-5.27MB/s(城北豆腐店), server: 223.113.136.122, port: 30918, type: ssr, cipher: chacha20-ietf, password: zztw9jk7gu, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 8366:V35GbB, obfs-param: e5ab08366.microsoft.com}
   - {name: 中转节点-2.14MB/s(城北豆腐店), server: hzlt.817777.xyz, port: 41108, type: ssr, cipher: aes-256-cfb, password: FUR58G, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 10585:Ex4IlX, obfs-param: 97c2e10585.microsoft.com}
   - {name: 🇺🇸 美国-1.28MB/s(城北豆腐店), server: 216.52.183.246, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+
 proxy-groups:
   - name: 🔰 节点选择
     type: select
