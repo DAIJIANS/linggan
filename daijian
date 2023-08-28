@@ -18,7 +18,7 @@ proxies:
   - {name: 中转节点-9.44MB/s(城北豆腐店), server: gzdx.jcnode.top, port: 19390, type: trojan, password: ff043696-897c-4355-973f-67edd2e103ee, sni: jp001.ckcloud.info, skip-cert-verify: true}
   - {name: 中转节点-8.83MB/s(城北豆腐店), server: hkt-imsbiz-01.xm1s.top, port: 458, type: ssr, cipher: dummy, password: MKaQhd, protocol: auth_chain_b, obfs: plain, protocol-param: 2700:NAG0Sb, obfs-param: wns.windows.com}
   - {name: 中转节点-5.57MB/s(城北豆腐店), server: v01.gutingting.com, port: 30015, type: vmess, uuid: 26c1bbd2-c4f5-4937-840a-769f022f9665, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aceamedv, headers: {Host: v01.gutingting.com}}}
-  - {name: 中转节点-6.00MB/s(城北豆腐店), server: gzdx01.jcnode.top, port: 22243, type: trojan, password: dd7a091c-0fc1-41d7-af79-384296364704, sni: id01.ckcloud.info, skip-cert-verify: false}
+  - {name: 中转节点-6.00MB/s(城北豆腐店), server: gzdx01.jcnode.top, port: 22243, type: trojan, password: dd7a091c-0fc1-41d7-af79-384296364704, sni: id01.ckcloud.info, skip-cert-verify: true}
   - {name: 中转节点-2.17MB/s(城北豆腐店), server: sg-01.xm1s.top, port: 457, type: ssr, cipher: dummy, password: UtFRxN, protocol: auth_chain_a, obfs: plain, protocol-param: 2700:NAG0Sb, obfs-param: wns.windows.com}
 
 proxy-groups:
