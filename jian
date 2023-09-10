@@ -5,27 +5,16 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: (已存活1天)中转节点-4.10MB/s(城北豆腐店), server: cm01.newcome.xyz, port: 3706, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: c75be84263.microsoft.com}
-  - {name: 中转节点-8.66MB/s(城北豆腐店), server: sg-03.xm1s.top, port: 458, type: ssr, cipher: dummy, password: MKaQhd, protocol: auth_chain_b, obfs: plain, protocol-param: 2663:9XyKWG, obfs-param: wns.windows.com}
-  - {name: (已存活2天)中转节点-16.59MB/s(城北豆腐店), server: layercm05.initcloud.pro, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "12564:uEGdL]-7346jiK", obfs-param: ""}
-  - {name: 中转节点-4.24MB/s(城北豆腐店), server: cm03.newcome.xyz, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: c75be84263.microsoft.com}
-  - {name: 中转节点-3.47MB/s(城北豆腐店), server: cm01.newcome.xyz, port: 3700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: c75be84263.microsoft.com}
-  - {name: 🇸🇬 新加坡-5.32MB/s(城北豆腐店), server: vpnhat.stablize.top, port: 443, type: trojan, password: bc23b0ef-ddae-4bd3-8892-9d4797823e9c, sni: ap.stablize.top, skip-cert-verify: false}
-  - {name: 🇺🇸 美国-2.17MB/s(城北豆腐店), server: 216.52.183.244, port: 443, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: false}}
-  - {name: 🇫🇷 法国-4.22MB/s(城北豆腐店), server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇺🇸 美国-2.61MB/s(城北豆腐店), server: 216.52.183.244, port: 443, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
-  - {name: 中转节点-1MB/s(城北豆腐店), server: 183.232.170.32, port: 30005, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: 中转节点-7.71MB/s(城北豆腐店), server: pr1.jymzffbquawl.com, port: 3505, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 199929:aTh_e0811, obfs-param: 01082199929.microsoft.com}
-  - {name: (已存活1天)中转节点-3.64MB/s(城北豆腐店), server: bs4.jymzffbquawl.com, port: 5502, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 199929:aTh_e0811, obfs-param: 01082199929.microsoft.com}
-  - {name: 中转节点-7.00MB/s(城北豆腐店), server: sg-01.xm1s.top, port: 457, type: ssr, cipher: dummy, password: UtFRxN, protocol: auth_chain_a, obfs: plain, protocol-param: 2733:qn5Boj, obfs-param: wns.windows.com}
-  - {name: 中转节点-5.99MB/s(城北豆腐店), server: yd-02.paofunlink.com, port: 1054, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40931:Pumv3L, obfs-param: 6f76640931.microsoft.com}
-  - {name: (已存活1天)中转节点-7.14MB/s(城北豆腐店), server: hkt-imsbiz-04.xm1s.top, port: 458, type: ssr, cipher: dummy, password: MKaQhd, protocol: auth_chain_b, obfs: plain, protocol-param: 2733:qn5Boj, obfs-param: wns.windows.com}
-  - {name: (已存活1天)中转节点-2.14MB/s(城北豆腐店), server: sg-03.xm1s.top, port: 457, type: ssr, cipher: dummy, password: UtFRxN, protocol: auth_chain_a, obfs: plain, protocol-param: 2733:qn5Boj, obfs-param: wns.windows.com}
-  - {name: 🇺🇸 美国-2.59MB/s(城北豆腐店), server: cfcdn2.sanfencdn.net, port: 2052, type: vmess, uuid: cfd43f68-a5be-4c67-b1e9-686e2e1315a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: tw1.sanfencdn2.com}}}
-  - {name: 中转节点-8.39MB/s(城北豆腐店), server: yd-03.paofunlink.com, port: 1055, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40931:Pumv3L, obfs-param: 6f76640931.microsoft.com}
-  - {name: 🇯🇵 日本-4.27MB/s(城北豆腐店), server: kbawsjp2.aiopen.cfd, port: 443, type: trojan, password: bd374f68-224f-4a05-808a-01239ceae4fa, sni: 4-193-105-141.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 中转节点-6.57MB/s(城北豆腐店), server: ydyh.nanbei.info, port: 26906, type: ss, cipher: chacha20-ietf-poly1305, password: c122d90a-1833-42ef-8393-cf881d820b98}
-  - {name: 🇯🇵 日本-4.07MB/s(城北豆腐店), server: gsawsjp2.aiopen.cfd, port: 443, type: trojan, password: d2dd2448-61f9-4f66-9539-da4c240713e4, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇺🇸 美国优化高速入口(城北豆腐店), server: fs.xianyuwangluo.cyou, port: 27207, type: ss, cipher: chacha20-ietf-poly1305, password: 4ab9095a-2c84-4bb5-a5eb-3af87a278575}
+  - {name: 🇯🇵 日本高速入口(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10701, type: ss, cipher: chacha20-ietf-poly1305, password: 6fc1c0c5-9851-4b06-accd-77d422cf8385}
+  - {name: 🇩🇪 德国优化入口(城北豆腐店), server: hefei.chiguayun.cc, port: 27108, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
+  - {name: 🇮🇳 印度高速入口(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10705, type: ss, cipher: chacha20-ietf-poly1305, password: 6fc1c0c5-9851-4b06-accd-77d422cf8385}
+  - {name: 🇧🇷 巴西高速入口(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10725, type: ss, cipher: chacha20-ietf-poly1305, password: 6fc1c0c5-9851-4b06-accd-77d422cf8385}
+  - {name: 🇭🇺 匈牙利高速入口(城北豆腐店), server: foshan.chiguayun.cc, port: 27139, type: ss, cipher: chacha20-ietf-poly1305, password: 9ac88df2-8cac-4420-94a6-fdd2d41d0109}
+  - {name: 🇭🇰 香港优化高速入口(城北豆腐店), server: fs.xianyuwangluo.cyou, port: 27205, type: ss, cipher: chacha20-ietf-poly1305, password: 4ab9095a-2c84-4bb5-a5eb-3af87a278575}
+  - {name: 🇺🇸 美国高速入口(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10708, type: ss, cipher: chacha20-ietf-poly1305, password: 6fc1c0c5-9851-4b06-accd-77d422cf8385}
+  - {name: 🇿🇦 南非高速入口(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10723, type: ss, cipher: chacha20-ietf-poly1305, password: 6fc1c0c5-9851-4b06-accd-77d422cf8385}
+  - {name: 🇮🇳 印度优化高速入口(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10706, type: ss, cipher: chacha20-ietf-poly1305, password: 6fc1c0c5-9851-4b06-accd-77d422cf8385}
 
 proxy-groups:
   - name: 🔰 节点选择
@@ -33,80 +22,44 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - (已存活1天)中转节点-4.10MB/s(城北豆腐店)
-      - 中转节点-8.66MB/s(城北豆腐店)
-      - (已存活2天)中转节点-16.59MB/s(城北豆腐店)
-      - 中转节点-4.24MB/s(城北豆腐店)
-      - 中转节点-3.47MB/s(城北豆腐店)
-      - 🇸🇬 新加坡-5.32MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.17MB/s(城北豆腐店)
-      - 🇫🇷 法国-4.22MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.61MB/s(城北豆腐店)
-      - 中转节点-1MB/s(城北豆腐店)
-      - 中转节点-7.71MB/s(城北豆腐店)
-      - (已存活1天)中转节点-3.64MB/s(城北豆腐店)
-      - 中转节点-7.00MB/s(城北豆腐店)
-      - 中转节点-5.99MB/s(城北豆腐店)
-      - (已存活1天)中转节点-7.14MB/s(城北豆腐店)
-      - (已存活1天)中转节点-2.14MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.59MB/s(城北豆腐店)
-      - 中转节点-8.39MB/s(城北豆腐店)
-      - 🇯🇵 日本-4.27MB/s(城北豆腐店)
-      - 中转节点-6.57MB/s(城北豆腐店)
-      - 🇯🇵 日本-4.07MB/s(城北豆腐店)
+      - 🇯🇵 日本高速入口(城北豆腐店)
+      - 🇩🇪 德国优化入口(城北豆腐店)
+      - 🇮🇳 印度高速入口(城北豆腐店)
+      - 🇧🇷 巴西高速入口(城北豆腐店)
+      - 🇭🇺 匈牙利高速入口(城北豆腐店)
+      - 🇭🇰 香港优化高速入口(城北豆腐店)
+      - 🇺🇸 美国高速入口(城北豆腐店)
+      - 🇿🇦 南非高速入口(城北豆腐店)
+      - 🇮🇳 印度优化高速入口(城北豆腐店)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - (已存活1天)中转节点-4.10MB/s(城北豆腐店)
-      - 中转节点-8.66MB/s(城北豆腐店)
-      - (已存活2天)中转节点-16.59MB/s(城北豆腐店)
-      - 中转节点-4.24MB/s(城北豆腐店)
-      - 中转节点-3.47MB/s(城北豆腐店)
-      - 🇸🇬 新加坡-5.32MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.17MB/s(城北豆腐店)
-      - 🇫🇷 法国-4.22MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.61MB/s(城北豆腐店)
-      - 中转节点-1MB/s(城北豆腐店)
-      - 中转节点-7.71MB/s(城北豆腐店)
-      - (已存活1天)中转节点-3.64MB/s(城北豆腐店)
-      - 中转节点-7.00MB/s(城北豆腐店)
-      - 中转节点-5.99MB/s(城北豆腐店)
-      - (已存活1天)中转节点-7.14MB/s(城北豆腐店)
-      - (已存活1天)中转节点-2.14MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.59MB/s(城北豆腐店)
-      - 中转节点-8.39MB/s(城北豆腐店)
-      - 🇯🇵 日本-4.27MB/s(城北豆腐店)
-      - 中转节点-6.57MB/s(城北豆腐店)
-      - 🇯🇵 日本-4.07MB/s(城北豆腐店)
+      - 🇯🇵 日本高速入口(城北豆腐店)
+      - 🇩🇪 德国优化入口(城北豆腐店)
+      - 🇮🇳 印度高速入口(城北豆腐店)
+      - 🇧🇷 巴西高速入口(城北豆腐店)
+      - 🇭🇺 匈牙利高速入口(城北豆腐店)
+      - 🇭🇰 香港优化高速入口(城北豆腐店)
+      - 🇺🇸 美国高速入口(城北豆腐店)
+      - 🇿🇦 南非高速入口(城北豆腐店)
+      - 🇮🇳 印度优化高速入口(城北豆腐店)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - (已存活1天)中转节点-4.10MB/s(城北豆腐店)
-      - 中转节点-8.66MB/s(城北豆腐店)
-      - (已存活2天)中转节点-16.59MB/s(城北豆腐店)
-      - 中转节点-4.24MB/s(城北豆腐店)
-      - 中转节点-3.47MB/s(城北豆腐店)
-      - 🇸🇬 新加坡-5.32MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.17MB/s(城北豆腐店)
-      - 🇫🇷 法国-4.22MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.61MB/s(城北豆腐店)
-      - 中转节点-1MB/s(城北豆腐店)
-      - 中转节点-7.71MB/s(城北豆腐店)
-      - (已存活1天)中转节点-3.64MB/s(城北豆腐店)
-      - 中转节点-7.00MB/s(城北豆腐店)
-      - 中转节点-5.99MB/s(城北豆腐店)
-      - (已存活1天)中转节点-7.14MB/s(城北豆腐店)
-      - (已存活1天)中转节点-2.14MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.59MB/s(城北豆腐店)
-      - 中转节点-8.39MB/s(城北豆腐店)
-      - 🇯🇵 日本-4.27MB/s(城北豆腐店)
-      - 中转节点-6.57MB/s(城北豆腐店)
-      - 🇯🇵 日本-4.07MB/s(城北豆腐店)
+      - 🇯🇵 日本高速入口(城北豆腐店)
+      - 🇩🇪 德国优化入口(城北豆腐店)
+      - 🇮🇳 印度高速入口(城北豆腐店)
+      - 🇧🇷 巴西高速入口(城北豆腐店)
+      - 🇭🇺 匈牙利高速入口(城北豆腐店)
+      - 🇭🇰 香港优化高速入口(城北豆腐店)
+      - 🇺🇸 美国高速入口(城北豆腐店)
+      - 🇿🇦 南非高速入口(城北豆腐店)
+      - 🇮🇳 印度优化高速入口(城北豆腐店)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -117,80 +70,44 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - (已存活1天)中转节点-4.10MB/s(城北豆腐店)
-      - 中转节点-8.66MB/s(城北豆腐店)
-      - (已存活2天)中转节点-16.59MB/s(城北豆腐店)
-      - 中转节点-4.24MB/s(城北豆腐店)
-      - 中转节点-3.47MB/s(城北豆腐店)
-      - 🇸🇬 新加坡-5.32MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.17MB/s(城北豆腐店)
-      - 🇫🇷 法国-4.22MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.61MB/s(城北豆腐店)
-      - 中转节点-1MB/s(城北豆腐店)
-      - 中转节点-7.71MB/s(城北豆腐店)
-      - (已存活1天)中转节点-3.64MB/s(城北豆腐店)
-      - 中转节点-7.00MB/s(城北豆腐店)
-      - 中转节点-5.99MB/s(城北豆腐店)
-      - (已存活1天)中转节点-7.14MB/s(城北豆腐店)
-      - (已存活1天)中转节点-2.14MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.59MB/s(城北豆腐店)
-      - 中转节点-8.39MB/s(城北豆腐店)
-      - 🇯🇵 日本-4.27MB/s(城北豆腐店)
-      - 中转节点-6.57MB/s(城北豆腐店)
-      - 🇯🇵 日本-4.07MB/s(城北豆腐店)
+      - 🇯🇵 日本高速入口(城北豆腐店)
+      - 🇩🇪 德国优化入口(城北豆腐店)
+      - 🇮🇳 印度高速入口(城北豆腐店)
+      - 🇧🇷 巴西高速入口(城北豆腐店)
+      - 🇭🇺 匈牙利高速入口(城北豆腐店)
+      - 🇭🇰 香港优化高速入口(城北豆腐店)
+      - 🇺🇸 美国高速入口(城北豆腐店)
+      - 🇿🇦 南非高速入口(城北豆腐店)
+      - 🇮🇳 印度优化高速入口(城北豆腐店)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - (已存活1天)中转节点-4.10MB/s(城北豆腐店)
-      - 中转节点-8.66MB/s(城北豆腐店)
-      - (已存活2天)中转节点-16.59MB/s(城北豆腐店)
-      - 中转节点-4.24MB/s(城北豆腐店)
-      - 中转节点-3.47MB/s(城北豆腐店)
-      - 🇸🇬 新加坡-5.32MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.17MB/s(城北豆腐店)
-      - 🇫🇷 法国-4.22MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.61MB/s(城北豆腐店)
-      - 中转节点-1MB/s(城北豆腐店)
-      - 中转节点-7.71MB/s(城北豆腐店)
-      - (已存活1天)中转节点-3.64MB/s(城北豆腐店)
-      - 中转节点-7.00MB/s(城北豆腐店)
-      - 中转节点-5.99MB/s(城北豆腐店)
-      - (已存活1天)中转节点-7.14MB/s(城北豆腐店)
-      - (已存活1天)中转节点-2.14MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.59MB/s(城北豆腐店)
-      - 中转节点-8.39MB/s(城北豆腐店)
-      - 🇯🇵 日本-4.27MB/s(城北豆腐店)
-      - 中转节点-6.57MB/s(城北豆腐店)
-      - 🇯🇵 日本-4.07MB/s(城北豆腐店)
+      - 🇯🇵 日本高速入口(城北豆腐店)
+      - 🇩🇪 德国优化入口(城北豆腐店)
+      - 🇮🇳 印度高速入口(城北豆腐店)
+      - 🇧🇷 巴西高速入口(城北豆腐店)
+      - 🇭🇺 匈牙利高速入口(城北豆腐店)
+      - 🇭🇰 香港优化高速入口(城北豆腐店)
+      - 🇺🇸 美国高速入口(城北豆腐店)
+      - 🇿🇦 南非高速入口(城北豆腐店)
+      - 🇮🇳 印度优化高速入口(城北豆腐店)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - (已存活1天)中转节点-4.10MB/s(城北豆腐店)
-      - 中转节点-8.66MB/s(城北豆腐店)
-      - (已存活2天)中转节点-16.59MB/s(城北豆腐店)
-      - 中转节点-4.24MB/s(城北豆腐店)
-      - 中转节点-3.47MB/s(城北豆腐店)
-      - 🇸🇬 新加坡-5.32MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.17MB/s(城北豆腐店)
-      - 🇫🇷 法国-4.22MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.61MB/s(城北豆腐店)
-      - 中转节点-1MB/s(城北豆腐店)
-      - 中转节点-7.71MB/s(城北豆腐店)
-      - (已存活1天)中转节点-3.64MB/s(城北豆腐店)
-      - 中转节点-7.00MB/s(城北豆腐店)
-      - 中转节点-5.99MB/s(城北豆腐店)
-      - (已存活1天)中转节点-7.14MB/s(城北豆腐店)
-      - (已存活1天)中转节点-2.14MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.59MB/s(城北豆腐店)
-      - 中转节点-8.39MB/s(城北豆腐店)
-      - 🇯🇵 日本-4.27MB/s(城北豆腐店)
-      - 中转节点-6.57MB/s(城北豆腐店)
-      - 🇯🇵 日本-4.07MB/s(城北豆腐店)
+      - 🇯🇵 日本高速入口(城北豆腐店)
+      - 🇩🇪 德国优化入口(城北豆腐店)
+      - 🇮🇳 印度高速入口(城北豆腐店)
+      - 🇧🇷 巴西高速入口(城北豆腐店)
+      - 🇭🇺 匈牙利高速入口(城北豆腐店)
+      - 🇭🇰 香港优化高速入口(城北豆腐店)
+      - 🇺🇸 美国高速入口(城北豆腐店)
+      - 🇿🇦 南非高速入口(城北豆腐店)
+      - 🇮🇳 印度优化高速入口(城北豆腐店)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -206,27 +123,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - (已存活1天)中转节点-4.10MB/s(城北豆腐店)
-      - 中转节点-8.66MB/s(城北豆腐店)
-      - (已存活2天)中转节点-16.59MB/s(城北豆腐店)
-      - 中转节点-4.24MB/s(城北豆腐店)
-      - 中转节点-3.47MB/s(城北豆腐店)
-      - 🇸🇬 新加坡-5.32MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.17MB/s(城北豆腐店)
-      - 🇫🇷 法国-4.22MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.61MB/s(城北豆腐店)
-      - 中转节点-1MB/s(城北豆腐店)
-      - 中转节点-7.71MB/s(城北豆腐店)
-      - (已存活1天)中转节点-3.64MB/s(城北豆腐店)
-      - 中转节点-7.00MB/s(城北豆腐店)
-      - 中转节点-5.99MB/s(城北豆腐店)
-      - (已存活1天)中转节点-7.14MB/s(城北豆腐店)
-      - (已存活1天)中转节点-2.14MB/s(城北豆腐店)
-      - 🇺🇸 美国-2.59MB/s(城北豆腐店)
-      - 中转节点-8.39MB/s(城北豆腐店)
-      - 🇯🇵 日本-4.27MB/s(城北豆腐店)
-      - 中转节点-6.57MB/s(城北豆腐店)
-      - 🇯🇵 日本-4.07MB/s(城北豆腐店)
+      - 🇯🇵 日本高速入口(城北豆腐店)
+      - 🇩🇪 德国优化入口(城北豆腐店)
+      - 🇮🇳 印度高速入口(城北豆腐店)
+      - 🇧🇷 巴西高速入口(城北豆腐店)
+      - 🇭🇺 匈牙利高速入口(城北豆腐店)
+      - 🇭🇰 香港优化高速入口(城北豆腐店)
+      - 🇺🇸 美国高速入口(城北豆腐店)
+      - 🇿🇦 南非高速入口(城北豆腐店)
+      - 🇮🇳 印度优化高速入口(城北豆腐店)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -1626,10 +1531,6 @@ rules:
  - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 节点选择
  - DOMAIN-SUFFIX,zaobao.com.sg,🔰 节点选择
  - DOMAIN,international-gfe.download.nvidia.com,🔰 节点选择
- - DOMAIN-KEYWORD,cnhk1.top,🔰 节点选择
- - PROCESS-NAME,cnhk1.top,🔰 节点选择
- - DOMAIN-SUFFIX,cnhk1.top,🔰 节点选择
- - DOMAIN,cnhk1.top,🔰 节点选择
  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
@@ -1977,10 +1878,5 @@ rules:
  - DOMAIN-KEYWORD,yunpan,🎯 全球直连
  - DOMAIN-KEYWORD,Thunder,🎯 全球直连
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
- - DOMAIN-KEYWORD,cnhk.top,🎯 全球直连
- - PROCESS-NAME,cnhk.top,🎯 全球直连
- - DOMAIN-SUFFIX,cnhk.top,🎯 全球直连
- - DOMAIN,cnhk.top,🎯 全球直连
- - PROCESS-NAME,uTorrent,🎯 全球直连
  - GEOIP,CN,🎯 全球直连,no-resolve
  - MATCH,🐟 漏网之鱼
