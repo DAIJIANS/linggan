@@ -22,6 +22,10 @@ proxies:
   - {name: 中转节点-9.68MB/s(城北豆腐店), server: yes.iamagoodman.net, port: 16617, type: vmess, uuid: 6e6d64a6-e2c0-4b5d-a6a3-b30ec2f4f3a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}}
   - {name: 🇯🇵 日本-3.62MB/s(城北豆腐店), server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 中转节点-6.75MB/s(城北豆腐店), server: sg.relay-idc.top, port: 13929, type: ss, cipher: chacha20-ietf-poly1305, password: 11ac3cf9-e29e-4532-9cb1-08f2934f62b4}
+  - {name: 🇬🇧 英国高速入口(城北豆腐店), server: hz.xn--iiq222b6igvp5c.com, port: 39582, type: ss, cipher: chacha20-ietf-poly1305, password: cca06898-6b90-466f-849f-e50d257a27cc}
+  - {name: 🇭🇰 香港电信优化高速入口(城北豆腐店), server: dx.ktmwan.top, port: 27259, type: ss, cipher: chacha20-ietf-poly1305, password: 3884b06d-610f-438f-8610-c8690511616e}
+  - {name: 🇺🇸 美国移动优化高速入口(城北豆腐店), server: yd.ktmwan.top, port: 27253, type: ss, cipher: chacha20-ietf-poly1305, password: 3884b06d-610f-438f-8610-c8690511616e}
+  - {name: 🇸🇬 新加坡联通优化高速入口(城北豆腐店), server: lt.ktmwan.top, port: 27250, type: ss, cipher: chacha20-ietf-poly1305, password: 3884b06d-610f-438f-8610-c8690511616e}
 
 proxy-groups:
   - name: 🔰 节点选择
@@ -46,6 +50,10 @@ proxy-groups:
       - 中转节点-9.68MB/s(城北豆腐店)
       - 🇯🇵 日本-3.62MB/s(城北豆腐店)
       - 中转节点-6.75MB/s(城北豆腐店)
+      - 🇬🇧 英国高速入口(城北豆腐店)
+      - 🇭🇰 香港电信优化高速入口(城北豆腐店)
+      - 🇺🇸 美国移动优化高速入口(城北豆腐店)
+      - 🇸🇬 新加坡联通优化高速入口(城北豆腐店)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -68,6 +76,10 @@ proxy-groups:
       - 中转节点-9.68MB/s(城北豆腐店)
       - 🇯🇵 日本-3.62MB/s(城北豆腐店)
       - 中转节点-6.75MB/s(城北豆腐店)
+      - 🇬🇧 英国高速入口(城北豆腐店)
+      - 🇭🇰 香港电信优化高速入口(城北豆腐店)
+      - 🇺🇸 美国移动优化高速入口(城北豆腐店)
+      - 🇸🇬 新加坡联通优化高速入口(城北豆腐店)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -91,6 +103,10 @@ proxy-groups:
       - 中转节点-9.68MB/s(城北豆腐店)
       - 🇯🇵 日本-3.62MB/s(城北豆腐店)
       - 中转节点-6.75MB/s(城北豆腐店)
+      - 🇬🇧 英国高速入口(城北豆腐店)
+      - 🇭🇰 香港电信优化高速入口(城北豆腐店)
+      - 🇺🇸 美国移动优化高速入口(城北豆腐店)
+      - 🇸🇬 新加坡联通优化高速入口(城北豆腐店)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -118,6 +134,10 @@ proxy-groups:
       - 中转节点-9.68MB/s(城北豆腐店)
       - 🇯🇵 日本-3.62MB/s(城北豆腐店)
       - 中转节点-6.75MB/s(城北豆腐店)
+      - 🇬🇧 英国高速入口(城北豆腐店)
+      - 🇭🇰 香港电信优化高速入口(城北豆腐店)
+      - 🇺🇸 美国移动优化高速入口(城北豆腐店)
+      - 🇸🇬 新加坡联通优化高速入口(城北豆腐店)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -140,6 +160,10 @@ proxy-groups:
       - 中转节点-9.68MB/s(城北豆腐店)
       - 🇯🇵 日本-3.62MB/s(城北豆腐店)
       - 中转节点-6.75MB/s(城北豆腐店)
+      - 🇬🇧 英国高速入口(城北豆腐店)
+      - 🇭🇰 香港电信优化高速入口(城北豆腐店)
+      - 🇺🇸 美国移动优化高速入口(城北豆腐店)
+      - 🇸🇬 新加坡联通优化高速入口(城北豆腐店)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -163,6 +187,10 @@ proxy-groups:
       - 中转节点-9.68MB/s(城北豆腐店)
       - 🇯🇵 日本-3.62MB/s(城北豆腐店)
       - 中转节点-6.75MB/s(城北豆腐店)
+      - 🇬🇧 英国高速入口(城北豆腐店)
+      - 🇭🇰 香港电信优化高速入口(城北豆腐店)
+      - 🇺🇸 美国移动优化高速入口(城北豆腐店)
+      - 🇸🇬 新加坡联通优化高速入口(城北豆腐店)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -195,6 +223,10 @@ proxy-groups:
       - 中转节点-9.68MB/s(城北豆腐店)
       - 🇯🇵 日本-3.62MB/s(城北豆腐店)
       - 中转节点-6.75MB/s(城北豆腐店)
+      - 🇬🇧 英国高速入口(城北豆腐店)
+      - 🇭🇰 香港电信优化高速入口(城北豆腐店)
+      - 🇺🇸 美国移动优化高速入口(城北豆腐店)
+      - 🇸🇬 新加坡联通优化高速入口(城北豆腐店)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
