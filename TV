@@ -6,7 +6,7 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 测试-3.94MB/s(城北豆腐店), server: cm01.newcome.xyz, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0918_E2597, obfs-param: fe80b50916.microsoft.com}
-
+  - {name: 中转节点-6.37MB/s(城西尼姑庵), server: andromedae.weltknoten.xyz, port: 30007, type: vmess, uuid: d303386f-90fc-3e7f-9c5b-9329ff367f53, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false}
 
 
 
@@ -20,12 +20,14 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 测试-3.94MB/s(城北豆腐店)
+      - 中转节点-6.37MB/s(城西尼姑庵)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 测试-3.94MB/s(城北豆腐店)
+      - 中转节点-6.37MB/s(城西尼姑庵)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -33,6 +35,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 测试-3.94MB/s(城北豆腐店)
+      - 中转节点-6.37MB/s(城西尼姑庵)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -44,12 +47,14 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 测试-3.94MB/s(城北豆腐店)
+      - 中转节点-6.37MB/s(城西尼姑庵)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 测试-3.94MB/s(城北豆腐店)
+      - 中转节点-6.37MB/s(城西尼姑庵)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -57,6 +62,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 测试-3.94MB/s(城北豆腐店)
+      - 中转节点-6.37MB/s(城西尼姑庵)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -73,6 +79,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 测试-3.94MB/s(城北豆腐店)
+      - 中转节点-6.37MB/s(城西尼姑庵)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
