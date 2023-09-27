@@ -10,6 +10,7 @@ proxies:
   - {name: US 美国高速入口2(城西尼姑庵), server: yidong.liulangdiqiu.cyou, port: 10709, type: ss, cipher: chacha20-ietf-poly1305, password: e9cc7796-061d-4537-8f96-7f073e6fda8a}
   - {name: US 美国高速入口1(城西尼姑庵), server: yidong.liulangdiqiu.cyou, port: 10708, type: ss, cipher: chacha20-ietf-poly1305, password: e9cc7796-061d-4537-8f96-7f073e6fda8a}
   - {name: UK 英国高速入口1(城西尼姑庵), server: yidong.liulangdiqiu.cyou, port: 10713, type: ss, cipher: chacha20-ietf-poly1305, password: e9cc7796-061d-4537-8f96-7f073e6fda8a}
+  - {name: US 美国优化高速入口1(城西尼姑庵), server: ydyh.nanbei.info, port: 26904, type: ss, cipher: chacha20-ietf-poly1305, password: 31a12e1d-05c5-4ddf-9cab-fcc20855cc9b}
   - {name: TW-5.43MB/s(城西尼姑庵), server: tw.xsus.zj.cn, port: 20542, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
   - {name: TW-15.96MB/s(城西尼姑庵), server: tw.xsus.zj.cn, port: 20541, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
   - {name: TW-13.93MB/s(城西尼姑庵), server: tw.xsus.zj.cn, port: 20542, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
@@ -50,6 +51,7 @@ proxy-groups:
       - US 美国高速入口2(城西尼姑庵)
       - US 美国高速入口1(城西尼姑庵)
       - UK 英国高速入口1(城西尼姑庵)
+      - US 美国优化高速入口1(城西尼姑庵)
       - TW-5.43MB/s(城西尼姑庵)
       - TW-15.96MB/s(城西尼姑庵)
       - TW-13.93MB/s(城西尼姑庵)
@@ -88,6 +90,7 @@ proxy-groups:
       - US 美国高速入口2(城西尼姑庵)
       - US 美国高速入口1(城西尼姑庵)
       - UK 英国高速入口1(城西尼姑庵)
+      - US 美国优化高速入口1(城西尼姑庵)
       - TW-5.43MB/s(城西尼姑庵)
       - TW-15.96MB/s(城西尼姑庵)
       - TW-13.93MB/s(城西尼姑庵)
@@ -127,6 +130,7 @@ proxy-groups:
       - US 美国高速入口2(城西尼姑庵)
       - US 美国高速入口1(城西尼姑庵)
       - UK 英国高速入口1(城西尼姑庵)
+      - US 美国优化高速入口1(城西尼姑庵)
       - TW-5.43MB/s(城西尼姑庵)
       - TW-15.96MB/s(城西尼姑庵)
       - TW-13.93MB/s(城西尼姑庵)
@@ -170,6 +174,7 @@ proxy-groups:
       - US 美国高速入口2(城西尼姑庵)
       - US 美国高速入口1(城西尼姑庵)
       - UK 英国高速入口1(城西尼姑庵)
+      - US 美国优化高速入口1(城西尼姑庵)
       - TW-5.43MB/s(城西尼姑庵)
       - TW-15.96MB/s(城西尼姑庵)
       - TW-13.93MB/s(城西尼姑庵)
@@ -208,6 +213,7 @@ proxy-groups:
       - US 美国高速入口2(城西尼姑庵)
       - US 美国高速入口1(城西尼姑庵)
       - UK 英国高速入口1(城西尼姑庵)
+      - US 美国优化高速入口1(城西尼姑庵)
       - TW-5.43MB/s(城西尼姑庵)
       - TW-15.96MB/s(城西尼姑庵)
       - TW-13.93MB/s(城西尼姑庵)
@@ -247,6 +253,7 @@ proxy-groups:
       - US 美国高速入口2(城西尼姑庵)
       - US 美国高速入口1(城西尼姑庵)
       - UK 英国高速入口1(城西尼姑庵)
+      - US 美国优化高速入口1(城西尼姑庵)
       - TW-5.43MB/s(城西尼姑庵)
       - TW-15.96MB/s(城西尼姑庵)
       - TW-13.93MB/s(城西尼姑庵)
@@ -295,6 +302,7 @@ proxy-groups:
       - US 美国高速入口2(城西尼姑庵)
       - US 美国高速入口1(城西尼姑庵)
       - UK 英国高速入口1(城西尼姑庵)
+      - US 美国优化高速入口1(城西尼姑庵)
       - TW-5.43MB/s(城西尼姑庵)
       - TW-15.96MB/s(城西尼姑庵)
       - TW-13.93MB/s(城西尼姑庵)
