@@ -5,7 +5,39 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: US-6.87MB/s(城西尼姑庵), server: ss-us.xsus.zj.cn, port: 20746, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
+  - {name: US-6.75MB/s(城西尼姑庵), server: ss-us.xsus.zj.cn, port: 20748, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
+  - {name: US 美国高速入口2(城西尼姑庵), server: yidong.liulangdiqiu.cyou, port: 10709, type: ss, cipher: chacha20-ietf-poly1305, password: e9cc7796-061d-4537-8f96-7f073e6fda8a}
+  - {name: US 美国高速入口1(城西尼姑庵), server: yidong.liulangdiqiu.cyou, port: 10708, type: ss, cipher: chacha20-ietf-poly1305, password: e9cc7796-061d-4537-8f96-7f073e6fda8a}
+  - {name: UK 英国高速入口1(城西尼姑庵), server: yidong.liulangdiqiu.cyou, port: 10713, type: ss, cipher: chacha20-ietf-poly1305, password: e9cc7796-061d-4537-8f96-7f073e6fda8a}
+  - {name: TW-5.43MB/s(城西尼姑庵), server: tw.xsus.zj.cn, port: 20542, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
+  - {name: TW-15.96MB/s(城西尼姑庵), server: tw.xsus.zj.cn, port: 20541, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
   - {name: TW-13.93MB/s(城西尼姑庵), server: tw.xsus.zj.cn, port: 20542, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
+  - {name: TW 台湾优化高速入口1(城西尼姑庵), server: ydyh.nanbei.info, port: 26911, type: ss, cipher: chacha20-ietf-poly1305, password: 31a12e1d-05c5-4ddf-9cab-fcc20855cc9b}
+  - {name: SG 新加坡优化入口2(城西尼姑庵), server: sg2.downloadvip.cfd, port: 443, type: trojan, password: 880903a8-36bc-47b7-ad43-3244edcce275, sni: jssg1.xn--mes358acgm99l.com, skip-cert-verify: false}
+  - {name: SG 新加坡优化入口1(城西尼姑庵), server: sg1.downloadvip.cfd, port: 443, type: trojan, password: 880903a8-36bc-47b7-ad43-3244edcce275, sni: jssg1.xn--mes358acgm99l.com, skip-cert-verify: false}
+  - {name: SG 新加坡高速入口(城西尼姑庵), server: yidong.liulangdiqiu.cyou, port: 10707, type: ss, cipher: chacha20-ietf-poly1305, password: e9cc7796-061d-4537-8f96-7f073e6fda8a}
+  - {name: RU 俄罗斯优化入口(城西尼姑庵), server: hefei.chiguayun.cc, port: 27116, type: ss, cipher: chacha20-ietf-poly1305, password: 9b7b681d-a437-4936-abe3-d96dcb6b602b}
+  - {name: NL-14.76MB/s(城西尼姑庵), server: ss2.xsdns.xyz, port: 20846, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
+  - {name: NL-14.17MB/s(城西尼姑庵), server: ss2.xsdns.xyz, port: 20847, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
+  - {name: NL-11.22MB/s(城西尼姑庵), server: jp-pro.xsus.ac.cn, port: 20851, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
+  - {name: KR 韩国高速入口1(城西尼姑庵), server: yidong.liulangdiqiu.cyou, port: 10702, type: ss, cipher: chacha20-ietf-poly1305, password: e9cc7796-061d-4537-8f96-7f073e6fda8a}
+  - {name: JP 日本优化入口1(城西尼姑庵), server: jp1.downloadvip.cfd, port: 443, type: trojan, password: 880903a8-36bc-47b7-ad43-3244edcce275, sni: download.xn--mes358acgm99l.com, skip-cert-verify: false}
+  - {name: JP 日本优化高速入口1(城西尼姑庵), server: ydyh.nanbei.info, port: 26908, type: ss, cipher: chacha20-ietf-poly1305, password: 31a12e1d-05c5-4ddf-9cab-fcc20855cc9b}
+  - {name: HK香港优化入口2(城西尼姑庵), server: 42.3.66.67, port: 443, type: trojan, password: 880903a8-36bc-47b7-ad43-3244edcce275, sni: downloadhk.xn--mes358acgm99l.com, skip-cert-verify: false}
+  - {name: HK-20.16MB/s(城西尼姑庵), server: hkt.xsus.zj.cn, port: 20952, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
+  - {name: HK-16.40MB/s(城西尼姑庵), server: s1.xsdns.xyz, port: 20943, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
+  - {name: HK-14.91MB/s(城西尼姑庵), server: s1.xsdns.xyz, port: 20948, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
+  - {name: HK-14.37MB/s(城西尼姑庵), server: hkt.xsus.zj.cn, port: 20951, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
+  - {name: HK-14.25MB/s(城西尼姑庵), server: tw.xsus.zj.cn, port: 20545, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
+  - {name: HK-13.95MB/s(城西尼姑庵), server: singapore.xsus.zj.cn, port: 20642, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
+  - {name: HK-12.42MB/s(城西尼姑庵), server: hkt.xsus.zj.cn, port: 20951, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
+  - {name: HK-12.39MB/s(城西尼姑庵), server: s1.xsdns.xyz, port: 20945, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
+  - {name: HK 香港优化入口1(城西尼姑庵), server: hk1.downloadvip.cfd, port: 443, type: trojan, password: 880903a8-36bc-47b7-ad43-3244edcce275, sni: download.xn--mes358acgm99l.com, skip-cert-verify: false}
+  - {name: HK 香港优化高速入口1(城西尼姑庵), server: ydyh.nanbei.info, port: 26912, type: ss, cipher: chacha20-ietf-poly1305, password: 31a12e1d-05c5-4ddf-9cab-fcc20855cc9b}
+  - {name: HK 香港高速入口1(城西尼姑庵), server: yidong.liulangdiqiu.cyou, port: 10726, type: ss, cipher: chacha20-ietf-poly1305, password: e9cc7796-061d-4537-8f96-7f073e6fda8a}
+  - {name: CA-4.29MB/s(城西尼姑庵), server: edge.xsus.zj.cn, port: 20049, type: ss, cipher: aes-128-gcm, password: a7ef3397-050e-4846-9ba9-d877b5a33bc1}
+  - {name: CA 加拿大高速入口1(城西尼姑庵), server: yidong.liulangdiqiu.cyou, port: 10711, type: ss, cipher: chacha20-ietf-poly1305, password: e9cc7796-061d-4537-8f96-7f073e6fda8a}
 
 proxy-groups:
   - name: 🔰 节点选择
@@ -13,20 +45,116 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - US-6.87MB/s(城西尼姑庵)
+      - US-6.75MB/s(城西尼姑庵)
+      - US 美国高速入口2(城西尼姑庵)
+      - US 美国高速入口1(城西尼姑庵)
+      - UK 英国高速入口1(城西尼姑庵)
+      - TW-5.43MB/s(城西尼姑庵)
+      - TW-15.96MB/s(城西尼姑庵)
       - TW-13.93MB/s(城西尼姑庵)
+      - TW 台湾优化高速入口1(城西尼姑庵)
+      - SG 新加坡优化入口2(城西尼姑庵)
+      - SG 新加坡优化入口1(城西尼姑庵)
+      - SG 新加坡高速入口(城西尼姑庵)
+      - RU 俄罗斯优化入口(城西尼姑庵)
+      - NL-14.76MB/s(城西尼姑庵)
+      - NL-14.17MB/s(城西尼姑庵)
+      - NL-11.22MB/s(城西尼姑庵)
+      - KR 韩国高速入口1(城西尼姑庵)
+      - JP 日本优化入口1(城西尼姑庵)
+      - JP 日本优化高速入口1(城西尼姑庵)
+      - HK香港优化入口2(城西尼姑庵)
+      - HK-20.16MB/s(城西尼姑庵)
+      - HK-16.40MB/s(城西尼姑庵)
+      - HK-14.91MB/s(城西尼姑庵)
+      - HK-14.37MB/s(城西尼姑庵)
+      - HK-14.25MB/s(城西尼姑庵)
+      - HK-13.95MB/s(城西尼姑庵)
+      - HK-12.42MB/s(城西尼姑庵)
+      - HK-12.39MB/s(城西尼姑庵)
+      - HK 香港优化入口1(城西尼姑庵)
+      - HK 香港优化高速入口1(城西尼姑庵)
+      - HK 香港高速入口1(城西尼姑庵)
+      - CA-4.29MB/s(城西尼姑庵)
+      - CA 加拿大高速入口1(城西尼姑庵)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - US-6.87MB/s(城西尼姑庵)
+      - US-6.75MB/s(城西尼姑庵)
+      - US 美国高速入口2(城西尼姑庵)
+      - US 美国高速入口1(城西尼姑庵)
+      - UK 英国高速入口1(城西尼姑庵)
+      - TW-5.43MB/s(城西尼姑庵)
+      - TW-15.96MB/s(城西尼姑庵)
       - TW-13.93MB/s(城西尼姑庵)
+      - TW 台湾优化高速入口1(城西尼姑庵)
+      - SG 新加坡优化入口2(城西尼姑庵)
+      - SG 新加坡优化入口1(城西尼姑庵)
+      - SG 新加坡高速入口(城西尼姑庵)
+      - RU 俄罗斯优化入口(城西尼姑庵)
+      - NL-14.76MB/s(城西尼姑庵)
+      - NL-14.17MB/s(城西尼姑庵)
+      - NL-11.22MB/s(城西尼姑庵)
+      - KR 韩国高速入口1(城西尼姑庵)
+      - JP 日本优化入口1(城西尼姑庵)
+      - JP 日本优化高速入口1(城西尼姑庵)
+      - HK香港优化入口2(城西尼姑庵)
+      - HK-20.16MB/s(城西尼姑庵)
+      - HK-16.40MB/s(城西尼姑庵)
+      - HK-14.91MB/s(城西尼姑庵)
+      - HK-14.37MB/s(城西尼姑庵)
+      - HK-14.25MB/s(城西尼姑庵)
+      - HK-13.95MB/s(城西尼姑庵)
+      - HK-12.42MB/s(城西尼姑庵)
+      - HK-12.39MB/s(城西尼姑庵)
+      - HK 香港优化入口1(城西尼姑庵)
+      - HK 香港优化高速入口1(城西尼姑庵)
+      - HK 香港高速入口1(城西尼姑庵)
+      - CA-4.29MB/s(城西尼姑庵)
+      - CA 加拿大高速入口1(城西尼姑庵)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - US-6.87MB/s(城西尼姑庵)
+      - US-6.75MB/s(城西尼姑庵)
+      - US 美国高速入口2(城西尼姑庵)
+      - US 美国高速入口1(城西尼姑庵)
+      - UK 英国高速入口1(城西尼姑庵)
+      - TW-5.43MB/s(城西尼姑庵)
+      - TW-15.96MB/s(城西尼姑庵)
       - TW-13.93MB/s(城西尼姑庵)
+      - TW 台湾优化高速入口1(城西尼姑庵)
+      - SG 新加坡优化入口2(城西尼姑庵)
+      - SG 新加坡优化入口1(城西尼姑庵)
+      - SG 新加坡高速入口(城西尼姑庵)
+      - RU 俄罗斯优化入口(城西尼姑庵)
+      - NL-14.76MB/s(城西尼姑庵)
+      - NL-14.17MB/s(城西尼姑庵)
+      - NL-11.22MB/s(城西尼姑庵)
+      - KR 韩国高速入口1(城西尼姑庵)
+      - JP 日本优化入口1(城西尼姑庵)
+      - JP 日本优化高速入口1(城西尼姑庵)
+      - HK香港优化入口2(城西尼姑庵)
+      - HK-20.16MB/s(城西尼姑庵)
+      - HK-16.40MB/s(城西尼姑庵)
+      - HK-14.91MB/s(城西尼姑庵)
+      - HK-14.37MB/s(城西尼姑庵)
+      - HK-14.25MB/s(城西尼姑庵)
+      - HK-13.95MB/s(城西尼姑庵)
+      - HK-12.42MB/s(城西尼姑庵)
+      - HK-12.39MB/s(城西尼姑庵)
+      - HK 香港优化入口1(城西尼姑庵)
+      - HK 香港优化高速入口1(城西尼姑庵)
+      - HK 香港高速入口1(城西尼姑庵)
+      - CA-4.29MB/s(城西尼姑庵)
+      - CA 加拿大高速入口1(城西尼姑庵)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -37,20 +165,116 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - US-6.87MB/s(城西尼姑庵)
+      - US-6.75MB/s(城西尼姑庵)
+      - US 美国高速入口2(城西尼姑庵)
+      - US 美国高速入口1(城西尼姑庵)
+      - UK 英国高速入口1(城西尼姑庵)
+      - TW-5.43MB/s(城西尼姑庵)
+      - TW-15.96MB/s(城西尼姑庵)
       - TW-13.93MB/s(城西尼姑庵)
+      - TW 台湾优化高速入口1(城西尼姑庵)
+      - SG 新加坡优化入口2(城西尼姑庵)
+      - SG 新加坡优化入口1(城西尼姑庵)
+      - SG 新加坡高速入口(城西尼姑庵)
+      - RU 俄罗斯优化入口(城西尼姑庵)
+      - NL-14.76MB/s(城西尼姑庵)
+      - NL-14.17MB/s(城西尼姑庵)
+      - NL-11.22MB/s(城西尼姑庵)
+      - KR 韩国高速入口1(城西尼姑庵)
+      - JP 日本优化入口1(城西尼姑庵)
+      - JP 日本优化高速入口1(城西尼姑庵)
+      - HK香港优化入口2(城西尼姑庵)
+      - HK-20.16MB/s(城西尼姑庵)
+      - HK-16.40MB/s(城西尼姑庵)
+      - HK-14.91MB/s(城西尼姑庵)
+      - HK-14.37MB/s(城西尼姑庵)
+      - HK-14.25MB/s(城西尼姑庵)
+      - HK-13.95MB/s(城西尼姑庵)
+      - HK-12.42MB/s(城西尼姑庵)
+      - HK-12.39MB/s(城西尼姑庵)
+      - HK 香港优化入口1(城西尼姑庵)
+      - HK 香港优化高速入口1(城西尼姑庵)
+      - HK 香港高速入口1(城西尼姑庵)
+      - CA-4.29MB/s(城西尼姑庵)
+      - CA 加拿大高速入口1(城西尼姑庵)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - US-6.87MB/s(城西尼姑庵)
+      - US-6.75MB/s(城西尼姑庵)
+      - US 美国高速入口2(城西尼姑庵)
+      - US 美国高速入口1(城西尼姑庵)
+      - UK 英国高速入口1(城西尼姑庵)
+      - TW-5.43MB/s(城西尼姑庵)
+      - TW-15.96MB/s(城西尼姑庵)
       - TW-13.93MB/s(城西尼姑庵)
+      - TW 台湾优化高速入口1(城西尼姑庵)
+      - SG 新加坡优化入口2(城西尼姑庵)
+      - SG 新加坡优化入口1(城西尼姑庵)
+      - SG 新加坡高速入口(城西尼姑庵)
+      - RU 俄罗斯优化入口(城西尼姑庵)
+      - NL-14.76MB/s(城西尼姑庵)
+      - NL-14.17MB/s(城西尼姑庵)
+      - NL-11.22MB/s(城西尼姑庵)
+      - KR 韩国高速入口1(城西尼姑庵)
+      - JP 日本优化入口1(城西尼姑庵)
+      - JP 日本优化高速入口1(城西尼姑庵)
+      - HK香港优化入口2(城西尼姑庵)
+      - HK-20.16MB/s(城西尼姑庵)
+      - HK-16.40MB/s(城西尼姑庵)
+      - HK-14.91MB/s(城西尼姑庵)
+      - HK-14.37MB/s(城西尼姑庵)
+      - HK-14.25MB/s(城西尼姑庵)
+      - HK-13.95MB/s(城西尼姑庵)
+      - HK-12.42MB/s(城西尼姑庵)
+      - HK-12.39MB/s(城西尼姑庵)
+      - HK 香港优化入口1(城西尼姑庵)
+      - HK 香港优化高速入口1(城西尼姑庵)
+      - HK 香港高速入口1(城西尼姑庵)
+      - CA-4.29MB/s(城西尼姑庵)
+      - CA 加拿大高速入口1(城西尼姑庵)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - US-6.87MB/s(城西尼姑庵)
+      - US-6.75MB/s(城西尼姑庵)
+      - US 美国高速入口2(城西尼姑庵)
+      - US 美国高速入口1(城西尼姑庵)
+      - UK 英国高速入口1(城西尼姑庵)
+      - TW-5.43MB/s(城西尼姑庵)
+      - TW-15.96MB/s(城西尼姑庵)
       - TW-13.93MB/s(城西尼姑庵)
+      - TW 台湾优化高速入口1(城西尼姑庵)
+      - SG 新加坡优化入口2(城西尼姑庵)
+      - SG 新加坡优化入口1(城西尼姑庵)
+      - SG 新加坡高速入口(城西尼姑庵)
+      - RU 俄罗斯优化入口(城西尼姑庵)
+      - NL-14.76MB/s(城西尼姑庵)
+      - NL-14.17MB/s(城西尼姑庵)
+      - NL-11.22MB/s(城西尼姑庵)
+      - KR 韩国高速入口1(城西尼姑庵)
+      - JP 日本优化入口1(城西尼姑庵)
+      - JP 日本优化高速入口1(城西尼姑庵)
+      - HK香港优化入口2(城西尼姑庵)
+      - HK-20.16MB/s(城西尼姑庵)
+      - HK-16.40MB/s(城西尼姑庵)
+      - HK-14.91MB/s(城西尼姑庵)
+      - HK-14.37MB/s(城西尼姑庵)
+      - HK-14.25MB/s(城西尼姑庵)
+      - HK-13.95MB/s(城西尼姑庵)
+      - HK-12.42MB/s(城西尼姑庵)
+      - HK-12.39MB/s(城西尼姑庵)
+      - HK 香港优化入口1(城西尼姑庵)
+      - HK 香港优化高速入口1(城西尼姑庵)
+      - HK 香港高速入口1(城西尼姑庵)
+      - CA-4.29MB/s(城西尼姑庵)
+      - CA 加拿大高速入口1(城西尼姑庵)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -66,7 +290,39 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - US-6.87MB/s(城西尼姑庵)
+      - US-6.75MB/s(城西尼姑庵)
+      - US 美国高速入口2(城西尼姑庵)
+      - US 美国高速入口1(城西尼姑庵)
+      - UK 英国高速入口1(城西尼姑庵)
+      - TW-5.43MB/s(城西尼姑庵)
+      - TW-15.96MB/s(城西尼姑庵)
       - TW-13.93MB/s(城西尼姑庵)
+      - TW 台湾优化高速入口1(城西尼姑庵)
+      - SG 新加坡优化入口2(城西尼姑庵)
+      - SG 新加坡优化入口1(城西尼姑庵)
+      - SG 新加坡高速入口(城西尼姑庵)
+      - RU 俄罗斯优化入口(城西尼姑庵)
+      - NL-14.76MB/s(城西尼姑庵)
+      - NL-14.17MB/s(城西尼姑庵)
+      - NL-11.22MB/s(城西尼姑庵)
+      - KR 韩国高速入口1(城西尼姑庵)
+      - JP 日本优化入口1(城西尼姑庵)
+      - JP 日本优化高速入口1(城西尼姑庵)
+      - HK香港优化入口2(城西尼姑庵)
+      - HK-20.16MB/s(城西尼姑庵)
+      - HK-16.40MB/s(城西尼姑庵)
+      - HK-14.91MB/s(城西尼姑庵)
+      - HK-14.37MB/s(城西尼姑庵)
+      - HK-14.25MB/s(城西尼姑庵)
+      - HK-13.95MB/s(城西尼姑庵)
+      - HK-12.42MB/s(城西尼姑庵)
+      - HK-12.39MB/s(城西尼姑庵)
+      - HK 香港优化入口1(城西尼姑庵)
+      - HK 香港优化高速入口1(城西尼姑庵)
+      - HK 香港高速入口1(城西尼姑庵)
+      - CA-4.29MB/s(城西尼姑庵)
+      - CA 加拿大高速入口1(城西尼姑庵)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
