@@ -11,6 +11,8 @@ proxies:
   - {name: US 美国高速入口(城西尼姑庵), server: yidong.liulangdiqiu.cyou, port: 10709, type: ss, cipher: chacha20-ietf-poly1305, password: e9cc7796-061d-4537-8f96-7f073e6fda8a}
   - {name: TW 台湾优化高速入口(城西尼姑庵), server: ydyh.nanbei.info, port: 26911, type: ss, cipher: chacha20-ietf-poly1305, password: 31a12e1d-05c5-4ddf-9cab-fcc20855cc9b}
   - {name: TW 台湾优化入口(城西尼姑庵), server: hinet1.downloadvip.cfd, port: 443, type: trojan, password: 880903a8-36bc-47b7-ad43-3244edcce275, sni: download.xn--mes358acgm99l.com, skip-cert-verify: false}
+  - {name: TW 台湾-2.29MB/s(城西尼姑庵), server: 36.227.193.110, port: 60982, type: vmess, uuid: 0fafb730-f3ec-3fd8-a637-eadf20c9febf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: TW-3.61MB/s(城西尼姑庵), server: mf01fx.micloud.buzz, port: 46001, type: vmess, uuid: a326f29c-ead7-4a34-b225-e3676a65e8d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mf01fx.micloud.buzz}}}
   - {name: SG 新加坡优化入口(城西尼姑庵), server: sg1.downloadvip.cfd, port: 443, type: trojan, password: 880903a8-36bc-47b7-ad43-3244edcce275, sni: download.xn--mes358acgm99l.com, skip-cert-verify: false}
   - {name: SA 沙特阿拉伯高速入口(城西尼姑庵), server: yidong.liulangdiqiu.cyou, port: 10721, type: ss, cipher: chacha20-ietf-poly1305, password: e9cc7796-061d-4537-8f96-7f073e6fda8a}
   - {name: IN 印度高速入口(城西尼姑庵), server: yidong.liulangdiqiu.cyou, port: 10705, type: ss, cipher: chacha20-ietf-poly1305, password: e9cc7796-061d-4537-8f96-7f073e6fda8a}
@@ -21,6 +23,7 @@ proxies:
   - {name: JP 日本优化入口(城西尼姑庵), server: hk1.downloadvip.cfd, port: 443, type: trojan, password: 880903a8-36bc-47b7-ad43-3244edcce275, sni: download.xn--mes358acgm99l.com, skip-cert-verify: false}
   - {name: JP 日本优化高速入口(城西尼姑庵), server: ydyh.nanbei.info, port: 26908, type: ss, cipher: chacha20-ietf-poly1305, password: 31a12e1d-05c5-4ddf-9cab-fcc20855cc9b}
   - {name: JP 日本高速入口(城西尼姑庵), server: yidong.liulangdiqiu.cyou, port: 10701, type: ss, cipher: chacha20-ietf-poly1305, password: e9cc7796-061d-4537-8f96-7f073e6fda8a}
+  - {name: JP-9.11MB/s(城西尼姑庵), server: azjp2.downloadvip.cfd, port: 38200, type: trojan, password: 47511f59-b747-468e-888e-7394476215e5, sni: jp1.xn--mes358a9urctx.com, skip-cert-verify: false}
   - {name: IE 爱尔兰优化入口(城西尼姑庵), server: hefei.chiguayun.cc, port: 27140, type: ss, cipher: chacha20-ietf-poly1305, password: 89805270-c3ab-4d75-9ad5-9448aff5d3c8}
   - {name: GB 英国高速入口(城西尼姑庵), server: yidong.liulangdiqiu.cyou, port: 10713, type: ss, cipher: chacha20-ietf-poly1305, password: e9cc7796-061d-4537-8f96-7f073e6fda8a}
   - {name: FR 法国高速入口(城西尼姑庵), server: yidong.liulangdiqiu.cyou, port: 10716, type: ss, cipher: chacha20-ietf-poly1305, password: e9cc7796-061d-4537-8f96-7f073e6fda8a}
@@ -44,6 +47,8 @@ proxy-groups:
       - US 美国高速入口(城西尼姑庵)
       - TW 台湾优化高速入口(城西尼姑庵)
       - TW 台湾优化入口(城西尼姑庵)
+      - TW 台湾-2.29MB/s(城西尼姑庵)
+      - TW-3.61MB/s(城西尼姑庵)
       - SG 新加坡优化入口(城西尼姑庵)
       - SA 沙特阿拉伯高速入口(城西尼姑庵)
       - IN 印度高速入口(城西尼姑庵)
@@ -54,6 +59,7 @@ proxy-groups:
       - JP 日本优化入口(城西尼姑庵)
       - JP 日本优化高速入口(城西尼姑庵)
       - JP 日本高速入口(城西尼姑庵)
+      - JP-9.11MB/s(城西尼姑庵)
       - IE 爱尔兰优化入口(城西尼姑庵)
       - GB 英国高速入口(城西尼姑庵)
       - FR 法国高速入口(城西尼姑庵)
@@ -75,6 +81,8 @@ proxy-groups:
       - US 美国高速入口(城西尼姑庵)
       - TW 台湾优化高速入口(城西尼姑庵)
       - TW 台湾优化入口(城西尼姑庵)
+      - TW 台湾-2.29MB/s(城西尼姑庵)
+      - TW-3.61MB/s(城西尼姑庵)
       - SG 新加坡优化入口(城西尼姑庵)
       - SA 沙特阿拉伯高速入口(城西尼姑庵)
       - IN 印度高速入口(城西尼姑庵)
@@ -85,6 +93,7 @@ proxy-groups:
       - JP 日本优化入口(城西尼姑庵)
       - JP 日本优化高速入口(城西尼姑庵)
       - JP 日本高速入口(城西尼姑庵)
+      - JP-9.11MB/s(城西尼姑庵)
       - IE 爱尔兰优化入口(城西尼姑庵)
       - GB 英国高速入口(城西尼姑庵)
       - FR 法国高速入口(城西尼姑庵)
@@ -107,6 +116,8 @@ proxy-groups:
       - US 美国高速入口(城西尼姑庵)
       - TW 台湾优化高速入口(城西尼姑庵)
       - TW 台湾优化入口(城西尼姑庵)
+      - TW 台湾-2.29MB/s(城西尼姑庵)
+      - TW-3.61MB/s(城西尼姑庵)
       - SG 新加坡优化入口(城西尼姑庵)
       - SA 沙特阿拉伯高速入口(城西尼姑庵)
       - IN 印度高速入口(城西尼姑庵)
@@ -117,6 +128,7 @@ proxy-groups:
       - JP 日本优化入口(城西尼姑庵)
       - JP 日本优化高速入口(城西尼姑庵)
       - JP 日本高速入口(城西尼姑庵)
+      - JP-9.11MB/s(城西尼姑庵)
       - IE 爱尔兰优化入口(城西尼姑庵)
       - GB 英国高速入口(城西尼姑庵)
       - FR 法国高速入口(城西尼姑庵)
@@ -143,6 +155,8 @@ proxy-groups:
       - US 美国高速入口(城西尼姑庵)
       - TW 台湾优化高速入口(城西尼姑庵)
       - TW 台湾优化入口(城西尼姑庵)
+      - TW 台湾-2.29MB/s(城西尼姑庵)
+      - TW-3.61MB/s(城西尼姑庵)
       - SG 新加坡优化入口(城西尼姑庵)
       - SA 沙特阿拉伯高速入口(城西尼姑庵)
       - IN 印度高速入口(城西尼姑庵)
@@ -153,6 +167,7 @@ proxy-groups:
       - JP 日本优化入口(城西尼姑庵)
       - JP 日本优化高速入口(城西尼姑庵)
       - JP 日本高速入口(城西尼姑庵)
+      - JP-9.11MB/s(城西尼姑庵)
       - IE 爱尔兰优化入口(城西尼姑庵)
       - GB 英国高速入口(城西尼姑庵)
       - FR 法国高速入口(城西尼姑庵)
@@ -174,6 +189,8 @@ proxy-groups:
       - US 美国高速入口(城西尼姑庵)
       - TW 台湾优化高速入口(城西尼姑庵)
       - TW 台湾优化入口(城西尼姑庵)
+      - TW 台湾-2.29MB/s(城西尼姑庵)
+      - TW-3.61MB/s(城西尼姑庵)
       - SG 新加坡优化入口(城西尼姑庵)
       - SA 沙特阿拉伯高速入口(城西尼姑庵)
       - IN 印度高速入口(城西尼姑庵)
@@ -184,6 +201,7 @@ proxy-groups:
       - JP 日本优化入口(城西尼姑庵)
       - JP 日本优化高速入口(城西尼姑庵)
       - JP 日本高速入口(城西尼姑庵)
+      - JP-9.11MB/s(城西尼姑庵)
       - IE 爱尔兰优化入口(城西尼姑庵)
       - GB 英国高速入口(城西尼姑庵)
       - FR 法国高速入口(城西尼姑庵)
@@ -206,6 +224,8 @@ proxy-groups:
       - US 美国高速入口(城西尼姑庵)
       - TW 台湾优化高速入口(城西尼姑庵)
       - TW 台湾优化入口(城西尼姑庵)
+      - TW 台湾-2.29MB/s(城西尼姑庵)
+      - TW-3.61MB/s(城西尼姑庵)
       - SG 新加坡优化入口(城西尼姑庵)
       - SA 沙特阿拉伯高速入口(城西尼姑庵)
       - IN 印度高速入口(城西尼姑庵)
@@ -216,6 +236,7 @@ proxy-groups:
       - JP 日本优化入口(城西尼姑庵)
       - JP 日本优化高速入口(城西尼姑庵)
       - JP 日本高速入口(城西尼姑庵)
+      - JP-9.11MB/s(城西尼姑庵)
       - IE 爱尔兰优化入口(城西尼姑庵)
       - GB 英国高速入口(城西尼姑庵)
       - FR 法国高速入口(城西尼姑庵)
@@ -247,6 +268,8 @@ proxy-groups:
       - US 美国高速入口(城西尼姑庵)
       - TW 台湾优化高速入口(城西尼姑庵)
       - TW 台湾优化入口(城西尼姑庵)
+      - TW 台湾-2.29MB/s(城西尼姑庵)
+      - TW-3.61MB/s(城西尼姑庵)
       - SG 新加坡优化入口(城西尼姑庵)
       - SA 沙特阿拉伯高速入口(城西尼姑庵)
       - IN 印度高速入口(城西尼姑庵)
@@ -257,6 +280,7 @@ proxy-groups:
       - JP 日本优化入口(城西尼姑庵)
       - JP 日本优化高速入口(城西尼姑庵)
       - JP 日本高速入口(城西尼姑庵)
+      - JP-9.11MB/s(城西尼姑庵)
       - IE 爱尔兰优化入口(城西尼姑庵)
       - GB 英国高速入口(城西尼姑庵)
       - FR 法国高速入口(城西尼姑庵)
