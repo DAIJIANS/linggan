@@ -27,9 +27,9 @@ proxy-groups:
       - US-5.82MB/s(城西尼姑庵)
       - US-3.55MB/s(城西尼姑庵)
       - US-3.5MB/s(城西尼姑庵)
-	  - US-1.34MB/s(城西尼姑庵)
-	  - DE-4.10MB/s(城西尼姑庵)
-	  - DE-4.91MB/s(城西尼姑庵)
+      - US-1.34MB/s(城西尼姑庵)
+      - DE-4.10MB/s(城西尼姑庵)
+      - DE-4.91MB/s(城西尼姑庵)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -41,9 +41,9 @@ proxy-groups:
       - US-5.82MB/s(城西尼姑庵)
       - US-3.55MB/s(城西尼姑庵)
       - US-3.5MB/s(城西尼姑庵)
-	  - US-1.34MB/s(城西尼姑庵)
-	  - DE-4.10MB/s(城西尼姑庵)
-	  - DE-4.91MB/s(城西尼姑庵)
+      - US-1.34MB/s(城西尼姑庵)
+      - DE-4.10MB/s(城西尼姑庵)
+      - DE-4.91MB/s(城西尼姑庵)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -56,9 +56,9 @@ proxy-groups:
       - US-5.82MB/s(城西尼姑庵)
       - US-3.55MB/s(城西尼姑庵)
       - US-3.5MB/s(城西尼姑庵)
-	  - US-1.34MB/s(城西尼姑庵)
-	  - DE-4.10MB/s(城西尼姑庵)
-	  - DE-4.91MB/s(城西尼姑庵)
+      - US-1.34MB/s(城西尼姑庵)
+      - DE-4.10MB/s(城西尼姑庵)
+      - DE-4.91MB/s(城西尼姑庵)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -75,9 +75,9 @@ proxy-groups:
       - US-5.82MB/s(城西尼姑庵)
       - US-3.55MB/s(城西尼姑庵)
       - US-3.5MB/s(城西尼姑庵)
-	  - US-1.34MB/s(城西尼姑庵)
-	  - DE-4.10MB/s(城西尼姑庵)
-	  - DE-4.91MB/s(城西尼姑庵)
+      - US-1.34MB/s(城西尼姑庵)
+      - DE-4.10MB/s(城西尼姑庵)
+      - DE-4.91MB/s(城西尼姑庵)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -89,9 +89,9 @@ proxy-groups:
       - US-5.82MB/s(城西尼姑庵)
       - US-3.55MB/s(城西尼姑庵)
       - US-3.5MB/s(城西尼姑庵)
-	  - US-1.34MB/s(城西尼姑庵)
-	  - DE-4.10MB/s(城西尼姑庵)
-	  - DE-4.91MB/s(城西尼姑庵)
+      - US-1.34MB/s(城西尼姑庵)
+      - DE-4.10MB/s(城西尼姑庵)
+      - DE-4.91MB/s(城西尼姑庵)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -104,9 +104,9 @@ proxy-groups:
       - US-5.82MB/s(城西尼姑庵)
       - US-3.55MB/s(城西尼姑庵)
       - US-3.5MB/s(城西尼姑庵)
-	  - US-1.34MB/s(城西尼姑庵)
-	  - DE-4.10MB/s(城西尼姑庵)
-	  - DE-4.91MB/s(城西尼姑庵)
+      - US-1.34MB/s(城西尼姑庵)
+      - DE-4.10MB/s(城西尼姑庵)
+      - DE-4.91MB/s(城西尼姑庵)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -128,9 +128,9 @@ proxy-groups:
       - US-5.82MB/s(城西尼姑庵)
       - US-3.55MB/s(城西尼姑庵)
       - US-3.5MB/s(城西尼姑庵)
-	  - US-1.34MB/s(城西尼姑庵)
-	  - DE-4.10MB/s(城西尼姑庵)
-	  - DE-4.91MB/s(城西尼姑庵)
+      - US-1.34MB/s(城西尼姑庵)
+      - DE-4.10MB/s(城西尼姑庵)
+      - DE-4.91MB/s(城西尼姑庵)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
