@@ -29,6 +29,16 @@ proxies:
   - {name: HK-19.63MB/s(城北豆腐店), server: cmcshk4.labtechs.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "15979:R0c]V7l-6JymJ3", obfs-param: ""}
   - {name: HK-4.33MB/s(城北豆腐店), server: bs2.jymzffbquawl.com, port: 3501, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 199093:0929G_262, obfs-param: ff2e0199093.microsoft.com}
   - {name: FR-4.22MB/s(城北豆腐店), server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: FR-1.59MB/s(城北豆腐店), server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
+  - {name: HK 香港高速入口(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10726, type: ss, cipher: chacha20-ietf-poly1305, password: 4d9adcc6-914c-40cf-afed-42cc9b9f381b}
+  - {name: HK 香港优化高速入口1(城北豆腐店), server: fs.xianyuwangluo.cyou, port: 27205, type: ss, cipher: chacha20-ietf-poly1305, password: 5b6b0f61-f1a8-4e63-88ca-f0f6d79a1bc3}
+  - {name: HK 香港优化高速入口2(城北豆腐店), server: jh.xianyuwangluo.cyou, port: 27205, type: ss, cipher: chacha20-ietf-poly1305, password: 5b6b0f61-f1a8-4e63-88ca-f0f6d79a1bc3}
+  - {name: TW 台湾优化高速入口(城北豆腐店), server: fs.xianyuwangluo.cyou, port: 27206, type: ss, cipher: chacha20-ietf-poly1305, password: 5b6b0f61-f1a8-4e63-88ca-f0f6d79a1bc3}
+  - {name: JP 日本优化高速入口(城北豆腐店), server: fs.xianyuwangluo.cyou, port: 27202, type: ss, cipher: chacha20-ietf-poly1305, password: 5b6b0f61-f1a8-4e63-88ca-f0f6d79a1bc3}
+  - {name: US 美国高速入口(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10709, type: ss, cipher: chacha20-ietf-poly1305, password: 4d9adcc6-914c-40cf-afed-42cc9b9f381b}
+  - {name: MY 马来西亚优化入口(城北豆腐店), server: hefei.chiguayun.cc, port: 27135, type: ss, cipher: chacha20-ietf-poly1305, password: 4cf75408-967d-41c4-bf89-80517807e26f}
+  - {name: SG 新加坡高速入口((城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10707, type: ss, cipher: chacha20-ietf-poly1305, password: 4d9adcc6-914c-40cf-afed-42cc9b9f381b}
+  - {name: CA 加拿大高速入口((城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10711, type: ss, cipher: chacha20-ietf-poly1305, password: 4d9adcc6-914c-40cf-afed-42cc9b9f381b}
 
 proxy-groups:
   - name: 🔰 节点选择
@@ -60,6 +70,15 @@ proxy-groups:
       - HK-19.63MB/s(城北豆腐店)
       - HK-4.33MB/s(城北豆腐店)
       - FR-4.22MB/s(城北豆腐店)
+      - FR-1.59MB/s(城北豆腐店)
+      - HK 香港高速入口(城北豆腐店)
+      - HK 香港优化高速入口(城北豆腐店)1
+      - HK 香港优化高速入口2(城北豆腐店)2
+      - TW 台湾优化高速入口(城北豆腐店)
+      - JP 日本优化高速入口(城北豆腐店)
+      - US 美国高速入口(城北豆腐店)
+      - MY 马来西亚优化入口(城北豆腐店)
+      - CA 加拿大高速入口((城北豆腐店)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -89,6 +108,15 @@ proxy-groups:
       - HK-19.63MB/s(城北豆腐店)
       - HK-4.33MB/s(城北豆腐店)
       - FR-4.22MB/s(城北豆腐店)
+      - FR-1.59MB/s(城北豆腐店)
+      - HK 香港高速入口(城北豆腐店)
+      - HK 香港优化高速入口(城北豆腐店)1
+      - HK 香港优化高速入口2(城北豆腐店)2
+      - TW 台湾优化高速入口(城北豆腐店)
+      - JP 日本优化高速入口(城北豆腐店)
+      - US 美国高速入口(城北豆腐店)
+      - MY 马来西亚优化入口(城北豆腐店)
+      - CA 加拿大高速入口((城北豆腐店)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -119,6 +147,15 @@ proxy-groups:
       - HK-19.63MB/s(城北豆腐店)
       - HK-4.33MB/s(城北豆腐店)
       - FR-4.22MB/s(城北豆腐店)
+      - FR-1.59MB/s(城北豆腐店)
+      - HK 香港高速入口(城北豆腐店)
+      - HK 香港优化高速入口(城北豆腐店)1
+      - HK 香港优化高速入口2(城北豆腐店)2
+      - TW 台湾优化高速入口(城北豆腐店)
+      - JP 日本优化高速入口(城北豆腐店)
+      - US 美国高速入口(城北豆腐店)
+      - MY 马来西亚优化入口(城北豆腐店)
+      - CA 加拿大高速入口((城北豆腐店)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -153,6 +190,15 @@ proxy-groups:
       - HK-19.63MB/s(城北豆腐店)
       - HK-4.33MB/s(城北豆腐店)
       - FR-4.22MB/s(城北豆腐店)
+      - FR-1.59MB/s(城北豆腐店)
+      - HK 香港高速入口(城北豆腐店)
+      - HK 香港优化高速入口(城北豆腐店)1
+      - HK 香港优化高速入口2(城北豆腐店)2
+      - TW 台湾优化高速入口(城北豆腐店)
+      - JP 日本优化高速入口(城北豆腐店)
+      - US 美国高速入口(城北豆腐店)
+      - MY 马来西亚优化入口(城北豆腐店)
+      - CA 加拿大高速入口((城北豆腐店)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -182,6 +228,15 @@ proxy-groups:
       - HK-19.63MB/s(城北豆腐店)
       - HK-4.33MB/s(城北豆腐店)
       - FR-4.22MB/s(城北豆腐店)
+      - FR-1.59MB/s(城北豆腐店)
+      - HK 香港高速入口(城北豆腐店)
+      - HK 香港优化高速入口(城北豆腐店)1
+      - HK 香港优化高速入口2(城北豆腐店)2
+      - TW 台湾优化高速入口(城北豆腐店)
+      - JP 日本优化高速入口(城北豆腐店)
+      - US 美国高速入口(城北豆腐店)
+      - MY 马来西亚优化入口(城北豆腐店)
+      - CA 加拿大高速入口((城北豆腐店)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -212,6 +267,15 @@ proxy-groups:
       - HK-19.63MB/s(城北豆腐店)
       - HK-4.33MB/s(城北豆腐店)
       - FR-4.22MB/s(城北豆腐店)
+      - FR-1.59MB/s(城北豆腐店)
+      - HK 香港高速入口(城北豆腐店)
+      - HK 香港优化高速入口(城北豆腐店)1
+      - HK 香港优化高速入口2(城北豆腐店)2
+      - TW 台湾优化高速入口(城北豆腐店)
+      - JP 日本优化高速入口(城北豆腐店)
+      - US 美国高速入口(城北豆腐店)
+      - MY 马来西亚优化入口(城北豆腐店)
+      - CA 加拿大高速入口((城北豆腐店)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -251,6 +315,15 @@ proxy-groups:
       - HK-19.63MB/s(城北豆腐店)
       - HK-4.33MB/s(城北豆腐店)
       - FR-4.22MB/s(城北豆腐店)
+      - FR-1.59MB/s(城北豆腐店)
+      - HK 香港高速入口(城北豆腐店)
+      - HK 香港优化高速入口(城北豆腐店)1
+      - HK 香港优化高速入口2(城北豆腐店)2
+      - TW 台湾优化高速入口(城北豆腐店)
+      - JP 日本优化高速入口(城北豆腐店)
+      - US 美国高速入口(城北豆腐店)
+      - MY 马来西亚优化入口(城北豆腐店)
+      - CA 加拿大高速入口((城北豆腐店)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
