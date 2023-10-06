@@ -36,8 +36,8 @@ proxies:
   - {name: HK 香港优化高速入口2(城北豆腐店), server: jh.xianyuwangluo.cyou, port: 27205, type: ss, cipher: chacha20-ietf-poly1305, password: 5b6b0f61-f1a8-4e63-88ca-f0f6d79a1bc3}
   - {name: HK 香港优化高速入口3(城北豆腐店), server: ydyh.nanbei.info, port: 26912, type: ss, cipher: chacha20-ietf-poly1305, password: cdb06941-b4e8-4aeb-8cd5-62c129edd075}
   - {name: HK 香港优化入口(城北豆腐店), server: 42.3.66.67, port: 443, type: trojan, password: 0dd86093-6444-4263-9aeb-88db48f50329, sni: downloadhk.xn--mes358acgm99l.com, skip-cert-verify: false}
-  - {name: TW 台湾优化高速入口(城北豆腐店), server: fs.xianyuwangluo.cyou, port: 27206, type: ss, cipher: chacha20-ietf-poly1305, password: 5b6b0f61-f1a8-4e63-88ca-f0f6d79a1bc3}
-  - {name: TW 台湾优化高速入口(城北豆腐店), server: ydyh.nanbei.info, port: 26911, type: ss, cipher: chacha20-ietf-poly1305, password: cdb06941-b4e8-4aeb-8cd5-62c129edd075}
+  - {name: TW 台湾优化高速入口1(城北豆腐店), server: fs.xianyuwangluo.cyou, port: 27206, type: ss, cipher: chacha20-ietf-poly1305, password: 5b6b0f61-f1a8-4e63-88ca-f0f6d79a1bc3}
+  - {name: TW 台湾优化高速入口2(城北豆腐店), server: ydyh.nanbei.info, port: 26911, type: ss, cipher: chacha20-ietf-poly1305, password: cdb06941-b4e8-4aeb-8cd5-62c129edd075}
   - {name: JP 日本优化高速入口(城北豆腐店), server: fs.xianyuwangluo.cyou, port: 27202, type: ss, cipher: chacha20-ietf-poly1305, password: 5b6b0f61-f1a8-4e63-88ca-f0f6d79a1bc3}
   - {name: JP 日本优化入口(城北豆腐店), server: jp1.downloadvip.cfd, port: 443, type: trojan, password: 0dd86093-6444-4263-9aeb-88db48f50329, sni: download.xn--mes358acgm99l.com, skip-cert-verify: false}
   - {name: JP 日本电信优化高速入口(城北豆腐店), server: dx.ktmwan.top, port: 27251, type: ss, cipher: chacha20-ietf-poly1305, password: 09f24bf9-9a30-4f98-abb9-daceff570091}
