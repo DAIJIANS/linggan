@@ -28,7 +28,6 @@ proxies:
   - {name: HK-13.88MB/s(城北豆腐店), server: zx01.endhigh.xyz, port: 2400, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 45641:0908E165_k, obfs-param: dc26445641.microsoft.com}
   - {name: HK-4.29MB/s(城北豆腐店), server: zx02.endhigh.xyz, port: 2407, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 45641:0908E165_k, obfs-param: dc26445641.microsoft.com}
   - {name: HK-345.8KB/s(城北豆腐店), server: 150.107.46.21, port: 8083, type: ssr, cipher: aes-256-cfb, password: iFqnzSscN, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: HK-19.63MB/s(城北豆腐店), server: cmcshk4.labtechs.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "15979:R0c]V7l-6JymJ3", obfs-param: ""}
   - {name: HK-4.33MB/s(城北豆腐店), server: bs2.jymzffbquawl.com, port: 3501, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 199093:0929G_262, obfs-param: ff2e0199093.microsoft.com}
   - {name: HK-18.77MB/s(城北豆腐店), server: qat03.virtual-strike.com, port: 54982, type: ssr, cipher: rc4-md5, password: 2ps0og, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
   - {name: FR-4.22MB/s(城北豆腐店), server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
@@ -62,7 +61,6 @@ proxy-groups:
       - HK-13.88MB/s(城北豆腐店)
       - HK-4.29MB/s(城北豆腐店)
       - HK-345.8KB/s(城北豆腐店)
-      - HK-19.63MB/s(城北豆腐店)
       - HK-4.33MB/s(城北豆腐店)
       - HK-18.77MB/s(城北豆腐店)
       - FR-4.22MB/s(城北豆腐店)
@@ -94,7 +92,6 @@ proxy-groups:
       - HK-13.88MB/s(城北豆腐店)
       - HK-4.29MB/s(城北豆腐店)
       - HK-345.8KB/s(城北豆腐店)
-      - HK-19.63MB/s(城北豆腐店)
       - HK-4.33MB/s(城北豆腐店)
       - HK-18.77MB/s(城北豆腐店)
       - FR-4.22MB/s(城北豆腐店)
@@ -127,7 +124,6 @@ proxy-groups:
       - HK-13.88MB/s(城北豆腐店)
       - HK-4.29MB/s(城北豆腐店)
       - HK-345.8KB/s(城北豆腐店)
-      - HK-19.63MB/s(城北豆腐店)
       - HK-4.33MB/s(城北豆腐店)
       - HK-18.77MB/s(城北豆腐店)
       - FR-4.22MB/s(城北豆腐店)
@@ -164,7 +160,6 @@ proxy-groups:
       - HK-13.88MB/s(城北豆腐店)
       - HK-4.29MB/s(城北豆腐店)
       - HK-345.8KB/s(城北豆腐店)
-      - HK-19.63MB/s(城北豆腐店)
       - HK-4.33MB/s(城北豆腐店)
       - HK-18.77MB/s(城北豆腐店)
       - FR-4.22MB/s(城北豆腐店)
@@ -196,7 +191,6 @@ proxy-groups:
       - HK-13.88MB/s(城北豆腐店)
       - HK-4.29MB/s(城北豆腐店)
       - HK-345.8KB/s(城北豆腐店)
-      - HK-19.63MB/s(城北豆腐店)
       - HK-4.33MB/s(城北豆腐店)
       - HK-18.77MB/s(城北豆腐店)
       - FR-4.22MB/s(城北豆腐店)
@@ -229,7 +223,6 @@ proxy-groups:
       - HK-13.88MB/s(城北豆腐店)
       - HK-4.29MB/s(城北豆腐店)
       - HK-345.8KB/s(城北豆腐店)
-      - HK-19.63MB/s(城北豆腐店)
       - HK-4.33MB/s(城北豆腐店)
       - HK-18.77MB/s(城北豆腐店)
       - FR-4.22MB/s(城北豆腐店)
