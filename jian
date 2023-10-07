@@ -5,19 +5,11 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: US-3.45MB/s(城西尼姑庵), server: cnmbdcm01.kczz2038.online, port: 48004, type: ss, cipher: chacha20-ietf-poly1305, password: d9432439-038a-438f-adfe-82b0dca4a733}
   - {name: US-5.82MB/s(城西尼姑庵), server: cdn-downloads.000023.xyz, port: 443, type: trojan, password: A3A1371F-017B-4A5A-99F2-8F4AFF0798B1, sni: downloads.000023.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F3f5h8j4k6p0r2t4v6x9z1b3d5f6h8j", headers: {Host: downloads.000023.xyz}}}
-  - {name: US-3.5MB/s(城西尼姑庵), server: 5.161.204.222, port: 2083, type: vmess, uuid: 47b93627-da5f-4f2a-bcd6-f44ac26b90c4, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: US-1.34MB/s(城西尼姑庵), server: 216.52.183.243, port: 1001, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: false}}
-  - {name: US-1.01MB/s(城西尼姑庵), server: 5.161.220.124, port: 2083, type: vmess, uuid: 47b93627-da5f-4f2a-bcd6-f44ac26b90c4, alterId: 0, cipher: auto, tls: false, network: http, http-opts: {method: GET, path: [/]}}
   - {name: US-2.49MB/s(城西尼姑庵), server: 216.52.183.243, port: 1001, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: false}}
   - {name: US-3.19MB/s(城西尼姑庵), server: cdn-downloads.000023.xyz, port: 443, type: trojan, password: A3A1371F-017B-4A5A-99F2-8F4AFF0798B1, sni: downloads.000023.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: "%2F3f5h8j4k6p0r2t4v6x9z1b3d5f6h8j", headers: {Host: downloads.000023.xyz}}}
-  - {name: US-3.44MB/s(城西尼姑庵), server: 17.kccic2pa.xyz, port: 50017, type: vmess, uuid: e41e26de-cfa3-4583-8b9d-76492906ade0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: US-2.64MB/s(城西尼姑庵), server: 183.232.170.32, port: 30008, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: false}}
   - {name: US-1.74MB/s(城西尼姑庵), server: 216.52.183.243, port: 1001, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: /, tls: false, mux: true, skip-cert-verify: false}}
   - {name: US-3.03MB/s(城西尼姑庵), server: 183.232.170.32, port: 30008, type: ss, cipher: aes-128-gcm, password: g12sQi#ss#&1, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: false}}
-  - {name: MM-5.34MB/s(城西尼姑庵), server: app-zhihu.zhihu.win, port: 13137, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 31f770758c69.microsoft.com}}
-  - {name: JP-3.44MB/s(城西尼姑庵), server: qmyuj-1087-tr-0.d-kcd.tuil.xyz, port: 889, type: trojan, password: PJUKhmVpDDqtAvMHDvmMpoQYChiuwjgv, sni: cdn.cjhh.lol, skip-cert-verify: false}
   - {name: TW-3.22MB/s(城西尼姑庵), server: 46caadb.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /s/46caadb.fm.apple.com:60980, headers: {Host: 46caadb.f2.gladns.com}}}
 
 proxy-groups:
@@ -26,38 +18,22 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US-3.45MB/s(城西尼姑庵)
       - US-5.82MB/s(城西尼姑庵)
-      - US-3.5MB/s(城西尼姑庵)
-      - US-1.34MB/s(城西尼姑庵)
-      - US-1.01MB/s(城西尼姑庵)
       - US-2.49MB/s(城西尼姑庵)
       - US-3.19MB/s(城西尼姑庵)
-      - US-3.44MB/s(城西尼姑庵)
-      - US-2.64MB/s(城西尼姑庵)
       - US-1.74MB/s(城西尼姑庵)
       - US-3.03MB/s(城西尼姑庵)
-      - MM-5.34MB/s(城西尼姑庵)
-      - JP-3.44MB/s(城西尼姑庵)
       - TW-3.22MB/s(城西尼姑庵)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US-3.45MB/s(城西尼姑庵)
       - US-5.82MB/s(城西尼姑庵)
-      - US-3.5MB/s(城西尼姑庵)
-      - US-1.34MB/s(城西尼姑庵)
-      - US-1.01MB/s(城西尼姑庵)
       - US-2.49MB/s(城西尼姑庵)
       - US-3.19MB/s(城西尼姑庵)
-      - US-3.44MB/s(城西尼姑庵)
-      - US-2.64MB/s(城西尼姑庵)
       - US-1.74MB/s(城西尼姑庵)
       - US-3.03MB/s(城西尼姑庵)
-      - MM-5.34MB/s(城西尼姑庵)
-      - JP-3.44MB/s(城西尼姑庵)
       - TW-3.22MB/s(城西尼姑庵)
   - name: 🌍 国外媒体
     type: select
@@ -65,19 +41,11 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US-3.45MB/s(城西尼姑庵)
       - US-5.82MB/s(城西尼姑庵)
-      - US-3.5MB/s(城西尼姑庵)
-      - US-1.34MB/s(城西尼姑庵)
-      - US-1.01MB/s(城西尼姑庵)
       - US-2.49MB/s(城西尼姑庵)
       - US-3.19MB/s(城西尼姑庵)
-      - US-3.44MB/s(城西尼姑庵)
-      - US-2.64MB/s(城西尼姑庵)
       - US-1.74MB/s(城西尼姑庵)
       - US-3.03MB/s(城西尼姑庵)
-      - MM-5.34MB/s(城西尼姑庵)
-      - JP-3.44MB/s(城西尼姑庵)
       - TW-3.22MB/s(城西尼姑庵)
   - name: 🌏 国内媒体
     type: select
@@ -89,38 +57,22 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US-3.45MB/s(城西尼姑庵)
       - US-5.82MB/s(城西尼姑庵)
-      - US-3.5MB/s(城西尼姑庵)
-      - US-1.34MB/s(城西尼姑庵)
-      - US-1.01MB/s(城西尼姑庵)
       - US-2.49MB/s(城西尼姑庵)
       - US-3.19MB/s(城西尼姑庵)
-      - US-3.44MB/s(城西尼姑庵)
-      - US-2.64MB/s(城西尼姑庵)
       - US-1.74MB/s(城西尼姑庵)
       - US-3.03MB/s(城西尼姑庵)
-      - MM-5.34MB/s(城西尼姑庵)
-      - JP-3.44MB/s(城西尼姑庵)
       - TW-3.22MB/s(城西尼姑庵)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US-3.45MB/s(城西尼姑庵)
       - US-5.82MB/s(城西尼姑庵)
-      - US-3.5MB/s(城西尼姑庵)
-      - US-1.34MB/s(城西尼姑庵)
-      - US-1.01MB/s(城西尼姑庵)
       - US-2.49MB/s(城西尼姑庵)
       - US-3.19MB/s(城西尼姑庵)
-      - US-3.44MB/s(城西尼姑庵)
-      - US-2.64MB/s(城西尼姑庵)
       - US-1.74MB/s(城西尼姑庵)
       - US-3.03MB/s(城西尼姑庵)
-      - MM-5.34MB/s(城西尼姑庵)
-      - JP-3.44MB/s(城西尼姑庵)
       - TW-3.22MB/s(城西尼姑庵)
   - name: 🍎 苹果服务
     type: select
@@ -128,19 +80,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US-3.45MB/s(城西尼姑庵)
       - US-5.82MB/s(城西尼姑庵)
-      - US-3.5MB/s(城西尼姑庵)
-      - US-1.34MB/s(城西尼姑庵)
-      - US-1.01MB/s(城西尼姑庵)
       - US-2.49MB/s(城西尼姑庵)
       - US-3.19MB/s(城西尼姑庵)
-      - US-3.44MB/s(城西尼姑庵)
-      - US-2.64MB/s(城西尼姑庵)
       - US-1.74MB/s(城西尼姑庵)
       - US-3.03MB/s(城西尼姑庵)
-      - MM-5.34MB/s(城西尼姑庵)
-      - JP-3.44MB/s(城西尼姑庵)
       - TW-3.22MB/s(城西尼姑庵)
   - name: 🎯 全球直连
     type: select
@@ -157,19 +101,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US-3.45MB/s(城西尼姑庵)
       - US-5.82MB/s(城西尼姑庵)
-      - US-3.5MB/s(城西尼姑庵)
-      - US-1.34MB/s(城西尼姑庵)
-      - US-1.01MB/s(城西尼姑庵)
       - US-2.49MB/s(城西尼姑庵)
       - US-3.19MB/s(城西尼姑庵)
-      - US-3.44MB/s(城西尼姑庵)
-      - US-2.64MB/s(城西尼姑庵)
       - US-1.74MB/s(城西尼姑庵)
       - US-3.03MB/s(城西尼姑庵)
-      - MM-5.34MB/s(城西尼姑庵)
-      - JP-3.44MB/s(城西尼姑庵)
       - TW-3.22MB/s(城西尼姑庵)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
