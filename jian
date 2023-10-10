@@ -16,6 +16,7 @@ proxies:
   - {name: SG-4.07MB/s(城西尼姑庵), server: 52.221.184.140, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: KR-1.39MB/s(城西尼姑庵), server: 43.202.52.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: HK-3.59MB/s(城西尼姑庵), server: zx01.endhigh.xyz, port: 2402, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 77750:0913_lLg, obfs-param: 0595677750.microsoft.com}
+  - {name: SG-1.44MB/s(城西尼姑庵), server: 18.138.232.8, port: 443, type: trojan, password: cd4700d5-e5e1-4082-9df5-1381a52c58ee, sni: sg1.asddafafggad.top, skip-cert-verify: true}
 
 proxy-groups:
   - name: 🔰 节点选择
@@ -34,6 +35,7 @@ proxy-groups:
       - SG-4.07MB/s(城西尼姑庵)
       - KR-1.39MB/s(城西尼姑庵)
       - HK-3.59MB/s(城西尼姑庵)
+      - SG-1.44MB/s(城西尼姑庵)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -50,6 +52,7 @@ proxy-groups:
       - SG-4.07MB/s(城西尼姑庵)
       - KR-1.39MB/s(城西尼姑庵)
       - HK-3.59MB/s(城西尼姑庵)
+      - SG-1.44MB/s(城西尼姑庵)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -67,6 +70,7 @@ proxy-groups:
       - SG-4.07MB/s(城西尼姑庵)
       - KR-1.39MB/s(城西尼姑庵)
       - HK-3.59MB/s(城西尼姑庵)
+      - SG-1.44MB/s(城西尼姑庵)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -88,6 +92,7 @@ proxy-groups:
       - SG-4.07MB/s(城西尼姑庵)
       - KR-1.39MB/s(城西尼姑庵)
       - HK-3.59MB/s(城西尼姑庵)
+      - SG-1.44MB/s(城西尼姑庵)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -104,6 +109,7 @@ proxy-groups:
       - SG-4.07MB/s(城西尼姑庵)
       - KR-1.39MB/s(城西尼姑庵)
       - HK-3.59MB/s(城西尼姑庵)
+      - SG-1.44MB/s(城西尼姑庵)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -121,6 +127,7 @@ proxy-groups:
       - SG-4.07MB/s(城西尼姑庵)
       - KR-1.39MB/s(城西尼姑庵)
       - HK-3.59MB/s(城西尼姑庵)
+      - SG-1.44MB/s(城西尼姑庵)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -147,6 +154,7 @@ proxy-groups:
       - SG-4.07MB/s(城西尼姑庵)
       - KR-1.39MB/s(城西尼姑庵)
       - HK-3.59MB/s(城西尼姑庵)
+      - SG-1.44MB/s(城西尼姑庵)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
