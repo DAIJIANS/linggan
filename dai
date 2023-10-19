@@ -33,7 +33,7 @@ proxies:
   - {name: HK-15.15MB/s(城北豆腐店), server: pr1.jymzffbquawl.com, port: 3503, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 219802:0925_aa2629_A, obfs-param: 9fba7219802.microsoft.com}
   - {name: HK-16.36MB/s(城北豆腐店), server: bs1.jymzffbquawl.com, port: 3503, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 219802:0925_aa2629_A, obfs-param: 9fba7219802.microsoft.com}
   - {name: HK-7.70MB/s(城北豆腐店), server: bs1.jymzffbquawl.com, port: 3508, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 219802:0925_aa2629_A, obfs-param: 9fba7219802.microsoft.com}
-  - {name: HK-3.66MB/s, server: bs1.jymzffbquawl.com, port: 3508, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 219802:0925_aa2629_A, obfs-param: 9fba7219802.microsoft.com}
+  - {name: HK-3.66MB/s(城北豆腐店), server: bs1.jymzffbquawl.com, port: 3508, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 219802:0925_aa2629_A, obfs-param: 9fba7219802.microsoft.com}
 
 proxy-groups:
   - name: 🔰 节点选择
