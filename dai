@@ -37,6 +37,7 @@ proxies:
   - {name: MY-马来西亚高速入口(城北豆腐店), server: foshan.chiguayun.cc, port: 27135, type: ss, cipher: chacha20-ietf-poly1305, password: df0f916b-0380-43b7-829c-9f9f97a23eb2}
   - {name: TR-土耳其高速入口(城北豆腐店), server: foshan.chiguayun.cc, port: 27130, type: ss, cipher: chacha20-ietf-poly1305, password: df0f916b-0380-43b7-829c-9f9f97a23eb2}
   - {name: KR-韩国优化高速入口(城北豆腐店), server: ydyh.nanbei.info, port: 26913, type: ss, cipher: chacha20-ietf-poly1305, password: 029fdb8d-ab45-4eec-9b7b-d67089785905}
+  - {name: AU-澳大利亚电信优化高速入口(城北豆腐店), server: dx.ktmwan.top, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: 79753f70-0ccf-406d-a831-7d93aa0789aa}
 
 proxy-groups:
   - name: 🔰 节点选择
@@ -76,6 +77,7 @@ proxy-groups:
       - MY-马来西亚高速入口(城北豆腐店)
       - TR-土耳其高速入口(城北豆腐店)
       - KR-韩国优化高速入口(城北豆腐店)
+      - AU-澳大利亚电信优化高速入口(城北豆腐店)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -113,6 +115,7 @@ proxy-groups:
       - MY-马来西亚高速入口(城北豆腐店)
       - TR-土耳其高速入口(城北豆腐店)
       - KR-韩国优化高速入口(城北豆腐店)
+      - AU-澳大利亚电信优化高速入口(城北豆腐店)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -151,6 +154,7 @@ proxy-groups:
       - MY-马来西亚高速入口(城北豆腐店)
       - TR-土耳其高速入口(城北豆腐店)
       - KR-韩国优化高速入口(城北豆腐店)
+      - AU-澳大利亚电信优化高速入口(城北豆腐店)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -193,6 +197,7 @@ proxy-groups:
       - MY-马来西亚高速入口(城北豆腐店)
       - TR-土耳其高速入口(城北豆腐店)
       - KR-韩国优化高速入口(城北豆腐店)
+      - AU-澳大利亚电信优化高速入口(城北豆腐店)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -230,6 +235,7 @@ proxy-groups:
       - MY-马来西亚高速入口(城北豆腐店)
       - TR-土耳其高速入口(城北豆腐店)
       - KR-韩国优化高速入口(城北豆腐店)
+      - AU-澳大利亚电信优化高速入口(城北豆腐店)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -268,6 +274,7 @@ proxy-groups:
       - MY-马来西亚高速入口(城北豆腐店)
       - TR-土耳其高速入口(城北豆腐店)
       - KR-韩国优化高速入口(城北豆腐店)
+      - AU-澳大利亚电信优化高速入口(城北豆腐店)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -315,6 +322,7 @@ proxy-groups:
       - MY-马来西亚高速入口(城北豆腐店)
       - TR-土耳其高速入口(城北豆腐店)
       - KR-韩国优化高速入口(城北豆腐店)
+      - AU-澳大利亚电信优化高速入口(城北豆腐店)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
