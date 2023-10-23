@@ -43,7 +43,7 @@ proxies:
   - {name: SA专线(城北豆腐店), server: dl1.fanqiecloud.top, port: 2086, type: vmess, uuid: aa839a1b-60c9-4218-8623-766b18e07f37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-st.fanqiecloud.top}}, udp: true}
   - {name: AE专线(城北豆腐店), server: dl1.fanqiecloud.top, port: 2086, type: vmess, uuid: aa839a1b-60c9-4218-8623-766b18e07f37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-db.fanqiecloud.top}}, udp: true}
   - {name: RE专线(城北豆腐店), server: dl1.fanqiecloud.top, port: 2052, type: vmess, uuid: aa839a1b-60c9-4218-8623-766b18e07f37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-els.fanqiecloud.top}}, udp: true}
-
+  - {name: AU专线(城北豆腐店), server: fs.xianyuwangzhi.top, port: 27204, type: ss, cipher: chacha20-ietf-poly1305, password: ad0edc4e-eb8f-4761-b40c-a564e15c2a64}
 
 proxy-groups:
   - name: 🔰 节点选择
@@ -89,6 +89,7 @@ proxy-groups:
       - SA专线(城北豆腐店)
       - AE专线(城北豆腐店)
       - RE专线(城北豆腐店)
+      - AU专线(城北豆腐店)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -132,6 +133,7 @@ proxy-groups:
       - SA专线(城北豆腐店)
       - AE专线(城北豆腐店)
       - RE专线(城北豆腐店)
+      - AU专线(城北豆腐店)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -176,6 +178,7 @@ proxy-groups:
       - SA专线(城北豆腐店)
       - AE专线(城北豆腐店)
       - RE专线(城北豆腐店)
+      - AU专线(城北豆腐店)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -224,6 +227,7 @@ proxy-groups:
       - SA专线(城北豆腐店)
       - AE专线(城北豆腐店)
       - RE专线(城北豆腐店)
+      - AU专线(城北豆腐店)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -267,6 +271,7 @@ proxy-groups:
       - SA专线(城北豆腐店)
       - AE专线(城北豆腐店)
       - RE专线(城北豆腐店)
+      - AU专线(城北豆腐店)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -311,6 +316,7 @@ proxy-groups:
       - SA专线(城北豆腐店)
       - AE专线(城北豆腐店)
       - RE专线(城北豆腐店)
+      - AU专线(城北豆腐店)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -364,6 +370,7 @@ proxy-groups:
       - SA专线(城北豆腐店)
       - AE专线(城北豆腐店)
       - RE专线(城北豆腐店)
+      - AU专线(城北豆腐店)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
