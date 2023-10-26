@@ -5,18 +5,8 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇺🇸 America(城西尼姑庵), server: us.fanqiecloud.top, port: 22752, type: ss, cipher: chacha20-ietf-poly1305, password: aa839a1b-60c9-4218-8623-766b18e07f37, udp: true}
-  - {name: 🇯🇵 Japan(城西尼姑庵), server: jp.fanqiecloud.top, port: 21402, type: ss, cipher: chacha20-ietf-poly1305, password: aa839a1b-60c9-4218-8623-766b18e07f37, udp: true}
-  - {name: 🇰🇷 South Korea(城西尼姑庵), server: kr.fanqiecloud.top, port: 21504, type: ss, cipher: chacha20-ietf-poly1305, password: aa839a1b-60c9-4218-8623-766b18e07f37, udp: true}
-  - {name: 🇸🇬 Singapore(城西尼姑庵), server: sg.fanqiecloud.top, port: 24352, type: ss, cipher: chacha20-ietf-poly1305, password: aa839a1b-60c9-4218-8623-766b18e07f37, udp: true}
-  - {name: 🇨🇳 Taiwan(城西尼姑庵), server: tw.fanqiecloud.top, port: 12482, type: ss, cipher: chacha20-ietf-poly1305, password: aa839a1b-60c9-4218-8623-766b18e07f37, udp: true}
-  - {name: 🇨🇦 Canada(城西尼姑庵), server: cf.fanqiecloud.top, port: 20749, type: ss, cipher: chacha20-ietf-poly1305, password: aa839a1b-60c9-4218-8623-766b18e07f37, udp: true}
-  - {name: 🇧🇷 Brazil(城西尼姑庵), server: bx.fanqiecloud.top, port: 20902, type: ss, cipher: chacha20-ietf-poly1305, password: aa839a1b-60c9-4218-8623-766b18e07f37, udp: true}
-  - {name: 🇮🇹 Italy(城西尼姑庵), server: it.fanqiecloud.top, port: 22802, type: ss, cipher: chacha20-ietf-poly1305, password: aa839a1b-60c9-4218-8623-766b18e07f37, udp: true}
-  - {name: 🇮🇳 India(城西尼姑庵), server: dl1.fanqiecloud.top, port: 2086, type: vmess, uuid: aa839a1b-60c9-4218-8623-766b18e07f37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-in.fanqiecloud.top}}, udp: true}
-  - {name: 🇸🇦 Saudi Arabia(城西尼姑庵), server: dl1.fanqiecloud.top, port: 2086, type: vmess, uuid: aa839a1b-60c9-4218-8623-766b18e07f37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-st.fanqiecloud.top}}, udp: true}
-  - {name: 🇦🇪 Dubai(城西尼姑庵), server: dl1.fanqiecloud.top, port: 2086, type: vmess, uuid: aa839a1b-60c9-4218-8623-766b18e07f37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-db.fanqiecloud.top}}, udp: true}
-  - {name: 🇷🇺 Russia(城西尼姑庵), server: dl1.fanqiecloud.top, port: 2052, type: vmess, uuid: aa839a1b-60c9-4218-8623-766b18e07f37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-els.fanqiecloud.top}}, udp: true}
+  - { name: KR1(城西尼姑庵), type: trojan, server: kr1.9527daishu.tk, port: 17731, password: 4d1ed6e0-cff6-4f25-8b81-554700abd787, udp: true, sni: data.52daishu.life, skip-cert-verify: true }
+  - { name: KR2(城西尼姑庵), type: trojan, server: kr2.9527daishu.tk, port: 17732, password: 4d1ed6e0-cff6-4f25-8b81-554700abd787, udp: true, sni: data.52daishu.life, skip-cert-verify: true }
 
 proxy-groups:
   - name: 🔰 节点选择
@@ -24,53 +14,23 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 America(城西尼姑庵)
-      - 🇯🇵 Japan(城西尼姑庵)
-      - 🇰🇷 South Korea(城西尼姑庵)
-      - 🇸🇬 Singapore(城西尼姑庵)
-      - 🇨🇳 Taiwan(城西尼姑庵)
-      - 🇨🇦 Canada(城西尼姑庵)
-      - 🇧🇷 Brazil(城西尼姑庵)
-      - 🇮🇹 Italy(城西尼姑庵)
-      - 🇮🇳 India(城西尼姑庵)
-      - 🇸🇦 Saudi Arabia(城西尼姑庵)
-      - 🇦🇪 Dubai(城西尼姑庵)
-      - 🇷🇺 Russia(城西尼姑庵)
+      - KR1(城西尼姑庵)
+      - KR2(城西尼姑庵)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 America(城西尼姑庵)
-      - 🇯🇵 Japan(城西尼姑庵)
-      - 🇰🇷 South Korea(城西尼姑庵)
-      - 🇸🇬 Singapore(城西尼姑庵)
-      - 🇨🇳 Taiwan(城西尼姑庵)
-      - 🇨🇦 Canada(城西尼姑庵)
-      - 🇧🇷 Brazil(城西尼姑庵)
-      - 🇮🇹 Italy(城西尼姑庵)
-      - 🇮🇳 India(城西尼姑庵)
-      - 🇸🇦 Saudi Arabia(城西尼姑庵)
-      - 🇦🇪 Dubai(城西尼姑庵)
-      - 🇷🇺 Russia(城西尼姑庵)
+      - KR1(城西尼姑庵)
+      - KR2(城西尼姑庵)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 America(城西尼姑庵)
-      - 🇯🇵 Japan(城西尼姑庵)
-      - 🇰🇷 South Korea(城西尼姑庵)
-      - 🇸🇬 Singapore(城西尼姑庵)
-      - 🇨🇳 Taiwan(城西尼姑庵)
-      - 🇨🇦 Canada(城西尼姑庵)
-      - 🇧🇷 Brazil(城西尼姑庵)
-      - 🇮🇹 Italy(城西尼姑庵)
-      - 🇮🇳 India(城西尼姑庵)
-      - 🇸🇦 Saudi Arabia(城西尼姑庵)
-      - 🇦🇪 Dubai(城西尼姑庵)
-      - 🇷🇺 Russia(城西尼姑庵)
+      - KR1(城西尼姑庵)
+      - KR2(城西尼姑庵)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -81,53 +41,23 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 America(城西尼姑庵)
-      - 🇯🇵 Japan(城西尼姑庵)
-      - 🇰🇷 South Korea(城西尼姑庵)
-      - 🇸🇬 Singapore(城西尼姑庵)
-      - 🇨🇳 Taiwan(城西尼姑庵)
-      - 🇨🇦 Canada(城西尼姑庵)
-      - 🇧🇷 Brazil(城西尼姑庵)
-      - 🇮🇹 Italy(城西尼姑庵)
-      - 🇮🇳 India(城西尼姑庵)
-      - 🇸🇦 Saudi Arabia(城西尼姑庵)
-      - 🇦🇪 Dubai(城西尼姑庵)
-      - 🇷🇺 Russia(城西尼姑庵)
+      - KR1(城西尼姑庵)
+      - KR2(城西尼姑庵)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 America(城西尼姑庵)
-      - 🇯🇵 Japan(城西尼姑庵)
-      - 🇰🇷 South Korea(城西尼姑庵)
-      - 🇸🇬 Singapore(城西尼姑庵)
-      - 🇨🇳 Taiwan(城西尼姑庵)
-      - 🇨🇦 Canada(城西尼姑庵)
-      - 🇧🇷 Brazil(城西尼姑庵)
-      - 🇮🇹 Italy(城西尼姑庵)
-      - 🇮🇳 India(城西尼姑庵)
-      - 🇸🇦 Saudi Arabia(城西尼姑庵)
-      - 🇦🇪 Dubai(城西尼姑庵)
-      - 🇷🇺 Russia(城西尼姑庵)
+      - KR1(城西尼姑庵)
+      - KR2(城西尼姑庵)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 America(城西尼姑庵)
-      - 🇯🇵 Japan(城西尼姑庵)
-      - 🇰🇷 South Korea(城西尼姑庵)
-      - 🇸🇬 Singapore(城西尼姑庵)
-      - 🇨🇳 Taiwan(城西尼姑庵)
-      - 🇨🇦 Canada(城西尼姑庵)
-      - 🇧🇷 Brazil(城西尼姑庵)
-      - 🇮🇹 Italy(城西尼姑庵)
-      - 🇮🇳 India(城西尼姑庵)
-      - 🇸🇦 Saudi Arabia(城西尼姑庵)
-      - 🇦🇪 Dubai(城西尼姑庵)
-      - 🇷🇺 Russia(城西尼姑庵)
+      - KR1(城西尼姑庵)
+      - KR2(城西尼姑庵)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -143,18 +73,8 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 America(城西尼姑庵)
-      - 🇯🇵 Japan(城西尼姑庵)
-      - 🇰🇷 South Korea(城西尼姑庵)
-      - 🇸🇬 Singapore(城西尼姑庵)
-      - 🇨🇳 Taiwan(城西尼姑庵)
-      - 🇨🇦 Canada(城西尼姑庵)
-      - 🇧🇷 Brazil(城西尼姑庵)
-      - 🇮🇹 Italy(城西尼姑庵)
-      - 🇮🇳 India(城西尼姑庵)
-      - 🇸🇦 Saudi Arabia(城西尼姑庵)
-      - 🇦🇪 Dubai(城西尼姑庵)
-      - 🇷🇺 Russia(城西尼姑庵)
+      - KR1(城西尼姑庵)
+      - KR2(城西尼姑庵)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
