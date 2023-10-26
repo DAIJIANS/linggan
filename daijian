@@ -28,12 +28,12 @@ proxies:
   - {name: HK-2.72MB/s(城北豆腐店), server: bs1.jymzffbquawl.com, port: 3509, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 219802:0925_aa2629_A, obfs-param: 9fba7219802.microsoft.com}
   - {name: US专线-4.68MB/s(城北豆腐店), server: 198.2.193.146, port: 30000, type: vmess, uuid: 68d238ce-3ca1-46dc-b833-a0916c829ad3, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1698239888914, headers: {Host: www.28251658.xyz}}}
   - {name: KR专线-1.12MB/s(城北豆腐店), server: 43.202.68.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: HK专线(城北豆腐店), server: 42.2.160.107, port: 443, type: trojan, password: b4b31536-06a2-48f7-b6c0-d43cd2904736, sni: downloadhk.xn--mes358acgm99l.com, skip-cert-verify: true}
+  - {name: HK专线1(城北豆腐店), server: 42.2.160.107, port: 443, type: trojan, password: b4b31536-06a2-48f7-b6c0-d43cd2904736, sni: downloadhk.xn--mes358acgm99l.com, skip-cert-verify: true}
+  - {name: HK专线2(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10726, type: ss, cipher: chacha20-ietf-poly1305, password: 557c9382-dcfc-489a-b7f5-4ac38d4e5581}
   - {name: TR专线(城北豆腐店), server: hefei.chiguayun.cc, port: 27130, type: ss, cipher: chacha20-ietf-poly1305, password: 1f0bd70e-1ced-431b-8c96-1aabfecb5465}
   - {name: SG专线(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10707, type: ss, cipher: chacha20-ietf-poly1305, password: 557c9382-dcfc-489a-b7f5-4ac38d4e5581}
   - {name: KR专线(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10703, type: ss, cipher: chacha20-ietf-poly1305, password: 557c9382-dcfc-489a-b7f5-4ac38d4e5581}
   - {name: JP专线(城北豆腐店), server: ydyh.nanbei.info, port: 26908, type: ss, cipher: chacha20-ietf-poly1305, password: 7386ebab-9ad4-42d8-bb97-312464ecead6}
-  - {name: HK专线(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10726, type: ss, cipher: chacha20-ietf-poly1305, password: 557c9382-dcfc-489a-b7f5-4ac38d4e5581}
   - {name: TW专线(城北豆腐店), server: ydyh.nanbei.info, port: 26911, type: ss, cipher: chacha20-ietf-poly1305, password: 7386ebab-9ad4-42d8-bb97-312464ecead6}
   - {name: AU专线(城北豆腐店), server: ydyh.nanbei.info, port: 26903, type: ss, cipher: chacha20-ietf-poly1305, password: 7386ebab-9ad4-42d8-bb97-312464ecead6}
 
