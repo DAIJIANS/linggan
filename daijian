@@ -7,20 +7,15 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: US-8.42MB/s(城北豆腐店), server: yd-02.paofunlink.com, port: 1054, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: 7fed640575.microsoft.com}
   - {name: US-8.39MB/s(城北豆腐店), server: yd-03.paofunlink.com, port: 1055, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40931:Pumv3L, obfs-param: 6f76640931.microsoft.com}
-  - {name: US-3.94MB/s(城北豆腐店), server: cm01.newcome.xyz, port: 7708, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 50916:0918_E2597, obfs-param: fe80b50916.microsoft.com}
   - {name: US-8.19MB/s(城北豆腐店), server: bs3.jymzffbquawl.com, port: 4502, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 219802:0925_aa2629_A, obfs-param: 9fba7219802.microsoft.com}
   - {name: US-3.42MB/s(城北豆腐店), server: bs4.jymzffbquawl.com, port: 4502, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 219802:0925_aa2629_A, obfs-param: 9fba7219802.microsoft.com}
   - {name: TW-8.66MB/s(城北豆腐店), server: sg-03.xm1s.top, port: 458, type: ssr, cipher: dummy, password: MKaQhd, protocol: auth_chain_b, obfs: plain, protocol-param: 2663:9XyKWG, obfs-param: wns.windows.com}
   - {name: TW-11.99MB/s(城北豆腐店), server: yd-05.paofunlink.com, port: 1071, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: 7fed640575.microsoft.com}
   - {name: TW-7.89MB/s(城北豆腐店), server: hkt-imsbiz-02.xm1s.top, port: 457, type: ssr, cipher: dummy, password: UtFRxN, protocol: auth_chain_a, obfs: plain, protocol-param: "2376:PqxEiP", obfs-param: wns.windows.com}
-  - {name: TW-10.31MB/s(城北豆腐店), server: sg-04.xm1s.top, port: 458, type: ssr, cipher: dummy, password: MKaQhd, protocol: auth_chain_b, obfs: plain, protocol-param: 2735:pRUICH, obfs-param: wns.windows.com}
-  - {name: TW-2.59MB/s(城北豆腐店), server: sg-01.xm1s.top, port: 458, type: ssr, cipher: dummy, password: MKaQhd, protocol: auth_chain_b, obfs: plain, protocol-param: 2735:pRUICH, obfs-param: wns.windows.com}
-  - {name: TW-3.61MB/s(城北豆腐店), server: sg-04.xm1s.top, port: 458, type: ssr, cipher: dummy, password: MKaQhd, protocol: auth_chain_b, obfs: plain, protocol-param: 2735:pRUICH, obfs-param: wns.windows.com}
   - {name: TW-2.05MB/s(城北豆腐店), server: sg-04.xm1s.top, port: 458, type: ssr, cipher: dummy, password: MKaQhd, protocol: auth_chain_b, obfs: plain, protocol-param: 2376:PqxEiP, obfs-param: wns.windows.com}
   - {name: TW-2.30MB/s(城北豆腐店), server: hkt-imsbiz-01.xm1s.top, port: 458, type: ssr, cipher: dummy, password: MKaQhd, protocol: auth_chain_b, obfs: plain, protocol-param: 2376:PqxEiP, obfs-param: wns.windows.com}
-  - {name: TW-2.06MB/s(城北豆腐店), server: sg-04.xm1s.top, port: 458, type: ssr, cipher: dummy, password: MKaQhd, protocol: auth_chain_b, obfs: plain, protocol-param: 2735:pRUICH, obfs-param: wns.windows.com}
-  - {name: TW-2.23MB/s(城北豆腐店), server: sg-03.xm1s.top, port: 457, type: ssr, cipher: dummy, password: UtFRxN, protocol: auth_chain_a, obfs: plain, protocol-param: 2735:pRUICH, obfs-param: wns.windows.com}
-  - {name: TW-7.98MB/s(城北豆腐店), server: sg-05.xm1s.top, port: 458, type: ssr, cipher: dummy, password: MKaQhd, protocol: auth_chain_b, obfs: plain, protocol-param: 2735:pRUICH, obfs-param: wns.windows.com}
+  - {name: TW-8.98MB/s(城北豆腐店), server: bs4.jymzffbquawl.com, port: 6502, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 199929:1023ATh_E, obfs-param: d2aea199929.microsoft.com}
+  - {name: TW-3.60MB/s(城北豆腐店), server: bs3.jymzffbquawl.com, port: 3035, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 199929:1023ATh_E, obfs-param: d2aea199929.microsoft.com}
   - {name: SG-4.24MB/s(城北豆腐店), server: cm03.newcome.xyz, port: 6701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 84263:3gj7aB, obfs-param: c75be84263.microsoft.com}
   - {name: HK-9.40MB/s(城北豆腐店), server: yd-06.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: 7fed640575.microsoft.com}
   - {name: HK-10.90MB/s(城北豆腐店), server: yd-07.paofunlink.com, port: 5959, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: 7fed640575.microsoft.com}
@@ -31,20 +26,16 @@ proxies:
   - {name: HK-7.70MB/s(城北豆腐店), server: bs1.jymzffbquawl.com, port: 3508, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 219802:0925_aa2629_A, obfs-param: 9fba7219802.microsoft.com}
   - {name: HK-3.66MB/s(城北豆腐店), server: bs1.jymzffbquawl.com, port: 3508, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 219802:0925_aa2629_A, obfs-param: 9fba7219802.microsoft.com}
   - {name: HK-2.72MB/s(城北豆腐店), server: bs1.jymzffbquawl.com, port: 3509, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 219802:0925_aa2629_A, obfs-param: 9fba7219802.microsoft.com}
-  - {name: US专线(城北豆腐店), server: us.fanqiecloud.top, port: 22752, type: ss, cipher: chacha20-ietf-poly1305, password: aa839a1b-60c9-4218-8623-766b18e07f37, udp: true}
-  - {name: JP专线(城北豆腐店), server: jp.fanqiecloud.top, port: 21402, type: ss, cipher: chacha20-ietf-poly1305, password: aa839a1b-60c9-4218-8623-766b18e07f37, udp: true}
-  - {name: KR专线(城北豆腐店), server: kr.fanqiecloud.top, port: 21504, type: ss, cipher: chacha20-ietf-poly1305, password: aa839a1b-60c9-4218-8623-766b18e07f37, udp: true}
-  - {name: SG专线(城北豆腐店), server: sg.fanqiecloud.top, port: 24352, type: ss, cipher: chacha20-ietf-poly1305, password: aa839a1b-60c9-4218-8623-766b18e07f37, udp: true}
-  - {name: TW专线(城北豆腐店), server: tw.fanqiecloud.top, port: 12482, type: ss, cipher: chacha20-ietf-poly1305, password: aa839a1b-60c9-4218-8623-766b18e07f37, udp: true}
-  - {name: CA专线(城北豆腐店), server: cf.fanqiecloud.top, port: 20749, type: ss, cipher: chacha20-ietf-poly1305, password: aa839a1b-60c9-4218-8623-766b18e07f37, udp: true}
-  - {name: BR专线(城北豆腐店), server: bx.fanqiecloud.top, port: 20902, type: ss, cipher: chacha20-ietf-poly1305, password: aa839a1b-60c9-4218-8623-766b18e07f37, udp: true}
-  - {name: IT专线(城北豆腐店), server: it.fanqiecloud.top, port: 22802, type: ss, cipher: chacha20-ietf-poly1305, password: aa839a1b-60c9-4218-8623-766b18e07f37, udp: true}
-  - {name: IN专线(城北豆腐店), server: dl1.fanqiecloud.top, port: 2086, type: vmess, uuid: aa839a1b-60c9-4218-8623-766b18e07f37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-in.fanqiecloud.top}}, udp: true}
-  - {name: SA专线(城北豆腐店), server: dl1.fanqiecloud.top, port: 2086, type: vmess, uuid: aa839a1b-60c9-4218-8623-766b18e07f37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-st.fanqiecloud.top}}, udp: true}
-  - {name: AE专线(城北豆腐店), server: dl1.fanqiecloud.top, port: 2086, type: vmess, uuid: aa839a1b-60c9-4218-8623-766b18e07f37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-db.fanqiecloud.top}}, udp: true}
-  - {name: RE专线(城北豆腐店), server: dl1.fanqiecloud.top, port: 2052, type: vmess, uuid: aa839a1b-60c9-4218-8623-766b18e07f37, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /sssddd, headers: {Host: cf-els.fanqiecloud.top}}, udp: true}
-  - {name: AU专线(城北豆腐店), server: yd.ktmwan.top, port: 27254, type: ss, cipher: chacha20-ietf-poly1305, password: 0a963f9f-3b3d-46a0-a746-600137e21ac2}
-  - {name: IE专线(城北豆腐店), server: hefei.chiguayun.cc, port: 27140, type: ss, cipher: chacha20-ietf-poly1305, password: 9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74}
+  - {name: US专线-4.68MB/s(城北豆腐店), server: 198.2.193.146, port: 30000, type: vmess, uuid: 68d238ce-3ca1-46dc-b833-a0916c829ad3, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1698239888914, headers: {Host: www.28251658.xyz}}}
+  - {name: KR专线-1.12MB/s(城北豆腐店), server: 43.202.68.47, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: HK专线(城北豆腐店), server: 42.2.160.107, port: 443, type: trojan, password: b4b31536-06a2-48f7-b6c0-d43cd2904736, sni: downloadhk.xn--mes358acgm99l.com, skip-cert-verify: true}
+  - {name: TR专线(城北豆腐店), server: hefei.chiguayun.cc, port: 27130, type: ss, cipher: chacha20-ietf-poly1305, password: 1f0bd70e-1ced-431b-8c96-1aabfecb5465}
+  - {name: SG专线(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10707, type: ss, cipher: chacha20-ietf-poly1305, password: 557c9382-dcfc-489a-b7f5-4ac38d4e5581}
+  - {name: KR专线(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10703, type: ss, cipher: chacha20-ietf-poly1305, password: 557c9382-dcfc-489a-b7f5-4ac38d4e5581}
+  - {name: JP专线(城北豆腐店), server: ydyh.nanbei.info, port: 26908, type: ss, cipher: chacha20-ietf-poly1305, password: 7386ebab-9ad4-42d8-bb97-312464ecead6}
+  - {name: HK专线(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10726, type: ss, cipher: chacha20-ietf-poly1305, password: 557c9382-dcfc-489a-b7f5-4ac38d4e5581}
+  - {name: TW专线(城北豆腐店), server: ydyh.nanbei.info, port: 26911, type: ss, cipher: chacha20-ietf-poly1305, password: 7386ebab-9ad4-42d8-bb97-312464ecead6}
+  - {name: AU专线(城北豆腐店), server: ydyh.nanbei.info, port: 26903, type: ss, cipher: chacha20-ietf-poly1305, password: 7386ebab-9ad4-42d8-bb97-312464ecead6}
 
 proxy-groups:
   - name: 🔰 节点选择
@@ -54,20 +45,16 @@ proxy-groups:
       - 🎯 全球直连
       - US-8.42MB/s(城北豆腐店)
       - US-8.39MB/s(城北豆腐店)
-      - US-3.94MB/s(城北豆腐店)
       - US-8.19MB/s(城北豆腐店)
       - US-3.42MB/s(城北豆腐店)
       - TW-8.66MB/s(城北豆腐店)
       - TW-11.99MB/s(城北豆腐店)
       - TW-7.89MB/s(城北豆腐店)
-      - TW-10.31MB/s(城北豆腐店)
-      - TW-2.59MB/s(城北豆腐店)
-      - TW-3.61MB/s(城北豆腐店)
       - TW-2.05MB/s(城北豆腐店)
       - TW-2.30MB/s(城北豆腐店)
-      - TW-2.06MB/s(城北豆腐店)
       - TW-2.23MB/s(城北豆腐店)
-      - TW-7.98MB/s(城北豆腐店)
+      - TW-8.98MB/s(城北豆腐店)
+      - TW-3.60MB/s(城北豆腐店)
       - SG-4.24MB/s(城北豆腐店)
       - HK-9.40MB/s(城北豆腐店)
       - HK-10.90MB/s(城北豆腐店)
@@ -78,20 +65,16 @@ proxy-groups:
       - HK-7.70MB/s(城北豆腐店)
       - HK-3.66MB/s(城北豆腐店)
       - HK-2.72MB/s(城北豆腐店)
-      - US专线(城北豆腐店)
-      - JP专线(城北豆腐店)
-      - KR专线(城北豆腐店)
+      - US专线-4.68MB/s(城北豆腐店)
+      - KR专线-1.12MB/s(城北豆腐店)
+      - HK专线(城北豆腐店)
+      - TR专线(城北豆腐店)
       - SG专线(城北豆腐店)
+      - KR专线(城北豆腐店)
+      - JP专线(城北豆腐店)
+      - HK专线(城北豆腐店)
       - TW专线(城北豆腐店)
-      - CA专线(城北豆腐店)
-      - BR专线(城北豆腐店)
-      - IT专线(城北豆腐店)
-      - IN专线(城北豆腐店)
-      - SA专线(城北豆腐店)
-      - AE专线(城北豆腐店)
-      - RE专线(城北豆腐店)
       - AU专线(城北豆腐店)
-      - IE专线(城北豆腐店)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -99,20 +82,16 @@ proxy-groups:
     proxies:
       - US-8.42MB/s(城北豆腐店)
       - US-8.39MB/s(城北豆腐店)
-      - US-3.94MB/s(城北豆腐店)
       - US-8.19MB/s(城北豆腐店)
       - US-3.42MB/s(城北豆腐店)
       - TW-8.66MB/s(城北豆腐店)
       - TW-11.99MB/s(城北豆腐店)
       - TW-7.89MB/s(城北豆腐店)
-      - TW-10.31MB/s(城北豆腐店)
-      - TW-2.59MB/s(城北豆腐店)
-      - TW-3.61MB/s(城北豆腐店)
       - TW-2.05MB/s(城北豆腐店)
       - TW-2.30MB/s(城北豆腐店)
-      - TW-2.06MB/s(城北豆腐店)
       - TW-2.23MB/s(城北豆腐店)
-      - TW-7.98MB/s(城北豆腐店)
+      - TW-8.98MB/s(城北豆腐店)
+      - TW-3.60MB/s(城北豆腐店)
       - SG-4.24MB/s(城北豆腐店)
       - HK-9.40MB/s(城北豆腐店)
       - HK-10.90MB/s(城北豆腐店)
@@ -123,20 +102,16 @@ proxy-groups:
       - HK-7.70MB/s(城北豆腐店)
       - HK-3.66MB/s(城北豆腐店)
       - HK-2.72MB/s(城北豆腐店)
-      - US专线(城北豆腐店)
-      - JP专线(城北豆腐店)
-      - KR专线(城北豆腐店)
+      - US专线-4.68MB/s(城北豆腐店)
+      - KR专线-1.12MB/s(城北豆腐店)
+      - HK专线(城北豆腐店)
+      - TR专线(城北豆腐店)
       - SG专线(城北豆腐店)
+      - KR专线(城北豆腐店)
+      - JP专线(城北豆腐店)
+      - HK专线(城北豆腐店)
       - TW专线(城北豆腐店)
-      - CA专线(城北豆腐店)
-      - BR专线(城北豆腐店)
-      - IT专线(城北豆腐店)
-      - IN专线(城北豆腐店)
-      - SA专线(城北豆腐店)
-      - AE专线(城北豆腐店)
-      - RE专线(城北豆腐店)
       - AU专线(城北豆腐店)
-      - IE专线(城北豆腐店)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -145,20 +120,16 @@ proxy-groups:
       - 🎯 全球直连
       - US-8.42MB/s(城北豆腐店)
       - US-8.39MB/s(城北豆腐店)
-      - US-3.94MB/s(城北豆腐店)
       - US-8.19MB/s(城北豆腐店)
       - US-3.42MB/s(城北豆腐店)
       - TW-8.66MB/s(城北豆腐店)
       - TW-11.99MB/s(城北豆腐店)
       - TW-7.89MB/s(城北豆腐店)
-      - TW-10.31MB/s(城北豆腐店)
-      - TW-2.59MB/s(城北豆腐店)
-      - TW-3.61MB/s(城北豆腐店)
       - TW-2.05MB/s(城北豆腐店)
       - TW-2.30MB/s(城北豆腐店)
-      - TW-2.06MB/s(城北豆腐店)
       - TW-2.23MB/s(城北豆腐店)
-      - TW-7.98MB/s(城北豆腐店)
+      - TW-8.98MB/s(城北豆腐店)
+      - TW-3.60MB/s(城北豆腐店)
       - SG-4.24MB/s(城北豆腐店)
       - HK-9.40MB/s(城北豆腐店)
       - HK-10.90MB/s(城北豆腐店)
@@ -169,20 +140,16 @@ proxy-groups:
       - HK-7.70MB/s(城北豆腐店)
       - HK-3.66MB/s(城北豆腐店)
       - HK-2.72MB/s(城北豆腐店)
-      - US专线(城北豆腐店)
-      - JP专线(城北豆腐店)
-      - KR专线(城北豆腐店)
+      - US专线-4.68MB/s(城北豆腐店)
+      - KR专线-1.12MB/s(城北豆腐店)
+      - HK专线(城北豆腐店)
+      - TR专线(城北豆腐店)
       - SG专线(城北豆腐店)
+      - KR专线(城北豆腐店)
+      - JP专线(城北豆腐店)
+      - HK专线(城北豆腐店)
       - TW专线(城北豆腐店)
-      - CA专线(城北豆腐店)
-      - BR专线(城北豆腐店)
-      - IT专线(城北豆腐店)
-      - IN专线(城北豆腐店)
-      - SA专线(城北豆腐店)
-      - AE专线(城北豆腐店)
-      - RE专线(城北豆腐店)
       - AU专线(城北豆腐店)
-      - IE专线(城北豆腐店)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -195,20 +162,16 @@ proxy-groups:
       - 🔰 节点选择
       - US-8.42MB/s(城北豆腐店)
       - US-8.39MB/s(城北豆腐店)
-      - US-3.94MB/s(城北豆腐店)
       - US-8.19MB/s(城北豆腐店)
       - US-3.42MB/s(城北豆腐店)
       - TW-8.66MB/s(城北豆腐店)
       - TW-11.99MB/s(城北豆腐店)
       - TW-7.89MB/s(城北豆腐店)
-      - TW-10.31MB/s(城北豆腐店)
-      - TW-2.59MB/s(城北豆腐店)
-      - TW-3.61MB/s(城北豆腐店)
       - TW-2.05MB/s(城北豆腐店)
       - TW-2.30MB/s(城北豆腐店)
-      - TW-2.06MB/s(城北豆腐店)
       - TW-2.23MB/s(城北豆腐店)
-      - TW-7.98MB/s(城北豆腐店)
+      - TW-8.98MB/s(城北豆腐店)
+      - TW-3.60MB/s(城北豆腐店)
       - SG-4.24MB/s(城北豆腐店)
       - HK-9.40MB/s(城北豆腐店)
       - HK-10.90MB/s(城北豆腐店)
@@ -219,20 +182,16 @@ proxy-groups:
       - HK-7.70MB/s(城北豆腐店)
       - HK-3.66MB/s(城北豆腐店)
       - HK-2.72MB/s(城北豆腐店)
-      - US专线(城北豆腐店)
-      - JP专线(城北豆腐店)
-      - KR专线(城北豆腐店)
+      - US专线-4.68MB/s(城北豆腐店)
+      - KR专线-1.12MB/s(城北豆腐店)
+      - HK专线(城北豆腐店)
+      - TR专线(城北豆腐店)
       - SG专线(城北豆腐店)
+      - KR专线(城北豆腐店)
+      - JP专线(城北豆腐店)
+      - HK专线(城北豆腐店)
       - TW专线(城北豆腐店)
-      - CA专线(城北豆腐店)
-      - BR专线(城北豆腐店)
-      - IT专线(城北豆腐店)
-      - IN专线(城北豆腐店)
-      - SA专线(城北豆腐店)
-      - AE专线(城北豆腐店)
-      - RE专线(城北豆腐店)
       - AU专线(城北豆腐店)
-      - IE专线(城北豆腐店)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -240,20 +199,16 @@ proxy-groups:
       - 🎯 全球直连
       - US-8.42MB/s(城北豆腐店)
       - US-8.39MB/s(城北豆腐店)
-      - US-3.94MB/s(城北豆腐店)
       - US-8.19MB/s(城北豆腐店)
       - US-3.42MB/s(城北豆腐店)
       - TW-8.66MB/s(城北豆腐店)
       - TW-11.99MB/s(城北豆腐店)
       - TW-7.89MB/s(城北豆腐店)
-      - TW-10.31MB/s(城北豆腐店)
-      - TW-2.59MB/s(城北豆腐店)
-      - TW-3.61MB/s(城北豆腐店)
       - TW-2.05MB/s(城北豆腐店)
       - TW-2.30MB/s(城北豆腐店)
-      - TW-2.06MB/s(城北豆腐店)
       - TW-2.23MB/s(城北豆腐店)
-      - TW-7.98MB/s(城北豆腐店)
+      - TW-8.98MB/s(城北豆腐店)
+      - TW-3.60MB/s(城北豆腐店)
       - SG-4.24MB/s(城北豆腐店)
       - HK-9.40MB/s(城北豆腐店)
       - HK-10.90MB/s(城北豆腐店)
@@ -264,20 +219,16 @@ proxy-groups:
       - HK-7.70MB/s(城北豆腐店)
       - HK-3.66MB/s(城北豆腐店)
       - HK-2.72MB/s(城北豆腐店)
-      - US专线(城北豆腐店)
-      - JP专线(城北豆腐店)
-      - KR专线(城北豆腐店)
+      - US专线-4.68MB/s(城北豆腐店)
+      - KR专线-1.12MB/s(城北豆腐店)
+      - HK专线(城北豆腐店)
+      - TR专线(城北豆腐店)
       - SG专线(城北豆腐店)
+      - KR专线(城北豆腐店)
+      - JP专线(城北豆腐店)
+      - HK专线(城北豆腐店)
       - TW专线(城北豆腐店)
-      - CA专线(城北豆腐店)
-      - BR专线(城北豆腐店)
-      - IT专线(城北豆腐店)
-      - IN专线(城北豆腐店)
-      - SA专线(城北豆腐店)
-      - AE专线(城北豆腐店)
-      - RE专线(城北豆腐店)
       - AU专线(城北豆腐店)
-      - IE专线(城北豆腐店)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -286,20 +237,16 @@ proxy-groups:
       - ♻️ 自动选择
       - US-8.42MB/s(城北豆腐店)
       - US-8.39MB/s(城北豆腐店)
-      - US-3.94MB/s(城北豆腐店)
       - US-8.19MB/s(城北豆腐店)
       - US-3.42MB/s(城北豆腐店)
       - TW-8.66MB/s(城北豆腐店)
       - TW-11.99MB/s(城北豆腐店)
       - TW-7.89MB/s(城北豆腐店)
-      - TW-10.31MB/s(城北豆腐店)
-      - TW-2.59MB/s(城北豆腐店)
-      - TW-3.61MB/s(城北豆腐店)
       - TW-2.05MB/s(城北豆腐店)
       - TW-2.30MB/s(城北豆腐店)
-      - TW-2.06MB/s(城北豆腐店)
       - TW-2.23MB/s(城北豆腐店)
-      - TW-7.98MB/s(城北豆腐店)
+      - TW-8.98MB/s(城北豆腐店)
+      - TW-3.60MB/s(城北豆腐店)
       - SG-4.24MB/s(城北豆腐店)
       - HK-9.40MB/s(城北豆腐店)
       - HK-10.90MB/s(城北豆腐店)
@@ -310,20 +257,16 @@ proxy-groups:
       - HK-7.70MB/s(城北豆腐店)
       - HK-3.66MB/s(城北豆腐店)
       - HK-2.72MB/s(城北豆腐店)
-      - US专线(城北豆腐店)
-      - JP专线(城北豆腐店)
-      - KR专线(城北豆腐店)
+      - US专线-4.68MB/s(城北豆腐店)
+      - KR专线-1.12MB/s(城北豆腐店)
+      - HK专线(城北豆腐店)
+      - TR专线(城北豆腐店)
       - SG专线(城北豆腐店)
+      - KR专线(城北豆腐店)
+      - JP专线(城北豆腐店)
+      - HK专线(城北豆腐店)
       - TW专线(城北豆腐店)
-      - CA专线(城北豆腐店)
-      - BR专线(城北豆腐店)
-      - IT专线(城北豆腐店)
-      - IN专线(城北豆腐店)
-      - SA专线(城北豆腐店)
-      - AE专线(城北豆腐店)
-      - RE专线(城北豆腐店)
       - AU专线(城北豆腐店)
-      - IE专线(城北豆腐店)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -341,20 +284,16 @@ proxy-groups:
       - ♻️ 自动选择
       - US-8.42MB/s(城北豆腐店)
       - US-8.39MB/s(城北豆腐店)
-      - US-3.94MB/s(城北豆腐店)
       - US-8.19MB/s(城北豆腐店)
       - US-3.42MB/s(城北豆腐店)
       - TW-8.66MB/s(城北豆腐店)
       - TW-11.99MB/s(城北豆腐店)
       - TW-7.89MB/s(城北豆腐店)
-      - TW-10.31MB/s(城北豆腐店)
-      - TW-2.59MB/s(城北豆腐店)
-      - TW-3.61MB/s(城北豆腐店)
       - TW-2.05MB/s(城北豆腐店)
       - TW-2.30MB/s(城北豆腐店)
-      - TW-2.06MB/s(城北豆腐店)
       - TW-2.23MB/s(城北豆腐店)
-      - TW-7.98MB/s(城北豆腐店)
+      - TW-8.98MB/s(城北豆腐店)
+      - TW-3.60MB/s(城北豆腐店)
       - SG-4.24MB/s(城北豆腐店)
       - HK-9.40MB/s(城北豆腐店)
       - HK-10.90MB/s(城北豆腐店)
@@ -365,20 +304,16 @@ proxy-groups:
       - HK-7.70MB/s(城北豆腐店)
       - HK-3.66MB/s(城北豆腐店)
       - HK-2.72MB/s(城北豆腐店)
-      - US专线(城北豆腐店)
-      - JP专线(城北豆腐店)
-      - KR专线(城北豆腐店)
+      - US专线-4.68MB/s(城北豆腐店)
+      - KR专线-1.12MB/s(城北豆腐店)
+      - HK专线(城北豆腐店)
+      - TR专线(城北豆腐店)
       - SG专线(城北豆腐店)
+      - KR专线(城北豆腐店)
+      - JP专线(城北豆腐店)
+      - HK专线(城北豆腐店)
       - TW专线(城北豆腐店)
-      - CA专线(城北豆腐店)
-      - BR专线(城北豆腐店)
-      - IT专线(城北豆腐店)
-      - IN专线(城北豆腐店)
-      - SA专线(城北豆腐店)
-      - AE专线(城北豆腐店)
-      - RE专线(城北豆腐店)
       - AU专线(城北豆腐店)
-      - IE专线(城北豆腐店)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
