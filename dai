@@ -24,26 +24,21 @@ proxies:
   - {name: US专线2(城北豆腐店), server: jp1.susenl.com, port: 10040, type: ss, cipher: chacha20-ietf-poly1305, password: 0eBafHbfceGtyGL9}
   - {name: US专线3(城北豆腐店), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 3d761afc-6dfd-49d9-9d0f-b79341391f26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v003.ssrsub.com}}, udp: true}
   - {name: TW专线1(城北豆腐店), server: hk1.susenl.com, port: 10036, type: ss, cipher: chacha20-ietf-poly1305, password: 0eBafHbfceGtyGL9}
-  - {name: TW专线2(城北豆腐店), server: hk1.susenl.com, port: 10036, type: ss, cipher: chacha20-ietf-poly1305, password: 0eBafHbfceGtyGL9}
-  - {name: TW专线3(城北豆腐店), server: hinet1.downloadvip.cfd, port: 443, type: trojan, password: 3a90f53a-ae58-4367-8b28-cf429de8bd9e, sni: download.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
+  - {name: TW专线2(城北豆腐店), server: hinet1.downloadvip.cfd, port: 443, type: trojan, password: 3a90f53a-ae58-4367-8b28-cf429de8bd9e, sni: download.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
   - {name: SG专线1(城北豆腐店), server: jp1.susenl.com, port: 10045, type: ss, cipher: chacha20-ietf-poly1305, password: 0eBafHbfceGtyGL9}
   - {name: SG专线2(城北豆腐店), server: sg1.downloadvip.cfd, port: 443, type: trojan, password: 3a90f53a-ae58-4367-8b28-cf429de8bd9e, sni: download.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
-  - {name: SG专线3(城北豆腐店), server: jp1.susenl.com, port: 10045, type: ss, cipher: chacha20-ietf-poly1305, password: 0eBafHbfceGtyGL9}
-  - {name: SG专线4(城北豆腐店), server: jp1.susenl.com, port: 10045, type: ss, cipher: chacha20-ietf-poly1305, password: 0eBafHbfceGtyGL9}
   - {name: PH专线(城北豆腐店), server: hefei.chiguayun.cc, port: 27128, type: ss, cipher: chacha20-ietf-poly1305, password: 54ce4495-de85-4448-b6d5-32fbc17c8e1c}
   - {name: KR专线1(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10703, type: ss, cipher: chacha20-ietf-poly1305, password: 21a52940-3722-4df9-973d-abc056a4c00c}
   - {name: KR专线2(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10702, type: ss, cipher: chacha20-ietf-poly1305, password: 21a52940-3722-4df9-973d-abc056a4c00c}
   - {name: JP专线1(城北豆腐店), server: jp1.susenl.com, port: 10038, type: ss, cipher: chacha20-ietf-poly1305, password: 0eBafHbfceGtyGL9}
   - {name: JP专线2(城北豆腐店), server: jp1.susenl.com, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: 0eBafHbfceGtyGL9}
   - {name: JP专线3(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10701, type: ss, cipher: chacha20-ietf-poly1305, password: 21a52940-3722-4df9-973d-abc056a4c00c}
-  - {name: JP专线4(城北豆腐店), server: jp1.susenl.com, port: 10038, type: ss, cipher: chacha20-ietf-poly1305, password: 0eBafHbfceGtyGL9}
-  - {name: JP专线5(城北豆腐店), server: azjp2.downloadvip.cfd, port: 38200, type: trojan, password: 3a90f53a-ae58-4367-8b28-cf429de8bd9e, sni: jp1.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
+  - {name: JP专线4(城北豆腐店), server: azjp2.downloadvip.cfd, port: 38200, type: trojan, password: 3a90f53a-ae58-4367-8b28-cf429de8bd9e, sni: jp1.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
   - {name: IN专线1(城北豆腐店), server: foshan.chiguayun.cc, port: 27103, type: ss, cipher: chacha20-ietf-poly1305, password: 41f32d48-356f-432b-9ff3-0e8599875dd6}
   - {name: IN专线2(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10706, type: ss, cipher: chacha20-ietf-poly1305, password: 21a52940-3722-4df9-973d-abc056a4c00c}
   - {name: HK专线1(城北豆腐店), server: hk1.susenl.com, port: 10034, type: ss, cipher: chacha20-ietf-poly1305, password: 0eBafHbfceGtyGL9}
   - {name: HK专线2(城北豆腐店), server: hk1.susenl.com, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: 0eBafHbfceGtyGL9}
   - {name: HK专线3(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10726, type: ss, cipher: chacha20-ietf-poly1305, password: 21a52940-3722-4df9-973d-abc056a4c00c}
-  - {name: HK专线4(城北豆腐店), server: hk1.susenl.com, port: 10034, type: ss, cipher: chacha20-ietf-poly1305, password: 0eBafHbfceGtyGL9}
   - {name: FR专线1(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10717, type: ss, cipher: chacha20-ietf-poly1305, password: 21a52940-3722-4df9-973d-abc056a4c00c}
   - {name: FR专线2(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10716, type: ss, cipher: chacha20-ietf-poly1305, password: 21a52940-3722-4df9-973d-abc056a4c00c}
   - {name: DE专线1(城北豆腐店), server: 5.104.107.143, port: 443, type: trojan, password: 3a90f53a-ae58-4367-8b28-cf429de8bd9e, sni: de1.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
@@ -52,7 +47,6 @@ proxies:
   - {name: CA专线2(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10711, type: ss, cipher: chacha20-ietf-poly1305, password: 21a52940-3722-4df9-973d-abc056a4c00c}
   - {name: AU专线1(城北豆腐店), server: jp1.susenl.com, port: 10055, type: ss, cipher: chacha20-ietf-poly1305, password: 0eBafHbfceGtyGL9}
   - {name: AU专线2(城北豆腐店), server: yidong.liulangdiqiu.cyou, port: 10704, type: ss, cipher: chacha20-ietf-poly1305, password: 21a52940-3722-4df9-973d-abc056a4c00c}
-  - {name: AU专线3(城北豆腐店), server: jp1.susenl.com, port: 10055, type: ss, cipher: chacha20-ietf-poly1305, password: 0eBafHbfceGtyGL9}
 
 proxy-groups:
   - name: 🔰 节点选择
@@ -80,11 +74,8 @@ proxy-groups:
       - US专线3(城北豆腐店)
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
-      - TW专线3(城北豆腐店)
       - SG专线1(城北豆腐店)
       - SG专线2(城北豆腐店)
-      - SG专线3(城北豆腐店)
-      - SG专线4(城北豆腐店)
       - PH专线(城北豆腐店)
       - KR专线1(城北豆腐店)
       - KR专线2(城北豆腐店)
@@ -92,13 +83,11 @@ proxy-groups:
       - JP专线2(城北豆腐店)
       - JP专线3(城北豆腐店)
       - JP专线4(城北豆腐店)
-      - JP专线5(城北豆腐店)
       - IN专线1(城北豆腐店)
       - IN专线2(城北豆腐店)
       - HK专线1(城北豆腐店)
       - HK专线2(城北豆腐店)
       - HK专线3(城北豆腐店)
-      - HK专线4(城北豆腐店)
       - FR专线1(城北豆腐店)
       - FR专线2(城北豆腐店)
       - DE专线1(城北豆腐店)
@@ -107,7 +96,6 @@ proxy-groups:
       - CA专线2(城北豆腐店)
       - AU专线1(城北豆腐店)
       - AU专线2(城北豆腐店)
-      - AU专线3(城北豆腐店)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -133,11 +121,8 @@ proxy-groups:
       - US专线3(城北豆腐店)
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
-      - TW专线3(城北豆腐店)
       - SG专线1(城北豆腐店)
       - SG专线2(城北豆腐店)
-      - SG专线3(城北豆腐店)
-      - SG专线4(城北豆腐店)
       - PH专线(城北豆腐店)
       - KR专线1(城北豆腐店)
       - KR专线2(城北豆腐店)
@@ -145,13 +130,11 @@ proxy-groups:
       - JP专线2(城北豆腐店)
       - JP专线3(城北豆腐店)
       - JP专线4(城北豆腐店)
-      - JP专线5(城北豆腐店)
       - IN专线1(城北豆腐店)
       - IN专线2(城北豆腐店)
       - HK专线1(城北豆腐店)
       - HK专线2(城北豆腐店)
       - HK专线3(城北豆腐店)
-      - HK专线4(城北豆腐店)
       - FR专线1(城北豆腐店)
       - FR专线2(城北豆腐店)
       - DE专线1(城北豆腐店)
@@ -160,7 +143,6 @@ proxy-groups:
       - CA专线2(城北豆腐店)
       - AU专线1(城北豆腐店)
       - AU专线2(城北豆腐店)
-      - AU专线3(城北豆腐店)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -187,11 +169,8 @@ proxy-groups:
       - US专线3(城北豆腐店)
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
-      - TW专线3(城北豆腐店)
       - SG专线1(城北豆腐店)
       - SG专线2(城北豆腐店)
-      - SG专线3(城北豆腐店)
-      - SG专线4(城北豆腐店)
       - PH专线(城北豆腐店)
       - KR专线1(城北豆腐店)
       - KR专线2(城北豆腐店)
@@ -199,13 +178,11 @@ proxy-groups:
       - JP专线2(城北豆腐店)
       - JP专线3(城北豆腐店)
       - JP专线4(城北豆腐店)
-      - JP专线5(城北豆腐店)
       - IN专线1(城北豆腐店)
       - IN专线2(城北豆腐店)
       - HK专线1(城北豆腐店)
       - HK专线2(城北豆腐店)
       - HK专线3(城北豆腐店)
-      - HK专线4(城北豆腐店)
       - FR专线1(城北豆腐店)
       - FR专线2(城北豆腐店)
       - DE专线1(城北豆腐店)
@@ -214,7 +191,6 @@ proxy-groups:
       - CA专线2(城北豆腐店)
       - AU专线1(城北豆腐店)
       - AU专线2(城北豆腐店)
-      - AU专线3(城北豆腐店)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -245,11 +221,8 @@ proxy-groups:
       - US专线3(城北豆腐店)
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
-      - TW专线3(城北豆腐店)
       - SG专线1(城北豆腐店)
       - SG专线2(城北豆腐店)
-      - SG专线3(城北豆腐店)
-      - SG专线4(城北豆腐店)
       - PH专线(城北豆腐店)
       - KR专线1(城北豆腐店)
       - KR专线2(城北豆腐店)
@@ -257,13 +230,11 @@ proxy-groups:
       - JP专线2(城北豆腐店)
       - JP专线3(城北豆腐店)
       - JP专线4(城北豆腐店)
-      - JP专线5(城北豆腐店)
       - IN专线1(城北豆腐店)
       - IN专线2(城北豆腐店)
       - HK专线1(城北豆腐店)
       - HK专线2(城北豆腐店)
       - HK专线3(城北豆腐店)
-      - HK专线4(城北豆腐店)
       - FR专线1(城北豆腐店)
       - FR专线2(城北豆腐店)
       - DE专线1(城北豆腐店)
@@ -272,7 +243,6 @@ proxy-groups:
       - CA专线2(城北豆腐店)
       - AU专线1(城北豆腐店)
       - AU专线2(城北豆腐店)
-      - AU专线3(城北豆腐店)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -298,11 +268,8 @@ proxy-groups:
       - US专线3(城北豆腐店)
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
-      - TW专线3(城北豆腐店)
       - SG专线1(城北豆腐店)
       - SG专线2(城北豆腐店)
-      - SG专线3(城北豆腐店)
-      - SG专线4(城北豆腐店)
       - PH专线(城北豆腐店)
       - KR专线1(城北豆腐店)
       - KR专线2(城北豆腐店)
@@ -310,13 +277,11 @@ proxy-groups:
       - JP专线2(城北豆腐店)
       - JP专线3(城北豆腐店)
       - JP专线4(城北豆腐店)
-      - JP专线5(城北豆腐店)
       - IN专线1(城北豆腐店)
       - IN专线2(城北豆腐店)
       - HK专线1(城北豆腐店)
       - HK专线2(城北豆腐店)
       - HK专线3(城北豆腐店)
-      - HK专线4(城北豆腐店)
       - FR专线1(城北豆腐店)
       - FR专线2(城北豆腐店)
       - DE专线1(城北豆腐店)
@@ -325,7 +290,6 @@ proxy-groups:
       - CA专线2(城北豆腐店)
       - AU专线1(城北豆腐店)
       - AU专线2(城北豆腐店)
-      - AU专线3(城北豆腐店)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -352,11 +316,8 @@ proxy-groups:
       - US专线3(城北豆腐店)
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
-      - TW专线3(城北豆腐店)
       - SG专线1(城北豆腐店)
       - SG专线2(城北豆腐店)
-      - SG专线3(城北豆腐店)
-      - SG专线4(城北豆腐店)
       - PH专线(城北豆腐店)
       - KR专线1(城北豆腐店)
       - KR专线2(城北豆腐店)
@@ -364,13 +325,11 @@ proxy-groups:
       - JP专线2(城北豆腐店)
       - JP专线3(城北豆腐店)
       - JP专线4(城北豆腐店)
-      - JP专线5(城北豆腐店)
       - IN专线1(城北豆腐店)
       - IN专线2(城北豆腐店)
       - HK专线1(城北豆腐店)
       - HK专线2(城北豆腐店)
       - HK专线3(城北豆腐店)
-      - HK专线4(城北豆腐店)
       - FR专线1(城北豆腐店)
       - FR专线2(城北豆腐店)
       - DE专线1(城北豆腐店)
@@ -379,7 +338,6 @@ proxy-groups:
       - CA专线2(城北豆腐店)
       - AU专线1(城北豆腐店)
       - AU专线2(城北豆腐店)
-      - AU专线3(城北豆腐店)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -415,11 +373,8 @@ proxy-groups:
       - US专线3(城北豆腐店)
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
-      - TW专线3(城北豆腐店)
       - SG专线1(城北豆腐店)
       - SG专线2(城北豆腐店)
-      - SG专线3(城北豆腐店)
-      - SG专线4(城北豆腐店)
       - PH专线(城北豆腐店)
       - KR专线1(城北豆腐店)
       - KR专线2(城北豆腐店)
@@ -427,13 +382,11 @@ proxy-groups:
       - JP专线2(城北豆腐店)
       - JP专线3(城北豆腐店)
       - JP专线4(城北豆腐店)
-      - JP专线5(城北豆腐店)
       - IN专线1(城北豆腐店)
       - IN专线2(城北豆腐店)
       - HK专线1(城北豆腐店)
       - HK专线2(城北豆腐店)
       - HK专线3(城北豆腐店)
-      - HK专线4(城北豆腐店)
       - FR专线1(城北豆腐店)
       - FR专线2(城北豆腐店)
       - DE专线1(城北豆腐店)
@@ -442,7 +395,6 @@ proxy-groups:
       - CA专线2(城北豆腐店)
       - AU专线1(城北豆腐店)
       - AU专线2(城北豆腐店)
-      - AU专线3(城北豆腐店)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
