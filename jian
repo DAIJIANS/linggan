@@ -5,32 +5,32 @@ mode: Rule
 log-level: info
 external-controller: 27.0.0.:9090
 proxies:
-    - { name: AU澳大利亚(城西尼姑庵), type: trojan, server: ap.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: AU澳大利亚2(城西尼姑庵), type: trojan, server: aujs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: BR巴西(城西尼姑庵), type: trojan, server: brjs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: CA加拿大(城西尼姑庵), type: trojan, server: ca.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: CA加拿大2(城西尼姑庵), type: trojan, server: cajs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: CH瑞士(城西尼姑庵), type: trojan, server: chjs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: CL智利(城西尼姑庵), type: trojan, server: cljs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: DE德国(城西尼姑庵), type: trojan, server: de.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: DE德国2(城西尼姑庵), type: trojan, server: dejs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: ES西班牙(城西尼姑庵), type: trojan, server: esjs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: FR法国(城西尼姑庵), type: trojan, server: frjs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: HK香港(城西尼姑庵), type: trojan, server: hkjs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: IN印度(城西尼姑庵), type: trojan, server: in.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: IT意大利(城西尼姑庵), type: trojan, server: itjs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: JP日本(城西尼姑庵), type: trojan, server: jp.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: lu卢森堡(城西尼姑庵), type: trojan, server: lu.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: NF南非(城西尼姑庵), type: trojan, server: nf.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: NL荷兰(城西尼姑庵), type: trojan, server: nljs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: SA沙特阿拉伯(城西尼姑庵), type: trojan, server: sajs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: SG新加坡(城西尼姑庵), type: trojan, server: sg.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: SWE瑞典(城西尼姑庵), type: trojan, server: swejs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: UAE迪拜(城西尼姑庵), type: trojan, server: uaejs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: UK英国(城西尼姑庵), type: trojan, server: uk.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: UK英国2(城西尼姑庵), type: trojan, server: ukjs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: USA美国(城西尼姑庵), type: trojan, server: usa.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
-    - { name: US美国2(城西尼姑庵), type: trojan, server: usajs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true }
+    - {name: AU澳大利亚(城西尼姑庵), type: trojan, server: ap.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: AU澳大利亚2(城西尼姑庵), type: trojan, server: aujs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: BR巴西(城西尼姑庵), type: trojan, server: brjs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: CA加拿大(城西尼姑庵), type: trojan, server: ca.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: CA加拿大2(城西尼姑庵), type: trojan, server: cajs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: CH瑞士(城西尼姑庵), type: trojan, server: chjs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: CL智利(城西尼姑庵), type: trojan, server: cljs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: DE德国(城西尼姑庵), type: trojan, server: de.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: DE德国2(城西尼姑庵), type: trojan, server: dejs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: ES西班牙(城西尼姑庵), type: trojan, server: esjs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: FR法国(城西尼姑庵), type: trojan, server: frjs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: HK香港(城西尼姑庵), type: trojan, server: hkjs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: IN印度(城西尼姑庵), type: trojan, server: in.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: IT意大利(城西尼姑庵), type: trojan, server: itjs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: JP日本(城西尼姑庵), type: trojan, server: jp.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: lu卢森堡(城西尼姑庵), type: trojan, server: lu.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: NF南非(城西尼姑庵), type: trojan, server: nf.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: NL荷兰(城西尼姑庵), type: trojan, server: nljs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: SA沙特阿拉伯(城西尼姑庵), type: trojan, server: sajs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: SG新加坡(城西尼姑庵), type: trojan, server: sg.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: SWE瑞典(城西尼姑庵), type: trojan, server: swejs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: UAE迪拜(城西尼姑庵), type: trojan, server: uaejs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: UK英国(城西尼姑庵), type: trojan, server: uk.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: UK英国2(城西尼姑庵), type: trojan, server: ukjs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: USA美国(城西尼姑庵), type: trojan, server: usa.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
+    - {name: US美国2(城西尼姑庵), type: trojan, server: usajs.liangyuandian.us, port: 223, password: 7da7af02-0ed2-2986-ac2c-977cb7d29ab, udp: true}
 
 proxy-groups:
   - name: 🔰 节点选择
