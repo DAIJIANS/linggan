@@ -68,7 +68,6 @@ proxies:
     - { name: NL 荷兰(城西尼姑庵), type: ss, server: zz-04.xn--9kq10ed11b.com, port: 13914, cipher: chacha20-ietf-poly1305, password: ecdc4cc5-6629-489a-90e8-b06ed196e9b4, udp: true }
     - { name: MY 马来西亚(城西尼姑庵), type: ss, server: zz-01.xn--9kq10ed11b.com, port: 29588, cipher: chacha20-ietf-poly1305, password: ecdc4cc5-6629-489a-90e8-b06ed196e9b4, udp: true }
     - { name: FI 芬兰(城西尼姑庵), type: ss, server: zz-06.xn--9kq10ed11b.com, port: 13312, cipher: chacha20-ietf-poly1305, password: ecdc4cc5-6629-489a-90e8-b06ed196e9b4, udp: true }
-
 proxy-groups:
   - name: 🔰 节点选择
     type: select
