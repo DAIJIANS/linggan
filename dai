@@ -19,6 +19,7 @@ proxies:
   - {name: HK-8.72MB/s(城北豆腐店), server: yd-06.paofunlink.com, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: 7fed640575.microsoft.com}
   - {name: HK-4.04MB/s(城北豆腐店), server: yd-04.paofunlink.com, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 179609:gys9bmo4q19, obfs-param: 0c93c179609.microsoft.com} 
   - {name: HK-13.31MB/s(城北豆腐店), server: hkp09.network-cdn-gw.cc, port: 48809, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
+  - {name: HK-4.16MB/s(城北豆腐店), server: hk1.network-cdn-gw.cc, port: 47795, type: ss, cipher: chacha20-ietf-poly1305, password: a8543a4b-1d3c-4a52-950f-a36ad24ca28e}
   - {name: US专线1(城北豆腐店), type: trojan, server: 23.227.38.45, port: 443, password: 8ebf3575-aefa-4889-b8e1-a0de54ffbd3c, udp: true, network: ws, ws-opts: { path: /jsjc/us3, headers: { Host: jus3.jsjc.sbs } }, sni: jus3.jsjc.sbs }
   - {name: US专线2(城北豆腐店), type: trojan, server: 23.227.38.29, port: 443, password: 8ebf3575-aefa-4889-b8e1-a0de54ffbd3c, udp: true, network: ws, ws-opts: { path: /jsjc/us2, headers: { Host: jus2.jsjc.sbs } }, sni: jus2.jsjc.sbs }
   - {name: US专线3(城北豆腐店), type: trojan, server: 23.227.38.19, port: 443, password: 8ebf3575-aefa-4889-b8e1-a0de54ffbd3c, udp: true, network: ws, ws-opts: { path: /jsjc/us1, headers: { Host: jus1.jsjc.sbs } }, sni: jus1.jsjc.sbs }
@@ -77,6 +78,7 @@ proxy-groups:
       - HK-8.72MB/s(城北豆腐店)
       - HK-4.04MB/s(城北豆腐店)
       - HK-13.31MB/s(城北豆腐店)
+      - HK-4.16MB/s(城北豆腐店)
       - US专线1(城北豆腐店)
       - US专线2(城北豆腐店)
       - US专线3(城北豆腐店)
@@ -134,6 +136,7 @@ proxy-groups:
       - HK-8.72MB/s(城北豆腐店)
       - HK-4.04MB/s(城北豆腐店)
       - HK-13.31MB/s(城北豆腐店)
+      - HK-4.16MB/s(城北豆腐店)
       - US专线1(城北豆腐店)
       - US专线2(城北豆腐店)
       - US专线3(城北豆腐店)
@@ -192,6 +195,7 @@ proxy-groups:
       - HK-8.72MB/s(城北豆腐店)
       - HK-4.04MB/s(城北豆腐店)
       - HK-13.31MB/s(城北豆腐店)
+      - HK-4.16MB/s(城北豆腐店)
       - US专线1(城北豆腐店)
       - US专线2(城北豆腐店)
       - US专线3(城北豆腐店)
@@ -254,6 +258,7 @@ proxy-groups:
       - HK-8.72MB/s(城北豆腐店)
       - HK-4.04MB/s(城北豆腐店)
       - HK-13.31MB/s(城北豆腐店)
+      - HK-4.16MB/s(城北豆腐店)
       - US专线1(城北豆腐店)
       - US专线2(城北豆腐店)
       - US专线3(城北豆腐店)
@@ -311,6 +316,7 @@ proxy-groups:
       - HK-8.72MB/s(城北豆腐店)
       - HK-4.04MB/s(城北豆腐店)
       - HK-13.31MB/s(城北豆腐店)
+      - HK-4.16MB/s(城北豆腐店)
       - US专线1(城北豆腐店)
       - US专线2(城北豆腐店)
       - US专线3(城北豆腐店)
@@ -369,6 +375,7 @@ proxy-groups:
       - HK-8.72MB/s(城北豆腐店)
       - HK-4.04MB/s(城北豆腐店)
       - HK-13.31MB/s(城北豆腐店)
+      - HK-4.16MB/s(城北豆腐店)
       - US专线1(城北豆腐店)
       - US专线2(城北豆腐店)
       - US专线3(城北豆腐店)
@@ -436,6 +443,7 @@ proxy-groups:
       - HK-8.72MB/s(城北豆腐店)
       - HK-4.04MB/s(城北豆腐店)
       - HK-13.31MB/s(城北豆腐店)
+      - HK-4.16MB/s(城北豆腐店)
       - US专线1(城北豆腐店)
       - US专线2(城北豆腐店)
       - US专线3(城北豆腐店)
