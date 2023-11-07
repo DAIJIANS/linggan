@@ -20,7 +20,7 @@ proxies:
   - {name: HK-10.90MB/s(城北豆腐店), server: yd-07.paofunlink.com, port: 5959, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: 7fed640575.microsoft.com}
   - {name: HK-8.72MB/s(城北豆腐店), server: yd-06.paofunlink.com, port: 5955, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: 7fed640575.microsoft.com}
   - {name: HK-4.04MB/s(城北豆腐店), server: yd-04.paofunlink.com, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 179609:gys9bmo4q19, obfs-param: 0c93c179609.microsoft.com}
-  - {name: HK-10.90MB/s(城北豆腐店), server: yd-07.paofunlink.com, port: 5959, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 40575:fV3Nxq, obfs-param: 7fed640575.microsoft.com}
+  - {name: HK-10.56MB/s(城北豆腐店), server: cnrefhk2.labtechs.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "15979:R0c]V7l-6JymJ3", obfs-param: ""}
   - {name: HK-4.69MB/s(城北豆腐店), server: u73kpx2s.xn--8zrwc997j78ud7a.com, port: 11112, type: ssr, cipher: aes-256-cfb, password: iuo7tbw4ks, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91911:uFGcmn, obfs-param: a59ff91911.baidu.com}
   - {name: HK-1.01MB/s(城北豆腐店), server: u73kpx2s.xn--8zrwc997j78ud7a.com, port: 11113, type: ssr, cipher: aes-256-cfb, password: iuo7tbw4ks, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91911:uFGcmn, obfs-param: a59ff91911.baidu.com}
   - {name: HK-20.25MB/s(城北豆腐店), server: u73kpx2s.xn--8zrwc997j78ud7a.com, port: 11106, type: ssr, cipher: aes-256-cfb, password: iuo7tbw4ks, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91911:uFGcmn, obfs-param: a59ff91911.baidu.com}
@@ -79,7 +79,7 @@ proxy-groups:
       - HK-10.90MB/s(城北豆腐店)
       - HK-8.72MB/s(城北豆腐店)
       - HK-4.04MB/s(城北豆腐店)
-      - HK-10.90MB/s(城北豆腐店)
+      - HK-10.56MB/s(城北豆腐店)
       - HK-4.69MB/s(城北豆腐店)
       - HK-1.01MB/s(城北豆腐店)
       - HK-20.25MB/(城北豆腐店)
@@ -136,7 +136,7 @@ proxy-groups:
       - HK-10.90MB/s(城北豆腐店)
       - HK-8.72MB/s(城北豆腐店)
       - HK-4.04MB/s(城北豆腐店)
-      - HK-10.90MB/s(城北豆腐店)
+      - HK-10.56MB/s(城北豆腐店)
       - HK-4.69MB/s(城北豆腐店)
       - HK-1.01MB/s(城北豆腐店)
       - HK-20.25MB/(城北豆腐店)
@@ -194,7 +194,7 @@ proxy-groups:
       - HK-10.90MB/s(城北豆腐店)
       - HK-8.72MB/s(城北豆腐店)
       - HK-4.04MB/s(城北豆腐店)
-      - HK-10.90MB/s(城北豆腐店)
+      - HK-10.56MB/s(城北豆腐店)
       - HK-4.69MB/s(城北豆腐店)
       - HK-1.01MB/s(城北豆腐店)
       - HK-20.25MB/(城北豆腐店)
@@ -256,7 +256,7 @@ proxy-groups:
       - HK-10.90MB/s(城北豆腐店)
       - HK-8.72MB/s(城北豆腐店)
       - HK-4.04MB/s(城北豆腐店)
-      - HK-10.90MB/s(城北豆腐店)
+      - HK-10.56MB/s(城北豆腐店)
       - HK-4.69MB/s(城北豆腐店)
       - HK-1.01MB/s(城北豆腐店)
       - HK-20.25MB/(城北豆腐店)
@@ -313,7 +313,7 @@ proxy-groups:
       - HK-10.90MB/s(城北豆腐店)
       - HK-8.72MB/s(城北豆腐店)
       - HK-4.04MB/s(城北豆腐店)
-      - HK-10.90MB/s(城北豆腐店)
+      - HK-10.56MB/s(城北豆腐店)
       - HK-4.69MB/s(城北豆腐店)
       - HK-1.01MB/s(城北豆腐店)
       - HK-20.25MB/(城北豆腐店)
@@ -371,7 +371,7 @@ proxy-groups:
       - HK-10.90MB/s(城北豆腐店)
       - HK-8.72MB/s(城北豆腐店)
       - HK-4.04MB/s(城北豆腐店)
-      - HK-10.90MB/s(城北豆腐店)
+      - HK-10.56MB/s(城北豆腐店)
       - HK-4.69MB/s(城北豆腐店)
       - HK-1.01MB/s(城北豆腐店)
       - HK-20.25MB/(城北豆腐店)
@@ -438,7 +438,7 @@ proxy-groups:
       - HK-10.90MB/s(城北豆腐店)
       - HK-8.72MB/s(城北豆腐店)
       - HK-4.04MB/s(城北豆腐店)
-      - HK-10.90MB/s(城北豆腐店)
+      - HK-10.56MB/s(城北豆腐店)
       - HK-4.69MB/s(城北豆腐店)
       - HK-1.01MB/s(城北豆腐店)
       - HK-20.25MB/(城北豆腐店)
