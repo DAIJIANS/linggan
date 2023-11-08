@@ -27,15 +27,13 @@ proxies:
   - {name: SG专线3(城北豆腐店), server: cf2.yydsii.com, port: 8080, type: vmess, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: sgyx.651568.xyz } }, ws-path: /, ws-headers: { Host: sgyx.651568.xyz } }
   - {name: SG专线4(城北豆腐店), server: dsg2.downloadvip.cfd, port: 443, type: trojan, password: dd72f35d-7114-443e-925d-5ff92f90ba8b, udp: true, sni: download.xn--mes358a9urctx.com }
   - {name: SG专线5(城北豆腐店), server: dsg1.downloadvip.cfd, port: 443, type: trojan, password: dd72f35d-7114-443e-925d-5ff92f90ba8b, udp: true, sni: download.xn--mes358a9urctx.com }
-  - {name: SG专线6(城北豆腐店), server: 42.7.24.147, port: 38200, type: trojan, password: dd72f35d-7114-443e-925d-5ff92f90ba8b, udp: true, sni: sg1.xn--mes358a9urctx.com }
-  - {name: JP专线1(城北豆腐店), server: 42.7.24.147, port: 38200, type: trojan, password: dd72f35d-7114-443e-925d-5ff92f90ba8b, udp: true, sni: jp1.xn--mes358a9urctx.com }
-  - {name: JP专线2(城北豆腐店), server: djp1.downloadvip.cfd, port: 443, type: trojan, password: dd72f35d-7114-443e-925d-5ff92f90ba8b, udp: true, sni: download.xn--mes358a9urctx.com }
-  - {name: JP专线3(城北豆腐店), server: djp2.downloadvip.cfd, port: 443, type: trojan, password: dd72f35d-7114-443e-925d-5ff92f90ba8b, udp: true, sni: download.xn--mes358a9urctx.com }
-  - {name: JP专线4(城北豆腐店), server: cf2.yydsii.com, port: 80, type: vmess, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: jpyx.651568.xyz } }, ws-path: /, ws-headers: { Host: jpyx.651568.xyz } }
-  - {name: JP专线5(城北豆腐店), server: cdn.anycast.eu.org, port: 80,  type: vmess,uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: jpyx.651568.xyz } }, ws-path: /, ws-headers: { Host: jpyx.651568.xyz } }
-  - {name: JP专线6(城北豆腐店), server: v4.cfnode.eu.org, port: 80, type: vmess, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: jpyx.651568.xyz } }, ws-path: /, ws-headers: { Host: jpyx.651568.xyz } }
-  - {name: JP专线7(城北豆腐店), server: cfyx.yydsii.com, port: 80, type: vmess, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: jpyx.651568.xyz } }, ws-path: /, ws-headers: { Host: jpyx.651568.xyz } }
-  - {name: JP专线8(城北豆腐店), server: zfc.windowsupdate1.com, port: 80, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: jpyx.651568.xyz } }, ws-path: /, ws-headers: { Host: jpyx.651568.xyz } }
+  - {name: JP专线1(城北豆腐店), server: djp1.downloadvip.cfd, port: 443, type: trojan, password: dd72f35d-7114-443e-925d-5ff92f90ba8b, udp: true, sni: download.xn--mes358a9urctx.com }
+  - {name: JP专线2(城北豆腐店), server: djp2.downloadvip.cfd, port: 443, type: trojan, password: dd72f35d-7114-443e-925d-5ff92f90ba8b, udp: true, sni: download.xn--mes358a9urctx.com }
+  - {name: JP专线3(城北豆腐店), server: cf2.yydsii.com, port: 80, type: vmess, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: jpyx.651568.xyz } }, ws-path: /, ws-headers: { Host: jpyx.651568.xyz } }
+  - {name: JP专线4(城北豆腐店), server: cdn.anycast.eu.org, port: 80,  type: vmess,uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: jpyx.651568.xyz } }, ws-path: /, ws-headers: { Host: jpyx.651568.xyz } }
+  - {name: JP专线5(城北豆腐店), server: v4.cfnode.eu.org, port: 80, type: vmess, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: jpyx.651568.xyz } }, ws-path: /, ws-headers: { Host: jpyx.651568.xyz } }
+  - {name: JP专线6(城北豆腐店), server: cfyx.yydsii.com, port: 80, type: vmess, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: jpyx.651568.xyz } }, ws-path: /, ws-headers: { Host: jpyx.651568.xyz } }
+  - {name: JP专线7(城北豆腐店), server: zfc.windowsupdate1.com, port: 80, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: jpyx.651568.xyz } }, ws-path: /, ws-headers: { Host: jpyx.651568.xyz } }
   - {name: US专线1(城北豆腐店), server: cdn.anycast.eu.org, port: 80, type: vmess, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: usyx.651568.xyz } }, ws-path: /, ws-headers: { Host: usyx.651568.xyz } }
   - {name: US专线2(城北豆腐店), server: cf2.yydsii.com, port: 80, type: vmess, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: usyx.651568.xyz } }, ws-path: /, ws-headers: { Host: usyx.651568.xyz } }
   - {name: US专线3(城北豆腐店), server: v4.cfnode.eu.org, port: 80, type: vmess, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: usyx.651568.xyz } }, ws-path: /, ws-headers: { Host: usyx.651568.xyz } }
@@ -83,7 +81,6 @@ proxy-groups:
       - SG专线3(城北豆腐店)
       - SG专线4(城北豆腐店)
       - SG专线5(城北豆腐店)
-      - SG专线6(城北豆腐店)
       - JP专线1(城北豆腐店)
       - JP专线2(城北豆腐店)
       - JP专线3(城北豆腐店)
@@ -91,7 +88,6 @@ proxy-groups:
       - JP专线5(城北豆腐店)
       - JP专线6(城北豆腐店)
       - JP专线7(城北豆腐店)
-      - JP专线8(城北豆腐店)
       - US专线1(城北豆腐店)
       - US专线2(城北豆腐店)
       - US专线3(城北豆腐店)
@@ -137,7 +133,6 @@ proxy-groups:
       - SG专线3(城北豆腐店)
       - SG专线4(城北豆腐店)
       - SG专线5(城北豆腐店)
-      - SG专线6(城北豆腐店)
       - JP专线1(城北豆腐店)
       - JP专线2(城北豆腐店)
       - JP专线3(城北豆腐店)
@@ -145,7 +140,6 @@ proxy-groups:
       - JP专线5(城北豆腐店)
       - JP专线6(城北豆腐店)
       - JP专线7(城北豆腐店)
-      - JP专线8(城北豆腐店)
       - US专线1(城北豆腐店)
       - US专线2(城北豆腐店)
       - US专线3(城北豆腐店)
@@ -192,7 +186,6 @@ proxy-groups:
       - SG专线3(城北豆腐店)
       - SG专线4(城北豆腐店)
       - SG专线5(城北豆腐店)
-      - SG专线6(城北豆腐店)
       - JP专线1(城北豆腐店)
       - JP专线2(城北豆腐店)
       - JP专线3(城北豆腐店)
@@ -200,7 +193,6 @@ proxy-groups:
       - JP专线5(城北豆腐店)
       - JP专线6(城北豆腐店)
       - JP专线7(城北豆腐店)
-      - JP专线8(城北豆腐店)
       - US专线1(城北豆腐店)
       - US专线2(城北豆腐店)
       - US专线3(城北豆腐店)
@@ -251,7 +243,6 @@ proxy-groups:
       - SG专线3(城北豆腐店)
       - SG专线4(城北豆腐店)
       - SG专线5(城北豆腐店)
-      - SG专线6(城北豆腐店)
       - JP专线1(城北豆腐店)
       - JP专线2(城北豆腐店)
       - JP专线3(城北豆腐店)
@@ -259,7 +250,6 @@ proxy-groups:
       - JP专线5(城北豆腐店)
       - JP专线6(城北豆腐店)
       - JP专线7(城北豆腐店)
-      - JP专线8(城北豆腐店)
       - US专线1(城北豆腐店)
       - US专线2(城北豆腐店)
       - US专线3(城北豆腐店)
@@ -305,7 +295,6 @@ proxy-groups:
       - SG专线3(城北豆腐店)
       - SG专线4(城北豆腐店)
       - SG专线5(城北豆腐店)
-      - SG专线6(城北豆腐店)
       - JP专线1(城北豆腐店)
       - JP专线2(城北豆腐店)
       - JP专线3(城北豆腐店)
@@ -313,7 +302,6 @@ proxy-groups:
       - JP专线5(城北豆腐店)
       - JP专线6(城北豆腐店)
       - JP专线7(城北豆腐店)
-      - JP专线8(城北豆腐店)
       - US专线1(城北豆腐店)
       - US专线2(城北豆腐店)
       - US专线3(城北豆腐店)
@@ -360,7 +348,6 @@ proxy-groups:
       - SG专线3(城北豆腐店)
       - SG专线4(城北豆腐店)
       - SG专线5(城北豆腐店)
-      - SG专线6(城北豆腐店)
       - JP专线1(城北豆腐店)
       - JP专线2(城北豆腐店)
       - JP专线3(城北豆腐店)
@@ -368,7 +355,6 @@ proxy-groups:
       - JP专线5(城北豆腐店)
       - JP专线6(城北豆腐店)
       - JP专线7(城北豆腐店)
-      - JP专线8(城北豆腐店)
       - US专线1(城北豆腐店)
       - US专线2(城北豆腐店)
       - US专线3(城北豆腐店)
@@ -424,7 +410,6 @@ proxy-groups:
       - SG专线3(城北豆腐店)
       - SG专线4(城北豆腐店)
       - SG专线5(城北豆腐店)
-      - SG专线6(城北豆腐店)
       - JP专线1(城北豆腐店)
       - JP专线2(城北豆腐店)
       - JP专线3(城北豆腐店)
@@ -432,7 +417,6 @@ proxy-groups:
       - JP专线5(城北豆腐店)
       - JP专线6(城北豆腐店)
       - JP专线7(城北豆腐店)
-      - JP专线8(城北豆腐店)
       - US专线1(城北豆腐店)
       - US专线2(城北豆腐店)
       - US专线3(城北豆腐店)
