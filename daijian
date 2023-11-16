@@ -28,7 +28,8 @@ proxies:
   - {name: KR专线1(城北豆腐店), type: vmess, server: cf1.yydsii.com, port: 8080, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: kryx.651568.xyz } }, ws-path: /, ws-headers: { Host: kryx.651568.xyz } }
   - {name: KR专线2(城北豆腐店), type: vmess, server: v4.cfnode.eu.org, port: 8080, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: kryx.651568.xyz } }, ws-path: /, ws-headers: { Host: kryx.651568.xyz } }
   - {name: KR专线3(城北豆腐店), type: vmess, server: cfyx.yydsii.com, port: 8080, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: kryx.651568.xyz } }, ws-path: /, ws-headers: { Host: kryx.651568.xyz } }
-  - {name: HK专线(城北豆腐店), type: vmess, server: cf2.yydsii.com, port: 2052, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: hkyx.651568.xyz } }, ws-path: /, ws-headers: { Host: hkyx.651568.xyz } }
+  - {name: HK专线1(城北豆腐店), type: vmess, server: cf2.yydsii.com, port: 2052, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: hkyx.651568.xyz } }, ws-path: /, ws-headers: { Host: hkyx.651568.xyz } }
+  - {name: HK专线2(城北豆腐店), server: cover.mac2win.top, port: 8080, type: vmess, uuid: 1dc297e1-30e8-4a55-bb15-aded94b6f70c, alterId: 0, cipher: auto, tls: false, servername: regarding-sharing-performances-heel.trycloudflare.com, network: ws, ws-opts: {path: "/argox-vm?ed=2048", headers: {Host: regarding-sharing-performances-heel.trycloudflare.com}}}
   - {name: HK(城北豆腐店), type: trojan, server: hongkong.netstar.vip, port: 1731, password: 03853ce6-2c85-4d7b-a6d8-e7e1bd7e2373, udp: true, sni: hongkong.netstar.vip }
   - {name: SG(城北豆腐店), type: trojan, server: Singapore.netstar.vip, port: 1259, password: 03853ce6-2c85-4d7b-a6d8-e7e1bd7e2373, udp: true, sni: Singapore.netstar.vip }
   - {name: JP(城北豆腐店), type: trojan, server: japan.netstar.vip, port: 1711, password: 03853ce6-2c85-4d7b-a6d8-e7e1bd7e2373, udp: true, sni: japan.netstar.vip }
@@ -64,7 +65,8 @@ proxy-groups:
       - KR专线1(城北豆腐店)
       - KR专线2(城北豆腐店)
       - KR专线3(城北豆腐店)
-      - HK专线(城北豆腐店)
+      - HK专线1(城北豆腐店)
+      - HK专线2(城北豆腐店)
       - HK(城北豆腐店)
       - SG(城北豆腐店)
       - JP(城北豆腐店)
@@ -98,7 +100,8 @@ proxy-groups:
       - KR专线1(城北豆腐店)
       - KR专线2(城北豆腐店)
       - KR专线3(城北豆腐店)
-      - HK专线(城北豆腐店)
+      - HK专线1(城北豆腐店)
+      - HK专线2(城北豆腐店)
       - HK(城北豆腐店)
       - SG(城北豆腐店)
       - JP(城北豆腐店)
@@ -133,7 +136,8 @@ proxy-groups:
       - KR专线1(城北豆腐店)
       - KR专线2(城北豆腐店)
       - KR专线3(城北豆腐店)
-      - HK专线(城北豆腐店)
+      - HK专线1(城北豆腐店)
+      - HK专线2(城北豆腐店)
       - HK(城北豆腐店)
       - SG(城北豆腐店)
       - JP(城北豆腐店)
@@ -172,7 +176,8 @@ proxy-groups:
       - KR专线1(城北豆腐店)
       - KR专线2(城北豆腐店)
       - KR专线3(城北豆腐店)
-      - HK专线(城北豆腐店)
+      - HK专线1(城北豆腐店)
+      - HK专线2(城北豆腐店)
       - HK(城北豆腐店)
       - SG(城北豆腐店)
       - JP(城北豆腐店)
@@ -206,7 +211,8 @@ proxy-groups:
       - KR专线1(城北豆腐店)
       - KR专线2(城北豆腐店)
       - KR专线3(城北豆腐店)
-      - HK专线(城北豆腐店)
+      - HK专线1(城北豆腐店)
+      - HK专线2(城北豆腐店)
       - HK(城北豆腐店)
       - SG(城北豆腐店)
       - JP(城北豆腐店)
@@ -241,7 +247,8 @@ proxy-groups:
       - KR专线1(城北豆腐店)
       - KR专线2(城北豆腐店)
       - KR专线3(城北豆腐店)
-      - HK专线(城北豆腐店)
+      - HK专线1(城北豆腐店)
+      - HK专线2(城北豆腐店)
       - HK(城北豆腐店)
       - SG(城北豆腐店)
       - JP(城北豆腐店)
@@ -285,7 +292,8 @@ proxy-groups:
       - KR专线1(城北豆腐店)
       - KR专线2(城北豆腐店)
       - KR专线3(城北豆腐店)
-      - HK专线(城北豆腐店)
+      - HK专线1(城北豆腐店)
+      - HK专线2(城北豆腐店)
       - HK(城北豆腐店)
       - SG(城北豆腐店)
       - JP(城北豆腐店)
