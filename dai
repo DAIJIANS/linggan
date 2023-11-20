@@ -42,8 +42,8 @@ proxies:
   - {name: HK专线3(城北豆腐店), type: vmess, server: cf2.yydsii.com, port: 2052, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: hkyx.651568.xyz } }, ws-path: /, ws-headers: { Host: hkyx.651568.xyz } }
   - {name: TW专线1(城北豆腐店), type: vmess, server: nbq11.ntbq.dynu.net, port: 443, uuid: 38f368da-4c68-441a-9074-9b06967834f0, alterId: 0, cipher: auto, udp: true, tls: true, network: ws, ws-opts: { path: /b11, headers: { Host: nbq11.ntbq.dynu.net } } }
   - {name: TW专线2(城北豆腐店), type: vmess, server: b24.ntbq.dynu.net, port: 443, uuid: 38f368da-4c68-441a-9074-9b06967834f0, alterId: 0, cipher: auto, udp: true, tls: true, network: ws, ws-opts: { path: /b24, headers: { Host: b24.ntbq.dynu.net } } }
-  - {name: TW专线4(城北豆腐店), type: vmess, server: zfc.windowsupdate1.com, port: 80, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: yxtw.651568.xyz } }, ws-path: /, ws-headers: { Host: yxtw.651568.xyz } }
-  - {name: TW专线5(城北豆腐店), type: vmess, server: v4.cfnode.eu.org, port: 80, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: yxtw.651568.xyz } }, ws-path: /, ws-headers: { Host: yxtw.651568.xyz } }
+  - {name: TW专线3(城北豆腐店), type: vmess, server: zfc.windowsupdate1.com, port: 80, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: yxtw.651568.xyz } }, ws-path: /, ws-headers: { Host: yxtw.651568.xyz } }
+  - {name: TW专线4(城北豆腐店), type: vmess, server: v4.cfnode.eu.org, port: 80, uuid: fe8e865f-ee99-4bb3-bab5-396a3a9cc93b, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: yxtw.651568.xyz } }, ws-path: /, ws-headers: { Host: yxtw.651568.xyz } }
   - {name: HK1(城北豆腐店), type: trojan, server: hongkong.netstar.vip, port: 1731, password: 03853ce6-2c85-4d7b-a6d8-e7e1bd7e2373, udp: true, sni: hongkong.netstar.vip }
   - {name: HK2(城北豆腐店), server: jp6.jjjjj.fn-node.site, port: 443, type: vmess, uuid: cccd835c-36d0-46f1-ab26-46af81a5b943, alterId: 0, cipher: none, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/argox-vm?ed=2048", headers: {Host: redhead-sight-rose-f.trycloudflare.com}}}
   - {name: HK3(城北豆腐店), server: cover.mac2win.top, port: 8880, type: vmess, uuid: 1dc297e1-30e8-4a55-bb15-aded94b6f70c, alterId: 0, cipher: none, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/argox-vm?ed=2048", headers: {Host: regarding-sharing-performances-heel.trycloudflare.com}}}
@@ -102,8 +102,8 @@ proxy-groups:
       - HK专线3(城北豆腐店)
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
+      - TW专线3(城北豆腐店)
       - TW专线4(城北豆腐店)
-      - TW专线5(城北豆腐店)
       - HK1(城北豆腐店)
       - HK2(城北豆腐店)
       - HK3(城北豆腐店)
@@ -160,8 +160,8 @@ proxy-groups:
       - HK专线3(城北豆腐店)
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
+      - TW专线3(城北豆腐店)
       - TW专线4(城北豆腐店)
-      - TW专线5(城北豆腐店)
       - HK1(城北豆腐店)
       - HK2(城北豆腐店)
       - HK3(城北豆腐店)
@@ -219,8 +219,8 @@ proxy-groups:
       - HK专线3(城北豆腐店)
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
+      - TW专线3(城北豆腐店)
       - TW专线4(城北豆腐店)
-      - TW专线5(城北豆腐店)
       - HK1(城北豆腐店)
       - HK2(城北豆腐店)
       - HK3(城北豆腐店)
@@ -282,8 +282,8 @@ proxy-groups:
       - HK专线3(城北豆腐店)
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
+      - TW专线3(城北豆腐店)
       - TW专线4(城北豆腐店)
-      - TW专线5(城北豆腐店)
       - HK1(城北豆腐店)
       - HK2(城北豆腐店)
       - HK3(城北豆腐店)
@@ -340,8 +340,8 @@ proxy-groups:
       - HK专线3(城北豆腐店)
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
+      - TW专线3(城北豆腐店)
       - TW专线4(城北豆腐店)
-      - TW专线5(城北豆腐店)
       - HK1(城北豆腐店)
       - HK2(城北豆腐店)
       - HK3(城北豆腐店)
@@ -399,8 +399,8 @@ proxy-groups:
       - HK专线3(城北豆腐店)
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
+      - TW专线3(城北豆腐店)
       - TW专线4(城北豆腐店)
-      - TW专线5(城北豆腐店)
       - HK1(城北豆腐店)
       - HK2(城北豆腐店)
       - HK3(城北豆腐店)
@@ -467,13 +467,13 @@ proxy-groups:
       - HK专线3(城北豆腐店)
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
+      - TW专线3(城北豆腐店)
       - TW专线4(城北豆腐店)
-      - TW专线5(城北豆腐店)
       - HK1(城北豆腐店)
       - HK2(城北豆腐店)
       - HK3(城北豆腐店)
-      - SG(城北豆腐店)
-      - SG(城北豆腐店)
+      - SG1(城北豆腐店)
+      - SG2(城北豆腐店)
       - JP(城北豆腐店)
       - MY(城北豆腐店)
       - US1(城北豆腐店)
