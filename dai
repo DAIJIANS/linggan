@@ -54,10 +54,10 @@ proxies:
   - {name: US1(城北豆腐店), type: trojan, server: usa.netstar.vip, port: 6531, password: 03853ce6-2c85-4d7b-a6d8-e7e1bd7e2373, udp: true, sni: usa.netstar.vip }
   - {name: US2(城北豆腐店), server: freeyx.cloudflare88.eu.org, port: 80, type: vmess, uuid: 08b2ceb1-5917-42da-b02c-0f942754aac6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}}
   - {name: US3(城北豆腐店), type: trojan, server: us1.88lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, password: 4e9451c6-0678-4e37-acc9-8afcc39451c5, udp: true, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true }
+  - {name: US4(城北豆腐店), type: trojan, server: us1.88lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, password: 4e9451c6-0678-4e37-acc9-8afcc39451c5, udp: true, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true }
   - {name: CA(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27256, cipher: chacha20-ietf-poly1305, password: c0c85654-646c-48f8-9141-ba9b70d0c928, udp: true }
   - {name: AU(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27254, cipher: chacha20-ietf-poly1305, password: c0c85654-646c-48f8-9141-ba9b70d0c928, udp: true }
   - {name: TW(城北豆腐店), server: hk11.shawbrothersstudio.com, port: 10717, type: vmess, uuid: 183fdfbf-07b6-3724-a3ba-c35af6d0c825, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: US(城北豆腐店), type: trojan, server: us1.88lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, password: 4e9451c6-0678-4e37-acc9-8afcc39451c5, udp: true, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true }
 
 proxy-groups:
   - name: 🔰 节点选择
@@ -114,10 +114,10 @@ proxy-groups:
       - US1(城北豆腐店)
       - US2(城北豆腐店)
       - US3(城北豆腐店)
+      - US4(城北豆腐店)
       - CA(城北豆腐店)
       - AU(城北豆腐店)
       - TW(城北豆腐店)
-      - US(城北豆腐店)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -172,10 +172,10 @@ proxy-groups:
       - US1(城北豆腐店)
       - US2(城北豆腐店)
       - US3(城北豆腐店)
+      - US4(城北豆腐店)
       - CA(城北豆腐店)
       - AU(城北豆腐店)
       - TW(城北豆腐店)
-      - US(城北豆腐店)
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -231,10 +231,10 @@ proxy-groups:
       - US1(城北豆腐店)
       - US2(城北豆腐店)
       - US3(城北豆腐店)
+      - US4(城北豆腐店)
       - CA(城北豆腐店)
       - AU(城北豆腐店)
       - TW(城北豆腐店)
-      - US(城北豆腐店)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -294,10 +294,10 @@ proxy-groups:
       - US1(城北豆腐店)
       - US2(城北豆腐店)
       - US3(城北豆腐店)
+      - US4(城北豆腐店)
       - CA(城北豆腐店)
       - AU(城北豆腐店)
       - TW(城北豆腐店)
-      - US(城北豆腐店)
   - name: 📲 电报信息
     type: select
     proxies:
@@ -352,10 +352,10 @@ proxy-groups:
       - US1(城北豆腐店)
       - US2(城北豆腐店)
       - US3(城北豆腐店)
+      - US4(城北豆腐店)
       - CA(城北豆腐店)
       - AU(城北豆腐店)
       - TW(城北豆腐店)
-      - US(城北豆腐店)
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -411,10 +411,10 @@ proxy-groups:
       - US1(城北豆腐店)
       - US2(城北豆腐店)
       - US3(城北豆腐店)
+      - US4(城北豆腐店)
       - CA(城北豆腐店)
       - AU(城北豆腐店)
       - TW(城北豆腐店)
-      - US(城北豆腐店)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -479,10 +479,10 @@ proxy-groups:
       - US1(城北豆腐店)
       - US2(城北豆腐店)
       - US3(城北豆腐店)
+      - US4(城北豆腐店)
       - CA(城北豆腐店)
       - AU(城北豆腐店)
       - TW(城北豆腐店)
-      - US(城北豆腐店)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
