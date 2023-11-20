@@ -47,8 +47,8 @@ proxies:
   - {name: HK1(城北豆腐店), type: trojan, server: hongkong.netstar.vip, port: 1731, password: 03853ce6-2c85-4d7b-a6d8-e7e1bd7e2373, udp: true, sni: hongkong.netstar.vip }
   - {name: HK2(城北豆腐店), server: jp6.jjjjj.fn-node.site, port: 443, type: vmess, uuid: cccd835c-36d0-46f1-ab26-46af81a5b943, alterId: 0, cipher: none, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/argox-vm?ed=2048", headers: {Host: redhead-sight-rose-f.trycloudflare.com}}}
   - {name: HK3(城北豆腐店), server: cover.mac2win.top, port: 8880, type: vmess, uuid: 1dc297e1-30e8-4a55-bb15-aded94b6f70c, alterId: 0, cipher: none, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/argox-vm?ed=2048", headers: {Host: regarding-sharing-performances-heel.trycloudflare.com}}}
-  - {name: SG(城北豆腐店), type: trojan, server: Singapore.netstar.vip, port: 1259, password: 03853ce6-2c85-4d7b-a6d8-e7e1bd7e2373, udp: true, sni: Singapore.netstar.vip }
-  - {name: SG(城北豆腐店), type: trojan, server: sg2.88lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, password: 4e9451c6-0678-4e37-acc9-8afcc39451c5, udp: true, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true }
+  - {name: SG1(城北豆腐店), type: trojan, server: Singapore.netstar.vip, port: 1259, password: 03853ce6-2c85-4d7b-a6d8-e7e1bd7e2373, udp: true, sni: Singapore.netstar.vip }
+  - {name: SG2(城北豆腐店), type: trojan, server: sg2.88lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, password: 4e9451c6-0678-4e37-acc9-8afcc39451c5, udp: true, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: true }
   - {name: JP(城北豆腐店), type: trojan, server: japan.netstar.vip, port: 1711, password: 03853ce6-2c85-4d7b-a6d8-e7e1bd7e2373, udp: true, sni: japan.netstar.vip }
   - {name: MY(城北豆腐店), type: trojan, server: malaysia.netstar.vip, port: 1712, password: 03853ce6-2c85-4d7b-a6d8-e7e1bd7e2373, udp: true, sni: malaysia.netstar.vip }
   - {name: US1(城北豆腐店), type: trojan, server: usa.netstar.vip, port: 6531, password: 03853ce6-2c85-4d7b-a6d8-e7e1bd7e2373, udp: true, sni: usa.netstar.vip }
@@ -107,8 +107,8 @@ proxy-groups:
       - HK1(城北豆腐店)
       - HK2(城北豆腐店)
       - HK3(城北豆腐店)
-      - SG(城北豆腐店)
-      - SG(城北豆腐店)
+      - SG1(城北豆腐店)
+      - SG2(城北豆腐店)
       - JP(城北豆腐店)
       - MY(城北豆腐店)
       - US1(城北豆腐店)
@@ -165,8 +165,8 @@ proxy-groups:
       - HK1(城北豆腐店)
       - HK2(城北豆腐店)
       - HK3(城北豆腐店)
-      - SG(城北豆腐店)
-      - SG(城北豆腐店)
+      - SG1(城北豆腐店)
+      - SG2(城北豆腐店)
       - JP(城北豆腐店)
       - MY(城北豆腐店)
       - US1(城北豆腐店)
@@ -224,8 +224,8 @@ proxy-groups:
       - HK1(城北豆腐店)
       - HK2(城北豆腐店)
       - HK3(城北豆腐店)
-      - SG(城北豆腐店)
-      - SG(城北豆腐店)
+      - SG1(城北豆腐店)
+      - SG2(城北豆腐店)
       - JP(城北豆腐店)
       - MY(城北豆腐店)
       - US1(城北豆腐店)
@@ -287,8 +287,8 @@ proxy-groups:
       - HK1(城北豆腐店)
       - HK2(城北豆腐店)
       - HK3(城北豆腐店)
-      - SG(城北豆腐店)
-      - SG(城北豆腐店)
+      - SG1(城北豆腐店)
+      - SG2(城北豆腐店)
       - JP(城北豆腐店)
       - MY(城北豆腐店)
       - US1(城北豆腐店)
@@ -345,8 +345,8 @@ proxy-groups:
       - HK1(城北豆腐店)
       - HK2(城北豆腐店)
       - HK3(城北豆腐店)
-      - SG(城北豆腐店)
-      - SG(城北豆腐店)
+      - SG1(城北豆腐店)
+      - SG2(城北豆腐店)
       - JP(城北豆腐店)
       - MY(城北豆腐店)
       - US1(城北豆腐店)
@@ -404,8 +404,8 @@ proxy-groups:
       - HK1(城北豆腐店)
       - HK2(城北豆腐店)
       - HK3(城北豆腐店)
-      - SG(城北豆腐店)
-      - SG(城北豆腐店)
+      - SG1(城北豆腐店)
+      - SG2(城北豆腐店)
       - JP(城北豆腐店)
       - MY(城北豆腐店)
       - US1(城北豆腐店)
