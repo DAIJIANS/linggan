@@ -5,7 +5,7 @@ mode: Rule
 port: 7890
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B10-10
+  name: 城北豆腐店-B10-10
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -16,7 +16,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B11-11
+  name: 城北豆腐店-B11-11
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -27,7 +27,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B12-12
+  name: 城北豆腐店-B12-12
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -38,7 +38,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B13-13
+  name: 城北豆腐店-B13-13
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -49,7 +49,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B14-14
+  name: 城北豆腐店-B14-14
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -60,7 +60,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B15-15
+  name: 城北豆腐店-B15-15
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -71,7 +71,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B16-16
+  name: 城北豆腐店-B16-16
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -82,7 +82,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B17-17
+  name: 城北豆腐店-B17-17
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -93,7 +93,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B18-18
+  name: 城北豆腐店-B18-18
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -104,7 +104,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-US-7
+  name: 城北豆腐店-US-7
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -115,7 +115,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-US-8
+  name: 城北豆腐店-US-8
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -126,7 +126,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-US-10
+  name: 城北豆腐店-US-10
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -137,7 +137,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-US-12
+  name: 城北豆腐店-US-12
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -148,7 +148,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-JP-4
+  name: 城北豆腐店-JP-4
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -159,7 +159,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-JP-5
+  name: 城北豆腐店-JP-5
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -170,7 +170,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-JP-6
+  name: 城北豆腐店-JP-6
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -181,7 +181,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-TW-7
+  name: 城北豆腐店-TW-7
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -192,7 +192,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-TW-8
+  name: 城北豆腐店-TW-8
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -203,7 +203,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-TW-10
+  name: 城北豆腐店-TW-10
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -214,7 +214,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-TW-11
+  name: 城北豆腐店-TW-11
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -225,7 +225,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-TW-12
+  name: 城北豆腐店-TW-12
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -236,7 +236,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-SG-4
+  name: 城北豆腐店-SG-4
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -247,7 +247,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-SG-5
+  name: 城北豆腐店-SG-5
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -258,7 +258,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-SG-6
+  name: 城北豆腐店-SG-6
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -269,7 +269,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-HK-4
+  name: 城北豆腐店-HK-4
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -280,7 +280,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-HK-5
+  name: 城北豆腐店-HK-5
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -291,7 +291,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-HK-6
+  name: 城北豆腐店-HK-6
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -302,7 +302,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-UK-4
+  name: 城北豆腐店-UK-4
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -313,7 +313,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-UK-5
+  name: 城北豆腐店-UK-5
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -324,7 +324,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-UK-6
+  name: 城北豆腐店-UK-6
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -335,7 +335,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-D4-4
+  name: 城北豆腐店-D4-4
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -346,7 +346,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-D5-5
+  name: 城北豆腐店-D5-5
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -357,7 +357,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-D6-6
+  name: 城北豆腐店-D6-6
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -368,7 +368,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-S4-4
+  name: 城北豆腐店-S4-4
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -379,7 +379,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-S5-5
+  name: 城北豆腐店-S5-5
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -390,7 +390,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-S6-6
+  name: 城北豆腐店-S6-6
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -401,7 +401,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-TW-4-Netflix
+  name: 城北豆腐店-TW-4-Netflix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -412,7 +412,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-TW-5-Netflix
+  name: 城北豆腐店-TW-5-Netflix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -423,7 +423,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-TW-6-Netflix
+  name: 城北豆腐店-TW-6-Netflix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -434,7 +434,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-US-7-Netflix
+  name: 城北豆腐店-US-7-Netflix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -445,7 +445,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-US-8-Netflix
+  name: 城北豆腐店-US-8-Netflix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -456,7 +456,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-US-9-Netflix
+  name: 城北豆腐店-US-9-Netflix
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -467,7 +467,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-R7-7
+  name: 城北豆腐店-R7-7
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: v2ray-plugin
   plugin-opts:
@@ -479,11 +479,11 @@ proxies:
     path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
     tls: false
   port: 8880
-  server: 2dd887b.qa.glados-config.com
+  server: 2dd887b.qa.城北豆腐店-config.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-R8-8
+  name: 城北豆腐店-R8-8
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: v2ray-plugin
   plugin-opts:
@@ -495,11 +495,11 @@ proxies:
     path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
     tls: false
   port: 8880
-  server: 2dd887b.qb.glados-config.com
+  server: 2dd887b.qb.城北豆腐店-config.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-R9-9
+  name: 城北豆腐店-R9-9
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: v2ray-plugin
   plugin-opts:
@@ -511,11 +511,11 @@ proxies:
     path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
     tls: false
   port: 8880
-  server: 2dd887b.qc.glados-config.com
+  server: 2dd887b.qc.城北豆腐店-config.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-R11-11
+  name: 城北豆腐店-R11-11
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: v2ray-plugin
   plugin-opts:
@@ -527,11 +527,11 @@ proxies:
     path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
     tls: false
   port: 8880
-  server: 2dd887b.qe.glados-config.com
+  server: 2dd887b.qe.城北豆腐店-config.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-R12-12
+  name: 城北豆腐店-R12-12
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: v2ray-plugin
   plugin-opts:
@@ -543,352 +543,352 @@ proxies:
     path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
     tls: false
   port: 8880
-  server: 2dd887b.qf.glados-config.com
+  server: 2dd887b.qf.城北豆腐店-config.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B19-19
+  name: 城北豆腐店-B19-19
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.cz:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.b1.glados-config.net
+  server: 2c7d70b.b1.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B20-20
+  name: 城北豆腐店-B20-20
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.fastly.net:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.b2.glados-config.net
+  server: 2c7d70b.b2.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B21-21
+  name: 城北豆腐店-B21-21
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.ch:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.b3.glados-config.net
+  server: 2c7d70b.b3.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B22-22
+  name: 城北豆腐店-B22-22
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.md:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.b4.glados-config.net
+  server: 2c7d70b.b4.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B23-23
+  name: 城北豆腐店-B23-23
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.lv:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.b5.glados-config.net
+  server: 2c7d70b.b5.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B24-24
+  name: 城北豆腐店-B24-24
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.nintendo.be:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.b6.glados-config.net
+  server: 2c7d70b.b6.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B25-25
+  name: 城北豆腐店-B25-25
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.ge:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.b7.glados-config.net
+  server: 2c7d70b.b7.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B26-26
+  name: 城北豆腐店-B26-26
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.nintendo.com:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.b8.glados-config.net
+  server: 2c7d70b.b8.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-B27-27
+  name: 城北豆腐店-B27-27
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.blizzard.com:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.b9.glados-config.net
+  server: 2c7d70b.b9.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-JP-8
+  name: 城北豆腐店-JP-8
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.is:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.j2.glados-config.net
+  server: 2c7d70b.j2.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-JP-9
+  name: 城北豆腐店-JP-9
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.nintendo.net:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.j3.glados-config.net
+  server: 2c7d70b.j3.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-TW-13
+  name: 城北豆腐店-TW-13
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.fi:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.t1.glados-config.net
+  server: 2c7d70b.t1.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-TW-14
+  name: 城北豆腐店-TW-14
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.dk:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.t2.glados-config.net
+  server: 2c7d70b.t2.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-TW-15
+  name: 城北豆腐店-TW-15
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.lu:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.t3.glados-config.net
+  server: 2c7d70b.t3.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-TW-16
+  name: 城北豆腐店-TW-16
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.net:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.t4.glados-config.net
+  server: 2c7d70b.t4.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-TW-18
+  name: 城北豆腐店-TW-18
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.md:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.t6.glados-config.net
+  server: 2c7d70b.t6.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-SG-7
+  name: 城北豆腐店-SG-7
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.mozilla.net:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.s1.glados-config.net
+  server: 2c7d70b.s1.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-SG-8
+  name: 城北豆腐店-SG-8
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.md:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.s2.glados-config.net
+  server: 2c7d70b.s2.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-SG-9
+  name: 城北豆腐店-SG-9
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.fastly.net:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.s3.glados-config.net
+  server: 2c7d70b.s3.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-HK-7
+  name: 城北豆腐店-HK-7
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.blizzard.com:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.h1.glados-config.net
+  server: 2c7d70b.h1.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-HK-8
+  name: 城北豆腐店-HK-8
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.nintendo.be:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.h2.glados-config.net
+  server: 2c7d70b.h2.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-HK-9
+  name: 城北豆腐店-HK-9
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.nintendo.es:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.h3.glados-config.net
+  server: 2c7d70b.h3.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-UK-7
+  name: 城北豆腐店-UK-7
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.eu:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.e1.glados-config.net
+  server: 2c7d70b.e1.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-UK-8
+  name: 城北豆腐店-UK-8
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.lt:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.e2.glados-config.net
+  server: 2c7d70b.e2.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-UK-9
+  name: 城北豆腐店-UK-9
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.nintendo.es:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.e3.glados-config.net
+  server: 2c7d70b.e3.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-D7-7
+  name: 城北豆腐店-D7-7
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.net:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.da.glados-config.net
+  server: 2c7d70b.da.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-D8-8
+  name: 城北豆腐店-D8-8
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.eu:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.db.glados-config.net
+  server: 2c7d70b.db.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-D9-9
+  name: 城北豆腐店-D9-9
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.nintendo.es:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.dc.glados-config.net
+  server: 2c7d70b.dc.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-S7-7
+  name: 城北豆腐店-S7-7
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.jp.net:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.f1.glados-config.net
+  server: 2c7d70b.f1.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-S8-8
+  name: 城北豆腐店-S8-8
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.dk.net:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.f2.glados-config.net
+  server: 2c7d70b.f2.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-S9-9
+  name: 城北豆腐店-S9-9
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
     host: 2c7d70b.dl.microsoft.md.net:29681
     mode: tls
   port: 2377
-  server: 2c7d70b.f3.glados-config.net
+  server: 2c7d70b.f3.城北豆腐店-config.net
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-R13-13
+  name: 城北豆腐店-R13-13
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: v2ray-plugin
   plugin-opts:
@@ -900,11 +900,11 @@ proxies:
     path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
     tls: false
   port: 8880
-  server: 2c7d70b.qa.glados-config.com
+  server: 2c7d70b.qa.城北豆腐店-config.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-R14-14
+  name: 城北豆腐店-R14-14
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: v2ray-plugin
   plugin-opts:
@@ -916,11 +916,11 @@ proxies:
     path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
     tls: false
   port: 8880
-  server: 2c7d70b.qb.glados-config.com
+  server: 2c7d70b.qb.城北豆腐店-config.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-R15-15
+  name: 城北豆腐店-R15-15
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: v2ray-plugin
   plugin-opts:
@@ -932,11 +932,11 @@ proxies:
     path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
     tls: false
   port: 8880
-  server: 2c7d70b.qc.glados-config.com
+  server: 2c7d70b.qc.城北豆腐店-config.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-R16-16
+  name: 城北豆腐店-R16-16
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: v2ray-plugin
   plugin-opts:
@@ -948,11 +948,11 @@ proxies:
     path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
     tls: false
   port: 8880
-  server: 2c7d70b.qd.glados-config.com
+  server: 2c7d70b.qd.城北豆腐店-config.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-R17-17
+  name: 城北豆腐店-R17-17
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: v2ray-plugin
   plugin-opts:
@@ -964,11 +964,11 @@ proxies:
     path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
     tls: false
   port: 8880
-  server: 2c7d70b.qe.glados-config.com
+  server: 2c7d70b.qe.城北豆腐店-config.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: GLaDOS-R18-18
+  name: 城北豆腐店-R18-18
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: v2ray-plugin
   plugin-opts:
@@ -980,7 +980,7 @@ proxies:
     path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
     tls: false
   port: 8880
-  server: 2c7d70b.qf.glados-config.com
+  server: 2c7d70b.qf.城北豆腐店-config.com
   type: ss
   udp: true
 - alterId: 0
@@ -1052,179 +1052,179 @@ proxy-groups:
   - 🚀 手动切换
   - DIRECT
   - 🌍 其它节点
-  - GLaDOS-B10-10
-  - GLaDOS-B11-11
-  - GLaDOS-B12-12
-  - GLaDOS-B13-13
-  - GLaDOS-B14-14
-  - GLaDOS-B15-15
-  - GLaDOS-B16-16
-  - GLaDOS-B17-17
-  - GLaDOS-B18-18
-  - GLaDOS-R18-18
-  - GLaDOS-B19-19
-  - GLaDOS-B20-20
-  - GLaDOS-B21-21
-  - GLaDOS-B22-22
-  - GLaDOS-B23-23
-  - GLaDOS-B24-24
-  - GLaDOS-B25-25
-  - GLaDOS-B26-26
-  - GLaDOS-B27-27
-  - GLaDOS-D4-4
-  - GLaDOS-D5-5
-  - GLaDOS-D6-6
-  - GLaDOS-D7-7
-  - GLaDOS-D8-8
-  - GLaDOS-D9-9
-  - GLaDOS-S4-4
-  - GLaDOS-S5-5
-  - GLaDOS-S6-6
-  - GLaDOS-S7-7
-  - GLaDOS-S8-8
-  - GLaDOS-S9-9
-  - GLaDOS-R7-7
-  - GLaDOS-R8-8
-  - GLaDOS-R9-9
-  - GLaDOS-R11-11
-  - GLaDOS-R12-12
-  - GLaDOS-R13-13
-  - GLaDOS-R14-14
-  - GLaDOS-R15-15
-  - GLaDOS-R16-16
-  - GLaDOS-R17-17
+  - 城北豆腐店-B10-10
+  - 城北豆腐店-B11-11
+  - 城北豆腐店-B12-12
+  - 城北豆腐店-B13-13
+  - 城北豆腐店-B14-14
+  - 城北豆腐店-B15-15
+  - 城北豆腐店-B16-16
+  - 城北豆腐店-B17-17
+  - 城北豆腐店-B18-18
+  - 城北豆腐店-R18-18
+  - 城北豆腐店-B19-19
+  - 城北豆腐店-B20-20
+  - 城北豆腐店-B21-21
+  - 城北豆腐店-B22-22
+  - 城北豆腐店-B23-23
+  - 城北豆腐店-B24-24
+  - 城北豆腐店-B25-25
+  - 城北豆腐店-B26-26
+  - 城北豆腐店-B27-27
+  - 城北豆腐店-D4-4
+  - 城北豆腐店-D5-5
+  - 城北豆腐店-D6-6
+  - 城北豆腐店-D7-7
+  - 城北豆腐店-D8-8
+  - 城北豆腐店-D9-9
+  - 城北豆腐店-S4-4
+  - 城北豆腐店-S5-5
+  - 城北豆腐店-S6-6
+  - 城北豆腐店-S7-7
+  - 城北豆腐店-S8-8
+  - 城北豆腐店-S9-9
+  - 城北豆腐店-R7-7
+  - 城北豆腐店-R8-8
+  - 城北豆腐店-R9-9
+  - 城北豆腐店-R11-11
+  - 城北豆腐店-R12-12
+  - 城北豆腐店-R13-13
+  - 城北豆腐店-R14-14
+  - 城北豆腐店-R15-15
+  - 城北豆腐店-R16-16
+  - 城北豆腐店-R17-17
   - 🇺🇲 美国节点
-  - GLaDOS-US-7
-  - GLaDOS-US-8
-  - GLaDOS-US-10
-  - GLaDOS-US-12
-  - GLaDOS-US-7-Netflix
-  - GLaDOS-US-8-Netflix
-  - GLaDOS-US-9-Netflix
+  - 城北豆腐店-US-7
+  - 城北豆腐店-US-8
+  - 城北豆腐店-US-10
+  - 城北豆腐店-US-12
+  - 城北豆腐店-US-7-Netflix
+  - 城北豆腐店-US-8-Netflix
+  - 城北豆腐店-US-9-Netflix
   - 🇺🇸 美国1|私有
   - 🇺🇸 美国2|私有
   - 🇯🇵 日本节点
-  - GLaDOS-JP-4
-  - GLaDOS-JP-5
-  - GLaDOS-JP-6
-  - GLaDOS-JP-8
+  - 城北豆腐店-JP-4
+  - 城北豆腐店-JP-5
+  - 城北豆腐店-JP-6
+  - 城北豆腐店-JP-8
   - 🇨🇳 台湾节点
-  - GLaDOS-TW-7
-  - GLaDOS-TW-8
-  - GLaDOS-TW-10
-  - GLaDOS-TW-11
-  - GLaDOS-TW-13
-  - GLaDOS-TW-14
-  - GLaDOS-TW-15
-  - GLaDOS-TW-16
-  - GLaDOS-TW-4-Netflix
-  - GLaDOS-TW-5-Netflix
-  - GLaDOS-TW-6-Netflix
+  - 城北豆腐店-TW-7
+  - 城北豆腐店-TW-8
+  - 城北豆腐店-TW-10
+  - 城北豆腐店-TW-11
+  - 城北豆腐店-TW-13
+  - 城北豆腐店-TW-14
+  - 城北豆腐店-TW-15
+  - 城北豆腐店-TW-16
+  - 城北豆腐店-TW-4-Netflix
+  - 城北豆腐店-TW-5-Netflix
+  - 城北豆腐店-TW-6-Netflix
   - 🇸🇬 新加坡节点
-  - GLaDOS-SG-4
-  - GLaDOS-SG-5
-  - GLaDOS-SG-6
-  - GLaDOS-SG-7
-  - GLaDOS-SG-8
-  - GLaDOS-SG-9
+  - 城北豆腐店-SG-4
+  - 城北豆腐店-SG-5
+  - 城北豆腐店-SG-6
+  - 城北豆腐店-SG-7
+  - 城北豆腐店-SG-8
+  - 城北豆腐店-SG-9
   - 🇭🇰 香港节点
-  - GLaDOS-HK-4
-  - GLaDOS-HK-5
-  - GLaDOS-HK-6
-  - GLaDOS-HK-7
-  - GLaDOS-HK-8
-  - GLaDOS-HK-9
+  - 城北豆腐店-HK-4
+  - 城北豆腐店-HK-5
+  - 城北豆腐店-HK-6
+  - 城北豆腐店-HK-7
+  - 城北豆腐店-HK-8
+  - 城北豆腐店-HK-9
   - 🇬🇧 英国节点
-  - GLaDOS-UK-4
-  - GLaDOS-UK-5
-  - GLaDOS-UK-6
-  - GLaDOS-UK-7
-  - GLaDOS-UK-8
-  - GLaDOS-UK-9
+  - 城北豆腐店-UK-4
+  - 城北豆腐店-UK-5
+  - 城北豆腐店-UK-6
+  - 城北豆腐店-UK-7
+  - 城北豆腐店-UK-8
+  - 城北豆腐店-UK-9
   - 🇷🇺 俄罗斯节点
   - 🇷🇺 俄罗斯1|私有
   - 🇷🇺 俄罗斯2|私有
-  - GLaDOS-B10-10
-  - GLaDOS-B11-11
-  - GLaDOS-B12-12
-  - GLaDOS-B13-13
-  - GLaDOS-B14-14
-  - GLaDOS-B15-15
-  - GLaDOS-B16-16
-  - GLaDOS-B17-17
-  - GLaDOS-B18-18
-  - GLaDOS-US-7
-  - GLaDOS-US-8
-  - GLaDOS-US-10
-  - GLaDOS-US-12
-  - GLaDOS-JP-4
-  - GLaDOS-JP-5
-  - GLaDOS-JP-6
-  - GLaDOS-TW-7
-  - GLaDOS-TW-8
-  - GLaDOS-TW-10
-  - GLaDOS-TW-11
-  - GLaDOS-SG-4
-  - GLaDOS-SG-5
-  - GLaDOS-SG-6
-  - GLaDOS-HK-4
-  - GLaDOS-HK-5
-  - GLaDOS-HK-6
-  - GLaDOS-UK-4
-  - GLaDOS-UK-5
-  - GLaDOS-UK-6
-  - GLaDOS-D4-4
-  - GLaDOS-D5-5
-  - GLaDOS-D6-6
-  - GLaDOS-S4-4
-  - GLaDOS-S5-5
-  - GLaDOS-S6-6
-  - GLaDOS-TW-4-Netflix
-  - GLaDOS-TW-5-Netflix
-  - GLaDOS-TW-6-Netflix
-  - GLaDOS-US-7-Netflix
-  - GLaDOS-US-8-Netflix
-  - GLaDOS-US-9-Netflix
-  - GLaDOS-R7-7
-  - GLaDOS-R8-8
-  - GLaDOS-R9-9
-  - GLaDOS-R11-11
-  - GLaDOS-R12-12
-  - GLaDOS-B19-19
-  - GLaDOS-B20-20
-  - GLaDOS-B21-21
-  - GLaDOS-B22-22
-  - GLaDOS-B23-23
-  - GLaDOS-B24-24
-  - GLaDOS-B25-25
-  - GLaDOS-B26-26
-  - GLaDOS-B27-27
-  - GLaDOS-JP-8
-  - GLaDOS-TW-13
-  - GLaDOS-TW-14
-  - GLaDOS-TW-15
-  - GLaDOS-TW-16
-  - GLaDOS-SG-7
-  - GLaDOS-SG-8
-  - GLaDOS-SG-9
-  - GLaDOS-HK-7
-  - GLaDOS-HK-8
-  - GLaDOS-HK-9
-  - GLaDOS-UK-7
-  - GLaDOS-UK-8
-  - GLaDOS-UK-9
-  - GLaDOS-D7-7
-  - GLaDOS-D8-8
-  - GLaDOS-D9-9
-  - GLaDOS-S7-7
-  - GLaDOS-S8-8
-  - GLaDOS-S9-9
-  - GLaDOS-R13-13
-  - GLaDOS-R14-14
-  - GLaDOS-R15-15
-  - GLaDOS-R16-16
-  - GLaDOS-R17-17
-  - GLaDOS-R18-18
+  - 城北豆腐店-B10-10
+  - 城北豆腐店-B11-11
+  - 城北豆腐店-B12-12
+  - 城北豆腐店-B13-13
+  - 城北豆腐店-B14-14
+  - 城北豆腐店-B15-15
+  - 城北豆腐店-B16-16
+  - 城北豆腐店-B17-17
+  - 城北豆腐店-B18-18
+  - 城北豆腐店-US-7
+  - 城北豆腐店-US-8
+  - 城北豆腐店-US-10
+  - 城北豆腐店-US-12
+  - 城北豆腐店-JP-4
+  - 城北豆腐店-JP-5
+  - 城北豆腐店-JP-6
+  - 城北豆腐店-TW-7
+  - 城北豆腐店-TW-8
+  - 城北豆腐店-TW-10
+  - 城北豆腐店-TW-11
+  - 城北豆腐店-SG-4
+  - 城北豆腐店-SG-5
+  - 城北豆腐店-SG-6
+  - 城北豆腐店-HK-4
+  - 城北豆腐店-HK-5
+  - 城北豆腐店-HK-6
+  - 城北豆腐店-UK-4
+  - 城北豆腐店-UK-5
+  - 城北豆腐店-UK-6
+  - 城北豆腐店-D4-4
+  - 城北豆腐店-D5-5
+  - 城北豆腐店-D6-6
+  - 城北豆腐店-S4-4
+  - 城北豆腐店-S5-5
+  - 城北豆腐店-S6-6
+  - 城北豆腐店-TW-4-Netflix
+  - 城北豆腐店-TW-5-Netflix
+  - 城北豆腐店-TW-6-Netflix
+  - 城北豆腐店-US-7-Netflix
+  - 城北豆腐店-US-8-Netflix
+  - 城北豆腐店-US-9-Netflix
+  - 城北豆腐店-R7-7
+  - 城北豆腐店-R8-8
+  - 城北豆腐店-R9-9
+  - 城北豆腐店-R11-11
+  - 城北豆腐店-R12-12
+  - 城北豆腐店-B19-19
+  - 城北豆腐店-B20-20
+  - 城北豆腐店-B21-21
+  - 城北豆腐店-B22-22
+  - 城北豆腐店-B23-23
+  - 城北豆腐店-B24-24
+  - 城北豆腐店-B25-25
+  - 城北豆腐店-B26-26
+  - 城北豆腐店-B27-27
+  - 城北豆腐店-JP-8
+  - 城北豆腐店-TW-13
+  - 城北豆腐店-TW-14
+  - 城北豆腐店-TW-15
+  - 城北豆腐店-TW-16
+  - 城北豆腐店-SG-7
+  - 城北豆腐店-SG-8
+  - 城北豆腐店-SG-9
+  - 城北豆腐店-HK-7
+  - 城北豆腐店-HK-8
+  - 城北豆腐店-HK-9
+  - 城北豆腐店-UK-7
+  - 城北豆腐店-UK-8
+  - 城北豆腐店-UK-9
+  - 城北豆腐店-D7-7
+  - 城北豆腐店-D8-8
+  - 城北豆腐店-D9-9
+  - 城北豆腐店-S7-7
+  - 城北豆腐店-S8-8
+  - 城北豆腐店-S9-9
+  - 城北豆腐店-R13-13
+  - 城北豆腐店-R14-14
+  - 城北豆腐店-R15-15
+  - 城北豆腐店-R16-16
+  - 城北豆腐店-R17-17
+  - 城北豆腐店-R18-18
   - 🇺🇸 美国1|私有
   - 🇺🇸 美国2|私有
   - 🇷🇺 俄罗斯1|私有
@@ -1233,176 +1233,176 @@ proxy-groups:
 - name: 🚀 手动切换
   proxies:
   - 🌍 其它节点
-  - GLaDOS-B10-10
-  - GLaDOS-B11-11
-  - GLaDOS-B12-12
-  - GLaDOS-B13-13
-  - GLaDOS-B14-14
-  - GLaDOS-B15-15
-  - GLaDOS-B16-16
-  - GLaDOS-B17-17
-  - GLaDOS-B18-18
-  - GLaDOS-R18-18
-  - GLaDOS-B19-19
-  - GLaDOS-B20-20
-  - GLaDOS-B21-21
-  - GLaDOS-B22-22
-  - GLaDOS-B23-23
-  - GLaDOS-B24-24
-  - GLaDOS-B25-25
-  - GLaDOS-B26-26
-  - GLaDOS-B27-27
-  - GLaDOS-D4-4
-  - GLaDOS-D5-5
-  - GLaDOS-D6-6
-  - GLaDOS-D7-7
-  - GLaDOS-D8-8
-  - GLaDOS-D9-9
-  - GLaDOS-S4-4
-  - GLaDOS-S5-5
-  - GLaDOS-S6-6
-  - GLaDOS-S7-7
-  - GLaDOS-S8-8
-  - GLaDOS-S9-9
-  - GLaDOS-R7-7
-  - GLaDOS-R8-8
-  - GLaDOS-R9-9
-  - GLaDOS-R11-11
-  - GLaDOS-R12-12
-  - GLaDOS-R13-13
-  - GLaDOS-R14-14
-  - GLaDOS-R15-15
-  - GLaDOS-R16-16
-  - GLaDOS-R17-17
+  - 城北豆腐店-B10-10
+  - 城北豆腐店-B11-11
+  - 城北豆腐店-B12-12
+  - 城北豆腐店-B13-13
+  - 城北豆腐店-B14-14
+  - 城北豆腐店-B15-15
+  - 城北豆腐店-B16-16
+  - 城北豆腐店-B17-17
+  - 城北豆腐店-B18-18
+  - 城北豆腐店-R18-18
+  - 城北豆腐店-B19-19
+  - 城北豆腐店-B20-20
+  - 城北豆腐店-B21-21
+  - 城北豆腐店-B22-22
+  - 城北豆腐店-B23-23
+  - 城北豆腐店-B24-24
+  - 城北豆腐店-B25-25
+  - 城北豆腐店-B26-26
+  - 城北豆腐店-B27-27
+  - 城北豆腐店-D4-4
+  - 城北豆腐店-D5-5
+  - 城北豆腐店-D6-6
+  - 城北豆腐店-D7-7
+  - 城北豆腐店-D8-8
+  - 城北豆腐店-D9-9
+  - 城北豆腐店-S4-4
+  - 城北豆腐店-S5-5
+  - 城北豆腐店-S6-6
+  - 城北豆腐店-S7-7
+  - 城北豆腐店-S8-8
+  - 城北豆腐店-S9-9
+  - 城北豆腐店-R7-7
+  - 城北豆腐店-R8-8
+  - 城北豆腐店-R9-9
+  - 城北豆腐店-R11-11
+  - 城北豆腐店-R12-12
+  - 城北豆腐店-R13-13
+  - 城北豆腐店-R14-14
+  - 城北豆腐店-R15-15
+  - 城北豆腐店-R16-16
+  - 城北豆腐店-R17-17
   - 🇺🇲 美国节点
-  - GLaDOS-US-7
-  - GLaDOS-US-8
-  - GLaDOS-US-10
-  - GLaDOS-US-12
-  - GLaDOS-US-7-Netflix
-  - GLaDOS-US-8-Netflix
-  - GLaDOS-US-9-Netflix
+  - 城北豆腐店-US-7
+  - 城北豆腐店-US-8
+  - 城北豆腐店-US-10
+  - 城北豆腐店-US-12
+  - 城北豆腐店-US-7-Netflix
+  - 城北豆腐店-US-8-Netflix
+  - 城北豆腐店-US-9-Netflix
   - 🇺🇸 美国1|私有
   - 🇺🇸 美国2|私有
   - 🇯🇵 日本节点
-  - GLaDOS-JP-4
-  - GLaDOS-JP-5
-  - GLaDOS-JP-6
-  - GLaDOS-JP-8
+  - 城北豆腐店-JP-4
+  - 城北豆腐店-JP-5
+  - 城北豆腐店-JP-6
+  - 城北豆腐店-JP-8
   - 🇨🇳 台湾节点
-  - GLaDOS-TW-7
-  - GLaDOS-TW-8
-  - GLaDOS-TW-10
-  - GLaDOS-TW-11
-  - GLaDOS-TW-13
-  - GLaDOS-TW-14
-  - GLaDOS-TW-15
-  - GLaDOS-TW-16
-  - GLaDOS-TW-4-Netflix
-  - GLaDOS-TW-5-Netflix
-  - GLaDOS-TW-6-Netflix
+  - 城北豆腐店-TW-7
+  - 城北豆腐店-TW-8
+  - 城北豆腐店-TW-10
+  - 城北豆腐店-TW-11
+  - 城北豆腐店-TW-13
+  - 城北豆腐店-TW-14
+  - 城北豆腐店-TW-15
+  - 城北豆腐店-TW-16
+  - 城北豆腐店-TW-4-Netflix
+  - 城北豆腐店-TW-5-Netflix
+  - 城北豆腐店-TW-6-Netflix
   - 🇸🇬 新加坡节点
-  - GLaDOS-SG-4
-  - GLaDOS-SG-5
-  - GLaDOS-SG-6
-  - GLaDOS-SG-7
-  - GLaDOS-SG-8
-  - GLaDOS-SG-9
+  - 城北豆腐店-SG-4
+  - 城北豆腐店-SG-5
+  - 城北豆腐店-SG-6
+  - 城北豆腐店-SG-7
+  - 城北豆腐店-SG-8
+  - 城北豆腐店-SG-9
   - 🇭🇰 香港节点
-  - GLaDOS-HK-4
-  - GLaDOS-HK-5
-  - GLaDOS-HK-6
-  - GLaDOS-HK-7
-  - GLaDOS-HK-8
-  - GLaDOS-HK-9
+  - 城北豆腐店-HK-4
+  - 城北豆腐店-HK-5
+  - 城北豆腐店-HK-6
+  - 城北豆腐店-HK-7
+  - 城北豆腐店-HK-8
+  - 城北豆腐店-HK-9
   - 🇬🇧 英国节点
-  - GLaDOS-UK-4
-  - GLaDOS-UK-5
-  - GLaDOS-UK-6
-  - GLaDOS-UK-7
-  - GLaDOS-UK-8
-  - GLaDOS-UK-9
-  - GLaDOS-B10-10
-  - GLaDOS-B11-11
-  - GLaDOS-B12-12
-  - GLaDOS-B13-13
-  - GLaDOS-B14-14
-  - GLaDOS-B15-15
-  - GLaDOS-B16-16
-  - GLaDOS-B17-17
-  - GLaDOS-B18-18
-  - GLaDOS-US-7
-  - GLaDOS-US-8
-  - GLaDOS-US-10
-  - GLaDOS-US-12
-  - GLaDOS-JP-4
-  - GLaDOS-JP-5
-  - GLaDOS-JP-6
-  - GLaDOS-TW-7
-  - GLaDOS-TW-8
-  - GLaDOS-TW-10
-  - GLaDOS-TW-11
-  - GLaDOS-SG-4
-  - GLaDOS-SG-5
-  - GLaDOS-SG-6
-  - GLaDOS-HK-4
-  - GLaDOS-HK-5
-  - GLaDOS-HK-6
-  - GLaDOS-UK-4
-  - GLaDOS-UK-5
-  - GLaDOS-UK-6
-  - GLaDOS-D4-4
-  - GLaDOS-D5-5
-  - GLaDOS-D6-6
-  - GLaDOS-S4-4
-  - GLaDOS-S5-5
-  - GLaDOS-S6-6
-  - GLaDOS-TW-4-Netflix
-  - GLaDOS-TW-5-Netflix
-  - GLaDOS-TW-6-Netflix
-  - GLaDOS-US-7-Netflix
-  - GLaDOS-US-8-Netflix
-  - GLaDOS-US-9-Netflix
-  - GLaDOS-R7-7
-  - GLaDOS-R8-8
-  - GLaDOS-R9-9
-  - GLaDOS-R11-11
-  - GLaDOS-R12-12
-  - GLaDOS-B19-19
-  - GLaDOS-B20-20
-  - GLaDOS-B21-21
-  - GLaDOS-B22-22
-  - GLaDOS-B23-23
-  - GLaDOS-B24-24
-  - GLaDOS-B25-25
-  - GLaDOS-B26-26
-  - GLaDOS-B27-27
-  - GLaDOS-JP-8
-  - GLaDOS-TW-13
-  - GLaDOS-TW-14
-  - GLaDOS-TW-15
-  - GLaDOS-TW-16
-  - GLaDOS-SG-7
-  - GLaDOS-SG-8
-  - GLaDOS-SG-9
-  - GLaDOS-HK-7
-  - GLaDOS-HK-8
-  - GLaDOS-HK-9
-  - GLaDOS-UK-7
-  - GLaDOS-UK-8
-  - GLaDOS-UK-9
-  - GLaDOS-D7-7
-  - GLaDOS-D8-8
-  - GLaDOS-D9-9
-  - GLaDOS-S7-7
-  - GLaDOS-S8-8
-  - GLaDOS-S9-9
-  - GLaDOS-R13-13
-  - GLaDOS-R14-14
-  - GLaDOS-R15-15
-  - GLaDOS-R16-16
-  - GLaDOS-R17-17
-  - GLaDOS-R18-18
+  - 城北豆腐店-UK-4
+  - 城北豆腐店-UK-5
+  - 城北豆腐店-UK-6
+  - 城北豆腐店-UK-7
+  - 城北豆腐店-UK-8
+  - 城北豆腐店-UK-9
+  - 城北豆腐店-B10-10
+  - 城北豆腐店-B11-11
+  - 城北豆腐店-B12-12
+  - 城北豆腐店-B13-13
+  - 城北豆腐店-B14-14
+  - 城北豆腐店-B15-15
+  - 城北豆腐店-B16-16
+  - 城北豆腐店-B17-17
+  - 城北豆腐店-B18-18
+  - 城北豆腐店-US-7
+  - 城北豆腐店-US-8
+  - 城北豆腐店-US-10
+  - 城北豆腐店-US-12
+  - 城北豆腐店-JP-4
+  - 城北豆腐店-JP-5
+  - 城北豆腐店-JP-6
+  - 城北豆腐店-TW-7
+  - 城北豆腐店-TW-8
+  - 城北豆腐店-TW-10
+  - 城北豆腐店-TW-11
+  - 城北豆腐店-SG-4
+  - 城北豆腐店-SG-5
+  - 城北豆腐店-SG-6
+  - 城北豆腐店-HK-4
+  - 城北豆腐店-HK-5
+  - 城北豆腐店-HK-6
+  - 城北豆腐店-UK-4
+  - 城北豆腐店-UK-5
+  - 城北豆腐店-UK-6
+  - 城北豆腐店-D4-4
+  - 城北豆腐店-D5-5
+  - 城北豆腐店-D6-6
+  - 城北豆腐店-S4-4
+  - 城北豆腐店-S5-5
+  - 城北豆腐店-S6-6
+  - 城北豆腐店-TW-4-Netflix
+  - 城北豆腐店-TW-5-Netflix
+  - 城北豆腐店-TW-6-Netflix
+  - 城北豆腐店-US-7-Netflix
+  - 城北豆腐店-US-8-Netflix
+  - 城北豆腐店-US-9-Netflix
+  - 城北豆腐店-R7-7
+  - 城北豆腐店-R8-8
+  - 城北豆腐店-R9-9
+  - 城北豆腐店-R11-11
+  - 城北豆腐店-R12-12
+  - 城北豆腐店-B19-19
+  - 城北豆腐店-B20-20
+  - 城北豆腐店-B21-21
+  - 城北豆腐店-B22-22
+  - 城北豆腐店-B23-23
+  - 城北豆腐店-B24-24
+  - 城北豆腐店-B25-25
+  - 城北豆腐店-B26-26
+  - 城北豆腐店-B27-27
+  - 城北豆腐店-JP-8
+  - 城北豆腐店-TW-13
+  - 城北豆腐店-TW-14
+  - 城北豆腐店-TW-15
+  - 城北豆腐店-TW-16
+  - 城北豆腐店-SG-7
+  - 城北豆腐店-SG-8
+  - 城北豆腐店-SG-9
+  - 城北豆腐店-HK-7
+  - 城北豆腐店-HK-8
+  - 城北豆腐店-HK-9
+  - 城北豆腐店-UK-7
+  - 城北豆腐店-UK-8
+  - 城北豆腐店-UK-9
+  - 城北豆腐店-D7-7
+  - 城北豆腐店-D8-8
+  - 城北豆腐店-D9-9
+  - 城北豆腐店-S7-7
+  - 城北豆腐店-S8-8
+  - 城北豆腐店-S9-9
+  - 城北豆腐店-R13-13
+  - 城北豆腐店-R14-14
+  - 城北豆腐店-R15-15
+  - 城北豆腐店-R16-16
+  - 城北豆腐店-R17-17
+  - 城北豆腐店-R18-18
   - 🇺🇸 美国1|私有
   - 🇺🇸 美国2|私有
   - 🇷🇺 俄罗斯1|私有
@@ -1412,176 +1412,176 @@ proxy-groups:
   name: ♻️ 自动选择
   proxies:
   - 🌍 其它节点
-  - GLaDOS-B10-10
-  - GLaDOS-B11-11
-  - GLaDOS-B12-12
-  - GLaDOS-B13-13
-  - GLaDOS-B14-14
-  - GLaDOS-B15-15
-  - GLaDOS-B16-16
-  - GLaDOS-B17-17
-  - GLaDOS-B18-18
-  - GLaDOS-R18-18
-  - GLaDOS-B19-19
-  - GLaDOS-B20-20
-  - GLaDOS-B21-21
-  - GLaDOS-B22-22
-  - GLaDOS-B23-23
-  - GLaDOS-B24-24
-  - GLaDOS-B25-25
-  - GLaDOS-B26-26
-  - GLaDOS-B27-27
-  - GLaDOS-D4-4
-  - GLaDOS-D5-5
-  - GLaDOS-D6-6
-  - GLaDOS-D7-7
-  - GLaDOS-D8-8
-  - GLaDOS-D9-9
-  - GLaDOS-S4-4
-  - GLaDOS-S5-5
-  - GLaDOS-S6-6
-  - GLaDOS-S7-7
-  - GLaDOS-S8-8
-  - GLaDOS-S9-9
-  - GLaDOS-R7-7
-  - GLaDOS-R8-8
-  - GLaDOS-R9-9
-  - GLaDOS-R11-11
-  - GLaDOS-R12-12
-  - GLaDOS-R13-13
-  - GLaDOS-R14-14
-  - GLaDOS-R15-15
-  - GLaDOS-R16-16
-  - GLaDOS-R17-17
+  - 城北豆腐店-B10-10
+  - 城北豆腐店-B11-11
+  - 城北豆腐店-B12-12
+  - 城北豆腐店-B13-13
+  - 城北豆腐店-B14-14
+  - 城北豆腐店-B15-15
+  - 城北豆腐店-B16-16
+  - 城北豆腐店-B17-17
+  - 城北豆腐店-B18-18
+  - 城北豆腐店-R18-18
+  - 城北豆腐店-B19-19
+  - 城北豆腐店-B20-20
+  - 城北豆腐店-B21-21
+  - 城北豆腐店-B22-22
+  - 城北豆腐店-B23-23
+  - 城北豆腐店-B24-24
+  - 城北豆腐店-B25-25
+  - 城北豆腐店-B26-26
+  - 城北豆腐店-B27-27
+  - 城北豆腐店-D4-4
+  - 城北豆腐店-D5-5
+  - 城北豆腐店-D6-6
+  - 城北豆腐店-D7-7
+  - 城北豆腐店-D8-8
+  - 城北豆腐店-D9-9
+  - 城北豆腐店-S4-4
+  - 城北豆腐店-S5-5
+  - 城北豆腐店-S6-6
+  - 城北豆腐店-S7-7
+  - 城北豆腐店-S8-8
+  - 城北豆腐店-S9-9
+  - 城北豆腐店-R7-7
+  - 城北豆腐店-R8-8
+  - 城北豆腐店-R9-9
+  - 城北豆腐店-R11-11
+  - 城北豆腐店-R12-12
+  - 城北豆腐店-R13-13
+  - 城北豆腐店-R14-14
+  - 城北豆腐店-R15-15
+  - 城北豆腐店-R16-16
+  - 城北豆腐店-R17-17
   - 🇺🇲 美国节点
-  - GLaDOS-US-7
-  - GLaDOS-US-8
-  - GLaDOS-US-10
-  - GLaDOS-US-12
-  - GLaDOS-US-7-Netflix
-  - GLaDOS-US-8-Netflix
-  - GLaDOS-US-9-Netflix
+  - 城北豆腐店-US-7
+  - 城北豆腐店-US-8
+  - 城北豆腐店-US-10
+  - 城北豆腐店-US-12
+  - 城北豆腐店-US-7-Netflix
+  - 城北豆腐店-US-8-Netflix
+  - 城北豆腐店-US-9-Netflix
   - 🇺🇸 美国1|私有
   - 🇺🇸 美国2|私有
   - 🇯🇵 日本节点
-  - GLaDOS-JP-4
-  - GLaDOS-JP-5
-  - GLaDOS-JP-6
-  - GLaDOS-JP-8
+  - 城北豆腐店-JP-4
+  - 城北豆腐店-JP-5
+  - 城北豆腐店-JP-6
+  - 城北豆腐店-JP-8
   - 🇨🇳 台湾节点
-  - GLaDOS-TW-7
-  - GLaDOS-TW-8
-  - GLaDOS-TW-10
-  - GLaDOS-TW-11
-  - GLaDOS-TW-13
-  - GLaDOS-TW-14
-  - GLaDOS-TW-15
-  - GLaDOS-TW-16
-  - GLaDOS-TW-4-Netflix
-  - GLaDOS-TW-5-Netflix
-  - GLaDOS-TW-6-Netflix
+  - 城北豆腐店-TW-7
+  - 城北豆腐店-TW-8
+  - 城北豆腐店-TW-10
+  - 城北豆腐店-TW-11
+  - 城北豆腐店-TW-13
+  - 城北豆腐店-TW-14
+  - 城北豆腐店-TW-15
+  - 城北豆腐店-TW-16
+  - 城北豆腐店-TW-4-Netflix
+  - 城北豆腐店-TW-5-Netflix
+  - 城北豆腐店-TW-6-Netflix
   - 🇸🇬 新加坡节点
-  - GLaDOS-SG-4
-  - GLaDOS-SG-5
-  - GLaDOS-SG-6
-  - GLaDOS-SG-7
-  - GLaDOS-SG-8
-  - GLaDOS-SG-9
+  - 城北豆腐店-SG-4
+  - 城北豆腐店-SG-5
+  - 城北豆腐店-SG-6
+  - 城北豆腐店-SG-7
+  - 城北豆腐店-SG-8
+  - 城北豆腐店-SG-9
   - 🇭🇰 香港节点
-  - GLaDOS-HK-4
-  - GLaDOS-HK-5
-  - GLaDOS-HK-6
-  - GLaDOS-HK-7
-  - GLaDOS-HK-8
-  - GLaDOS-HK-9
+  - 城北豆腐店-HK-4
+  - 城北豆腐店-HK-5
+  - 城北豆腐店-HK-6
+  - 城北豆腐店-HK-7
+  - 城北豆腐店-HK-8
+  - 城北豆腐店-HK-9
   - 🇬🇧 英国节点
-  - GLaDOS-UK-4
-  - GLaDOS-UK-5
-  - GLaDOS-UK-6
-  - GLaDOS-UK-7
-  - GLaDOS-UK-8
-  - GLaDOS-UK-9
-  - GLaDOS-B10-10
-  - GLaDOS-B11-11
-  - GLaDOS-B12-12
-  - GLaDOS-B13-13
-  - GLaDOS-B14-14
-  - GLaDOS-B15-15
-  - GLaDOS-B16-16
-  - GLaDOS-B17-17
-  - GLaDOS-B18-18
-  - GLaDOS-US-7
-  - GLaDOS-US-8
-  - GLaDOS-US-10
-  - GLaDOS-US-12
-  - GLaDOS-JP-4
-  - GLaDOS-JP-5
-  - GLaDOS-JP-6
-  - GLaDOS-TW-7
-  - GLaDOS-TW-8
-  - GLaDOS-TW-10
-  - GLaDOS-TW-11
-  - GLaDOS-SG-4
-  - GLaDOS-SG-5
-  - GLaDOS-SG-6
-  - GLaDOS-HK-4
-  - GLaDOS-HK-5
-  - GLaDOS-HK-6
-  - GLaDOS-UK-4
-  - GLaDOS-UK-5
-  - GLaDOS-UK-6
-  - GLaDOS-D4-4
-  - GLaDOS-D5-5
-  - GLaDOS-D6-6
-  - GLaDOS-S4-4
-  - GLaDOS-S5-5
-  - GLaDOS-S6-6
-  - GLaDOS-TW-4-Netflix
-  - GLaDOS-TW-5-Netflix
-  - GLaDOS-TW-6-Netflix
-  - GLaDOS-US-7-Netflix
-  - GLaDOS-US-8-Netflix
-  - GLaDOS-US-9-Netflix
-  - GLaDOS-R7-7
-  - GLaDOS-R8-8
-  - GLaDOS-R9-9
-  - GLaDOS-R11-11
-  - GLaDOS-R12-12
-  - GLaDOS-B19-19
-  - GLaDOS-B20-20
-  - GLaDOS-B21-21
-  - GLaDOS-B22-22
-  - GLaDOS-B23-23
-  - GLaDOS-B24-24
-  - GLaDOS-B25-25
-  - GLaDOS-B26-26
-  - GLaDOS-B27-27
-  - GLaDOS-JP-8
-  - GLaDOS-TW-13
-  - GLaDOS-TW-14
-  - GLaDOS-TW-15
-  - GLaDOS-TW-16
-  - GLaDOS-SG-7
-  - GLaDOS-SG-8
-  - GLaDOS-SG-9
-  - GLaDOS-HK-7
-  - GLaDOS-HK-8
-  - GLaDOS-HK-9
-  - GLaDOS-UK-7
-  - GLaDOS-UK-8
-  - GLaDOS-UK-9
-  - GLaDOS-D7-7
-  - GLaDOS-D8-8
-  - GLaDOS-D9-9
-  - GLaDOS-S7-7
-  - GLaDOS-S8-8
-  - GLaDOS-S9-9
-  - GLaDOS-R13-13
-  - GLaDOS-R14-14
-  - GLaDOS-R15-15
-  - GLaDOS-R16-16
-  - GLaDOS-R17-17
-  - GLaDOS-R18-18
+  - 城北豆腐店-UK-4
+  - 城北豆腐店-UK-5
+  - 城北豆腐店-UK-6
+  - 城北豆腐店-UK-7
+  - 城北豆腐店-UK-8
+  - 城北豆腐店-UK-9
+  - 城北豆腐店-B10-10
+  - 城北豆腐店-B11-11
+  - 城北豆腐店-B12-12
+  - 城北豆腐店-B13-13
+  - 城北豆腐店-B14-14
+  - 城北豆腐店-B15-15
+  - 城北豆腐店-B16-16
+  - 城北豆腐店-B17-17
+  - 城北豆腐店-B18-18
+  - 城北豆腐店-US-7
+  - 城北豆腐店-US-8
+  - 城北豆腐店-US-10
+  - 城北豆腐店-US-12
+  - 城北豆腐店-JP-4
+  - 城北豆腐店-JP-5
+  - 城北豆腐店-JP-6
+  - 城北豆腐店-TW-7
+  - 城北豆腐店-TW-8
+  - 城北豆腐店-TW-10
+  - 城北豆腐店-TW-11
+  - 城北豆腐店-SG-4
+  - 城北豆腐店-SG-5
+  - 城北豆腐店-SG-6
+  - 城北豆腐店-HK-4
+  - 城北豆腐店-HK-5
+  - 城北豆腐店-HK-6
+  - 城北豆腐店-UK-4
+  - 城北豆腐店-UK-5
+  - 城北豆腐店-UK-6
+  - 城北豆腐店-D4-4
+  - 城北豆腐店-D5-5
+  - 城北豆腐店-D6-6
+  - 城北豆腐店-S4-4
+  - 城北豆腐店-S5-5
+  - 城北豆腐店-S6-6
+  - 城北豆腐店-TW-4-Netflix
+  - 城北豆腐店-TW-5-Netflix
+  - 城北豆腐店-TW-6-Netflix
+  - 城北豆腐店-US-7-Netflix
+  - 城北豆腐店-US-8-Netflix
+  - 城北豆腐店-US-9-Netflix
+  - 城北豆腐店-R7-7
+  - 城北豆腐店-R8-8
+  - 城北豆腐店-R9-9
+  - 城北豆腐店-R11-11
+  - 城北豆腐店-R12-12
+  - 城北豆腐店-B19-19
+  - 城北豆腐店-B20-20
+  - 城北豆腐店-B21-21
+  - 城北豆腐店-B22-22
+  - 城北豆腐店-B23-23
+  - 城北豆腐店-B24-24
+  - 城北豆腐店-B25-25
+  - 城北豆腐店-B26-26
+  - 城北豆腐店-B27-27
+  - 城北豆腐店-JP-8
+  - 城北豆腐店-TW-13
+  - 城北豆腐店-TW-14
+  - 城北豆腐店-TW-15
+  - 城北豆腐店-TW-16
+  - 城北豆腐店-SG-7
+  - 城北豆腐店-SG-8
+  - 城北豆腐店-SG-9
+  - 城北豆腐店-HK-7
+  - 城北豆腐店-HK-8
+  - 城北豆腐店-HK-9
+  - 城北豆腐店-UK-7
+  - 城北豆腐店-UK-8
+  - 城北豆腐店-UK-9
+  - 城北豆腐店-D7-7
+  - 城北豆腐店-D8-8
+  - 城北豆腐店-D9-9
+  - 城北豆腐店-S7-7
+  - 城北豆腐店-S8-8
+  - 城北豆腐店-S9-9
+  - 城北豆腐店-R13-13
+  - 城北豆腐店-R14-14
+  - 城北豆腐店-R15-15
+  - 城北豆腐店-R16-16
+  - 城北豆腐店-R17-17
+  - 城北豆腐店-R18-18
   - 🇺🇸 美国1|私有
   - 🇺🇸 美国2|私有
   - 🇷🇺 俄罗斯1|私有
@@ -1592,87 +1592,87 @@ proxy-groups:
 - interval: 300
   name: 🔯 故障转移
   proxies:
-  - GLaDOS-B10-10
-  - GLaDOS-B11-11
-  - GLaDOS-B12-12
-  - GLaDOS-B13-13
-  - GLaDOS-B14-14
-  - GLaDOS-B15-15
-  - GLaDOS-B16-16
-  - GLaDOS-B17-17
-  - GLaDOS-B18-18
-  - GLaDOS-US-7
-  - GLaDOS-US-8
-  - GLaDOS-US-10
-  - GLaDOS-US-12
-  - GLaDOS-JP-4
-  - GLaDOS-JP-5
-  - GLaDOS-JP-6
-  - GLaDOS-TW-7
-  - GLaDOS-TW-8
-  - GLaDOS-TW-10
-  - GLaDOS-TW-11
-  - GLaDOS-SG-4
-  - GLaDOS-SG-5
-  - GLaDOS-SG-6
-  - GLaDOS-HK-4
-  - GLaDOS-HK-5
-  - GLaDOS-HK-6
-  - GLaDOS-UK-4
-  - GLaDOS-UK-5
-  - GLaDOS-UK-6
-  - GLaDOS-D4-4
-  - GLaDOS-D5-5
-  - GLaDOS-D6-6
-  - GLaDOS-S4-4
-  - GLaDOS-S5-5
-  - GLaDOS-S6-6
-  - GLaDOS-TW-4-Netflix
-  - GLaDOS-TW-5-Netflix
-  - GLaDOS-TW-6-Netflix
-  - GLaDOS-US-7-Netflix
-  - GLaDOS-US-8-Netflix
-  - GLaDOS-US-9-Netflix
-  - GLaDOS-R7-7
-  - GLaDOS-R8-8
-  - GLaDOS-R9-9
-  - GLaDOS-R11-11
-  - GLaDOS-R12-12
-  - GLaDOS-B19-19
-  - GLaDOS-B20-20
-  - GLaDOS-B21-21
-  - GLaDOS-B22-22
-  - GLaDOS-B23-23
-  - GLaDOS-B24-24
-  - GLaDOS-B25-25
-  - GLaDOS-B26-26
-  - GLaDOS-B27-27
-  - GLaDOS-JP-8
-  - GLaDOS-TW-13
-  - GLaDOS-TW-14
-  - GLaDOS-TW-15
-  - GLaDOS-TW-16
-  - GLaDOS-SG-7
-  - GLaDOS-SG-8
-  - GLaDOS-SG-9
-  - GLaDOS-HK-7
-  - GLaDOS-HK-8
-  - GLaDOS-HK-9
-  - GLaDOS-UK-7
-  - GLaDOS-UK-8
-  - GLaDOS-UK-9
-  - GLaDOS-D7-7
-  - GLaDOS-D8-8
-  - GLaDOS-D9-9
-  - GLaDOS-S7-7
-  - GLaDOS-S8-8
-  - GLaDOS-S9-9
-  - GLaDOS-R13-13
-  - GLaDOS-R14-14
-  - GLaDOS-R15-15
-  - GLaDOS-R16-16
-  - GLaDOS-R17-17
-  - GLaDOS-R18-18
+  - 城北豆腐店-B10-10
+  - 城北豆腐店-B11-11
+  - 城北豆腐店-B12-12
+  - 城北豆腐店-B13-13
+  - 城北豆腐店-B14-14
+  - 城北豆腐店-B15-15
+  - 城北豆腐店-B16-16
+  - 城北豆腐店-B17-17
+  - 城北豆腐店-B18-18
+  - 城北豆腐店-US-7
+  - 城北豆腐店-US-8
+  - 城北豆腐店-US-10
+  - 城北豆腐店-US-12
+  - 城北豆腐店-JP-4
+  - 城北豆腐店-JP-5
+  - 城北豆腐店-JP-6
+  - 城北豆腐店-TW-7
+  - 城北豆腐店-TW-8
+  - 城北豆腐店-TW-10
+  - 城北豆腐店-TW-11
+  - 城北豆腐店-SG-4
+  - 城北豆腐店-SG-5
+  - 城北豆腐店-SG-6
+  - 城北豆腐店-HK-4
+  - 城北豆腐店-HK-5
+  - 城北豆腐店-HK-6
+  - 城北豆腐店-UK-4
+  - 城北豆腐店-UK-5
+  - 城北豆腐店-UK-6
+  - 城北豆腐店-D4-4
+  - 城北豆腐店-D5-5
+  - 城北豆腐店-D6-6
+  - 城北豆腐店-S4-4
+  - 城北豆腐店-S5-5
+  - 城北豆腐店-S6-6
+  - 城北豆腐店-TW-4-Netflix
+  - 城北豆腐店-TW-5-Netflix
+  - 城北豆腐店-TW-6-Netflix
+  - 城北豆腐店-US-7-Netflix
+  - 城北豆腐店-US-8-Netflix
+  - 城北豆腐店-US-9-Netflix
+  - 城北豆腐店-R7-7
+  - 城北豆腐店-R8-8
+  - 城北豆腐店-R9-9
+  - 城北豆腐店-R11-11
+  - 城北豆腐店-R12-12
+  - 城北豆腐店-B19-19
+  - 城北豆腐店-B20-20
+  - 城北豆腐店-B21-21
+  - 城北豆腐店-B22-22
+  - 城北豆腐店-B23-23
+  - 城北豆腐店-B24-24
+  - 城北豆腐店-B25-25
+  - 城北豆腐店-B26-26
+  - 城北豆腐店-B27-27
+  - 城北豆腐店-JP-8
+  - 城北豆腐店-TW-13
+  - 城北豆腐店-TW-14
+  - 城北豆腐店-TW-15
+  - 城北豆腐店-TW-16
+  - 城北豆腐店-SG-7
+  - 城北豆腐店-SG-8
+  - 城北豆腐店-SG-9
+  - 城北豆腐店-HK-7
+  - 城北豆腐店-HK-8
+  - 城北豆腐店-HK-9
+  - 城北豆腐店-UK-7
+  - 城北豆腐店-UK-8
+  - 城北豆腐店-UK-9
+  - 城北豆腐店-D7-7
+  - 城北豆腐店-D8-8
+  - 城北豆腐店-D9-9
+  - 城北豆腐店-S7-7
+  - 城北豆腐店-S8-8
+  - 城北豆腐店-S9-9
+  - 城北豆腐店-R13-13
+  - 城北豆腐店-R14-14
+  - 城北豆腐店-R15-15
+  - 城北豆腐店-R16-16
+  - 城北豆腐店-R17-17
+  - 城北豆腐店-R18-18
   - 🇺🇸 美国1|私有
   - 🇺🇸 美国2|私有
   - 🇷🇺 俄罗斯1|私有
@@ -1683,87 +1683,87 @@ proxy-groups:
 - interval: 300
   name: 🔮 负载均衡
   proxies:
-  - GLaDOS-B10-10
-  - GLaDOS-B11-11
-  - GLaDOS-B12-12
-  - GLaDOS-B13-13
-  - GLaDOS-B14-14
-  - GLaDOS-B15-15
-  - GLaDOS-B16-16
-  - GLaDOS-B17-17
-  - GLaDOS-B18-18
-  - GLaDOS-US-7
-  - GLaDOS-US-8
-  - GLaDOS-US-10
-  - GLaDOS-US-12
-  - GLaDOS-JP-4
-  - GLaDOS-JP-5
-  - GLaDOS-JP-6
-  - GLaDOS-TW-7
-  - GLaDOS-TW-8
-  - GLaDOS-TW-10
-  - GLaDOS-TW-11
-  - GLaDOS-SG-4
-  - GLaDOS-SG-5
-  - GLaDOS-SG-6
-  - GLaDOS-HK-4
-  - GLaDOS-HK-5
-  - GLaDOS-HK-6
-  - GLaDOS-UK-4
-  - GLaDOS-UK-5
-  - GLaDOS-UK-6
-  - GLaDOS-D4-4
-  - GLaDOS-D5-5
-  - GLaDOS-D6-6
-  - GLaDOS-S4-4
-  - GLaDOS-S5-5
-  - GLaDOS-S6-6
-  - GLaDOS-TW-4-Netflix
-  - GLaDOS-TW-5-Netflix
-  - GLaDOS-TW-6-Netflix
-  - GLaDOS-US-7-Netflix
-  - GLaDOS-US-8-Netflix
-  - GLaDOS-US-9-Netflix
-  - GLaDOS-R7-7
-  - GLaDOS-R8-8
-  - GLaDOS-R9-9
-  - GLaDOS-R11-11
-  - GLaDOS-R12-12
-  - GLaDOS-B19-19
-  - GLaDOS-B20-20
-  - GLaDOS-B21-21
-  - GLaDOS-B22-22
-  - GLaDOS-B23-23
-  - GLaDOS-B24-24
-  - GLaDOS-B25-25
-  - GLaDOS-B26-26
-  - GLaDOS-B27-27
-  - GLaDOS-JP-8
-  - GLaDOS-TW-13
-  - GLaDOS-TW-14
-  - GLaDOS-TW-15
-  - GLaDOS-TW-16
-  - GLaDOS-SG-7
-  - GLaDOS-SG-8
-  - GLaDOS-SG-9
-  - GLaDOS-HK-7
-  - GLaDOS-HK-8
-  - GLaDOS-HK-9
-  - GLaDOS-UK-7
-  - GLaDOS-UK-8
-  - GLaDOS-UK-9
-  - GLaDOS-D7-7
-  - GLaDOS-D8-8
-  - GLaDOS-D9-9
-  - GLaDOS-S7-7
-  - GLaDOS-S8-8
-  - GLaDOS-S9-9
-  - GLaDOS-R13-13
-  - GLaDOS-R14-14
-  - GLaDOS-R15-15
-  - GLaDOS-R16-16
-  - GLaDOS-R17-17
-  - GLaDOS-R18-18
+  - 城北豆腐店-B10-10
+  - 城北豆腐店-B11-11
+  - 城北豆腐店-B12-12
+  - 城北豆腐店-B13-13
+  - 城北豆腐店-B14-14
+  - 城北豆腐店-B15-15
+  - 城北豆腐店-B16-16
+  - 城北豆腐店-B17-17
+  - 城北豆腐店-B18-18
+  - 城北豆腐店-US-7
+  - 城北豆腐店-US-8
+  - 城北豆腐店-US-10
+  - 城北豆腐店-US-12
+  - 城北豆腐店-JP-4
+  - 城北豆腐店-JP-5
+  - 城北豆腐店-JP-6
+  - 城北豆腐店-TW-7
+  - 城北豆腐店-TW-8
+  - 城北豆腐店-TW-10
+  - 城北豆腐店-TW-11
+  - 城北豆腐店-SG-4
+  - 城北豆腐店-SG-5
+  - 城北豆腐店-SG-6
+  - 城北豆腐店-HK-4
+  - 城北豆腐店-HK-5
+  - 城北豆腐店-HK-6
+  - 城北豆腐店-UK-4
+  - 城北豆腐店-UK-5
+  - 城北豆腐店-UK-6
+  - 城北豆腐店-D4-4
+  - 城北豆腐店-D5-5
+  - 城北豆腐店-D6-6
+  - 城北豆腐店-S4-4
+  - 城北豆腐店-S5-5
+  - 城北豆腐店-S6-6
+  - 城北豆腐店-TW-4-Netflix
+  - 城北豆腐店-TW-5-Netflix
+  - 城北豆腐店-TW-6-Netflix
+  - 城北豆腐店-US-7-Netflix
+  - 城北豆腐店-US-8-Netflix
+  - 城北豆腐店-US-9-Netflix
+  - 城北豆腐店-R7-7
+  - 城北豆腐店-R8-8
+  - 城北豆腐店-R9-9
+  - 城北豆腐店-R11-11
+  - 城北豆腐店-R12-12
+  - 城北豆腐店-B19-19
+  - 城北豆腐店-B20-20
+  - 城北豆腐店-B21-21
+  - 城北豆腐店-B22-22
+  - 城北豆腐店-B23-23
+  - 城北豆腐店-B24-24
+  - 城北豆腐店-B25-25
+  - 城北豆腐店-B26-26
+  - 城北豆腐店-B27-27
+  - 城北豆腐店-JP-8
+  - 城北豆腐店-TW-13
+  - 城北豆腐店-TW-14
+  - 城北豆腐店-TW-15
+  - 城北豆腐店-TW-16
+  - 城北豆腐店-SG-7
+  - 城北豆腐店-SG-8
+  - 城北豆腐店-SG-9
+  - 城北豆腐店-HK-7
+  - 城北豆腐店-HK-8
+  - 城北豆腐店-HK-9
+  - 城北豆腐店-UK-7
+  - 城北豆腐店-UK-8
+  - 城北豆腐店-UK-9
+  - 城北豆腐店-D7-7
+  - 城北豆腐店-D8-8
+  - 城北豆腐店-D9-9
+  - 城北豆腐店-S7-7
+  - 城北豆腐店-S8-8
+  - 城北豆腐店-S9-9
+  - 城北豆腐店-R13-13
+  - 城北豆腐店-R14-14
+  - 城北豆腐店-R15-15
+  - 城北豆腐店-R16-16
+  - 城北豆腐店-R17-17
+  - 城北豆腐店-R18-18
   - 🇺🇸 美国1|私有
   - 🇺🇸 美国2|私有
   - 🇷🇺 俄罗斯1|私有
@@ -2015,176 +2015,176 @@ proxy-groups:
   - DIRECT
   - 🚀 手动切换
   - 🌍 其它节点
-  - GLaDOS-B10-10
-  - GLaDOS-B11-11
-  - GLaDOS-B12-12
-  - GLaDOS-B13-13
-  - GLaDOS-B14-14
-  - GLaDOS-B15-15
-  - GLaDOS-B16-16
-  - GLaDOS-B17-17
-  - GLaDOS-B18-18
-  - GLaDOS-R18-18
-  - GLaDOS-B19-19
-  - GLaDOS-B20-20
-  - GLaDOS-B21-21
-  - GLaDOS-B22-22
-  - GLaDOS-B23-23
-  - GLaDOS-B24-24
-  - GLaDOS-B25-25
-  - GLaDOS-B26-26
-  - GLaDOS-B27-27
-  - GLaDOS-D4-4
-  - GLaDOS-D5-5
-  - GLaDOS-D6-6
-  - GLaDOS-D7-7
-  - GLaDOS-D8-8
-  - GLaDOS-D9-9
-  - GLaDOS-S4-4
-  - GLaDOS-S5-5
-  - GLaDOS-S6-6
-  - GLaDOS-S7-7
-  - GLaDOS-S8-8
-  - GLaDOS-S9-9
-  - GLaDOS-R7-7
-  - GLaDOS-R8-8
-  - GLaDOS-R9-9
-  - GLaDOS-R11-11
-  - GLaDOS-R12-12
-  - GLaDOS-R13-13
-  - GLaDOS-R14-14
-  - GLaDOS-R15-15
-  - GLaDOS-R16-16
-  - GLaDOS-R17-17
+  - 城北豆腐店-B10-10
+  - 城北豆腐店-B11-11
+  - 城北豆腐店-B12-12
+  - 城北豆腐店-B13-13
+  - 城北豆腐店-B14-14
+  - 城北豆腐店-B15-15
+  - 城北豆腐店-B16-16
+  - 城北豆腐店-B17-17
+  - 城北豆腐店-B18-18
+  - 城北豆腐店-R18-18
+  - 城北豆腐店-B19-19
+  - 城北豆腐店-B20-20
+  - 城北豆腐店-B21-21
+  - 城北豆腐店-B22-22
+  - 城北豆腐店-B23-23
+  - 城北豆腐店-B24-24
+  - 城北豆腐店-B25-25
+  - 城北豆腐店-B26-26
+  - 城北豆腐店-B27-27
+  - 城北豆腐店-D4-4
+  - 城北豆腐店-D5-5
+  - 城北豆腐店-D6-6
+  - 城北豆腐店-D7-7
+  - 城北豆腐店-D8-8
+  - 城北豆腐店-D9-9
+  - 城北豆腐店-S4-4
+  - 城北豆腐店-S5-5
+  - 城北豆腐店-S6-6
+  - 城北豆腐店-S7-7
+  - 城北豆腐店-S8-8
+  - 城北豆腐店-S9-9
+  - 城北豆腐店-R7-7
+  - 城北豆腐店-R8-8
+  - 城北豆腐店-R9-9
+  - 城北豆腐店-R11-11
+  - 城北豆腐店-R12-12
+  - 城北豆腐店-R13-13
+  - 城北豆腐店-R14-14
+  - 城北豆腐店-R15-15
+  - 城北豆腐店-R16-16
+  - 城北豆腐店-R17-17
   - 🇺🇲 美国节点
-  - GLaDOS-US-7
-  - GLaDOS-US-8
-  - GLaDOS-US-10
-  - GLaDOS-US-12
-  - GLaDOS-US-7-Netflix
-  - GLaDOS-US-8-Netflix
-  - GLaDOS-US-9-Netflix
+  - 城北豆腐店-US-7
+  - 城北豆腐店-US-8
+  - 城北豆腐店-US-10
+  - 城北豆腐店-US-12
+  - 城北豆腐店-US-7-Netflix
+  - 城北豆腐店-US-8-Netflix
+  - 城北豆腐店-US-9-Netflix
   - 🇺🇸 美国1|私有
   - 🇺🇸 美国2|私有
   - 🇯🇵 日本节点
-  - GLaDOS-JP-4
-  - GLaDOS-JP-5
-  - GLaDOS-JP-6
-  - GLaDOS-JP-8
+  - 城北豆腐店-JP-4
+  - 城北豆腐店-JP-5
+  - 城北豆腐店-JP-6
+  - 城北豆腐店-JP-8
   - 🇨🇳 台湾节点
-  - GLaDOS-TW-7
-  - GLaDOS-TW-8
-  - GLaDOS-TW-10
-  - GLaDOS-TW-11
-  - GLaDOS-TW-13
-  - GLaDOS-TW-14
-  - GLaDOS-TW-15
-  - GLaDOS-TW-16
-  - GLaDOS-TW-4-Netflix
-  - GLaDOS-TW-5-Netflix
-  - GLaDOS-TW-6-Netflix
+  - 城北豆腐店-TW-7
+  - 城北豆腐店-TW-8
+  - 城北豆腐店-TW-10
+  - 城北豆腐店-TW-11
+  - 城北豆腐店-TW-13
+  - 城北豆腐店-TW-14
+  - 城北豆腐店-TW-15
+  - 城北豆腐店-TW-16
+  - 城北豆腐店-TW-4-Netflix
+  - 城北豆腐店-TW-5-Netflix
+  - 城北豆腐店-TW-6-Netflix
   - 🇸🇬 新加坡节点
-  - GLaDOS-SG-4
-  - GLaDOS-SG-5
-  - GLaDOS-SG-6
-  - GLaDOS-SG-7
-  - GLaDOS-SG-8
-  - GLaDOS-SG-9
+  - 城北豆腐店-SG-4
+  - 城北豆腐店-SG-5
+  - 城北豆腐店-SG-6
+  - 城北豆腐店-SG-7
+  - 城北豆腐店-SG-8
+  - 城北豆腐店-SG-9
   - 🇭🇰 香港节点
-  - GLaDOS-HK-4
-  - GLaDOS-HK-5
-  - GLaDOS-HK-6
-  - GLaDOS-HK-7
-  - GLaDOS-HK-8
-  - GLaDOS-HK-9
+  - 城北豆腐店-HK-4
+  - 城北豆腐店-HK-5
+  - 城北豆腐店-HK-6
+  - 城北豆腐店-HK-7
+  - 城北豆腐店-HK-8
+  - 城北豆腐店-HK-9
   - 🇬🇧 英国节点
-  - GLaDOS-UK-4
-  - GLaDOS-UK-5
-  - GLaDOS-UK-6
-  - GLaDOS-UK-7
-  - GLaDOS-UK-8
-  - GLaDOS-UK-9
-  - GLaDOS-B10-10
-  - GLaDOS-B11-11
-  - GLaDOS-B12-12
-  - GLaDOS-B13-13
-  - GLaDOS-B14-14
-  - GLaDOS-B15-15
-  - GLaDOS-B16-16
-  - GLaDOS-B17-17
-  - GLaDOS-B18-18
-  - GLaDOS-US-7
-  - GLaDOS-US-8
-  - GLaDOS-US-10
-  - GLaDOS-US-12
-  - GLaDOS-JP-4
-  - GLaDOS-JP-5
-  - GLaDOS-JP-6
-  - GLaDOS-TW-7
-  - GLaDOS-TW-8
-  - GLaDOS-TW-10
-  - GLaDOS-TW-11
-  - GLaDOS-SG-4
-  - GLaDOS-SG-5
-  - GLaDOS-SG-6
-  - GLaDOS-HK-4
-  - GLaDOS-HK-5
-  - GLaDOS-HK-6
-  - GLaDOS-UK-4
-  - GLaDOS-UK-5
-  - GLaDOS-UK-6
-  - GLaDOS-D4-4
-  - GLaDOS-D5-5
-  - GLaDOS-D6-6
-  - GLaDOS-S4-4
-  - GLaDOS-S5-5
-  - GLaDOS-S6-6
-  - GLaDOS-TW-4-Netflix
-  - GLaDOS-TW-5-Netflix
-  - GLaDOS-TW-6-Netflix
-  - GLaDOS-US-7-Netflix
-  - GLaDOS-US-8-Netflix
-  - GLaDOS-US-9-Netflix
-  - GLaDOS-R7-7
-  - GLaDOS-R8-8
-  - GLaDOS-R9-9
-  - GLaDOS-R11-11
-  - GLaDOS-R12-12
-  - GLaDOS-B19-19
-  - GLaDOS-B20-20
-  - GLaDOS-B21-21
-  - GLaDOS-B22-22
-  - GLaDOS-B23-23
-  - GLaDOS-B24-24
-  - GLaDOS-B25-25
-  - GLaDOS-B26-26
-  - GLaDOS-B27-27
-  - GLaDOS-JP-8
-  - GLaDOS-TW-13
-  - GLaDOS-TW-14
-  - GLaDOS-TW-15
-  - GLaDOS-TW-16
-  - GLaDOS-SG-7
-  - GLaDOS-SG-8
-  - GLaDOS-SG-9
-  - GLaDOS-HK-7
-  - GLaDOS-HK-8
-  - GLaDOS-HK-9
-  - GLaDOS-UK-7
-  - GLaDOS-UK-8
-  - GLaDOS-UK-9
-  - GLaDOS-D7-7
-  - GLaDOS-D8-8
-  - GLaDOS-D9-9
-  - GLaDOS-S7-7
-  - GLaDOS-S8-8
-  - GLaDOS-S9-9
-  - GLaDOS-R13-13
-  - GLaDOS-R14-14
-  - GLaDOS-R15-15
-  - GLaDOS-R16-16
-  - GLaDOS-R17-17
-  - GLaDOS-R18-18
+  - 城北豆腐店-UK-4
+  - 城北豆腐店-UK-5
+  - 城北豆腐店-UK-6
+  - 城北豆腐店-UK-7
+  - 城北豆腐店-UK-8
+  - 城北豆腐店-UK-9
+  - 城北豆腐店-B10-10
+  - 城北豆腐店-B11-11
+  - 城北豆腐店-B12-12
+  - 城北豆腐店-B13-13
+  - 城北豆腐店-B14-14
+  - 城北豆腐店-B15-15
+  - 城北豆腐店-B16-16
+  - 城北豆腐店-B17-17
+  - 城北豆腐店-B18-18
+  - 城北豆腐店-US-7
+  - 城北豆腐店-US-8
+  - 城北豆腐店-US-10
+  - 城北豆腐店-US-12
+  - 城北豆腐店-JP-4
+  - 城北豆腐店-JP-5
+  - 城北豆腐店-JP-6
+  - 城北豆腐店-TW-7
+  - 城北豆腐店-TW-8
+  - 城北豆腐店-TW-10
+  - 城北豆腐店-TW-11
+  - 城北豆腐店-SG-4
+  - 城北豆腐店-SG-5
+  - 城北豆腐店-SG-6
+  - 城北豆腐店-HK-4
+  - 城北豆腐店-HK-5
+  - 城北豆腐店-HK-6
+  - 城北豆腐店-UK-4
+  - 城北豆腐店-UK-5
+  - 城北豆腐店-UK-6
+  - 城北豆腐店-D4-4
+  - 城北豆腐店-D5-5
+  - 城北豆腐店-D6-6
+  - 城北豆腐店-S4-4
+  - 城北豆腐店-S5-5
+  - 城北豆腐店-S6-6
+  - 城北豆腐店-TW-4-Netflix
+  - 城北豆腐店-TW-5-Netflix
+  - 城北豆腐店-TW-6-Netflix
+  - 城北豆腐店-US-7-Netflix
+  - 城北豆腐店-US-8-Netflix
+  - 城北豆腐店-US-9-Netflix
+  - 城北豆腐店-R7-7
+  - 城北豆腐店-R8-8
+  - 城北豆腐店-R9-9
+  - 城北豆腐店-R11-11
+  - 城北豆腐店-R12-12
+  - 城北豆腐店-B19-19
+  - 城北豆腐店-B20-20
+  - 城北豆腐店-B21-21
+  - 城北豆腐店-B22-22
+  - 城北豆腐店-B23-23
+  - 城北豆腐店-B24-24
+  - 城北豆腐店-B25-25
+  - 城北豆腐店-B26-26
+  - 城北豆腐店-B27-27
+  - 城北豆腐店-JP-8
+  - 城北豆腐店-TW-13
+  - 城北豆腐店-TW-14
+  - 城北豆腐店-TW-15
+  - 城北豆腐店-TW-16
+  - 城北豆腐店-SG-7
+  - 城北豆腐店-SG-8
+  - 城北豆腐店-SG-9
+  - 城北豆腐店-HK-7
+  - 城北豆腐店-HK-8
+  - 城北豆腐店-HK-9
+  - 城北豆腐店-UK-7
+  - 城北豆腐店-UK-8
+  - 城北豆腐店-UK-9
+  - 城北豆腐店-D7-7
+  - 城北豆腐店-D8-8
+  - 城北豆腐店-D9-9
+  - 城北豆腐店-S7-7
+  - 城北豆腐店-S8-8
+  - 城北豆腐店-S9-9
+  - 城北豆腐店-R13-13
+  - 城北豆腐店-R14-14
+  - 城北豆腐店-R15-15
+  - 城北豆腐店-R16-16
+  - 城北豆腐店-R17-17
+  - 城北豆腐店-R18-18
   - 🇺🇸 美国1|私有
   - 🇺🇸 美国2|私有
   - 🇷🇺 俄罗斯1|私有
@@ -2193,60 +2193,60 @@ proxy-groups:
 - interval: 300
   name: 🌍 其它节点
   proxies:
-  - GLaDOS-B10-10
-  - GLaDOS-B11-11
-  - GLaDOS-B12-12
-  - GLaDOS-B13-13
-  - GLaDOS-B14-14
-  - GLaDOS-B15-15
-  - GLaDOS-B16-16
-  - GLaDOS-B17-17
-  - GLaDOS-B18-18
-  - GLaDOS-R18-18
-  - GLaDOS-B19-19
-  - GLaDOS-B20-20
-  - GLaDOS-B21-21
-  - GLaDOS-B22-22
-  - GLaDOS-B23-23
-  - GLaDOS-B24-24
-  - GLaDOS-B25-25
-  - GLaDOS-B26-26
-  - GLaDOS-B27-27
-  - GLaDOS-D4-4
-  - GLaDOS-D5-5
-  - GLaDOS-D6-6
-  - GLaDOS-D7-7
-  - GLaDOS-D8-8
-  - GLaDOS-D9-9
-  - GLaDOS-S4-4
-  - GLaDOS-S5-5
-  - GLaDOS-S6-6
-  - GLaDOS-S7-7
-  - GLaDOS-S8-8
-  - GLaDOS-S9-9
-  - GLaDOS-R7-7
-  - GLaDOS-R8-8
-  - GLaDOS-R9-9
-  - GLaDOS-R11-11
-  - GLaDOS-R12-12
-  - GLaDOS-R13-13
-  - GLaDOS-R14-14
-  - GLaDOS-R15-15
-  - GLaDOS-R16-16
-  - GLaDOS-R17-17
+  - 城北豆腐店-B10-10
+  - 城北豆腐店-B11-11
+  - 城北豆腐店-B12-12
+  - 城北豆腐店-B13-13
+  - 城北豆腐店-B14-14
+  - 城北豆腐店-B15-15
+  - 城北豆腐店-B16-16
+  - 城北豆腐店-B17-17
+  - 城北豆腐店-B18-18
+  - 城北豆腐店-R18-18
+  - 城北豆腐店-B19-19
+  - 城北豆腐店-B20-20
+  - 城北豆腐店-B21-21
+  - 城北豆腐店-B22-22
+  - 城北豆腐店-B23-23
+  - 城北豆腐店-B24-24
+  - 城北豆腐店-B25-25
+  - 城北豆腐店-B26-26
+  - 城北豆腐店-B27-27
+  - 城北豆腐店-D4-4
+  - 城北豆腐店-D5-5
+  - 城北豆腐店-D6-6
+  - 城北豆腐店-D7-7
+  - 城北豆腐店-D8-8
+  - 城北豆腐店-D9-9
+  - 城北豆腐店-S4-4
+  - 城北豆腐店-S5-5
+  - 城北豆腐店-S6-6
+  - 城北豆腐店-S7-7
+  - 城北豆腐店-S8-8
+  - 城北豆腐店-S9-9
+  - 城北豆腐店-R7-7
+  - 城北豆腐店-R8-8
+  - 城北豆腐店-R9-9
+  - 城北豆腐店-R11-11
+  - 城北豆腐店-R12-12
+  - 城北豆腐店-R13-13
+  - 城北豆腐店-R14-14
+  - 城北豆腐店-R15-15
+  - 城北豆腐店-R16-16
+  - 城北豆腐店-R17-17
   tolerance: 150
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
   name: 🇺🇲 美国节点
   proxies:
-  - GLaDOS-US-7
-  - GLaDOS-US-8
-  - GLaDOS-US-10
-  - GLaDOS-US-12
-  - GLaDOS-US-7-Netflix
-  - GLaDOS-US-8-Netflix
-  - GLaDOS-US-9-Netflix
+  - 城北豆腐店-US-7
+  - 城北豆腐店-US-8
+  - 城北豆腐店-US-10
+  - 城北豆腐店-US-12
+  - 城北豆腐店-US-7-Netflix
+  - 城北豆腐店-US-8-Netflix
+  - 城北豆腐店-US-9-Netflix
   - 🇺🇸 美国1|私有
   - 🇺🇸 美国2|私有
   tolerance: 150
@@ -2255,63 +2255,63 @@ proxy-groups:
 - interval: 300
   name: 🇯🇵 日本节点
   proxies:
-  - GLaDOS-JP-4
-  - GLaDOS-JP-5
-  - GLaDOS-JP-6
-  - GLaDOS-JP-8
+  - 城北豆腐店-JP-4
+  - 城北豆腐店-JP-5
+  - 城北豆腐店-JP-6
+  - 城北豆腐店-JP-8
   tolerance: 150
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
   name: 🇨🇳 台湾节点
   proxies:
-  - GLaDOS-TW-7
-  - GLaDOS-TW-8
-  - GLaDOS-TW-10
-  - GLaDOS-TW-11
-  - GLaDOS-TW-13
-  - GLaDOS-TW-14
-  - GLaDOS-TW-15
-  - GLaDOS-TW-16
-  - GLaDOS-TW-4-Netflix
-  - GLaDOS-TW-5-Netflix
-  - GLaDOS-TW-6-Netflix
+  - 城北豆腐店-TW-7
+  - 城北豆腐店-TW-8
+  - 城北豆腐店-TW-10
+  - 城北豆腐店-TW-11
+  - 城北豆腐店-TW-13
+  - 城北豆腐店-TW-14
+  - 城北豆腐店-TW-15
+  - 城北豆腐店-TW-16
+  - 城北豆腐店-TW-4-Netflix
+  - 城北豆腐店-TW-5-Netflix
+  - 城北豆腐店-TW-6-Netflix
   tolerance: 150
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
   name: 🇸🇬 新加坡节点
   proxies:
-  - GLaDOS-SG-4
-  - GLaDOS-SG-5
-  - GLaDOS-SG-6
-  - GLaDOS-SG-7
-  - GLaDOS-SG-8
-  - GLaDOS-SG-9
+  - 城北豆腐店-SG-4
+  - 城北豆腐店-SG-5
+  - 城北豆腐店-SG-6
+  - 城北豆腐店-SG-7
+  - 城北豆腐店-SG-8
+  - 城北豆腐店-SG-9
   tolerance: 150
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
   name: 🇭🇰 香港节点
   proxies:
-  - GLaDOS-HK-4
-  - GLaDOS-HK-5
-  - GLaDOS-HK-6
-  - GLaDOS-HK-7
-  - GLaDOS-HK-8
-  - GLaDOS-HK-9
+  - 城北豆腐店-HK-4
+  - 城北豆腐店-HK-5
+  - 城北豆腐店-HK-6
+  - 城北豆腐店-HK-7
+  - 城北豆腐店-HK-8
+  - 城北豆腐店-HK-9
   tolerance: 150
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
   name: 🇬🇧 英国节点
   proxies:
-  - GLaDOS-UK-4
-  - GLaDOS-UK-5
-  - GLaDOS-UK-6
-  - GLaDOS-UK-7
-  - GLaDOS-UK-8
-  - GLaDOS-UK-9
+  - 城北豆腐店-UK-4
+  - 城北豆腐店-UK-5
+  - 城北豆腐店-UK-6
+  - 城北豆腐店-UK-7
+  - 城北豆腐店-UK-8
+  - 城北豆腐店-UK-9
   tolerance: 150
   type: url-test
   url: http://www.gstatic.com/generate_204
