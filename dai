@@ -9904,12 +9904,14 @@ rules:
 - DOMAIN,steamusercontent-a.akamaihd.net,🚀 节点选择
 - DOMAIN,steamuserimages-a.akamaihd.net,🚀 节点选择
 - DOMAIN,steampipe.akamaized.net,🚀 节点选择
+- DOMAIN,cnhk1.top,🚀 节点选择
 - DOMAIN-SUFFIX,tap.io,🚀 节点选择
 - DOMAIN-SUFFIX,taptap.tw,🚀 节点选择
 - DOMAIN-SUFFIX,twitch.tv,🚀 节点选择
 - DOMAIN-SUFFIX,ttvnw.net,🚀 节点选择
 - DOMAIN-SUFFIX,jtvnw.net,🚀 节点选择
 - DOMAIN-KEYWORD,ttvnw,🚀 节点选择
+- DOMAIN-KEYWORD,cnhk1.top,🚀 节点选择
 - DOMAIN-SUFFIX,t.co,🚀 节点选择
 - DOMAIN-SUFFIX,twimg.co,🚀 节点选择
 - DOMAIN-SUFFIX,twimg.com,🚀 节点选择
@@ -9957,14 +9959,11 @@ rules:
 - DOMAIN-SUFFIX,wiktionary.org,🚀 节点选择
 - DOMAIN-SUFFIX,neulion.com,🚀 节点选择
 - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
+- DOMAIN-SUFFIX,cnhk1.top,🚀 节点选择
 - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
 - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
 - DOMAIN-SUFFIX,vikacg.com,🚀 节点选择
 - DOMAIN-SUFFIX,picjs.xyz,🚀 节点选择
-- DOMAIN-KEYWORD,cnhk1.top,🚀 节点选择
-- PROCESS-NAME,cnhk1.top,🚀 节点选择
-- DOMAIN-SUFFIX,cnhk1.top,🚀 节点选择
-- DOMAIN,cnhk1.top,🚀 节点选择
 - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
 - DOMAIN-SUFFIX,423down.com,🎯 全球直连
 - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
