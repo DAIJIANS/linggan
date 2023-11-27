@@ -9961,10 +9961,10 @@ rules:
 - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
 - DOMAIN-SUFFIX,vikacg.com,🚀 节点选择
 - DOMAIN-SUFFIX,picjs.xyz,🚀 节点选择
- - DOMAIN-KEYWORD,cnhk1.top,🚀 节点选择
- - PROCESS-NAME,cnhk1.top,🚀 节点选择
- - DOMAIN-SUFFIX,cnhk1.top,🚀 节点选择
- - DOMAIN,cnhk1.top,🚀 节点选择
+- DOMAIN-KEYWORD,cnhk1.top,🚀 节点选择
+- PROCESS-NAME,cnhk1.top,🚀 节点选择
+- DOMAIN-SUFFIX,cnhk1.top,🚀 节点选择
+- DOMAIN,cnhk1.top,🚀 节点选择
 - DOMAIN-SUFFIX,13th.tech,🎯 全球直连
 - DOMAIN-SUFFIX,423down.com,🎯 全球直连
 - DOMAIN-SUFFIX,bokecc.com,🎯 全球直连
@@ -10822,10 +10822,10 @@ rules:
 - PROCESS-NAME,DownloadService.exe,🎯 全球直连
 - PROCESS-NAME,Weiyun.exe,🎯 全球直连
 - PROCESS-NAME,baidunetdisk.exe,🎯 全球直连
- - DOMAIN-KEYWORD,cnhk.top,🎯 全球直连
- - PROCESS-NAME,cnhk.top,🎯 全球直连
- - DOMAIN-SUFFIX,cnhk.top,🎯 全球直连
- - DOMAIN,cnhk.top,🎯 全球直连
+- DOMAIN-KEYWORD,cnhk.top,🎯 全球直连
+- PROCESS-NAME,cnhk.top,🎯 全球直连
+- DOMAIN-SUFFIX,cnhk.top,🎯 全球直连
+- DOMAIN,cnhk.top,🎯 全球直连
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
 socks-port: 7891
