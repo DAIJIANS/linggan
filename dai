@@ -2174,7 +2174,7 @@ proxy-groups:
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
-  name: 🇺🇲 美国节点
+  name: UM 美国节点
   proxies:
   - 城北豆腐店-US-7
   - 城北豆腐店-US-8
