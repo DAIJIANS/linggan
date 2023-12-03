@@ -38,7 +38,6 @@ proxies:
   - {name: TW专线1(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27260, cipher: chacha20-ietf-poly1305, password: c0c85654-646c-48f8-9141-ba9b70d0c928, udp: true }
   - {name: TW专线2(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27260, cipher: chacha20-ietf-poly1305, password: c0c85654-646c-48f8-9141-ba9b70d0c928, udp: true }
   - {name: TW专线3(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27260, cipher: chacha20-ietf-poly1305, password: c0c85654-646c-48f8-9141-ba9b70d0c928, udp: true }
-  - {name: TW专线4(城北豆腐店), server: official.taipeicitygovernment.dp.ua, port: 8443, type: trojan, password: d1678d98-bb98-329b-85e7-0f2a6075215b, sni: 202.182.120.250, skip-cert-verify: false}
   - {name: SG专线1(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27261, cipher: chacha20-ietf-poly1305, password: c0c85654-646c-48f8-9141-ba9b70d0c928, udp: true }
   - {name: SG专线2(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27261, cipher: chacha20-ietf-poly1305, password: c0c85654-646c-48f8-9141-ba9b70d0c928, udp: true }
   - {name: SG专线3(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27261, cipher: chacha20-ietf-poly1305, password: c0c85654-646c-48f8-9141-ba9b70d0c928, udp: true }
@@ -90,7 +89,6 @@ proxy-groups:
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
       - TW专线3(城北豆腐店)
-      - TW专线4(城北豆腐店)
       - SG专线1(城北豆腐店)
       - SG专线2(城北豆腐店)
       - SG专线3(城北豆腐店)
@@ -140,7 +138,6 @@ proxy-groups:
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
       - TW专线3(城北豆腐店)
-      - TW专线4(城北豆腐店)
       - SG专线1(城北豆腐店)
       - SG专线2(城北豆腐店)
       - SG专线3(城北豆腐店)
@@ -191,7 +188,6 @@ proxy-groups:
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
       - TW专线3(城北豆腐店)
-      - TW专线4(城北豆腐店)
       - SG专线1(城北豆腐店)
       - SG专线2(城北豆腐店)
       - SG专线3(城北豆腐店)
@@ -246,7 +242,6 @@ proxy-groups:
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
       - TW专线3(城北豆腐店)
-      - TW专线4(城北豆腐店)
       - SG专线1(城北豆腐店)
       - SG专线2(城北豆腐店)
       - SG专线3(城北豆腐店)
@@ -296,7 +291,6 @@ proxy-groups:
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
       - TW专线3(城北豆腐店)
-      - TW专线4(城北豆腐店)
       - SG专线1(城北豆腐店)
       - SG专线2(城北豆腐店)
       - SG专线3(城北豆腐店)
@@ -347,7 +341,6 @@ proxy-groups:
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
       - TW专线3(城北豆腐店)
-      - TW专线4(城北豆腐店)
       - SG专线1(城北豆腐店)
       - SG专线2(城北豆腐店)
       - SG专线3(城北豆腐店)
@@ -407,7 +400,6 @@ proxy-groups:
       - TW专线1(城北豆腐店)
       - TW专线2(城北豆腐店)
       - TW专线3(城北豆腐店)
-      - TW专线4(城北豆腐店)
       - SG专线1(城北豆腐店)
       - SG专线2(城北豆腐店)
       - SG专线3(城北豆腐店)
