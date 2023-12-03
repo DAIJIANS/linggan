@@ -5,11 +5,470 @@ mode: Rule
 port: 7890
 proxies:
 - cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B1-1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.is:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.b1.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B2-2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.nintendo.jp:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.b2.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B3-3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.cat:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.b3.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B4-4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.nvidia.com:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.b4.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B5-5
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.net:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.b5.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B6-6
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.nintendo.be:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.b6.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B7-7
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.ch:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.b7.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B8-8
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.epicgames.com:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.b8.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B9-9
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.com:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.b9.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-JP-1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.lu:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.j1.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-JP-2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.nintendo.net:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.j2.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-JP-3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.is:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.j3.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-TW-1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.xboxlive.com:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.t1.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-TW-2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.fi:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.t2.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-TW-3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.dk:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.t3.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-TW-4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.fi:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.t4.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-TW-5
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.is:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.t5.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-TW-6
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.lu:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.t6.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-SG-1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.mozilla.net:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.s1.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-SG-2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.nintendo.be:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.s2.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-SG-3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.blizzard.com:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.s3.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-HK-1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.io:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.h1.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-HK-2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.mozilla.net:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.h2.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-HK-3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.xboxlive.com:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.h3.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-UK-1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.io:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.e1.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-UK-2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.nintendo.it:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.e2.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-UK-3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.lu:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.e3.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-D1-1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.ch:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.da.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-D2-2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.mozilla.net:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.db.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-D3-3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.eu:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.dc.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-S1-1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.nintendo.net.net:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.f1.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-S2-2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.eu.net:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.f2.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-S3-3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: b5a99e1.dl.microsoft.cz.net:21612
+    mode: tls
+  port: 2377
+  server: b5a99e1.f3.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-R1-1
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: v2ray-plugin
+  plugin-opts:
+    headers:
+      edge: b5a99e1.fm.huawei.com:21612
+    host: endpoint.moss.network
+    mode: websocket
+    mux: true
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    tls: false
+  port: 8880
+  server: b5a99e1.qa.glados-config.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-R2-2
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: v2ray-plugin
+  plugin-opts:
+    headers:
+      edge: b5a99e1.fm.huawei.com:21612
+    host: endpoint.moss.network
+    mode: websocket
+    mux: true
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    tls: false
+  port: 8880
+  server: b5a99e1.qb.glados-config.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-R3-3
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: v2ray-plugin
+  plugin-opts:
+    headers:
+      edge: b5a99e1.fm.huawei.com:21612
+    host: endpoint.moss.network
+    mode: websocket
+    mux: true
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    tls: false
+  port: 8880
+  server: b5a99e1.qc.glados-config.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-R4-4
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: v2ray-plugin
+  plugin-opts:
+    headers:
+      edge: b5a99e1.fm.huawei.com:21612
+    host: intrepid.moss.network
+    mode: websocket
+    mux: true
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    tls: false
+  port: 8880
+  server: b5a99e1.qd.glados-config.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-R5-5
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: v2ray-plugin
+  plugin-opts:
+    headers:
+      edge: b5a99e1.fm.huawei.com:21612
+    host: intrepid.moss.network
+    mode: websocket
+    mux: true
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    tls: false
+  port: 8880
+  server: b5a99e1.qe.glados-config.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-R6-6
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: v2ray-plugin
+  plugin-opts:
+    headers:
+      edge: b5a99e1.fm.huawei.com:21612
+    host: intrepid.moss.network
+    mode: websocket
+    mux: true
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    tls: false
+  port: 8880
+  server: b5a99e1.qf.glados-config.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 城北豆腐店-B10-10
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.it:29784
+    host: 2dd887b.dl.microsoft.lv:29784
     mode: tls
   port: 2377
   server: 2dd887b.b1.gladns.com
@@ -20,7 +479,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.de:29784
+    host: 2dd887b.dl.microsoft.md:29784
     mode: tls
   port: 2377
   server: 2dd887b.b2.gladns.com
@@ -31,7 +490,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.de:29784
+    host: 2dd887b.dl.nintendo.net:29784
     mode: tls
   port: 2377
   server: 2dd887b.b3.gladns.com
@@ -42,7 +501,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.lt:29784
+    host: 2dd887b.dl.blizzard.com:29784
     mode: tls
   port: 2377
   server: 2dd887b.b4.gladns.com
@@ -53,7 +512,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.it:29784
+    host: 2dd887b.dl.microsoft.lv:29784
     mode: tls
   port: 2377
   server: 2dd887b.b5.gladns.com
@@ -64,7 +523,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.blizzard.com:29784
+    host: 2dd887b.dl.nintendo.net:29784
     mode: tls
   port: 2377
   server: 2dd887b.b6.gladns.com
@@ -75,7 +534,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.nintendo.be:29784
+    host: 2dd887b.dl.microsoft.de:29784
     mode: tls
   port: 2377
   server: 2dd887b.b7.gladns.com
@@ -86,7 +545,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.lv:29784
+    host: 2dd887b.dl.microsoft.fi:29784
     mode: tls
   port: 2377
   server: 2dd887b.b8.gladns.com
@@ -97,7 +556,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.nintendo.jp:29784
+    host: 2dd887b.dl.microsoft.ee:29784
     mode: tls
   port: 2377
   server: 2dd887b.b9.gladns.com
@@ -108,7 +567,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.cl:29784
+    host: 2dd887b.dl.nintendo.net:29784
     mode: tls
   port: 2377
   server: 2dd887b.u1.gladns.com
@@ -119,7 +578,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.md:29784
+    host: 2dd887b.dl.nintendo.com:29784
     mode: tls
   port: 2377
   server: 2dd887b.u2.gladns.com
@@ -130,7 +589,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.nintendo.net:29784
+    host: 2dd887b.dl.microsoft.ch:29784
     mode: tls
   port: 2377
   server: 2dd887b.u3.gladns.com
@@ -141,7 +600,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.mozilla.net:29784
+    host: 2dd887b.dl.microsoft.net:29784
     mode: tls
   port: 2377
   server: 2dd887b.u4.gladns.com
@@ -152,7 +611,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.blizzard.com:29784
+    host: 2dd887b.dl.nintendo.com:29784
     mode: tls
   port: 2377
   server: 2dd887b.u5.gladns.com
@@ -163,7 +622,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.nintendo.de:29784
+    host: 2dd887b.dl.microsoft.lv:29784
     mode: tls
   port: 2377
   server: 2dd887b.u6.gladns.com
@@ -174,7 +633,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.lu:29784
+    host: 2dd887b.dl.nintendo.jp:29784
     mode: tls
   port: 2377
   server: 2dd887b.j1.gladns.com
@@ -185,7 +644,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.jp:29784
+    host: 2dd887b.dl.microsoft.ee:29784
     mode: tls
   port: 2377
   server: 2dd887b.j2.gladns.com
@@ -196,7 +655,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.epicgames.com:29784
+    host: 2dd887b.dl.microsoft.ge:29784
     mode: tls
   port: 2377
   server: 2dd887b.j3.gladns.com
@@ -207,7 +666,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.nintendo.es:29784
+    host: 2dd887b.dl.blizzard.com:29784
     mode: tls
   port: 2377
   server: 2dd887b.t1.gladns.com
@@ -218,7 +677,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.fastly.net:29784
+    host: 2dd887b.dl.microsoft.is:29784
     mode: tls
   port: 2377
   server: 2dd887b.t2.gladns.com
@@ -229,7 +688,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.lv:29784
+    host: 2dd887b.dl.nintendo.eu:29784
     mode: tls
   port: 2377
   server: 2dd887b.t3.gladns.com
@@ -240,7 +699,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.de:29784
+    host: 2dd887b.dl.microsoft.com:29784
     mode: tls
   port: 2377
   server: 2dd887b.t4.gladns.com
@@ -251,7 +710,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.it:29784
+    host: 2dd887b.dl.microsoft.jp:29784
     mode: tls
   port: 2377
   server: 2dd887b.t5.gladns.com
@@ -262,7 +721,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.ee:29784
+    host: 2dd887b.dl.microsoft.com:29784
     mode: tls
   port: 2377
   server: 2dd887b.t6.gladns.com
@@ -273,7 +732,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.blizzard.com:29784
+    host: 2dd887b.dl.nintendo.de:29784
     mode: tls
   port: 2377
   server: 2dd887b.s1.gladns.com
@@ -284,7 +743,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.cl:29784
+    host: 2dd887b.dl.microsoft.fi:29784
     mode: tls
   port: 2377
   server: 2dd887b.s2.gladns.com
@@ -295,7 +754,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.cl:29784
+    host: 2dd887b.dl.microsoft.is:29784
     mode: tls
   port: 2377
   server: 2dd887b.s3.gladns.com
@@ -306,7 +765,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.ch:29784
+    host: 2dd887b.dl.nintendo.net:29784
     mode: tls
   port: 2377
   server: 2dd887b.h1.gladns.com
@@ -317,7 +776,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.nintendo.net:29784
+    host: 2dd887b.dl.microsoft.ch:29784
     mode: tls
   port: 2377
   server: 2dd887b.h2.gladns.com
@@ -328,7 +787,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.ge:29784
+    host: 2dd887b.dl.microsoft.com:29784
     mode: tls
   port: 2377
   server: 2dd887b.h3.gladns.com
@@ -339,7 +798,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.hu:29784
+    host: 2dd887b.dl.nintendo.net:29784
     mode: tls
   port: 2377
   server: 2dd887b.e1.gladns.com
@@ -350,7 +809,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.md:29784
+    host: 2dd887b.dl.microsoft.fi:29784
     mode: tls
   port: 2377
   server: 2dd887b.e2.gladns.com
@@ -361,7 +820,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.it:29784
+    host: 2dd887b.dl.microsoft.is:29784
     mode: tls
   port: 2377
   server: 2dd887b.e3.gladns.com
@@ -372,7 +831,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.cl:29784
+    host: 2dd887b.dl.microsoft.lv:29784
     mode: tls
   port: 2377
   server: 2dd887b.da.gladns.com
@@ -383,7 +842,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.fi:29784
+    host: 2dd887b.dl.epicgames.com:29784
     mode: tls
   port: 2377
   server: 2dd887b.db.gladns.com
@@ -394,7 +853,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.mozilla.net:29784
+    host: 2dd887b.dl.microsoft.ch:29784
     mode: tls
   port: 2377
   server: 2dd887b.dc.gladns.com
@@ -405,7 +864,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.blizzard.com.net:29784
+    host: 2dd887b.dl.epicgames.com.net:29784
     mode: tls
   port: 2377
   server: 2dd887b.f1.gladns.com
@@ -416,7 +875,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.nintendo.jp.net:29784
+    host: 2dd887b.dl.nintendo.it.net:29784
     mode: tls
   port: 2377
   server: 2dd887b.f2.gladns.com
@@ -427,7 +886,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.nintendo.jp.net:29784
+    host: 2dd887b.dl.microsoft.de.net:29784
     mode: tls
   port: 2377
   server: 2dd887b.f3.gladns.com
@@ -438,7 +897,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.it.net:29784
+    host: 2dd887b.dl.blizzard.com.net:29784
     mode: tls
   port: 2377
   server: 2dd887b.d1.gladns.com
@@ -449,7 +908,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.nvidia.com.net:29784
+    host: 2dd887b.dl.microsoft.hu.net:29784
     mode: tls
   port: 2377
   server: 2dd887b.d2.gladns.com
@@ -460,7 +919,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.eu.net:29784
+    host: 2dd887b.dl.nintendo.net.net:29784
     mode: tls
   port: 2377
   server: 2dd887b.d3.gladns.com
@@ -471,7 +930,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.microsoft.ee.net:29784
+    host: 2dd887b.dl.microsoft.lu.net:29784
     mode: tls
   port: 2377
   server: 2dd887b.d4.gladns.com
@@ -482,7 +941,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.xboxlive.com.net:29784
+    host: 2dd887b.dl.nvidia.com.net:29784
     mode: tls
   port: 2377
   server: 2dd887b.d5.gladns.com
@@ -493,7 +952,7 @@ proxies:
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: 2dd887b.dl.fastly.net.net:29784
+    host: 2dd887b.dl.microsoft.hu.net:29784
     mode: tls
   port: 2377
   server: 2dd887b.d6.gladns.com
@@ -512,7 +971,7 @@ proxies:
     path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
     tls: false
   port: 8880
-  server: 2dd887b.qa.城北豆腐店-config.com
+  server: 2dd887b.qa.glados-config.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -528,7 +987,7 @@ proxies:
     path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
     tls: false
   port: 8880
-  server: 2dd887b.qb.城北豆腐店-config.com
+  server: 2dd887b.qb.glados-config.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -544,7 +1003,7 @@ proxies:
     path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
     tls: false
   port: 8880
-  server: 2dd887b.qc.城北豆腐店-config.com
+  server: 2dd887b.qc.glados-config.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -560,7 +1019,7 @@ proxies:
     path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
     tls: false
   port: 8880
-  server: 2dd887b.qd.城北豆腐店-config.com
+  server: 2dd887b.qd.glados-config.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -576,7 +1035,7 @@ proxies:
     path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
     tls: false
   port: 8880
-  server: 2dd887b.qe.城北豆腐店-config.com
+  server: 2dd887b.qe.glados-config.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -592,7 +1051,466 @@ proxies:
     path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
     tls: false
   port: 8880
-  server: 2dd887b.qf.城北豆腐店-config.com
+  server: 2dd887b.qf.glados-config.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B19-19
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.ch:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.b1.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B20-20
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.ge:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.b2.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B21-21
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.nintendo.eu:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.b3.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B22-22
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.eu:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.b4.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B23-23
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.nintendo.net:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.b5.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B24-24
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.nvidia.com:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.b6.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B25-25
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.nintendo.eu:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.b7.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B26-26
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.md:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.b8.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-B27-27
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.nintendo.be:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.b9.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-JP-7
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.cz:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.j1.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-JP-8
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.ge:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.j2.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-JP-9
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.md:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.j3.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-TW-13
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.cz:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.t1.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-TW-14
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.es:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.t2.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-TW-15
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.es:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.t3.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-TW-16
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.cat:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.t4.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-TW-17
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.ge:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.t5.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-TW-18
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.dk:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.t6.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-SG-7
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.lu:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.s1.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-SG-8
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.it:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.s2.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-SG-9
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.dk:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.s3.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-HK-7
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.fastly.net:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.h1.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-HK-8
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.nintendo.be:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.h2.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-HK-9
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.fastly.net:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.h3.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-UK-7
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.md:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.e1.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-UK-8
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.nintendo.be:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.e2.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-UK-9
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.blizzard.com:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.e3.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-D7-7
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.nintendo.net:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.da.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-D8-8
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.nintendo.es:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.db.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-D9-9
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.xboxlive.com:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.dc.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-S7-7
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.fi.net:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.f1.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-S8-8
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.nintendo.be.net:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.f2.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-S9-9
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 2c7d70b.dl.microsoft.dk.net:29681
+    mode: tls
+  port: 2377
+  server: 2c7d70b.f3.glados-config.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-R13-13
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: v2ray-plugin
+  plugin-opts:
+    headers:
+      edge: 2c7d70b.fm.huawei.com:29681
+    host: endpoint.moss.network
+    mode: websocket
+    mux: true
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    tls: false
+  port: 8880
+  server: 2c7d70b.qa.glados-config.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-R14-14
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: v2ray-plugin
+  plugin-opts:
+    headers:
+      edge: 2c7d70b.fm.huawei.com:29681
+    host: endpoint.moss.network
+    mode: websocket
+    mux: true
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    tls: false
+  port: 8880
+  server: 2c7d70b.qb.glados-config.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-R15-15
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: v2ray-plugin
+  plugin-opts:
+    headers:
+      edge: 2c7d70b.fm.huawei.com:29681
+    host: endpoint.moss.network
+    mode: websocket
+    mux: true
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    tls: false
+  port: 8880
+  server: 2c7d70b.qc.glados-config.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-R16-16
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: v2ray-plugin
+  plugin-opts:
+    headers:
+      edge: 2c7d70b.fm.huawei.com:29681
+    host: intrepid.moss.network
+    mode: websocket
+    mux: true
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    tls: false
+  port: 8880
+  server: 2c7d70b.qd.glados-config.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-R17-17
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: v2ray-plugin
+  plugin-opts:
+    headers:
+      edge: 2c7d70b.fm.huawei.com:29681
+    host: intrepid.moss.network
+    mode: websocket
+    mux: true
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    tls: false
+  port: 8880
+  server: 2c7d70b.qe.glados-config.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 城北豆腐店-R18-18
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: v2ray-plugin
+  plugin-opts:
+    headers:
+      edge: 2c7d70b.fm.huawei.com:29681
+    host: intrepid.moss.network
+    mode: websocket
+    mux: true
+    path: /9daad54c-7685-402c-8a97-e6a04ec7cb11/connect
+    tls: false
+  port: 8880
+  server: 2c7d70b.qf.glados-config.com
   type: ss
   udp: true
 - alterId: 0
@@ -661,6 +1579,27 @@ proxy-groups:
   - ♻️ 自动选择
   - DIRECT
   - 🌍 其它节点
+  - 城北豆腐店-B1-1
+  - 城北豆腐店-B2-2
+  - 城北豆腐店-B3-3
+  - 城北豆腐店-B4-4
+  - 城北豆腐店-B5-5
+  - 城北豆腐店-B6-6
+  - 城北豆腐店-B7-7
+  - 城北豆腐店-B8-8
+  - 城北豆腐店-B9-9
+  - 城北豆腐店-D1-1
+  - 城北豆腐店-D2-2
+  - 城北豆腐店-D3-3
+  - 城北豆腐店-S1-1
+  - 城北豆腐店-S2-2
+  - 城北豆腐店-S3-3
+  - 城北豆腐店-R1-1
+  - 城北豆腐店-R2-2
+  - 城北豆腐店-R3-3
+  - 城北豆腐店-R4-4
+  - 城北豆腐店-R5-5
+  - 城北豆腐店-R6-6
   - 城北豆腐店-B10-10
   - 城北豆腐店-B11-11
   - 城北豆腐店-B12-12
@@ -682,6 +1621,27 @@ proxy-groups:
   - 城北豆腐店-R10-10
   - 城北豆腐店-R11-11
   - 城北豆腐店-R12-12
+  - 城北豆腐店-B19-19
+  - 城北豆腐店-B20-20
+  - 城北豆腐店-B21-21
+  - 城北豆腐店-B22-22
+  - 城北豆腐店-B23-23
+  - 城北豆腐店-B24-24
+  - 城北豆腐店-B25-25
+  - 城北豆腐店-B26-26
+  - 城北豆腐店-B27-27
+  - 城北豆腐店-D7-7
+  - 城北豆腐店-D8-8
+  - 城北豆腐店-D9-9
+  - 城北豆腐店-S7-7
+  - 城北豆腐店-S8-8
+  - 城北豆腐店-S9-9
+  - 城北豆腐店-R13-13
+  - 城北豆腐店-R14-14
+  - 城北豆腐店-R15-15
+  - 城北豆腐店-R16-16
+  - 城北豆腐店-R17-17
+  - 城北豆腐店-R18-18
   - UM 美国节点
   - 城北豆腐店-US-7
   - 城北豆腐店-US-8
@@ -695,10 +1655,22 @@ proxy-groups:
   - 🇺🇸 美国1|私有
   - 🇺🇸 美国2|私有
   - JP 日本节点
+  - 城北豆腐店-JP-1
+  - 城北豆腐店-JP-2
+  - 城北豆腐店-JP-3
   - 城北豆腐店-JP-4
   - 城北豆腐店-JP-5
   - 城北豆腐店-JP-6
+  - 城北豆腐店-JP-7
+  - 城北豆腐店-JP-8
+  - 城北豆腐店-JP-9
   - TW 台湾节点
+  - 城北豆腐店-TW-1
+  - 城北豆腐店-TW-2
+  - 城北豆腐店-TW-3
+  - 城北豆腐店-TW-4
+  - 城北豆腐店-TW-5
+  - 城北豆腐店-TW-6
   - 城北豆腐店-TW-7
   - 城北豆腐店-TW-8
   - 城北豆腐店-TW-9
@@ -708,74 +1680,43 @@ proxy-groups:
   - 城北豆腐店-TW-4-Netflix
   - 城北豆腐店-TW-5-Netflix
   - 城北豆腐店-TW-6-Netflix
+  - 城北豆腐店-TW-13
+  - 城北豆腐店-TW-14
+  - 城北豆腐店-TW-15
+  - 城北豆腐店-TW-16
+  - 城北豆腐店-TW-17
+  - 城北豆腐店-TW-18
   - SG 新加坡节点
+  - 城北豆腐店-SG-1
+  - 城北豆腐店-SG-2
+  - 城北豆腐店-SG-3
   - 城北豆腐店-SG-4
   - 城北豆腐店-SG-5
   - 城北豆腐店-SG-6
+  - 城北豆腐店-SG-7
+  - 城北豆腐店-SG-8
+  - 城北豆腐店-SG-9
   - HK 香港节点
+  - 城北豆腐店-HK-1
+  - 城北豆腐店-HK-2
+  - 城北豆腐店-HK-3
   - 城北豆腐店-HK-4
   - 城北豆腐店-HK-5
   - 城北豆腐店-HK-6
+  - 城北豆腐店-HK-7
+  - 城北豆腐店-HK-8
+  - 城北豆腐店-HK-9
   - GB 英国节点
+  - 城北豆腐店-UK-1
+  - 城北豆腐店-UK-2
+  - 城北豆腐店-UK-3
   - 城北豆腐店-UK-4
   - 城北豆腐店-UK-5
   - 城北豆腐店-UK-6
+  - 城北豆腐店-UK-7
+  - 城北豆腐店-UK-8
+  - 城北豆腐店-UK-9
   - RU 俄罗斯节点
-  - 🇷🇺 俄罗斯1|私有
-  - 🇷🇺 俄罗斯2|私有
-  - 城北豆腐店-B10-10
-  - 城北豆腐店-B11-11
-  - 城北豆腐店-B12-12
-  - 城北豆腐店-B13-13
-  - 城北豆腐店-B14-14
-  - 城北豆腐店-B15-15
-  - 城北豆腐店-B16-16
-  - 城北豆腐店-B17-17
-  - 城北豆腐店-B18-18
-  - 城北豆腐店-US-7
-  - 城北豆腐店-US-8
-  - 城北豆腐店-US-9
-  - 城北豆腐店-US-10
-  - 城北豆腐店-US-11
-  - 城北豆腐店-US-12
-  - 城北豆腐店-JP-4
-  - 城北豆腐店-JP-5
-  - 城北豆腐店-JP-6
-  - 城北豆腐店-TW-7
-  - 城北豆腐店-TW-8
-  - 城北豆腐店-TW-9
-  - 城北豆腐店-TW-10
-  - 城北豆腐店-TW-11
-  - 城北豆腐店-TW-12
-  - 城北豆腐店-SG-4
-  - 城北豆腐店-SG-5
-  - 城北豆腐店-SG-6
-  - 城北豆腐店-HK-4
-  - 城北豆腐店-HK-5
-  - 城北豆腐店-HK-6
-  - 城北豆腐店-UK-4
-  - 城北豆腐店-UK-5
-  - 城北豆腐店-UK-6
-  - 城北豆腐店-D4-4
-  - 城北豆腐店-D5-5
-  - 城北豆腐店-D6-6
-  - 城北豆腐店-S4-4
-  - 城北豆腐店-S5-5
-  - 城北豆腐店-S6-6
-  - 城北豆腐店-TW-4-Netflix
-  - 城北豆腐店-TW-5-Netflix
-  - 城北豆腐店-TW-6-Netflix
-  - 城北豆腐店-US-7-Netflix
-  - 城北豆腐店-US-8-Netflix
-  - 城北豆腐店-US-9-Netflix
-  - 城北豆腐店-R7-7
-  - 城北豆腐店-R8-8
-  - 城北豆腐店-R9-9
-  - 城北豆腐店-R10-10
-  - 城北豆腐店-R11-11
-  - 城北豆腐店-R12-12
-  - 🇺🇸 美国1|私有
-  - 🇺🇸 美国2|私有
   - 🇷🇺 俄罗斯1|私有
   - 🇷🇺 俄罗斯2|私有
   type: select
@@ -783,6 +1724,27 @@ proxy-groups:
   name: ♻️ 自动选择
   proxies:
   - 🌍 其它节点
+  - 城北豆腐店-B1-1
+  - 城北豆腐店-B2-2
+  - 城北豆腐店-B3-3
+  - 城北豆腐店-B4-4
+  - 城北豆腐店-B5-5
+  - 城北豆腐店-B6-6
+  - 城北豆腐店-B7-7
+  - 城北豆腐店-B8-8
+  - 城北豆腐店-B9-9
+  - 城北豆腐店-D1-1
+  - 城北豆腐店-D2-2
+  - 城北豆腐店-D3-3
+  - 城北豆腐店-S1-1
+  - 城北豆腐店-S2-2
+  - 城北豆腐店-S3-3
+  - 城北豆腐店-R1-1
+  - 城北豆腐店-R2-2
+  - 城北豆腐店-R3-3
+  - 城北豆腐店-R4-4
+  - 城北豆腐店-R5-5
+  - 城北豆腐店-R6-6
   - 城北豆腐店-B10-10
   - 城北豆腐店-B11-11
   - 城北豆腐店-B12-12
@@ -804,6 +1766,27 @@ proxy-groups:
   - 城北豆腐店-R10-10
   - 城北豆腐店-R11-11
   - 城北豆腐店-R12-12
+  - 城北豆腐店-B19-19
+  - 城北豆腐店-B20-20
+  - 城北豆腐店-B21-21
+  - 城北豆腐店-B22-22
+  - 城北豆腐店-B23-23
+  - 城北豆腐店-B24-24
+  - 城北豆腐店-B25-25
+  - 城北豆腐店-B26-26
+  - 城北豆腐店-B27-27
+  - 城北豆腐店-D7-7
+  - 城北豆腐店-D8-8
+  - 城北豆腐店-D9-9
+  - 城北豆腐店-S7-7
+  - 城北豆腐店-S8-8
+  - 城北豆腐店-S9-9
+  - 城北豆腐店-R13-13
+  - 城北豆腐店-R14-14
+  - 城北豆腐店-R15-15
+  - 城北豆腐店-R16-16
+  - 城北豆腐店-R17-17
+  - 城北豆腐店-R18-18
   - UM 美国节点
   - 城北豆腐店-US-7
   - 城北豆腐店-US-8
@@ -817,10 +1800,22 @@ proxy-groups:
   - 🇺🇸 美国1|私有
   - 🇺🇸 美国2|私有
   - JP 日本节点
+  - 城北豆腐店-JP-1
+  - 城北豆腐店-JP-2
+  - 城北豆腐店-JP-3
   - 城北豆腐店-JP-4
   - 城北豆腐店-JP-5
   - 城北豆腐店-JP-6
+  - 城北豆腐店-JP-7
+  - 城北豆腐店-JP-8
+  - 城北豆腐店-JP-9
   - TW 台湾节点
+  - 城北豆腐店-TW-1
+  - 城北豆腐店-TW-2
+  - 城北豆腐店-TW-3
+  - 城北豆腐店-TW-4
+  - 城北豆腐店-TW-5
+  - 城北豆腐店-TW-6
   - 城北豆腐店-TW-7
   - 城北豆腐店-TW-8
   - 城北豆腐店-TW-9
@@ -830,71 +1825,42 @@ proxy-groups:
   - 城北豆腐店-TW-4-Netflix
   - 城北豆腐店-TW-5-Netflix
   - 城北豆腐店-TW-6-Netflix
+  - 城北豆腐店-TW-13
+  - 城北豆腐店-TW-14
+  - 城北豆腐店-TW-15
+  - 城北豆腐店-TW-16
+  - 城北豆腐店-TW-17
+  - 城北豆腐店-TW-18
   - SG 新加坡节点
+  - 城北豆腐店-SG-1
+  - 城北豆腐店-SG-2
+  - 城北豆腐店-SG-3
   - 城北豆腐店-SG-4
   - 城北豆腐店-SG-5
   - 城北豆腐店-SG-6
+  - 城北豆腐店-SG-7
+  - 城北豆腐店-SG-8
+  - 城北豆腐店-SG-9
   - HK 香港节点
+  - 城北豆腐店-HK-1
+  - 城北豆腐店-HK-2
+  - 城北豆腐店-HK-3
   - 城北豆腐店-HK-4
   - 城北豆腐店-HK-5
   - 城北豆腐店-HK-6
+  - 城北豆腐店-HK-7
+  - 城北豆腐店-HK-8
+  - 城北豆腐店-HK-9
   - GB 英国节点
+  - 城北豆腐店-UK-1
+  - 城北豆腐店-UK-2
+  - 城北豆腐店-UK-3
   - 城北豆腐店-UK-4
   - 城北豆腐店-UK-5
   - 城北豆腐店-UK-6
-  - 城北豆腐店-B10-10
-  - 城北豆腐店-B11-11
-  - 城北豆腐店-B12-12
-  - 城北豆腐店-B13-13
-  - 城北豆腐店-B14-14
-  - 城北豆腐店-B15-15
-  - 城北豆腐店-B16-16
-  - 城北豆腐店-B17-17
-  - 城北豆腐店-B18-18
-  - 城北豆腐店-US-7
-  - 城北豆腐店-US-8
-  - 城北豆腐店-US-9
-  - 城北豆腐店-US-10
-  - 城北豆腐店-US-11
-  - 城北豆腐店-US-12
-  - 城北豆腐店-JP-4
-  - 城北豆腐店-JP-5
-  - 城北豆腐店-JP-6
-  - 城北豆腐店-TW-7
-  - 城北豆腐店-TW-8
-  - 城北豆腐店-TW-9
-  - 城北豆腐店-TW-10
-  - 城北豆腐店-TW-11
-  - 城北豆腐店-TW-12
-  - 城北豆腐店-SG-4
-  - 城北豆腐店-SG-5
-  - 城北豆腐店-SG-6
-  - 城北豆腐店-HK-4
-  - 城北豆腐店-HK-5
-  - 城北豆腐店-HK-6
-  - 城北豆腐店-UK-4
-  - 城北豆腐店-UK-5
-  - 城北豆腐店-UK-6
-  - 城北豆腐店-D4-4
-  - 城北豆腐店-D5-5
-  - 城北豆腐店-D6-6
-  - 城北豆腐店-S4-4
-  - 城北豆腐店-S5-5
-  - 城北豆腐店-S6-6
-  - 城北豆腐店-TW-4-Netflix
-  - 城北豆腐店-TW-5-Netflix
-  - 城北豆腐店-TW-6-Netflix
-  - 城北豆腐店-US-7-Netflix
-  - 城北豆腐店-US-8-Netflix
-  - 城北豆腐店-US-9-Netflix
-  - 城北豆腐店-R7-7
-  - 城北豆腐店-R8-8
-  - 城北豆腐店-R9-9
-  - 城北豆腐店-R10-10
-  - 城北豆腐店-R11-11
-  - 城北豆腐店-R12-12
-  - 🇺🇸 美国1|私有
-  - 🇺🇸 美国2|私有
+  - 城北豆腐店-UK-7
+  - 城北豆腐店-UK-8
+  - 城北豆腐店-UK-9
   - RU 俄罗斯节点
   - 🇷🇺 俄罗斯1|私有
   - 🇷🇺 俄罗斯2|私有
@@ -1130,125 +2096,38 @@ proxy-groups:
   - ♻️ 自动选择
   - DIRECT
   - 🌍 其它节点
-  - 城北豆腐店-B10-10
-  - 城北豆腐店-B11-11
-  - 城北豆腐店-B12-12
-  - 城北豆腐店-B13-13
-  - 城北豆腐店-B14-14
-  - 城北豆腐店-B15-15
-  - 城北豆腐店-B16-16
-  - 城北豆腐店-B17-17
-  - 城北豆腐店-B18-18
-  - 城北豆腐店-D4-4
-  - 城北豆腐店-D5-5
-  - 城北豆腐店-D6-6
-  - 城北豆腐店-S4-4
-  - 城北豆腐店-S5-5
-  - 城北豆腐店-S6-6
-  - 城北豆腐店-R7-7
-  - 城北豆腐店-R8-8
-  - 城北豆腐店-R9-9
-  - 城北豆腐店-R10-10
-  - 城北豆腐店-R11-11
-  - 城北豆腐店-R12-12
   - UM 美国节点
-  - 城北豆腐店-US-7
-  - 城北豆腐店-US-8
-  - 城北豆腐店-US-9
-  - 城北豆腐店-US-10
-  - 城北豆腐店-US-11
-  - 城北豆腐店-US-12
-  - 城北豆腐店-US-7-Netflix
-  - 城北豆腐店-US-8-Netflix
-  - 城北豆腐店-US-9-Netflix
-  - 🇺🇸 美国1|私有
-  - 🇺🇸 美国2|私有
   - JP 日本节点
-  - 城北豆腐店-JP-4
-  - 城北豆腐店-JP-5
-  - 城北豆腐店-JP-6
   - TW 台湾节点
-  - 城北豆腐店-TW-7
-  - 城北豆腐店-TW-8
-  - 城北豆腐店-TW-9
-  - 城北豆腐店-TW-10
-  - 城北豆腐店-TW-11
-  - 城北豆腐店-TW-12
-  - 城北豆腐店-TW-4-Netflix
-  - 城北豆腐店-TW-5-Netflix
-  - 城北豆腐店-TW-6-Netflix
   - SG 新加坡节点
-  - 城北豆腐店-SG-4
-  - 城北豆腐店-SG-5
-  - 城北豆腐店-SG-6
   - HK 香港节点
-  - 城北豆腐店-HK-4
-  - 城北豆腐店-HK-5
-  - 城北豆腐店-HK-6
   - GB 英国节点
-  - 城北豆腐店-UK-4
-  - 城北豆腐店-UK-5
-  - 城北豆腐店-UK-6
-  - 城北豆腐店-B10-10
-  - 城北豆腐店-B11-11
-  - 城北豆腐店-B12-12
-  - 城北豆腐店-B13-13
-  - 城北豆腐店-B14-14
-  - 城北豆腐店-B15-15
-  - 城北豆腐店-B16-16
-  - 城北豆腐店-B17-17
-  - 城北豆腐店-B18-18
-  - 城北豆腐店-US-7
-  - 城北豆腐店-US-8
-  - 城北豆腐店-US-9
-  - 城北豆腐店-US-10
-  - 城北豆腐店-US-11
-  - 城北豆腐店-US-12
-  - 城北豆腐店-JP-4
-  - 城北豆腐店-JP-5
-  - 城北豆腐店-JP-6
-  - 城北豆腐店-TW-7
-  - 城北豆腐店-TW-8
-  - 城北豆腐店-TW-9
-  - 城北豆腐店-TW-10
-  - 城北豆腐店-TW-11
-  - 城北豆腐店-TW-12
-  - 城北豆腐店-SG-4
-  - 城北豆腐店-SG-5
-  - 城北豆腐店-SG-6
-  - 城北豆腐店-HK-4
-  - 城北豆腐店-HK-5
-  - 城北豆腐店-HK-6
-  - 城北豆腐店-UK-4
-  - 城北豆腐店-UK-5
-  - 城北豆腐店-UK-6
-  - 城北豆腐店-D4-4
-  - 城北豆腐店-D5-5
-  - 城北豆腐店-D6-6
-  - 城北豆腐店-S4-4
-  - 城北豆腐店-S5-5
-  - 城北豆腐店-S6-6
-  - 城北豆腐店-TW-4-Netflix
-  - 城北豆腐店-TW-5-Netflix
-  - 城北豆腐店-TW-6-Netflix
-  - 城北豆腐店-US-7-Netflix
-  - 城北豆腐店-US-8-Netflix
-  - 城北豆腐店-US-9-Netflix
-  - 城北豆腐店-R7-7
-  - 城北豆腐店-R8-8
-  - 城北豆腐店-R9-9
-  - 城北豆腐店-R10-10
-  - 城北豆腐店-R11-11
-  - 城北豆腐店-R12-12
-  - 🇺🇸 美国1|私有
-  - 🇺🇸 美国2|私有
   - RU 俄罗斯节点
-  - 🇷🇺 俄罗斯1|私有
-  - 🇷🇺 俄罗斯2|私有
   type: select
 - interval: 300
   name: 🌍 其它节点
   proxies:
+  - 城北豆腐店-B1-1
+  - 城北豆腐店-B2-2
+  - 城北豆腐店-B3-3
+  - 城北豆腐店-B4-4
+  - 城北豆腐店-B5-5
+  - 城北豆腐店-B6-6
+  - 城北豆腐店-B7-7
+  - 城北豆腐店-B8-8
+  - 城北豆腐店-B9-9
+  - 城北豆腐店-D1-1
+  - 城北豆腐店-D2-2
+  - 城北豆腐店-D3-3
+  - 城北豆腐店-S1-1
+  - 城北豆腐店-S2-2
+  - 城北豆腐店-S3-3
+  - 城北豆腐店-R1-1
+  - 城北豆腐店-R2-2
+  - 城北豆腐店-R3-3
+  - 城北豆腐店-R4-4
+  - 城北豆腐店-R5-5
+  - 城北豆腐店-R6-6
   - 城北豆腐店-B10-10
   - 城北豆腐店-B11-11
   - 城北豆腐店-B12-12
@@ -1270,11 +2149,32 @@ proxy-groups:
   - 城北豆腐店-R10-10
   - 城北豆腐店-R11-11
   - 城北豆腐店-R12-12
+  - 城北豆腐店-B19-19
+  - 城北豆腐店-B20-20
+  - 城北豆腐店-B21-21
+  - 城北豆腐店-B22-22
+  - 城北豆腐店-B23-23
+  - 城北豆腐店-B24-24
+  - 城北豆腐店-B25-25
+  - 城北豆腐店-B26-26
+  - 城北豆腐店-B27-27
+  - 城北豆腐店-D7-7
+  - 城北豆腐店-D8-8
+  - 城北豆腐店-D9-9
+  - 城北豆腐店-S7-7
+  - 城北豆腐店-S8-8
+  - 城北豆腐店-S9-9
+  - 城北豆腐店-R13-13
+  - 城北豆腐店-R14-14
+  - 城北豆腐店-R15-15
+  - 城北豆腐店-R16-16
+  - 城北豆腐店-R17-17
+  - 城北豆腐店-R18-18
   tolerance: 150
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
-  name: UM 美国节点
+  name: 🇺🇲 美国节点
   proxies:
   - 城北豆腐店-US-7
   - 城北豆腐店-US-8
@@ -1293,15 +2193,27 @@ proxy-groups:
 - interval: 300
   name: JP 日本节点
   proxies:
+  - 城北豆腐店-JP-1
+  - 城北豆腐店-JP-2
+  - 城北豆腐店-JP-3
   - 城北豆腐店-JP-4
   - 城北豆腐店-JP-5
   - 城北豆腐店-JP-6
+  - 城北豆腐店-JP-7
+  - 城北豆腐店-JP-8
+  - 城北豆腐店-JP-9
   tolerance: 150
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
   name: TW 台湾节点
   proxies:
+  - 城北豆腐店-TW-1
+  - 城北豆腐店-TW-2
+  - 城北豆腐店-TW-3
+  - 城北豆腐店-TW-4
+  - 城北豆腐店-TW-5
+  - 城北豆腐店-TW-6
   - 城北豆腐店-TW-7
   - 城北豆腐店-TW-8
   - 城北豆腐店-TW-9
@@ -1311,33 +2223,57 @@ proxy-groups:
   - 城北豆腐店-TW-4-Netflix
   - 城北豆腐店-TW-5-Netflix
   - 城北豆腐店-TW-6-Netflix
+  - 城北豆腐店-TW-13
+  - 城北豆腐店-TW-14
+  - 城北豆腐店-TW-15
+  - 城北豆腐店-TW-16
+  - 城北豆腐店-TW-17
+  - 城北豆腐店-TW-18
   tolerance: 150
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
   name: SG 新加坡节点
   proxies:
+  - 城北豆腐店-SG-1
+  - 城北豆腐店-SG-2
+  - 城北豆腐店-SG-3
   - 城北豆腐店-SG-4
   - 城北豆腐店-SG-5
   - 城北豆腐店-SG-6
+  - 城北豆腐店-SG-7
+  - 城北豆腐店-SG-8
+  - 城北豆腐店-SG-9
   tolerance: 150
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
   name: HK 香港节点
   proxies:
+  - 城北豆腐店-HK-1
+  - 城北豆腐店-HK-2
+  - 城北豆腐店-HK-3
   - 城北豆腐店-HK-4
   - 城北豆腐店-HK-5
   - 城北豆腐店-HK-6
+  - 城北豆腐店-HK-7
+  - 城北豆腐店-HK-8
+  - 城北豆腐店-HK-9
   tolerance: 150
   type: url-test
   url: http://www.gstatic.com/generate_204
 - interval: 300
   name: GB 英国节点
   proxies:
+  - 城北豆腐店-UK-1
+  - 城北豆腐店-UK-2
+  - 城北豆腐店-UK-3
   - 城北豆腐店-UK-4
   - 城北豆腐店-UK-5
   - 城北豆腐店-UK-6
+  - 城北豆腐店-UK-7
+  - 城北豆腐店-UK-8
+  - 城北豆腐店-UK-9
   tolerance: 150
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -9957,10 +10893,6 @@ rules:
 - DOMAIN-SUFFIX,wiktionary.org,🚀 节点选择
 - DOMAIN-SUFFIX,neulion.com,🚀 节点选择
 - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
-- DOMAIN-SUFFIX,cnhk1.top,🚀 节点选择
-- DOMAIN-KEYWORD,cnhk1.top,🚀 节点选择
-- PROCESS-NAME,cnhk1.top,🚀 节点选择
-- DOMAIN,cnhk1.top,🚀 节点选择
 - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
 - DOMAIN-SUFFIX,ocnttv.com,🚀 节点选择
 - DOMAIN-SUFFIX,vikacg.com,🚀 节点选择
@@ -10822,10 +11754,6 @@ rules:
 - PROCESS-NAME,DownloadService.exe,🎯 全球直连
 - PROCESS-NAME,Weiyun.exe,🎯 全球直连
 - PROCESS-NAME,baidunetdisk.exe,🎯 全球直连
-- DOMAIN-KEYWORD,cnhk.top,🎯 全球直连
-- PROCESS-NAME,cnhk.top,🎯 全球直连
-- DOMAIN-SUFFIX,cnhk.top,🎯 全球直连
-- DOMAIN,cnhk.top,🎯 全球直连
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
 socks-port: 7891
