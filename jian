@@ -22,6 +22,9 @@ proxies:
   - {name: HK专线3(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27259, cipher: chacha20-ietf-poly1305, password: c0c85654-646c-48f8-9141-ba9b70d0c928, udp: true }
   - {name: HK专线4(城北豆腐店), server: zx01.endhigh.xyz, port: 2400, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 46961:1210-Tha, obfs-param: 5d3ee46961.microsoft.com}
   - {name: HK专线5(城北豆腐店), server: zx02.endhigh.xyz, port: 2408, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 46961:1210-Tha, obfs-param: 5d3ee46961.microsoft.com}
+  - {name: HK专线6(城北豆腐店), server: 91.229.133.249, port: 2052, type: vmess, uuid: 8419004d-2855-42a5-9398-e38eefff4960, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 8419004d-2855-42a5-9398-e38eefff4960-vm, headers: {Host: www.bing.com}}}
+  - {name: HK专线7(城北豆腐店), server: jp1.djjsvip.cfd, port: 443, type: trojan, password: 76572d7a-2692-44cd-afe7-43da9a75d80d, sni: download.xn--mes358a9urctx.com}
+  - {name: HK专线8(城北豆腐店), server: shcm.wwwq.net, port: 33334, type: ss, cipher: chacha20-ietf-poly1305, password: 568a6e1e-a135-4092-a2f4-8c83ab4e6a1c}
   - {name: IN专线1(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27252, cipher: chacha20-ietf-poly1305, password: c0c85654-646c-48f8-9141-ba9b70d0c928, udp: true }
   - {name: IN专线2(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27252, cipher: chacha20-ietf-poly1305, password: c0c85654-646c-48f8-9141-ba9b70d0c928, udp: true }
   - {name: IN专线3(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27252, cipher: chacha20-ietf-poly1305, password: c0c85654-646c-48f8-9141-ba9b70d0c928, udp: true }
@@ -79,6 +82,9 @@ proxy-groups:
       - HK专线3(城北豆腐店)
       - HK专线4(城北豆腐店)
       - HK专线5(城北豆腐店)
+      - HK专线6(城北豆腐店)
+      - HK专线7(城北豆腐店)
+      - HK专线8(城北豆腐店)
       - IN专线1(城北豆腐店)
       - IN专线2(城北豆腐店)
       - IN专线3(城北豆腐店)
@@ -134,6 +140,9 @@ proxy-groups:
       - HK专线3(城北豆腐店)
       - HK专线4(城北豆腐店)
       - HK专线5(城北豆腐店)
+      - HK专线6(城北豆腐店)
+      - HK专线7(城北豆腐店)
+      - HK专线8(城北豆腐店)
       - IN专线1(城北豆腐店)
       - IN专线2(城北豆腐店)
       - IN专线3(城北豆腐店)
@@ -190,6 +199,9 @@ proxy-groups:
       - HK专线3(城北豆腐店)
       - HK专线4(城北豆腐店)
       - HK专线5(城北豆腐店)
+      - HK专线6(城北豆腐店)
+      - HK专线7(城北豆腐店)
+      - HK专线8(城北豆腐店)
       - IN专线1(城北豆腐店)
       - IN专线2(城北豆腐店)
       - IN专线3(城北豆腐店)
@@ -250,6 +262,9 @@ proxy-groups:
       - HK专线3(城北豆腐店)
       - HK专线4(城北豆腐店)
       - HK专线5(城北豆腐店)
+      - HK专线6(城北豆腐店)
+      - HK专线7(城北豆腐店)
+      - HK专线8(城北豆腐店)
       - IN专线1(城北豆腐店)
       - IN专线2(城北豆腐店)
       - IN专线3(城北豆腐店)
@@ -305,6 +320,9 @@ proxy-groups:
       - HK专线3(城北豆腐店)
       - HK专线4(城北豆腐店)
       - HK专线5(城北豆腐店)
+      - HK专线6(城北豆腐店)
+      - HK专线7(城北豆腐店)
+      - HK专线8(城北豆腐店)
       - IN专线1(城北豆腐店)
       - IN专线2(城北豆腐店)
       - IN专线3(城北豆腐店)
@@ -361,6 +379,9 @@ proxy-groups:
       - HK专线3(城北豆腐店)
       - HK专线4(城北豆腐店)
       - HK专线5(城北豆腐店)
+      - HK专线6(城北豆腐店)
+      - HK专线7(城北豆腐店)
+      - HK专线8(城北豆腐店)
       - IN专线1(城北豆腐店)
       - IN专线2(城北豆腐店)
       - IN专线3(城北豆腐店)
@@ -426,6 +447,9 @@ proxy-groups:
       - HK专线3(城北豆腐店)
       - HK专线4(城北豆腐店)
       - HK专线5(城北豆腐店)
+      - HK专线6(城北豆腐店)
+      - HK专线7(城北豆腐店)
+      - HK专线8(城北豆腐店)
       - IN专线1(城北豆腐店)
       - IN专线2(城北豆腐店)
       - IN专线3(城北豆腐店)
