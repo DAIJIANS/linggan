@@ -5,48 +5,48 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-    - { name: '🇦🇺 AU澳大利亚-电信优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27254, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇦🇺 AU澳大利亚-联通优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27254, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇦🇺 AU澳大利亚-移动优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27254, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇨🇦 CA加拿大-电信优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27256, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇨🇦 CA加拿大-联通优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27256, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇨🇦 CA加拿大-移动优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27256, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇩🇪  DE德国-电信优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27257, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇩🇪  DE德国-联通优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27257, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇩🇪  DE德国-移动优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27257, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇫🇷 FR法国-电信优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27258, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇫🇷 FR法国-联通优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27258, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇫🇷 FR法国-移动优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27258, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇬🇧 UK英国-电信优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27255, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇬🇧 UK英国-联通优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27255, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇬🇧 UK英国-移动优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27255, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇭🇰 HK香港-电信优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27259, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇭🇰 HK香港-联通优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27259, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇭🇰 HK香港-移动优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27259, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇮🇳 IN印度-电信优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27252, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇮🇳 IN印度-联通优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27252, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇮🇳 IN印度-移动优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27252, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇮🇹 IT意大利-电信优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27263, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇮🇹 IT意大利-联通优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27263, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇮🇹 IT意大利-移动优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27263, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇯🇵 JP日本-电信优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27251, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇯🇵 JP日本-联通优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27251, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇯🇵 JP日本-移动优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27251, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇰🇷 KR韩国-电信优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27262, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇰🇷 KR韩国-联通优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27262, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇰🇷 KR韩国-移动优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27262, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇸🇬 SG新加坡2-电信优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27261, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇸🇬 SG新加坡2-联通优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27261, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇸🇬 SG新加坡2-移动优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27261, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇸🇬 SG新加坡-电信优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27250, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇸🇬 SG新加坡-联通优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27250, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇸🇬 SG新加坡-移动优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27250, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇹🇼 TW台湾-电信优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27260, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇹🇼 TW台湾-联通优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27260, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇹🇼 TW台湾-移动优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27260, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇺🇸  USA美国-联通优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27253, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇺🇸  USA美国-移动优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27253, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
-    - { name: '🇺🇸  USA美国-电信优化(城北豆腐店)', type: ss, server: gtm.ktmwan.com, port: 27253, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇦🇺 AU澳大利亚-电信优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27254, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇦🇺 AU澳大利亚-联通优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27254, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇦🇺 AU澳大利亚-移动优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27254, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇨🇦 CA加拿大-电信优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27256, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇨🇦 CA加拿大-联通优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27256, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇨🇦 CA加拿大-移动优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27256, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇩🇪  DE德国-电信优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27257, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇩🇪  DE德国-联通优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27257, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇩🇪  DE德国-移动优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27257, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇫🇷 FR法国-电信优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27258, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇫🇷 FR法国-联通优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27258, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇫🇷 FR法国-移动优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27258, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇬🇧 UK英国-电信优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27255, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇬🇧 UK英国-联通优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27255, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇬🇧 UK英国-移动优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27255, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇭🇰 HK香港-电信优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27259, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇭🇰 HK香港-联通优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27259, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇭🇰 HK香港-移动优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27259, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇮🇳 IN印度-电信优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27252, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇮🇳 IN印度-联通优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27252, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇮🇳 IN印度-移动优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27252, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇮🇹 IT意大利-电信优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27263, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇮🇹 IT意大利-联通优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27263, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇮🇹 IT意大利-移动优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27263, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇯🇵 JP日本-电信优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27251, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇯🇵 JP日本-联通优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27251, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇯🇵 JP日本-移动优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27251, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇰🇷 KR韩国-电信优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27262, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇰🇷 KR韩国-联通优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27262, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇰🇷 KR韩国-移动优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27262, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇸🇬 SG新加坡2-电信优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27261, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇸🇬 SG新加坡2-联通优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27261, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇸🇬 SG新加坡2-移动优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27261, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇸🇬 SG新加坡-电信优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27250, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇸🇬 SG新加坡-联通优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27250, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇸🇬 SG新加坡-移动优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27250, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇹🇼 TW台湾-电信优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27260, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇹🇼 TW台湾-联通优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27260, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇹🇼 TW台湾-移动优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27260, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇺🇸  USA美国-联通优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27253, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇺🇸  USA美国-移动优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27253, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
+    - { name: 🇺🇸  USA美国-电信优化(城北豆腐店), type: ss, server: gtm.ktmwan.com, port: 27253, cipher: chacha20-ietf-poly1305, password: 3da01a06-1aab-4bed-a982-ac969770169d, udp: true }
 
 proxy-groups:
   - name: 🔰 节点选择
@@ -54,143 +54,143 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      -  '🇦🇺 AU澳大利亚-电信优化(城北豆腐店)'
-      -  '🇦🇺 AU澳大利亚-联通优化(城北豆腐店)'
-      -  '🇦🇺 AU澳大利亚-移动优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-电信优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-联通优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-移动优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-电信优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-联通优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-移动优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-电信优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-联通优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-移动优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-电信优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-联通优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-移动优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-电信优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-联通优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-移动优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-电信优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-联通优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-移动优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-电信优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-联通优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-移动优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-电信优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-联通优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-移动优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-电信优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-联通优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-移动优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-电信优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-联通优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-移动优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-电信优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-联通优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-移动优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-电信优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-联通优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-移动优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-联通优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-移动优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-电信优化(城北豆腐店)'
+      -  🇦🇺 AU澳大利亚-电信优化(城北豆腐店)
+      -  🇦🇺 AU澳大利亚-联通优化(城北豆腐店)
+      -  🇦🇺 AU澳大利亚-移动优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-电信优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-联通优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-移动优化(城北豆腐店)
+      -  🇩🇪  DE德国-电信优化(城北豆腐店)
+      -  🇩🇪  DE德国-联通优化(城北豆腐店)
+      -  🇩🇪  DE德国-移动优化(城北豆腐店)
+      -  🇫🇷 FR法国-电信优化(城北豆腐店)
+      -  🇫🇷 FR法国-联通优化(城北豆腐店)
+      -  🇫🇷 FR法国-移动优化(城北豆腐店)
+      -  🇬🇧 UK英国-电信优化(城北豆腐店)
+      -  🇬🇧 UK英国-联通优化(城北豆腐店)
+      -  🇬🇧 UK英国-移动优化(城北豆腐店)
+      -  🇭🇰 HK香港-电信优化(城北豆腐店)
+      -  🇭🇰 HK香港-联通优化(城北豆腐店)
+      -  🇭🇰 HK香港-移动优化(城北豆腐店)
+      -  🇮🇳 IN印度-电信优化(城北豆腐店)
+      -  🇮🇳 IN印度-联通优化(城北豆腐店)
+      -  🇮🇳 IN印度-移动优化(城北豆腐店)
+      -  🇮🇹 IT意大利-电信优化(城北豆腐店)
+      -  🇮🇹 IT意大利-联通优化(城北豆腐店)
+      -  🇮🇹 IT意大利-移动优化(城北豆腐店)
+      -  🇯🇵 JP日本-电信优化(城北豆腐店)
+      -  🇯🇵 JP日本-联通优化(城北豆腐店)
+      -  🇯🇵 JP日本-移动优化(城北豆腐店)
+      -  🇰🇷 KR韩国-电信优化(城北豆腐店)
+      -  🇰🇷 KR韩国-联通优化(城北豆腐店)
+      -  🇰🇷 KR韩国-移动优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-电信优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-联通优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-移动优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-电信优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-联通优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-移动优化(城北豆腐店)
+      -  🇹🇼 TW台湾-电信优化(城北豆腐店)
+      -  🇹🇼 TW台湾-联通优化(城北豆腐店)
+      -  🇹🇼 TW台湾-移动优化(城北豆腐店)
+      -  🇺🇸  USA美国-联通优化(城北豆腐店)
+      -  🇺🇸  USA美国-移动优化(城北豆腐店)
+      -  🇺🇸  USA美国-电信优化(城北豆腐店)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      -  '🇦🇺 AU澳大利亚-电信优化(城北豆腐店)'
-      -  '🇦🇺 AU澳大利亚-联通优化(城北豆腐店)'
-      -  '🇦🇺 AU澳大利亚-移动优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-电信优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-联通优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-移动优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-电信优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-联通优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-移动优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-电信优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-联通优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-移动优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-电信优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-联通优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-移动优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-电信优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-联通优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-移动优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-电信优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-联通优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-移动优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-电信优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-联通优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-移动优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-电信优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-联通优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-移动优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-电信优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-联通优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-移动优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-电信优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-联通优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-移动优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-电信优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-联通优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-移动优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-电信优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-联通优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-移动优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-联通优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-移动优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-电信优化(城北豆腐店)'
+      -  🇦🇺 AU澳大利亚-电信优化(城北豆腐店)
+      -  🇦🇺 AU澳大利亚-联通优化(城北豆腐店)
+      -  🇦🇺 AU澳大利亚-移动优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-电信优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-联通优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-移动优化(城北豆腐店)
+      -  🇩🇪  DE德国-电信优化(城北豆腐店)
+      -  🇩🇪  DE德国-联通优化(城北豆腐店)
+      -  🇩🇪  DE德国-移动优化(城北豆腐店)
+      -  🇫🇷 FR法国-电信优化(城北豆腐店)
+      -  🇫🇷 FR法国-联通优化(城北豆腐店)
+      -  🇫🇷 FR法国-移动优化(城北豆腐店)
+      -  🇬🇧 UK英国-电信优化(城北豆腐店)
+      -  🇬🇧 UK英国-联通优化(城北豆腐店)
+      -  🇬🇧 UK英国-移动优化(城北豆腐店)
+      -  🇭🇰 HK香港-电信优化(城北豆腐店)
+      -  🇭🇰 HK香港-联通优化(城北豆腐店)
+      -  🇭🇰 HK香港-移动优化(城北豆腐店)
+      -  🇮🇳 IN印度-电信优化(城北豆腐店)
+      -  🇮🇳 IN印度-联通优化(城北豆腐店)
+      -  🇮🇳 IN印度-移动优化(城北豆腐店)
+      -  🇮🇹 IT意大利-电信优化(城北豆腐店)
+      -  🇮🇹 IT意大利-联通优化(城北豆腐店)
+      -  🇮🇹 IT意大利-移动优化(城北豆腐店)
+      -  🇯🇵 JP日本-电信优化(城北豆腐店)
+      -  🇯🇵 JP日本-联通优化(城北豆腐店)
+      -  🇯🇵 JP日本-移动优化(城北豆腐店)
+      -  🇰🇷 KR韩国-电信优化(城北豆腐店)
+      -  🇰🇷 KR韩国-联通优化(城北豆腐店)
+      -  🇰🇷 KR韩国-移动优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-电信优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-联通优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-移动优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-电信优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-联通优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-移动优化(城北豆腐店)
+      -  🇹🇼 TW台湾-电信优化(城北豆腐店)
+      -  🇹🇼 TW台湾-联通优化(城北豆腐店)
+      -  🇹🇼 TW台湾-移动优化(城北豆腐店)
+      -  🇺🇸  USA美国-联通优化(城北豆腐店)
+      -  🇺🇸  USA美国-移动优化(城北豆腐店)
+      -  🇺🇸  USA美国-电信优化(城北豆腐店)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      -  '🇦🇺 AU澳大利亚-电信优化(城北豆腐店)'
-      -  '🇦🇺 AU澳大利亚-联通优化(城北豆腐店)'
-      -  '🇦🇺 AU澳大利亚-移动优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-电信优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-联通优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-移动优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-电信优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-联通优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-移动优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-电信优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-联通优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-移动优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-电信优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-联通优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-移动优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-电信优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-联通优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-移动优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-电信优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-联通优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-移动优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-电信优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-联通优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-移动优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-电信优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-联通优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-移动优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-电信优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-联通优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-移动优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-电信优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-联通优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-移动优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-电信优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-联通优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-移动优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-电信优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-联通优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-移动优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-联通优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-移动优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-电信优化(城北豆腐店)'
+      -  🇦🇺 AU澳大利亚-电信优化(城北豆腐店)
+      -  🇦🇺 AU澳大利亚-联通优化(城北豆腐店)
+      -  🇦🇺 AU澳大利亚-移动优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-电信优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-联通优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-移动优化(城北豆腐店)
+      -  🇩🇪  DE德国-电信优化(城北豆腐店)
+      -  🇩🇪  DE德国-联通优化(城北豆腐店)
+      -  🇩🇪  DE德国-移动优化(城北豆腐店)
+      -  🇫🇷 FR法国-电信优化(城北豆腐店)
+      -  🇫🇷 FR法国-联通优化(城北豆腐店)
+      -  🇫🇷 FR法国-移动优化(城北豆腐店)
+      -  🇬🇧 UK英国-电信优化(城北豆腐店)
+      -  🇬🇧 UK英国-联通优化(城北豆腐店)
+      -  🇬🇧 UK英国-移动优化(城北豆腐店)
+      -  🇭🇰 HK香港-电信优化(城北豆腐店)
+      -  🇭🇰 HK香港-联通优化(城北豆腐店)
+      -  🇭🇰 HK香港-移动优化(城北豆腐店)
+      -  🇮🇳 IN印度-电信优化(城北豆腐店)
+      -  🇮🇳 IN印度-联通优化(城北豆腐店)
+      -  🇮🇳 IN印度-移动优化(城北豆腐店)
+      -  🇮🇹 IT意大利-电信优化(城北豆腐店)
+      -  🇮🇹 IT意大利-联通优化(城北豆腐店)
+      -  🇮🇹 IT意大利-移动优化(城北豆腐店)
+      -  🇯🇵 JP日本-电信优化(城北豆腐店)
+      -  🇯🇵 JP日本-联通优化(城北豆腐店)
+      -  🇯🇵 JP日本-移动优化(城北豆腐店)
+      -  🇰🇷 KR韩国-电信优化(城北豆腐店)
+      -  🇰🇷 KR韩国-联通优化(城北豆腐店)
+      -  🇰🇷 KR韩国-移动优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-电信优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-联通优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-移动优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-电信优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-联通优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-移动优化(城北豆腐店)
+      -  🇹🇼 TW台湾-电信优化(城北豆腐店)
+      -  🇹🇼 TW台湾-联通优化(城北豆腐店)
+      -  🇹🇼 TW台湾-移动优化(城北豆腐店)
+      -  🇺🇸  USA美国-联通优化(城北豆腐店)
+      -  🇺🇸  USA美国-移动优化(城北豆腐店)
+      -  🇺🇸  USA美国-电信优化(城北豆腐店)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -201,143 +201,143 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      -  '🇦🇺 AU澳大利亚-电信优化(城北豆腐店)'
-      -  '🇦🇺 AU澳大利亚-联通优化(城北豆腐店)'
-      -  '🇦🇺 AU澳大利亚-移动优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-电信优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-联通优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-移动优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-电信优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-联通优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-移动优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-电信优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-联通优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-移动优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-电信优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-联通优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-移动优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-电信优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-联通优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-移动优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-电信优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-联通优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-移动优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-电信优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-联通优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-移动优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-电信优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-联通优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-移动优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-电信优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-联通优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-移动优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-电信优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-联通优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-移动优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-电信优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-联通优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-移动优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-电信优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-联通优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-移动优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-联通优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-移动优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-电信优化(城北豆腐店)'
+      -  🇦🇺 AU澳大利亚-电信优化(城北豆腐店)
+      -  🇦🇺 AU澳大利亚-联通优化(城北豆腐店)
+      -  🇦🇺 AU澳大利亚-移动优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-电信优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-联通优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-移动优化(城北豆腐店)
+      -  🇩🇪  DE德国-电信优化(城北豆腐店)
+      -  🇩🇪  DE德国-联通优化(城北豆腐店)
+      -  🇩🇪  DE德国-移动优化(城北豆腐店)
+      -  🇫🇷 FR法国-电信优化(城北豆腐店)
+      -  🇫🇷 FR法国-联通优化(城北豆腐店)
+      -  🇫🇷 FR法国-移动优化(城北豆腐店)
+      -  🇬🇧 UK英国-电信优化(城北豆腐店)
+      -  🇬🇧 UK英国-联通优化(城北豆腐店)
+      -  🇬🇧 UK英国-移动优化(城北豆腐店)
+      -  🇭🇰 HK香港-电信优化(城北豆腐店)
+      -  🇭🇰 HK香港-联通优化(城北豆腐店)
+      -  🇭🇰 HK香港-移动优化(城北豆腐店)
+      -  🇮🇳 IN印度-电信优化(城北豆腐店)
+      -  🇮🇳 IN印度-联通优化(城北豆腐店)
+      -  🇮🇳 IN印度-移动优化(城北豆腐店)
+      -  🇮🇹 IT意大利-电信优化(城北豆腐店)
+      -  🇮🇹 IT意大利-联通优化(城北豆腐店)
+      -  🇮🇹 IT意大利-移动优化(城北豆腐店)
+      -  🇯🇵 JP日本-电信优化(城北豆腐店)
+      -  🇯🇵 JP日本-联通优化(城北豆腐店)
+      -  🇯🇵 JP日本-移动优化(城北豆腐店)
+      -  🇰🇷 KR韩国-电信优化(城北豆腐店)
+      -  🇰🇷 KR韩国-联通优化(城北豆腐店)
+      -  🇰🇷 KR韩国-移动优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-电信优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-联通优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-移动优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-电信优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-联通优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-移动优化(城北豆腐店)
+      -  🇹🇼 TW台湾-电信优化(城北豆腐店)
+      -  🇹🇼 TW台湾-联通优化(城北豆腐店)
+      -  🇹🇼 TW台湾-移动优化(城北豆腐店)
+      -  🇺🇸  USA美国-联通优化(城北豆腐店)
+      -  🇺🇸  USA美国-移动优化(城北豆腐店)
+      -  🇺🇸  USA美国-电信优化(城北豆腐店)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      -  '🇦🇺 AU澳大利亚-电信优化(城北豆腐店)'
-      -  '🇦🇺 AU澳大利亚-联通优化(城北豆腐店)'
-      -  '🇦🇺 AU澳大利亚-移动优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-电信优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-联通优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-移动优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-电信优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-联通优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-移动优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-电信优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-联通优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-移动优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-电信优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-联通优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-移动优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-电信优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-联通优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-移动优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-电信优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-联通优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-移动优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-电信优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-联通优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-移动优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-电信优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-联通优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-移动优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-电信优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-联通优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-移动优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-电信优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-联通优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-移动优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-电信优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-联通优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-移动优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-电信优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-联通优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-移动优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-联通优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-移动优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-电信优化(城北豆腐店)'
+      -  🇦🇺 AU澳大利亚-电信优化(城北豆腐店)
+      -  🇦🇺 AU澳大利亚-联通优化(城北豆腐店)
+      -  🇦🇺 AU澳大利亚-移动优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-电信优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-联通优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-移动优化(城北豆腐店)
+      -  🇩🇪  DE德国-电信优化(城北豆腐店)
+      -  🇩🇪  DE德国-联通优化(城北豆腐店)
+      -  🇩🇪  DE德国-移动优化(城北豆腐店)
+      -  🇫🇷 FR法国-电信优化(城北豆腐店)
+      -  🇫🇷 FR法国-联通优化(城北豆腐店)
+      -  🇫🇷 FR法国-移动优化(城北豆腐店)
+      -  🇬🇧 UK英国-电信优化(城北豆腐店)
+      -  🇬🇧 UK英国-联通优化(城北豆腐店)
+      -  🇬🇧 UK英国-移动优化(城北豆腐店)
+      -  🇭🇰 HK香港-电信优化(城北豆腐店)
+      -  🇭🇰 HK香港-联通优化(城北豆腐店)
+      -  🇭🇰 HK香港-移动优化(城北豆腐店)
+      -  🇮🇳 IN印度-电信优化(城北豆腐店)
+      -  🇮🇳 IN印度-联通优化(城北豆腐店)
+      -  🇮🇳 IN印度-移动优化(城北豆腐店)
+      -  🇮🇹 IT意大利-电信优化(城北豆腐店)
+      -  🇮🇹 IT意大利-联通优化(城北豆腐店)
+      -  🇮🇹 IT意大利-移动优化(城北豆腐店)
+      -  🇯🇵 JP日本-电信优化(城北豆腐店)
+      -  🇯🇵 JP日本-联通优化(城北豆腐店)
+      -  🇯🇵 JP日本-移动优化(城北豆腐店)
+      -  🇰🇷 KR韩国-电信优化(城北豆腐店)
+      -  🇰🇷 KR韩国-联通优化(城北豆腐店)
+      -  🇰🇷 KR韩国-移动优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-电信优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-联通优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-移动优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-电信优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-联通优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-移动优化(城北豆腐店)
+      -  🇹🇼 TW台湾-电信优化(城北豆腐店)
+      -  🇹🇼 TW台湾-联通优化(城北豆腐店)
+      -  🇹🇼 TW台湾-移动优化(城北豆腐店)
+      -  🇺🇸  USA美国-联通优化(城北豆腐店)
+      -  🇺🇸  USA美国-移动优化(城北豆腐店)
+      -  🇺🇸  USA美国-电信优化(城北豆腐店)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      -  '🇦🇺 AU澳大利亚-电信优化(城北豆腐店)'
-      -  '🇦🇺 AU澳大利亚-联通优化(城北豆腐店)'
-      -  '🇦🇺 AU澳大利亚-移动优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-电信优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-联通优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-移动优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-电信优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-联通优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-移动优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-电信优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-联通优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-移动优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-电信优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-联通优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-移动优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-电信优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-联通优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-移动优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-电信优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-联通优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-移动优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-电信优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-联通优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-移动优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-电信优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-联通优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-移动优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-电信优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-联通优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-移动优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-电信优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-联通优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-移动优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-电信优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-联通优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-移动优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-电信优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-联通优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-移动优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-联通优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-移动优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-电信优化(城北豆腐店)'
+      -  🇦🇺 AU澳大利亚-电信优化(城北豆腐店)
+      -  🇦🇺 AU澳大利亚-联通优化(城北豆腐店)
+      -  🇦🇺 AU澳大利亚-移动优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-电信优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-联通优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-移动优化(城北豆腐店)
+      -  🇩🇪  DE德国-电信优化(城北豆腐店)
+      -  🇩🇪  DE德国-联通优化(城北豆腐店)
+      -  🇩🇪  DE德国-移动优化(城北豆腐店)
+      -  🇫🇷 FR法国-电信优化(城北豆腐店)
+      -  🇫🇷 FR法国-联通优化(城北豆腐店)
+      -  🇫🇷 FR法国-移动优化(城北豆腐店)
+      -  🇬🇧 UK英国-电信优化(城北豆腐店)
+      -  🇬🇧 UK英国-联通优化(城北豆腐店)
+      -  🇬🇧 UK英国-移动优化(城北豆腐店)
+      -  🇭🇰 HK香港-电信优化(城北豆腐店)
+      -  🇭🇰 HK香港-联通优化(城北豆腐店)
+      -  🇭🇰 HK香港-移动优化(城北豆腐店)
+      -  🇮🇳 IN印度-电信优化(城北豆腐店)
+      -  🇮🇳 IN印度-联通优化(城北豆腐店)
+      -  🇮🇳 IN印度-移动优化(城北豆腐店)
+      -  🇮🇹 IT意大利-电信优化(城北豆腐店)
+      -  🇮🇹 IT意大利-联通优化(城北豆腐店)
+      -  🇮🇹 IT意大利-移动优化(城北豆腐店)
+      -  🇯🇵 JP日本-电信优化(城北豆腐店)
+      -  🇯🇵 JP日本-联通优化(城北豆腐店)
+      -  🇯🇵 JP日本-移动优化(城北豆腐店)
+      -  🇰🇷 KR韩国-电信优化(城北豆腐店)
+      -  🇰🇷 KR韩国-联通优化(城北豆腐店)
+      -  🇰🇷 KR韩国-移动优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-电信优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-联通优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-移动优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-电信优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-联通优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-移动优化(城北豆腐店)
+      -  🇹🇼 TW台湾-电信优化(城北豆腐店)
+      -  🇹🇼 TW台湾-联通优化(城北豆腐店)
+      -  🇹🇼 TW台湾-移动优化(城北豆腐店)
+      -  🇺🇸  USA美国-联通优化(城北豆腐店)
+      -  🇺🇸  USA美国-移动优化(城北豆腐店)
+      -  🇺🇸  USA美国-电信优化(城北豆腐店)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -353,48 +353,48 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      -  '🇦🇺 AU澳大利亚-电信优化(城北豆腐店)'
-      -  '🇦🇺 AU澳大利亚-联通优化(城北豆腐店)'
-      -  '🇦🇺 AU澳大利亚-移动优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-电信优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-联通优化(城北豆腐店)'
-      -  '🇨🇦 CA加拿大-移动优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-电信优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-联通优化(城北豆腐店)'
-      -  '🇩🇪  DE德国-移动优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-电信优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-联通优化(城北豆腐店)'
-      -  '🇫🇷 FR法国-移动优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-电信优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-联通优化(城北豆腐店)'
-      -  '🇬🇧 UK英国-移动优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-电信优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-联通优化(城北豆腐店)'
-      -  '🇭🇰 HK香港-移动优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-电信优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-联通优化(城北豆腐店)'
-      -  '🇮🇳 IN印度-移动优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-电信优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-联通优化(城北豆腐店)'
-      -  '🇮🇹 IT意大利-移动优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-电信优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-联通优化(城北豆腐店)'
-      -  '🇯🇵 JP日本-移动优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-电信优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-联通优化(城北豆腐店)'
-      -  '🇰🇷 KR韩国-移动优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-电信优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-联通优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡2-移动优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-电信优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-联通优化(城北豆腐店)'
-      -  '🇸🇬 SG新加坡-移动优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-电信优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-联通优化(城北豆腐店)'
-      -  '🇹🇼 TW台湾-移动优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-联通优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-移动优化(城北豆腐店)'
-      -  '🇺🇸  USA美国-电信优化(城北豆腐店)'
+      -  🇦🇺 AU澳大利亚-电信优化(城北豆腐店)
+      -  🇦🇺 AU澳大利亚-联通优化(城北豆腐店)
+      -  🇦🇺 AU澳大利亚-移动优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-电信优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-联通优化(城北豆腐店)
+      -  🇨🇦 CA加拿大-移动优化(城北豆腐店)
+      -  🇩🇪  DE德国-电信优化(城北豆腐店)
+      -  🇩🇪  DE德国-联通优化(城北豆腐店)
+      -  🇩🇪  DE德国-移动优化(城北豆腐店)
+      -  🇫🇷 FR法国-电信优化(城北豆腐店)
+      -  🇫🇷 FR法国-联通优化(城北豆腐店)
+      -  🇫🇷 FR法国-移动优化(城北豆腐店)
+      -  🇬🇧 UK英国-电信优化(城北豆腐店)
+      -  🇬🇧 UK英国-联通优化(城北豆腐店)
+      -  🇬🇧 UK英国-移动优化(城北豆腐店)
+      -  🇭🇰 HK香港-电信优化(城北豆腐店)
+      -  🇭🇰 HK香港-联通优化(城北豆腐店)
+      -  🇭🇰 HK香港-移动优化(城北豆腐店)
+      -  🇮🇳 IN印度-电信优化(城北豆腐店)
+      -  🇮🇳 IN印度-联通优化(城北豆腐店)
+      -  🇮🇳 IN印度-移动优化(城北豆腐店)
+      -  🇮🇹 IT意大利-电信优化(城北豆腐店)
+      -  🇮🇹 IT意大利-联通优化(城北豆腐店)
+      -  🇮🇹 IT意大利-移动优化(城北豆腐店)
+      -  🇯🇵 JP日本-电信优化(城北豆腐店)
+      -  🇯🇵 JP日本-联通优化(城北豆腐店)
+      -  🇯🇵 JP日本-移动优化(城北豆腐店)
+      -  🇰🇷 KR韩国-电信优化(城北豆腐店)
+      -  🇰🇷 KR韩国-联通优化(城北豆腐店)
+      -  🇰🇷 KR韩国-移动优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-电信优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-联通优化(城北豆腐店)
+      -  🇸🇬 SG新加坡2-移动优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-电信优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-联通优化(城北豆腐店)
+      -  🇸🇬 SG新加坡-移动优化(城北豆腐店)
+      -  🇹🇼 TW台湾-电信优化(城北豆腐店)
+      -  🇹🇼 TW台湾-联通优化(城北豆腐店)
+      -  🇹🇼 TW台湾-移动优化(城北豆腐店)
+      -  🇺🇸  USA美国-联通优化(城北豆腐店)
+      -  🇺🇸  USA美国-移动优化(城北豆腐店)
+      -  🇺🇸  USA美国-电信优化(城北豆腐店)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
